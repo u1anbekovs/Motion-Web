@@ -1,0 +1,42 @@
+#bg{
+  background: #f6f6f6 ;
+  .accordionFront{
+    padding: 50px 0 50px 0;
+    .accord{
+      display: flex;
+      width: 1379px;
+      height: 75px;
+      background: white;
+      border-radius: 25px;
+      margin: 10px 0 0 0;
+      &--block{
+        h1{
+          position: relative;
+          top: 50px ;
+          left: -12px;
+          width: 592px;
+          color: rgba(27, 27, 27, 0.8)
+        }
+        li{
+          top: 70px;
+          left: 0;
+          position: relative;
+          list-style: disc;
+        }
+      }
+      &--leftBlock {
+        display: flex;
+        align-items: center;
+        img {
+          margin: 0 14px 0 24px;
+        }
+      }
+      &--rightBlock{
+        margin: 26px 0 0 68.5rem;
+        color: black;
+        font-size: 27px;
+      }
+    }
+  }
+
+}

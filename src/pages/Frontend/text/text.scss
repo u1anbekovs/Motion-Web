@@ -1,0 +1,66 @@
+#frontEnd--cours {
+
+  .frontEnd--cours {
+    display: flex;
+    justify-content: space-between;
+
+    &__text {
+      h2 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        color: #EC3025;
+
+      }
+    }
+
+    &__informs {
+      padding-bottom: 60px;
+
+      &--first {
+
+
+        &__title {
+          display: flex;
+          justify-content: space-between;
+
+          h3 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 140%;
+            padding-top: 29px;
+
+
+            display: flex;
+            align-items: center;
+
+            color: rgba(27, 27, 27, 0.8);
+          }
+        }
+
+        hr {
+          width: 903px;
+          height: 0;
+
+          border: 1px solid #000000;
+          transform: rotate(0.03deg);
+        }
+
+
+      }
+    }
+  }
+
+}

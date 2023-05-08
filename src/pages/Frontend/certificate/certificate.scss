@@ -1,0 +1,61 @@
+#certificate {
+  padding: 70px 0;
+  background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+
+  .certificate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--text {
+
+      h3 {
+        font-weight: 500;
+        font-size: 40px;
+        display: flex;
+        padding-bottom: 50px;
+        align-items: center;
+        color: #FFFFFF;
+      }
+
+      h6 {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      &__buttons {
+        margin: 30px 0;
+
+        button {
+
+          padding: 10px 15px;
+
+          padding: 5px 10px;
+          background: white;
+          color: black;
+          border-radius: 25px;
+          margin: 0 4px;
+          border: none;
+          transition: .4s;
+
+          &:hover {
+            background: #EC3025;
+            color: white;
+          }
+        }
+
+      }
+
+    }
+    &--img {
+
+      img {
+        width: 600px;
+      }
+    }
+  }
+}

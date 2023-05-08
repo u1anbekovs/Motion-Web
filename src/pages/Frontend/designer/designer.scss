@@ -1,0 +1,128 @@
+#designer {
+  padding: 70px 0;
+
+  .designer{
+
+    &--choose {
+      width: 1280px;
+      height: 179px;
+      left: 110px;
+      top: 4052px;
+      background: #FF563F;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 0;
+
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+    }
+
+    &--fon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 30px 0;
+
+      &__application {
+        width: 800px;
+        height: 344px;
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //align-items: center;
+        //justify-content: center;
+        background: #FF563F;
+        border-radius: 30px;
+        flex-direction: column;
+
+
+        input {
+          display: flex;
+          //flex-direction: row;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 588px;
+          height: 63px;
+          padding: 0 20px;
+          background: #FFF8F8;
+          border-radius: 20px;
+          margin: 10px 0;
+
+        }
+
+        &--checked {
+          width: 646px;
+          margin: 10px 82px;
+        }
+
+        &--checked {
+          display: flex;
+          align-items: center;
+
+          input {
+            width: 15px;
+            height: 15px;
+            margin: 0 10px;
+          }
+          .input{
+            margin-left: 40px;
+            background: transparent;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.7);
+          }
+        }
+
+        button {
+          padding: 17px 0;
+          width: 629px;
+          width: 588px;
+          background: #090A0C;
+          border-radius: 44px;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          color: #FFFFFF;
+          margin: 10px 82px;
+        }
+      }
+    }
+  }
+}
