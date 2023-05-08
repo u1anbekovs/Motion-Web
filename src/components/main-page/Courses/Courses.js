@@ -73,13 +73,16 @@ const Courses = () => {
                                 это специалист, который создаёт <br/> пользовательские интерфейсы</p>
                             <div className="course--buttons">
                                 <button className="course--btn1">HTML</button>
-                                <button className="course--btn1">React</button>
-                                <button className="course--btn2">TypeScript</button>
+                                <button className="course--btn4">CSS</button>
+                                <button className="course--btn1">SASS</button>
+                                <button className="course--btn1">JQuery</button>
                                 <button className="course--btn3">JS</button>
                             </div>
                             <div className="course--buttons2">
-                                <button className="course--btn4">CSS</button>
-                                <button className="course--btn1">SASS</button>
+                                <button className="course--btn1">React</button>
+                                <button className="course--btn4">JSON</button>
+                                <button className="course--btn1">REDUX</button>
+                                <button className="course--btn2">TypeScript</button>
                                 <button className="course--btn5">+Английский</button>
                                 <button className="course--btn5">7 месяцев</button>
                             </div>
@@ -105,35 +108,6 @@ const Courses = () => {
                                 <button className="course--btn5">3 месяцев</button>
                             </div>
                             <div className="course--but1">
-                                <button className="course--btn">Подробнее</button>
-                                <button className="course--btn6" onClick={() => setStart(!start)}>Оставить заявку
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div>
-                        <div className="course--block">
-                            <img src={imgCourse4} className="course--design" alt=""/>
-                        </div>
-                        <div className="course--box">
-                            <h1 className="course--title3">BACKEND</h1>
-                            <p className="course--desc1">Бэкенд-разработчик — это специалист, <br/> который отвечает за
-                                внутреннюю и вычислительную логику веб-сайта</p>
-                            <div className="course--buttons">
-                                <button className="course--btn1">HTML</button>
-                                <button className="course--btn1">React</button>
-                                <button className="course--btn3">JS</button>
-                                <button className="course--btn4">CSS</button>
-                                <button className="course--btn1">SASS</button>
-                            </div>
-
-                            <div className="course--buttons2">
-                                <button className="course--btn5">+Английский</button>
-                                <button className="course--btn5">3 месяцев</button>
-                            </div>
-
-                            <div className="course--but">
                                 <button className="course--btn">Подробнее</button>
                                 <button className="course--btn6" onClick={() => setStart(!start)}>Оставить заявку
                                 </button>
