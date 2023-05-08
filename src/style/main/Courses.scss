@@ -163,9 +163,7 @@
       font-size:20px;
       color: #ffffff;
     }
-    &--vector{
 
-    }
     span {
       padding: 0 50px;
     }
@@ -230,9 +228,9 @@
 
     &--projects {
       display: flex;
-      justify-content: space-around;
-      padding-top: 40px;
-      margin: 0 4px;
+      justify-content: center;
+      grid-column-gap: 15rem;
+      padding-top: 30px;
     }
 
     &--block {
@@ -421,11 +419,6 @@
       left: 6rem;
     }
 
-    &--backend {
-      position: relative;
-      top: -99px;
-      left: 6rem;
-    }
 
     &--but1 {
       padding-top: 5rem;
@@ -434,11 +427,6 @@
     &--but {
       padding-top: 3rem;
     }
-  }
-  &--vector{
-    width: 60px;
-    height: 0;
-    border: 1px solid #000000;
   }
 }
 

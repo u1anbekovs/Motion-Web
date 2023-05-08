@@ -12,13 +12,6 @@ import Slider from "react-slick";
 const Gallery = () => {
     const [block, setBlock] = useState(false)
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    };
     return (
         <section id="call">
             <div className="container">
@@ -41,29 +34,11 @@ const Gallery = () => {
                 </div>
 
                 {
-                    block ?
-                        <div className="call--slider"> <Slider {...settings}>
-                            <div>
-                                <img src={img3} alt=""/>
-                            </div>
-                            <div>
-                                <img src={img4} alt=""/>
-                            </div>
-                            <div>
-                                <img src={img3} alt=""/>
-                            </div>
-                            <div>
-                                <img src={img4} alt=""/>
-                            </div>
-                            <div>
-                                <img src={img3} alt=""/>
-                            </div>
-                            <div>
-                                <img src={img4} alt=""/>
-                            </div>
-
-                        </Slider></div>
-                        : ''
+                    block ? <div className="call--images1">
+                            <img src={img1} alt=""/>
+                            <img src={img2} className="call--img2" alt=""/>
+                            <img src={img3} alt=""/>
+                        </div> : ''
                 }
             </div>
             <div className="call--boxes">
