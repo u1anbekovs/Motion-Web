@@ -1,0 +1,48 @@
+#inform {
+
+
+  .inform{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 300px;
+    &--question {
+
+      h3 {
+        font-size: 36px;
+        color: black;
+        margin-top: 0;
+        width: 379px;
+      }
+
+      span {
+        font-size: 36px;
+        color: #EC3025;
+      }
+    }
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+
+      p {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        margin: 15px 0;
+        color: rgba(27, 27, 27, 0.8);
+        width: 617px;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 25px;
+        color: rgba(27, 27, 27, 0.8);
+        width: 662px;
+        margin: 0;
+      }
+    }
+  }
+
+}

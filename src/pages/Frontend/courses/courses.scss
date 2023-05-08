@@ -1,0 +1,114 @@
+#courses {
+  padding: 50px 0;
+  h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    //margin: 55px 0;
+    margin: 100px 0;
+    width: 262px;
+
+  }
+  .frontEnd--courses{
+    &__inform {
+      display: flex;
+      justify-content: space-between;
+
+
+      &--first {
+        &__fon {
+          width: 380px;
+          height: 202px;
+          left: 110px;
+          top: 1430px;
+          background: linear-gradient(180deg, #EDF1FF 0%, rgba(203, 214, 255, 0.65) 100%);
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 196px;
+            height: 170px;
+            left: 202px;
+            padding: 31px;
+
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 80px;
+          display: flex;
+          align-items: center;
+          color: #000000;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 130%;
+          /* or 23px */
+
+          display: flex;
+          align-items: center;
+
+          color: rgba(27, 27, 27, 0.8);
+
+        }
+      }
+    }
+
+  }
+  .frontEnd--title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 0;
+    //margin: 70px 0;
+
+    width: 1280px;
+    height: 229px;
+    left: 110px;
+    top: 1866px;
+
+    /* red */
+
+    border: 2px solid #EC3025;
+    border-radius: 125px;
+
+    &__first {
+      padding: 0 60px;
+
+      h1 {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 64px;
+        display: flex;
+        align-items: center;
+        color: #EC3025;
+        flex-direction: column;
+        text-align: center;
+
+        span {
+          margin: 10px 0;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          display: flex;
+          align-items: center;
+
+          color: #1B1B1B;
+        }
+      }
+
+      h4 {
+
+      }
+    }
+  }
+
+}

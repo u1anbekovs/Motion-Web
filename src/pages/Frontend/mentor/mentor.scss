@@ -1,0 +1,99 @@
+#mentor {
+  background: #EFEFEF;
+  padding: 100px 0;
+
+  .mentor{
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h2 {
+        font-weight: 500;
+        font-size: 40px;
+        /* красный */
+        color: #EC3025;
+        margin-bottom: -35px;
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 40px;
+        color: #000000;
+      }
+    }
+
+    &--boys {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+
+      &__first {
+
+        h3 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 130%;
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+
+          color: #000000;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          display: flex;
+          align-items: center;
+
+          color: rgba(27, 27, 27, 0.8);
+
+
+        }
+      }
+    }
+
+    &--connection {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      &__video{
+        display: flex;
+        .video{
+          width: 380px;
+          height: 215px;
+          border-radius: 30px;
+          margin: 15px 30px;
+        }
+      }
+
+      &__text {
+
+        h2 {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 36px;
+          color: #000000;
+          padding-bottom: 20px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          color: #1D1D20;
+        }
+      }
+    }
+
+  }
+
+
+}
