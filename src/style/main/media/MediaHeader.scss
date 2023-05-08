@@ -1,0 +1,789 @@
+//@media (max-width: 2000px) {
+//  #header {
+//    .menu--navbar {
+//      display: none;
+//    }
+//  }
+//}
+//@media (max-width: 1200px) {
+//  #header {
+//    .container {
+//      width: 1000px;
+//    }
+//    .menu--navbar {
+//      display: none;
+//    }
+//  }
+//}
+//@media (max-width: 1140px) {
+//  #header {
+//    .container {
+//      width: 895px;
+//    }
+//    .menu--navbar {
+//      display: none;
+//    }
+//  }
+//}
+//@media (max-width: 992px) {
+//  #header {
+//    .container {
+//      width: 837px;
+//    }
+//    .menu--navbar {
+//      display: none;
+//    }
+//  }
+//}
+//@media (max-width: 880px) {
+//  #header {
+//    margin-left: -6px;
+//    .container {
+//      width: 749px;
+//    }
+//    .menu--navbar {
+//      display: none;
+//    }
+//  }
+//}
+//
+//@media (max-width: 768px) {
+//  #header {
+//    margin-left: 64px;
+//    .container {
+//      width: 668px;
+//      .courses {
+//        display: none;
+//      }
+//      .header {
+//        &--navbar {
+//          display: none;
+//        }
+//        .burger_navbar {
+//          display: block;
+//          display: flex;
+//          align-items: flex-end;
+//
+//          .burger-btn {
+//            width: 3px;
+//            height: 31px;
+//            margin-left: -85px;
+//            margin-top: -20px;
+//            position: relative;
+//            cursor: pointer;
+//            display: flex;
+//            justify-content: flex-end;
+//          }
+//          .burger-btn:before {
+//            content: "";
+//            top: 17px;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn span {
+//            position: absolute;
+//            top: 23px;
+//            width: 37px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn:after {
+//            content: "";
+//            bottom: 0;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//        }
+//
+//        &--language {
+//          margin-right: -133px;
+//        }
+//      }
+//    }
+//    .menu--navbar {
+//      display: block;
+//      .menu--ul {
+//        display: none;
+//      }
+//
+//      .menu--ul--active {
+//        width: 270px;
+//        height: 1000px;
+//        background: #131313;
+//        text-decoration: none;
+//        font-family: "Muller";
+//        font-style: normal;
+//        font-weight: 500;
+//        font-size: 30px;
+//        line-height: 20px;
+//        color: #ffffff;
+//        display: flex;
+//        flex-direction: column;
+//
+//        top: -31px;
+//        right: 0;
+//        position: fixed;
+//        padding: 50px 0 0 70px;
+//
+//        .menu--back {
+//          padding: 0 0 40px 130px;
+//        }
+//
+//        .menu-li {
+//          list-style: none;
+//          text-decoration: none;
+//          .menu-a {
+//            margin-left: 14px;
+//            padding: 20px 0;
+//            color: aliceblue;
+//            text-decoration: none;
+//            font-family: "Muller";
+//            font-style: normal;
+//            font-weight: 500;
+//            font-size: 30px;
+//            line-height: 20px;
+//            display: flex;
+//            align-items: center;
+//            color: #ffffff;
+//          }
+//        }
+//      }
+//      .btn-none {
+//        display: none;
+//      }
+//      .blur-window {
+//        width: 109%;
+//        height: 1000vh;
+//        right: 0;
+//        top: 0;
+//        left: -64px;
+//        position: fixed;
+//        background: rgba(0, 0, 0, 0.73);
+//        z-index: -3;
+//        backdrop-filter: blur(5px);
+//      }
+//    }
+//  }
+//}
+//@media (max-width: 660px) {
+//  #header {
+//    margin-left: 64px;
+//    .container {
+//      width: 570px;
+//      .courses {
+//        display: none;
+//      }
+//      .header {
+//        &--navbar {
+//          display: none;
+//        }
+//        .burger_navbar {
+//          display: block;
+//          display: flex;
+//          align-items: flex-end;
+//
+//          .burger-btn {
+//            width: 3px;
+//            height: 31px;
+//            margin-left: -85px;
+//            margin-top: -20px;
+//            position: relative;
+//            cursor: pointer;
+//            display: flex;
+//            justify-content: flex-end;
+//          }
+//          .burger-btn:before {
+//            content: "";
+//            top: 17px;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn span {
+//            position: absolute;
+//            top: 23px;
+//            width: 37px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn:after {
+//            content: "";
+//            bottom: 0;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//        }
+//
+//        &--language {
+//          margin-right: -35px;
+//        }
+//      }
+//    }
+//    .menu--navbar {
+//      display: block;
+//      .menu--ul {
+//        display: none;
+//      }
+//
+//      .menu--ul--active {
+//        width: 264px;
+//        height: 1000px;
+//        background: #131313;
+//        text-decoration: none;
+//        font-family: "Muller";
+//        font-style: normal;
+//        font-weight: 500;
+//        font-size: 30px;
+//        line-height: 20px;
+//        color: #ffffff;
+//        display: flex;
+//        flex-direction: column;
+//        left: 249px;
+//        top: -31px;
+//        right: 0;
+//        position: fixed;
+//        padding: 50px 0 0 70px;
+//
+//        .menu--back {
+//          padding: 0 0 40px 130px;
+//        }
+//
+//        .menu-li {
+//          list-style: none;
+//          text-decoration: none;
+//          .menu-a {
+//            margin-left: 14px;
+//            padding: 20px 0;
+//            color: aliceblue;
+//            text-decoration: none;
+//            font-family: "Muller";
+//            font-style: normal;
+//            font-weight: 500;
+//            font-size: 30px;
+//            line-height: 20px;
+//            display: flex;
+//            align-items: center;
+//            color: #ffffff;
+//          }
+//        }
+//      }
+//      .btn-none {
+//        display: none;
+//      }
+//      .blur-window {
+//        width: 109%;
+//        height: 1000vh;
+//        right: 0;
+//        top: 0;
+//        left: -64px;
+//        position: fixed;
+//        background: rgba(0, 0, 0, 0.73);
+//        z-index: -3;
+//        backdrop-filter: blur(5px);
+//      }
+//    }
+//  }
+//}
+//@media (max-width: 576px) {
+//  #header {
+//    margin-left: 64px;
+//    .container {
+//      width: 503px;
+//      .courses {
+//        display: none;
+//      }
+//      .header {
+//        &--navbar {
+//          display: none;
+//        }
+//        .burger_navbar {
+//          display: block;
+//          display: flex;
+//          align-items: flex-end;
+//
+//          .burger-btn {
+//            width: 3px;
+//            height: 31px;
+//            margin-left: -85px;
+//            margin-top: -20px;
+//            position: relative;
+//            cursor: pointer;
+//            display: flex;
+//            justify-content: flex-end;
+//          }
+//          .burger-btn:before {
+//            content: "";
+//            top: 17px;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn span {
+//            position: absolute;
+//            top: 23px;
+//            width: 37px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn:after {
+//            content: "";
+//            bottom: 0;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//        }
+//
+//        &--language {
+//          margin-right: 21px;
+//        }
+//      }
+//    }
+//    .menu--navbar {
+//      display: block;
+//      .menu--ul {
+//        display: none;
+//      }
+//
+//      .menu--ul--active {
+//        width: 212px;
+//        height: 1000px;
+//        background: #131313;
+//        text-decoration: none;
+//        font-family: "Muller";
+//        font-style: normal;
+//        font-weight: 500;
+//        font-size: 30px;
+//        line-height: 20px;
+//        color: #ffffff;
+//        display: flex;
+//        flex-direction: column;
+//        left: 230px;
+//        top: -31px;
+//        right: 0;
+//        position: fixed;
+//        padding: 50px 0 0 70px;
+//
+//        .menu--back {
+//          padding: 0 0 40px 130px;
+//        }
+//
+//        .menu-li {
+//          list-style: none;
+//          text-decoration: none;
+//          .menu-a {
+//            margin-left: 14px;
+//            padding: 20px 0;
+//            color: aliceblue;
+//            text-decoration: none;
+//            font-family: "Muller";
+//            font-style: normal;
+//            font-weight: 500;
+//            font-size: 30px;
+//            line-height: 20px;
+//            display: flex;
+//            align-items: center;
+//            color: #ffffff;
+//          }
+//        }
+//      }
+//      .btn-none {
+//        display: none;
+//      }
+//      .blur-window {
+//        width: 109%;
+//        height: 1000vh;
+//        right: 0;
+//        top: 0;
+//        left: -64px;
+//        position: fixed;
+//        background: rgba(0, 0, 0, 0.73);
+//        z-index: -3;
+//        backdrop-filter: blur(5px);
+//      }
+//    }
+//  }
+//}
+//@media (max-width: 450px) {
+//  #header {
+//    margin-left: 48px;
+//    .container {
+//      width: 427px;
+//      .courses {
+//        display: none;
+//      }
+//      .header {
+//        &--navbar {
+//          display: none;
+//        }
+//        .burger_navbar {
+//          display: block;
+//          display: flex;
+//          align-items: flex-end;
+//
+//          .burger-btn {
+//            width: 3px;
+//            height: 31px;
+//            margin-left: -85px;
+//            margin-top: -20px;
+//            position: relative;
+//            cursor: pointer;
+//            display: flex;
+//            justify-content: flex-end;
+//          }
+//          .burger-btn:before {
+//            content: "";
+//            top: 17px;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn span {
+//            position: absolute;
+//            top: 23px;
+//            width: 37px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn:after {
+//            content: "";
+//            bottom: 0;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//        }
+//
+//        &--language {
+//          margin-right: 76px;
+//          font-size: 13px;
+//        }
+//      }
+//    }
+//    .menu--navbar {
+//      display: block;
+//      .menu--ul {
+//        display: none;
+//      }
+//
+//      .menu--ul--active {
+//        width: 183px;
+//        height: 690px;
+//        background: #131313;
+//        text-decoration: none;
+//        font-family: "Muller";
+//        font-style: normal;
+//        font-weight: 500;
+//        font-size: -34px;
+//        line-height: 20px;
+//        color: #ffffff;
+//        display: flex;
+//        flex-direction: column;
+//        left: 149px;
+//        top: -31px;
+//        right: 0;
+//        position: fixed;
+//        padding: 50px 0 0 70px;
+//
+//        .menu--back {
+//          padding: 0 0 40px 130px;
+//        }
+//
+//        .menu-li {
+//          list-style: none;
+//          text-decoration: none;
+//          .menu-a {
+//            margin-left: 14px;
+//            padding: 20px 0;
+//            color: aliceblue;
+//            text-decoration: none;
+//            font-family: "Muller";
+//            font-style: normal;
+//            font-weight: 500;
+//            font-size: 30px;
+//            line-height: 20px;
+//            display: flex;
+//            align-items: center;
+//            color: #ffffff;
+//          }
+//        }
+//      }
+//      .btn-none {
+//        display: none;
+//      }
+//      .blur-window {
+//        width: 106%;
+//        height: 1000vh;
+//        right: 0;
+//        top: 0;
+//        left: -64px;
+//        position: fixed;
+//        background: rgba(0, 0, 0, 0.73);
+//        z-index: -3;
+//        backdrop-filter: blur(5px);
+//      }
+//    }
+//  }
+//}
+//@media (max-width: 376px) {
+//  #header {
+//    margin-left: 51px;
+//    .container {
+//      width: 356px;
+//      .courses {
+//        display: none;
+//      }
+//      .header {
+//        &--navbar {
+//          display: none;
+//        }
+//        .burger_navbar {
+//          display: block;
+//          display: flex;
+//          align-items: flex-end;
+//
+//          .burger-btn {
+//            width: 3px;
+//            height: 31px;
+//            margin-left: -85px;
+//            margin-top: -20px;
+//            position: relative;
+//            cursor: pointer;
+//            display: flex;
+//            justify-content: flex-end;
+//          }
+//          .burger-btn:before {
+//            content: "";
+//            top: 17px;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn span {
+//            position: absolute;
+//            top: 23px;
+//            width: 37px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn:after {
+//            content: "";
+//            bottom: 0;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//        }
+//
+//        &--language {
+//          margin-right: 103px;
+//          font-size: 10px;
+//        }
+//      }
+//    }
+//    .menu--navbar {
+//      display: block;
+//      .menu--ul {
+//        display: none;
+//      }
+//
+//      .menu--ul--active {
+//        width: 209px;
+//        height: 654px;
+//        background: #131313;
+//        text-decoration: none;
+//        font-family: "Muller";
+//        font-style: normal;
+//        font-weight: 500;
+//        font-size: 30px;
+//        line-height: 20px;
+//        color: #ffffff;
+//        display: flex;
+//        flex-direction: column;
+//        left: 45px;
+//        top: -31px;
+//        right: 0;
+//        position: fixed;
+//        padding: 50px 0 0 70px;
+//        .menu--back {
+//          padding: 0 0 40px 130px;
+//        }
+//
+//        .menu-li {
+//          list-style: none;
+//          text-decoration: none;
+//          .menu-a {
+//            margin-left: 14px;
+//            padding: 20px 0;
+//            color: aliceblue;
+//            text-decoration: none;
+//            font-family: "Muller";
+//            font-style: normal;
+//            font-weight: 500;
+//            font-size: 30px;
+//            line-height: 20px;
+//            display: flex;
+//            align-items: center;
+//            color: #ffffff;
+//          }
+//        }
+//      }
+//      .btn-none {
+//        display: none;
+//      }
+//      .blur-window {
+//        width: 120%;
+//        height: 1000vh;
+//        right: 0;
+//        top: 0;
+//        left: -64px;
+//        position: fixed;
+//        background: rgba(0, 0, 0, 0.73);
+//        z-index: -3;
+//        backdrop-filter: blur(5px);
+//      }
+//    }
+//  }
+//}
+//
+//@media (max-width: 320px) {
+//  #header {
+//    margin-left: 41px;
+//    margin-top: -2px;
+//    .container {
+//      width: 308px;
+//      .courses {
+//        display: none;
+//      }
+//      .header {
+//        &--navbar {
+//          display: none;
+//        }
+//        .burger_navbar {
+//          display: block;
+//          display: flex;
+//          align-items: flex-end;
+//
+//          .burger-btn {
+//            width: 3px;
+//            height: 31px;
+//            margin-left: -85px;
+//            margin-top: -20px;
+//            position: relative;
+//            cursor: pointer;
+//            display: flex;
+//            justify-content: flex-end;
+//          }
+//          .burger-btn:before {
+//            content: "";
+//            top: 17px;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn span {
+//            position: absolute;
+//            top: 23px;
+//            width: 37px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//          .burger-btn:after {
+//            content: "";
+//            bottom: 0;
+//            position: absolute;
+//            width: 53px;
+//            background-color: #000;
+//            height: 2px;
+//          }
+//        }
+//
+//        &--language {
+//          margin-right: 128px;
+//          font-size: 12px;
+//
+//          img {
+//            display: none;
+//          }
+//        }
+//      }
+//    }
+//    .menu--navbar {
+//      display: block;
+//      .menu--ul {
+//        display: none;
+//      }
+//
+//      .menu--ul--active {
+//        width: 211px;
+//        height: 599px;
+//        background: #131313;
+//        text-decoration: none;
+//        font-family: "Muller";
+//        font-style: normal;
+//        font-weight: 500;
+//        font-size: 30px;
+//        line-height: 20px;
+//        color: #ffffff;
+//        display: flex;
+//        flex-direction: column;
+//        left: 0px;
+//        top: -31px;
+//        right: 0;
+//        position: fixed;
+//        padding: 50px 0 0 70px;
+//
+//        .menu--back {
+//          padding: 0 0 40px 130px;
+//        }
+//
+//        .menu-li {
+//          list-style: none;
+//          text-decoration: none;
+//          .menu-a {
+//            margin-left: 14px;
+//            padding: 20px 0;
+//            color: aliceblue;
+//            text-decoration: none;
+//            font-family: "Muller";
+//            font-style: normal;
+//            font-weight: 500;
+//            font-size: 30px;
+//            line-height: 20px;
+//            display: flex;
+//            align-items: center;
+//            color: #ffffff;
+//          }
+//        }
+//      }
+//      .btn-none {
+//        display: none;
+//      }
+//      .blur-window {
+//        width: 124%;
+//        height: 1000vh;
+//        right: 0;
+//        top: 0;
+//        left: -64px;
+//        position: fixed;
+//        background: rgba(0, 0, 0, 0.73);
+//        z-index: -3;
+//        backdrop-filter: blur(5px);
+//      }
+//    }
+//  }
+//}

@@ -1,0 +1,659 @@
+#course {
+  background: #EFEFEF;
+
+  .course2 {
+    display: flex;
+    padding: 170px 0 100px 0;
+
+    &--box {
+      width: 383px;
+      height: 186px;
+      background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+      border-radius: 30px;
+      margin-top: 9.5rem;
+    }
+
+    &--btn1 {
+      width: 152px;
+      height: 50px;
+      background: #4886FF;
+      border-radius: 30px;
+      transform: rotate(-16.64deg);
+      color: #FFFFFF;
+      position: relative;
+      left: 11.5rem;
+      top: 4.5rem;
+    }
+
+    &--image {
+      position: relative;
+      top: -13rem;
+      left: 2rem;
+    }
+
+    &--block {
+      width: 800px;
+      height: 339px;
+      background: #FF563F;
+      border-radius: 30px;
+      margin-left: 7rem;
+      padding: 50px 35px;
+    }
+
+    &--titles {
+      display: flex;
+    }
+
+    &--title1 {
+      font-family: 'Muller', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 36px;
+      color: #FFFFFF;
+      padding-bottom: 15px;
+    }
+
+    &--desc1 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 140%;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    &--title2 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 120%;
+      color: #FFFFFF;
+      padding-bottom: 20px;
+    }
+
+    &--btn2 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FF0000;
+      width: 334px;
+      height: 50px;
+      background: #F8F8F8;
+      border-radius: 44px;
+    }
+
+    &--desc2 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    &--left {
+      margin-left: 20px;
+    }
+  }
+  .course {
+
+    section {
+      position: relative;
+      width: 100%;
+      height: 390px;
+      overflow: hidden;
+      background: #EFEFEF;
+    }
+
+    section .scroll {
+      width: 100%;
+      display: flex;
+      font-weight:900;
+      font-size: 15px;
+      color: #ffffff;
+
+      img {
+        padding: 20px 0;
+      }
+  &--anim {
+    width: 99.9%;
+    height: 70px;
+    background: #EC3025;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+  }
+
+
+      span {
+        padding: 0 50px;
+      }
+    }
+
+    section .scroll div {
+      color: white;
+      font-size: 3em;
+      white-space: nowrap;
+      font-weight: 900;
+      text-transform: uppercase;
+      animation: animate 40s linear infinite;
+      animation-delay: -40s;
+    }
+
+    section .scroll div:nth-child(2) {
+      animation: animate2 40s linear infinite;
+      animation-delay: -20s;
+    }
+
+    section .scroll div span {
+      -webkit-text-stroke: 2px #fff8f8;
+      color: transparent;
+    }
+    .scroll2 {
+      background: #f8f8f8;
+      position: relative;
+      width: 1570px;
+      height: 70px;
+      overflow: hidden;
+      display: flex;
+      font-weight: 500;
+      font-size:20px;
+      color: #ffffff;
+    }
+    &--vector{
+
+    }
+    span {
+      padding: 0 50px;
+    }
+
+    section .scroll2 div {
+      color: white;
+      font-size: 2em;
+      white-space: nowrap;
+      font-weight: 900;
+      text-transform: uppercase;
+      animation: animate 40s linear infinite;
+      animation-delay: -40s;
+      display: flex;
+    }
+
+  &--name2 {
+    background: #4886FF;
+    transform: rotate(-2deg);
+    width: 99.9%;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 10rem;
+  }
+
+    section .scroll2 div:nth-child(2) {
+      animation: animate2 40s linear infinite;
+      animation-delay: -20s;
+    }
+
+    section .scroll2 div span {
+      -webkit-text-stroke: 1px #fff8f8;
+      color: white;
+
+    }
+
+
+    @keyframes animate {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    @keyframes animate2 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-200%);
+        scroll-behavior: smooth;
+      }
+    }
+
+    &--icon {
+      position: relative;
+      top: -40px;
+      left: 7.6rem;
+    }
+
+    &--projects {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 40px;
+      margin: 0 4px;
+    }
+
+    &--block {
+      width: 380px;
+      height: 172.24px;
+      background: linear-gradient(114deg, #FFA800 46%, rgba(255, 169, 3, 0.5) 100%);
+      border-radius: 30px 30px 0 0;
+    }
+
+    &--block2 {
+      width: 380px;
+      height: 172.24px;
+      border-radius: 30px 30px 0 0;
+      background: linear-gradient(114deg, #725EF2 32%, rgba(115, 95, 243, 0.5) 100%);
+    }
+
+    &--block3 {
+      width: 380px;
+      height: 172.24px;
+      border-radius: 30px 30px 0 0;
+      background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+    }
+
+    &--girl {
+      position: relative;
+      bottom: 99px;
+      left: 98px;
+    }
+
+    &--box {
+      background: #FFFFFF;
+      border-radius: 0 0 30px 30px;
+      width: 380px;
+      height: 458.63px;
+      padding: 10px 15px;
+    }
+
+    &--title3 {
+      font-family: 'Muller', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #030303;
+      padding-bottom: 15px;
+    }
+
+    &--desc1 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: rgba(27, 27, 27, 0.8);
+      padding-bottom: 15px;
+    }
+
+    &--buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--buttons button:hover {
+      color: #4886FF;
+      border: 2px solid #4886FF;
+      transition: .3s;
+    }
+
+    &--btn1 {
+      border: 1px solid #000000;
+      border-radius: 30px;
+      width: 76px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+    }
+
+    &--btn2 {
+      width: 111px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+
+    &--btn3 {
+      width: 50px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+
+    &--buttons2 button {
+      margin: 5px 2px;
+    }
+
+    &--buttons2 button:hover {
+      color: #4886FF;
+      border: 2px solid #4886FF;
+    }
+
+    &--btn4 {
+      width: 64px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      background: transparent;
+    }
+
+    &--btn5 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      width: 136px;
+      height: 43px;
+    }
+
+    &--btn6 {
+      width: 329px;
+      height: 50px;
+      background: #EC3025;
+      border: 1px solid #EC3025;
+      border-radius: 44px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      margin-top: 20px;
+    }
+
+    &--btn {
+      &:hover {
+        background: red;
+        color: white;
+      }
+
+      width: 329px;
+      height: 50px;
+      background: transparent;
+      border: 1px solid #EC3025;
+      border-radius: 44px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      color: red;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      margin-top: 20px;
+    }
+
+    &--btn6:hover {
+      background: black;
+      color: white;
+      transition: .3s;
+      border: none;
+    }
+
+    &--design {
+      position: relative;
+      top: -99px;
+      left: 6rem;
+    }
+
+    &--backend {
+      position: relative;
+      top: -99px;
+      left: 6rem;
+    }
+
+    &--but1 {
+      padding-top: 5rem;
+    }
+
+    &--but {
+      padding-top: 3rem;
+    }
+  }
+  &--vector{
+    width: 60px;
+    height: 0;
+    border: 1px solid #000000;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #course .course2--btn1 {
+    width: 110px;
+    position: relative;
+    top: 5.2rem;
+  }
+  #course .course2--image {
+    position: relative;
+    left: 1rem;
+  }
+
+  }
+
+@media (max-width: 1040px) {
+  #course .course--box {
+    width: 311px;
+  }
+  #course .course--block {
+    width: 310px;
+  }
+  #course .course--btn {
+    width: 280px;}
+  #course .course--btn6 {
+    width: 278px;
+  }
+  #course .course--block2 {
+    width: 311px;
+  }
+  #course .course--but1 {
+    padding-top: 2rem;
+  }
+  #course .course--but {
+    padding-top: 2rem;
+  }
+  #course .course--girl {
+    position: relative;
+    left: 70px;
+  }
+  #course .course--design {
+    position: relative;
+    left: 4rem;
+  }
+  #course .course2--block {
+    width: 558px;
+    padding: 50px 12px;
+  }
+  #course .course2--btn2 {
+    width: 319px;
+  }
+  #course .course2--image {
+    position: relative;
+    left: 0;
+    top: -204px;
+  }
+  #course .course2--btn1 {
+    top: 5rem;
+    left: 160px;
+  }
+}
+
+@media (max-width: 992px) {
+  #course .course2--block {
+    width: 413px;
+    padding: 42px 4px;
+  }
+  #course .course2--title1 {
+
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 768px) {
+  #course .course--projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 100px;
+  }
+  #course .course--box {
+    width: 411px;
+  }
+  #course .course--block {
+    width: 411px;
+  }
+  #course .course--btn {
+    width: 376px;
+  }
+  #course .course--btn6 {
+    width: 376px;
+  }
+  #course .course--block2 {
+    width: 411px;
+  }
+  #course .course--girl {
+    position: relative;
+    left: 114px;
+  }
+  #course .course--design {
+    position: relative;
+    left: 7.3rem;
+  }
+  #course .course2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 80px;
+  }
+  #course .course2--block {
+    width: 670px;
+    margin: 0;
+    padding: 40px 16px;
+  }
+  #course .course2--btn1 {
+    left: 210px;
+    top: 6rem;
+    width: 140px;
+  }
+  #course .course2--image {
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  #course .course2--block {
+    width: 540px;
+  }
+}
+@media (max-width: 400px) {
+  #course .course--block {
+    width: 390px;
+    margin: 0 10px;
+  }
+  #course .course--box {
+    width: 390px;
+    margin: 0 10px;
+  }
+  #course .course--block2 {
+    width: 390px;
+    margin: 0 10px;
+  }
+  #course .course--btn {
+    width: 354px;
+  }
+  #course .course--btn6 {
+    width: 354px;
+  }
+  #course .course2--titles {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  #course .course2--block {
+    width: 380px;
+  }#course .course2--block {
+     width: 380px;
+       height: 400px;
+   }
+}
+
+@media (max-width: 320px) {
+  #course .course--block {
+    width: 298px;
+    margin: 0 65px;
+  }
+  #course .course--box {
+    width: 298px;
+    margin: 0 65px;
+  }
+  #course .course--btn {
+    width: 269px;
+  }
+  #course .course--btn6 {
+    width: 269px;
+  }
+  #course .course--box {
+    height: 530px;
+  }
+  #course .course--girl {
+    position: relative;
+    left: 62px;
+  }
+  #course .course--block2 {
+    width: 296px;
+    margin: 0 66px;
+  }
+  #course .course--design {
+    position: relative;
+    left: 4rem;
+  }
+  #course .course--box {
+    height: 560px;
+  }
+  #course .course2--box {
+    display: none;
+  }
+  #course .course2--block {
+    width: 302px;
+    height: 516px;
+  }
+  #course .course2--btn2 {
+    width: 235px;
+  }
+  #course .course2--block {
+    width: 302px;
+    height: 564px;
+  }
+}
+
+@media (max-width: 315px) {
+
+}
