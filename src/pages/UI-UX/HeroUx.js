@@ -1,25 +1,23 @@
 import React, {useState} from 'react';
-import '../../../style/main/Hero.scss'
-import an1 from "../../../image/main/an1.png";
-import an4 from "../../../image/main/an4.png";
-import an6 from "../../../image/main/an5.png";
-import an3 from "../../../image/main/an3.png";
-import an2 from "../../../image/main/an2.png";
-import an11 from "../../../image/main/an11.png";
-import an8 from "../../../image/main/an8.png";
-import an7 from "../../../image/main/an7.png";
-import an10 from "../../../image/main/an10.png";
-import an13 from "../../../image/main/an13.png";
-import an1media from "../../../image/main/an1media.png";
-import an3media from "../../../image/main/an3media.png";
-import an4media from "../../../image/main/an4media.png";
-import an5media from "../../../image/main/an5media.png";
-import an9 from "../../../image/main/an9.png";
-import Modal from "../../../modalPage/Modal";
-import modal from "../../../image/main/smiling-face 2.svg"
+import an1 from "../../image/main/an1.png";
+import an4 from "../../image/main/an4.png";
+import an6 from "../../image/main/an5.png";
+import an7 from "../../image/main/an7.png";
+import an3 from "../../image/main/an3.png";
+import an2 from "../../image/main/an2.png";
+import an11 from "../../image/main/an11.png";
+import an13 from "../../image/main/an13.png";
+import an8 from "../../image/main/an8.png";
+import an10 from "../../image/main/an10.png";
+import an9 from "../../image/main/an9.png";
+import an1media from "../../image/main/an1media.png";
+import an3media from "../../image/main/an3media.png";
+import an4media from "../../image/main/an4media.png";
+import an5media from "../../image/main/an5media.png";
+import Modal from "../../modalPage/Modal";
+import modal from "../../image/main/smiling-face 2.svg";
 
-
-const Hero = () => {
+const HeroUx = () => {
 
     const [submitted, setSubmitted] = useState(false)
     const submitForm = () => {
@@ -33,17 +31,16 @@ const Hero = () => {
     }
 
     return (
-        <div id="mainPart">
-
+        <div id="FrontendHero">
             <div className='title'>
-                <h1>MOTION WEB</h1>
-                <h2><span>IT</span> ACADEMY</h2>
-                <p>Лицензированная IT академия в Бишкеке</p>
-                <button onClick={() => setStart(!start)}>Оставить заявку</button>
+                <h1 style={{lineHeight: "150px"}}>UI/UX <br/>
+                    <span>DESIGN</span></h1>
+                <p>UX/UI-дизайн — это процесс создания интерактивных, <br/>удобных интерфейсов. Отличный вариант
+                    профессии <br/>для творческих людей, которым нравится решать <br/>проблемы пользователей и создавать
+                    что-то новое, <br/>сочетая логику и эстетику.</p>
+                <button  onClick={() => setStart(!start)}>Оставить заявку</button>
             </div>
-
-
-            <div className="mainPart">
+            <div className="FrontendHero">
                 <div className="an1">
                     <img src={an1} alt=""/>
                 </div>
@@ -80,12 +77,9 @@ const Hero = () => {
                 <div className="an9">
                     <img src={an9} alt=""/>
                 </div>
-
-
                 <div className="an1media">
                     <img src={an1media} alt=""/>
                 </div>
-
                 <div className="an3media">
                     <img src={an3media} alt=""/>
                 </div>
@@ -105,7 +99,6 @@ const Hero = () => {
                 <div className="media88"></div>
                 <div className="media54"></div>
                 <div className="backdropBlur"></div>
-
             </div>
 
             <div className={start ? "modal" : "modal active"} onClick={() => setStart(true)}>
@@ -113,7 +106,8 @@ const Hero = () => {
             </div>
 
         </div>
+
     );
 };
 
-export default Hero;
+export default HeroUx;

@@ -1598,7 +1598,7 @@
   #mainPart {
     .mainPart {
       .backdropBlur {
-        width: 485px;
+        width: 514px;
         height: 591px;
         top: 116px;
       }
@@ -1631,29 +1631,32 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 451px) {
   #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 
+    .title {
+      h1 {
+        font-size: 44px;
+        padding-top: 90px;
+      }
+
+      h2 {
+        font-size: 44px;
+
+      }
+    }
+
     .mainPart {
       .backdropBlur {
         position: absolute;
         width: 399px;
-        height: 378px;
+        height: 400px;
         left: 33px;
         margin-left: -20px;
-        top: 90px;
-        background: linear-gradient(
-                        289.3deg,
-                        rgba(19, 19, 19, 0.3) 17.11%,
-                        rgba(28, 28, 28, 0.261) 100%
-        );
-        -webkit-backdrop-filter: blur(7.5px);
-        backdrop-filter: blur(7.5px);
-        border-radius: 20px;
       }
 
       .media91 {
@@ -1754,85 +1757,42 @@
         animation: an7 5s ease-in infinite alternate;
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
-
-      .an1 {
-        display: none;
-        // position: absolute;
-        // top: 71px;
-        // left: 475px;
-        // animation: an1 5s ease-in infinite alternate;
-        // -webkit-animation: an1 5s ease-in infinite alternate;
+   .an2 {
+        left: 337px;
       }
-
-      .an4 {
-        display: none;
-        // position: absolute;
-        // top: 91px;
-        // left: 7px;
-        // animation: an4 5s ease-in infinite alternate;
-        // -webkit-animation: an4 5s ease-in infinite alternate;
+      .an3{
+        left: 969px;
+        top: 334px;
+        width: 212px;
       }
-
       .an6 {
-        display: none;
-        // position: absolute;
-        // top: 454px;
-        // left: 75px;
-        // animation: an6 5s ease-in infinite alternate;
-        // -webkit-animation: an6 5s ease-in infinite alternate;
+        top: 401px;
+        left: 138px;
       }
-
-      .an7 {
-        display: none;
+      .an4 {
+        display: block;
+        width: 114px;
+        left: 155px;
+        top: 241px;
       }
-
-      .an5 {
-        display: none;
+      .an4media {
+        top: 438px;
+        left: 10px;
+        width: 102px;
       }
-
-      .an3 {
-        display: none;
+       .an3media {
+         top: 282px;
+        left: 31px;
       }
-
-      .an2 {
-        display: none;
+      .an10 {
+        display: block;
+        right: 9px;
+        top: 230px;
       }
-
       .an11 {
         display: none;
       }
 
-      .an12 {
-        display: none;
-      }
-
-      .an8 {
-        display: none;
-      }
-
-      .an10 {
-        display: none;
-      }
-
-      .an9 {
-        display: none;
-      }
-
-      .an1media {
-        display: none;
-      }
-
-      .an3media {
-        display: none;
-      }
-
-      .an4media {
-        display: none;
-      }
-
-      .an5media {
-        display: none;
-      }
     }
   }
 }
@@ -1844,27 +1804,41 @@
     display: flex;
     flex-direction: column;
 
+    .title {
+      button {
+        width: 207px;
+        height: 43px;
+        font-size: 15px;
+      }
+      h1 {
+        font-size: 44px;
+        padding-top: 90px;
+      }
+
+      h2 {
+        font-size: 44px;
+
+      }
+      p{
+        font-size: 14px;
+        line-height: 23px;
+        padding: 18px 0;
+      }
+
+    }
+
     .mainPart {
       .backdropBlur {
         position: absolute;
-        width: 324px;
-        height: 378px;
+        width: 364px;
+        height: 400px;
         left: 33px;
         margin-left: -20px;
-        top: 90px;
-        background: linear-gradient(
-                        289.3deg,
-                        rgba(19, 19, 19, 0.3) 17.11%,
-                        rgba(28, 28, 28, 0.261) 100%
-        );
-        -webkit-backdrop-filter: blur(7.5px);
-        backdrop-filter: blur(7.5px);
-        border-radius: 20px;
       }
 
       .media91 {
         position: absolute;
-        left: 16%;
+        left: 23%;
         width: 221px;
         top: 35%;
         height: 220px;
@@ -1875,7 +1849,7 @@
 
       .media56 {
         position: absolute;
-        left: 1%;
+        left: 10%;
         width: 126px;
         top: 64%;
         height: 122px;
@@ -1886,8 +1860,8 @@
 
       .media80 {
         position: absolute;
-        left: 65%;
-        width: 107px;
+        left: 66%;
+        width: 112px;
         top: 22%;
         height: 106px;
         //background-image: url("../../../components/image/mainPart/mainMedia/Black\ 80\ -\ @designrip.png");
@@ -1897,7 +1871,7 @@
 
       .media38 {
         position: absolute;
-        left: 6%;
+        left: 14%;
         width: 95px;
         top: 22%;
         height: 92px;
@@ -1908,7 +1882,7 @@
 
       .media62 {
         position: absolute;
-        left: 2%;
+        left: 6%;
         width: 58px;
         top: 45%;
         height: 52px;
@@ -1941,7 +1915,7 @@
 
       .media88 {
         position: absolute;
-        left: 70%;
+        left: 75%;
         width: 100px;
         top: 39%;
         height: 113px;
@@ -1960,83 +1934,45 @@
         animation: an7 5s ease-in infinite alternate;
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
-
-      .an1 {
-        display: none;
-        // position: absolute;
-        // top: 71px;
-        // left: 475px;
-        // animation: an1 5s ease-in infinite alternate;
-        // -webkit-animation: an1 5s ease-in infinite alternate;
-      }
-
-      .an4 {
-        display: none;
-        // position: absolute;
-        // top: 91px;
-        // left: 7px;
-        // animation: an4 5s ease-in infinite alternate;
-        // -webkit-animation: an4 5s ease-in infinite alternate;
-      }
-
-      .an6 {
-        display: none;
-        // position: absolute;
-        // top: 454px;
-        // left: 75px;
-        // animation: an6 5s ease-in infinite alternate;
-        // -webkit-animation: an6 5s ease-in infinite alternate;
-      }
-
-      .an7 {
-        display: none;
-      }
-
-      .an5 {
-        display: none;
-      }
-
-      .an3 {
-        display: none;
-      }
-
       .an2 {
-        display: none;
+        left: 337px;
       }
-
+      .an3{
+        left: 969px;
+        top: 334px;
+        width: 212px;
+      }
+      .an6 {
+        top: 401px;
+        left: 138px;
+      }
+      .an4 {
+        display: block;
+        width: 114px;
+        left: 155px;
+        top: 241px;
+      }
+      .an4media {
+        top: 438px;
+        left: 10px;
+        width: 102px;
+      }
+      .an3media {
+        top: 282px;
+        left: 31px;
+      }
+      .an10 {
+        display: block;
+        right: 9px;
+        top: 230px;
+      }
       .an11 {
         display: none;
       }
 
-      .an12 {
-        display: none;
-      }
-
-      .an8 {
-        display: none;
-      }
-
-      .an10 {
-        display: none;
-      }
-
-      .an9 {
-        display: none;
-      }
-
-      .an1media {
-        display: none;
-      }
-
-      .an3media {
-        display: none;
-      }
-
-      .an5media {
-        display: none;
-      }
     }
   }
+
 }
 
 @media (max-width: 320px) {
@@ -2046,27 +1982,41 @@
     display: flex;
     flex-direction: column;
 
+    .title {
+      button {
+        width: 207px;
+        height: 43px;
+        font-size: 15px;
+      }
+      h1 {
+        font-size: 34px;
+        padding-top: 90px;
+      }
+
+      h2 {
+        font-size: 34px;
+
+      }
+      p{
+        font-size: 12px;
+        line-height: 23px;
+        padding: 18px 0;
+      }
+
+    }
+
     .mainPart {
       .backdropBlur {
         position: absolute;
-        width: 270px;
-        height: 341px;
+        width: 314px;
+        height: 400px;
         left: 33px;
         margin-left: -20px;
-        top: 104px;
-        background: linear-gradient(
-                        289.3deg,
-                        rgba(19, 19, 19, 0.3) 17.11%,
-                        rgba(28, 28, 28, 0.261) 100%
-        );
-        -webkit-backdrop-filter: blur(7.5px);
-        backdrop-filter: blur(7.5px);
-        border-radius: 20px;
       }
 
       .media91 {
         position: absolute;
-        left: 16%;
+        left: 23%;
         width: 221px;
         top: 35%;
         height: 220px;
@@ -2077,7 +2027,7 @@
 
       .media56 {
         position: absolute;
-        left: 1%;
+        left: 10%;
         width: 126px;
         top: 64%;
         height: 122px;
@@ -2088,8 +2038,8 @@
 
       .media80 {
         position: absolute;
-        left: 61%;
-        width: 107px;
+        left: 66%;
+        width: 112px;
         top: 22%;
         height: 106px;
         //background-image: url("../../../components/image/mainPart/mainMedia/Black\ 80\ -\ @designrip.png");
@@ -2099,7 +2049,7 @@
 
       .media38 {
         position: absolute;
-        left: 6%;
+        left: 14%;
         width: 95px;
         top: 22%;
         height: 92px;
@@ -2110,7 +2060,7 @@
 
       .media62 {
         position: absolute;
-        left: 2%;
+        left: 6%;
         width: 58px;
         top: 45%;
         height: 52px;
@@ -2121,7 +2071,7 @@
 
       .media33 {
         position: absolute;
-        left: 40%;
+        left: 45%;
         width: 50px;
         top: 26%;
         height: 47px;
@@ -2132,7 +2082,7 @@
 
       .media110 {
         position: absolute;
-        left: 60%;
+        left: 65%;
         width: 124px;
         top: 70%;
         height: 113px;
@@ -2143,7 +2093,7 @@
 
       .media88 {
         position: absolute;
-        left: 67%;
+        left: 75%;
         width: 100px;
         top: 39%;
         height: 113px;
@@ -2158,89 +2108,47 @@
         width: 70px;
         top: 56%;
         height: 62px;
-        //background-image: url("../../../components/image/mainPart/mainMedia/Black\ 54\ -\ @designrip.png");
         animation: an7 5s ease-in infinite alternate;
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
-
-      .an1 {
-        display: none;
-        // position: absolute;
-        // top: 71px;
-        // left: 475px;
-        // animation: an1 5s ease-in infinite alternate;
-        // -webkit-animation: an1 5s ease-in infinite alternate;
-      }
-
-      .an4 {
-        display: none;
-        // position: absolute;
-        // top: 91px;
-        // left: 7px;
-        // animation: an4 5s ease-in infinite alternate;
-        // -webkit-animation: an4 5s ease-in infinite alternate;
-      }
-
-      .an6 {
-        display: none;
-        // position: absolute;
-        // top: 454px;
-        // left: 75px;
-        // animation: an6 5s ease-in infinite alternate;
-        // -webkit-animation: an6 5s ease-in infinite alternate;
-      }
-
-      .an7 {
-        display: none;
-      }
-
-      .an5 {
-        display: none;
-      }
-
-      .an3 {
-        display: none;
-      }
-
       .an2 {
-        display: none;
+        left: 337px;
       }
-
+      .an3{
+        left: 969px;
+        top: 375px;
+        width: 212px;
+      }
+      .an6 {
+        top: 382px;
+        left: 109px;
+        width: 154px;
+      }
+      .an4 {
+        display: block;
+        width: 168px;
+        left: 116px;
+        top: 241px;
+      }
+      .an4media {
+        top: 438px;
+        left: 10px;
+        width: 135px;
+      }
+      .an3media {
+        top: 282px;
+        left: 31px;
+      }
+      .an10 {
+        display: block;
+        right: -78px;
+        top: 230px;
+        width: 155px;
+      }
       .an11 {
         display: none;
       }
 
-      .an12 {
-        display: none;
-      }
-
-      .an8 {
-        display: none;
-      }
-
-      .an10 {
-        display: none;
-      }
-
-      .an9 {
-        display: none;
-      }
-
-      .an1media {
-        display: none;
-      }
-
-      .an3media {
-        display: none;
-      }
-
-      .an4media {
-        display: none;
-      }
-
-      .an5media {
-        display: none;
-      }
     }
   }
 }

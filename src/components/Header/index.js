@@ -33,7 +33,7 @@ const Header = () => {
                                 <NavLink to={`/UxUi`} onClick={() => window.scroll(0, 0)}>UI/UX design</NavLink> <br/>
                             </div>
                         </div>
-                        <NavLink to={`/it_club`} onClick={() => window.scroll(0, 0)}>Клуб</NavLink>
+                        <NavLink to={`/it_club`} onClick={() => window.scroll(0, 100)}>Клуб</NavLink>
                         <a href="#footer">Контакты</a>
                     </div>
 
