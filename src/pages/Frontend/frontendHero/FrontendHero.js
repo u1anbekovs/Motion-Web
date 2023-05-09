@@ -1,5 +1,5 @@
-import React from 'react';
-import '../../../style/pages/FrontendHero.scss'
+import React, {useState} from 'react';
+import './FrontendHero.scss'
 import an1 from "../../../image/main/an1.png";
 import an4 from "../../../image/main/an4.png";
 import an6 from "../../../image/main/an5.png";
@@ -15,16 +15,31 @@ import an3media from "../../../image/main/an3media.png";
 import an4media from "../../../image/main/an4media.png";
 import an5media from "../../../image/main/an5media.png";
 import an9 from "../../../image/main/an9.png";
+import Modal from "../../../modalPage/Modal";
+import modal from "../../../image/main/smiling-face 2.svg";
 
 const FrontendHero = () => {
+
+
+    const [submitted, setSubmitted] = useState(false)
+    const submitForm = () => {
+        setSubmitted(true)
+    }
+
+
+    const [start, setStart] = useState(true)
+    const startForm = () => {
+        setStart(true)
+    }
+
     return (
         <div id="FrontendHero">
             <div className='title'>
                 <h1>FRONT <span>END</span></h1>
-                <p>UX/UI-дизайн — это процесс создания интерактивных, <br/>удобных интерфейсов. Отличный вариант
-                    профессии <br/>для творческих людей, которым нравится решать <br/>проблемы пользователей и создавать
-                    что-то новое, <br/>сочетая логику и эстетику.</p>
-                <button>Оставить заявку</button>
+                <p>Frontend - это часть веб-разработки, которая отвечает за создание <br/>пользовательского интерфейса и взаимодействие с пользователем в <br/>браузере.
+                   <br/> Она включает в себя различные технологии, такие
+                   <br/> как HTML, CSS и JavaScript, которые используются для создания <br/>структуры, стиля и поведения веб-страниц.</p>
+                <button  onClick={() => setStart(!start)}>Оставить заявку</button>
             </div>
             <div className="FrontendHero">
                 <div className="an1">
@@ -85,6 +100,10 @@ const FrontendHero = () => {
                 <div className="media88"></div>
                 <div className="media54"></div>
                 <div className="backdropBlur"></div>
+            </div>
+
+            <div className={start ? "modal" : "modal active"} onClick={() => setStart(true)}>
+                {!submitted ? <Modal submitForm={submitForm} startForm={startForm}/> : <img src={modal} alt=""/>}
             </div>
         </div>
     );
