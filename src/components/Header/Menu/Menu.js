@@ -15,8 +15,6 @@ const Menu = ({burgerF}) => {
                              onClick={() => window.scroll(0, 0) || burgerF(true)}><b>Frontend</b></NavLink>
                     <NavLink to={`/UxUi`} onClick={() => window.scroll(0, 0) || burgerF(true)}><b>UI/UX
                         design</b></NavLink>
-                    <NavLink to={`/backend`}
-                             onClick={() => window.scroll(0, 0) || burgerF(true)}><b>Backend</b></NavLink>
                     <NavLink to={`/it_club`} onClick={() => window.scroll(0, 0) || burgerF(true)}>Клуб</NavLink>
                     <a href="#footer" onClick={() => window.scroll(0, 0) || burgerF(true)}>Контакты</a>
                 </div>

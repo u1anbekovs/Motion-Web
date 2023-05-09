@@ -112,7 +112,6 @@ const UiUx = () => {
 
                     </div>
                 </div>
-
             </div>
             <div className="UxUi">
                 <div id="frontEnd">
@@ -281,11 +280,8 @@ const UiUx = () => {
                                     <div className="frontEnd--certificate__inform--img">
                                         <img src={Certificate} alt=""/>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
 
                         <div className="designer">
