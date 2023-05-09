@@ -31,7 +31,6 @@ const Header = () => {
                             <div className="ul">
                                 <NavLink to={`/MainFr`} onClick={() => window.scroll(0, 0)}>Frontend</NavLink> <br/>
                                 <NavLink to={`/UxUi`} onClick={() => window.scroll(0, 0)}>UI/UX design</NavLink> <br/>
-                                <NavLink to={`/backend`} onClick={() => window.scroll(0, 0)}>Backend</NavLink>
                             </div>
                         </div>
                         <NavLink to={`/it_club`} onClick={() => window.scroll(0, 0)}>Клуб</NavLink>
