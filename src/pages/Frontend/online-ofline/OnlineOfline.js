@@ -68,9 +68,8 @@ const OnlineOfline = () => {
 
                     </div>
                 </div>
-
+                </div>
             </div>
-
     )
 
 };

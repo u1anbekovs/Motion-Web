@@ -8,7 +8,7 @@ const Inform = () => {
             <div className="container">
                 <div className="inform">
                     <div className="inform--question">
-                        <h3>Почему <span>MOTIN WEB IT ACADEMY</span>?</h3>
+                        <h3>Почему <span>MOTIN WEB <br/> IT ACADEMY</span>?</h3>
                     </div>
                     <div className="inform--text">
                         <p>На данном курсе мы сконцентрируем внимание на сайтах и научим вас с нуля проектировать их
