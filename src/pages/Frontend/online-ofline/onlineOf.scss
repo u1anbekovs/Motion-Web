@@ -5,6 +5,7 @@
   margin: 100px 0;
 
   .OnOf{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,8 +13,9 @@
       position: relative;
       display: flex;
       &__first{
+        cursor: pointer;
         position: absolute;
-        bottom: -4rem;
+        bottom: -13rem;
         left: 2rem;
         display: none;
         width: 589px;
@@ -83,9 +85,10 @@
       }
 
       &__for{
+        cursor: pointer;
         position: absolute;
-        bottom: -4rem;
-        left: 42rem;
+        bottom: -13rem;
+        left: -57rem;
         display: none;
         width: 603px;
         backdrop-filter: blur(5px);
@@ -154,15 +157,19 @@
     }
 
     &--window{
+      cursor: pointer;
       width: 100vw;
       height: 100vh;
       position: fixed;
+      z-index: 1;
       top: 0;
       left: 0;
       background: rgba(0, 0, 0, 0.66);
       backdrop-filter: blur(4px);
     }
     &--window2{
+      cursor: pointer;
+      z-index: 1;
       width: 100vw;
       height: 100vh;
       position: fixed;
@@ -179,17 +186,13 @@
     height: 205px;
     background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
     border-radius: 30px;
-
     font-weight: 500;
     font-size: 36px;
     line-height: 36px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-
     &:hover {
       background: #3f3535;
       border: none;

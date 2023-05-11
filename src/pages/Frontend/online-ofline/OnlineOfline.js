@@ -30,10 +30,9 @@ const OnlineOfline = () => {
                         </div>
 
                         <div style={{display: choose2 ? "block" : "none"}} onClick={() => SetChoose2(!choose2)} className='OnOf--ofline__for'>
-                            <div className="frontEnd--ofline__first--three">
+                            <div className="OnOf--ofline__for--three">
                                 <h1>Онлайн</h1>
-                                <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.
-                                </li>
+                                <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.</li>
                                 <li>Занятия будут проходить на кыргызском языке.</li>
                                 <li>Телеграм, ZOOm</li>
                                 <li>Быстрая и оперативная обратная связь от менторов</li>
@@ -42,7 +41,7 @@ const OnlineOfline = () => {
                         </div>
 
                         <div onClick={() => SetChoose(!choose)} style={{display: choose ? "block" : "none"}} className="OnOf--window"></div>
-                        <div style={{display: choose2 ? "block" : "none"}} className="OnOf--window2"></div>
+                        <div  onClick={() => SetChoose2(!choose2)} style={{display: choose2 ? "block" : "none"}} className="OnOf--window2"></div>
 
                     </div>
                 </div>

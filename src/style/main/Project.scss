@@ -7,6 +7,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 
+    &--img{
+      height: 274px;
+
+    }
+
+    &--menu{
+      display: flex;
+      width: 380px;
+      height: 260px;
+      background: #CCCCE3;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
     p {
       transition: 0.5s all;
       font-style: normal;
@@ -26,7 +39,7 @@
     }
 
     img {
-      width: 90%;
+     width: 90%;
       padding: 20px 0;
     }
 
