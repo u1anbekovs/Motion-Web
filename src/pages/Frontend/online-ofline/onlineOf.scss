@@ -205,3 +205,26 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  #OnlineOfline .OnOf {
+    grid-column-gap: 20px;
+  }
+  #OnlineOfline .OnOf--ofline__first {
+    left: 9rem;
+  }
+}
+@media (max-width: 1040px) {
+  #OnlineOfline .OnOf--ofline__first {
+    left: 12rem;
+    bottom: -13rem;
+  }
+}
+@media (max-width: 992px) {
+  #OnlineOfline .OnOf--ofline__first {
+    left: 17rem;
+  }
+}
+@media (max-width: 768px) {
+  
+}

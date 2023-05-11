@@ -138,7 +138,13 @@
   }
   #courses .frontEnd--title {
     width: 882px;
-    margin: 45px -71px;
+    margin: 45px -6px;
+  }
+
+}
+@media (max-width: 992px) {
+  #courses .frontEnd--title {
+    margin: 45px -54px;
   }
 }
 @media (max-width: 768px) {
@@ -185,5 +191,10 @@
     width: 272px;
     height: 648px;
     margin: 45px -1px;
+  }
+}
+@media (max-width: 320px) {
+  #courses .frontEnd--title {
+    margin: 45px 8px;
   }
 }

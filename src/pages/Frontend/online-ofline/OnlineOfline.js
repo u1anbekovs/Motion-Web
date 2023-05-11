@@ -38,8 +38,7 @@ const OnlineOfline = () => {
                                         <h1>Онлайн</h1>
                                         <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.</li>
                                         <li>Занятия будут проходить на кыргызском языке.</li>
-                                        <li>Телеграм, ZOOM
-                                        </li>
+                                        <li>Телеграм, ZOOM</li>
                                         <li>Быстрая и оперативная обратная связь от менторов</li>
 
                                     </div>
@@ -53,10 +52,6 @@ const OnlineOfline = () => {
                                 <li>Занятия будут проходить на кыргызском языке.</li>
                                 <li>Телеграм, ZOOm</li>
                                 <li>Быстрая и оперативная обратная связь от менторов</li>
-
-
-
-
                                 <div onClick={() => SetChoose(!choose)} style={{display: choose ? "block" : "none"}} className="OnOf--window"></div>
                                 <div style={{display: choose2 ? "block" : "none"}} className="OnOf--window2"></div>
 
