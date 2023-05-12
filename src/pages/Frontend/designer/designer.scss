@@ -62,11 +62,10 @@
 
         input {
           display: flex;
-          //flex-direction: row;
           flex-direction: row;
           align-items: center;
           justify-content: center;
-          width: 588px;
+          width: 630px;
           height: 63px;
           padding: 0 20px;
           background: #FFF8F8;
@@ -77,12 +76,12 @@
 
         &--checked {
           width: 646px;
-          margin: 10px 82px;
+          margin: 10px 0;
         }
 
         &--checked {
           display: flex;
-          align-items: center;
+          //align-items: center;
 
           input {
             width: 15px;
@@ -90,7 +89,6 @@
             margin: 0 10px;
           }
           .input{
-            margin-left: 40px;
             background: transparent;
           }
 
@@ -98,8 +96,6 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 130%;
-            display: flex;
-            align-items: center;
             color: rgba(255, 255, 255, 0.7);
           }
         }
@@ -107,14 +103,11 @@
         button {
           padding: 17px 0;
           width: 629px;
-          width: 588px;
           background: #090A0C;
           border-radius: 44px;
           font-weight: 500;
           font-size: 20px;
           line-height: 24px;
-          /* identical to box height */
-
           display: flex;
           align-items: center;
           justify-content: center;
@@ -124,5 +117,31 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  #designer .designer--choose {
+    width: 1037px;
+  }
+  #designer .designer--fon__application {
+    width: 645px;
+  }
+  #designer .designer--fon {
+    grid-column-gap: 20px;
+  }
+}
+@media (max-width: 1040px) {
+  #designer .designer--choose {
+    width: 959px;
+  }
+  #designer .designer--fon__application {
+    width: 555px;
+  }
+  #designer .designer--fon__application input {
+    width: 530px;
+  }
+  #designer .designer--fon__application button {
+    width: 527px;
   }
 }
