@@ -1,8 +1,8 @@
 #frontEnd--cours {
-
+  padding: 50px;
   .frontEnd--cours {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     &__text {
       h2 {
@@ -20,8 +20,6 @@
       padding-bottom: 60px;
 
       &--first {
-
-
         &__title {
           display: flex;
           justify-content: space-between;
@@ -33,20 +31,15 @@
             display: flex;
             align-items: center;
             color: #000000;
-
           }
-
           p {
             font-weight: 400;
             font-size: 19px;
             line-height: 140%;
             padding-top: 29px;
-
-
-            display: flex;
-            align-items: center;
-
             color: rgba(27, 27, 27, 0.8);
+            display: flex;
+            align-items: flex-start;
           }
         }
 
@@ -62,5 +55,31 @@
       }
     }
   }
+
+}
+
+@media (max-width: 1200px) {
+  #frontEnd--cours .frontEnd--cours__informs--first hr {
+    width: 806px;
+  }
+}
+@media (max-width: 1040px) {
+  #frontEnd--cours .frontEnd--cours__informs--first hr {
+    width: 752px;
+  }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1200px) {
 
 }

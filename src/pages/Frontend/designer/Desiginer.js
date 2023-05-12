@@ -24,7 +24,6 @@ const Desiginer = () => {
                             <div className="designer--fon__application--checked">
                                 <input type="checkbox" className="input"/>
                                 <p>Я соглашаюсь на обработку персональных данных</p>
-
                             </div>
                             <button>Оставить заявку</button>
                         </div>
