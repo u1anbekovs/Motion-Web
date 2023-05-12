@@ -13,6 +13,10 @@
         font-size: 36px;
         line-height: 36px;
         color: #EC3025;
+
+        span {
+          color: #020202;
+        }
       }
 
       p {
@@ -63,11 +67,32 @@
   }
   #clubUs .clubUs--block1 {
     flex-direction: column;
+    border-radius: 30px;
+    padding: 20px 0;
   }
   #clubUs {
     padding: 100px 0;
   }
   #clubUs .clubUs--block p {
     width: 100%;
+    font-size: 15px;
+  }
+  #clubUs .clubUs--block h1 {
+    padding-bottom: 20px;
+    font-size: 28px;
+  }
+  #clubUs .clubUs--block1 h1 {
+    padding-top: 20px;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 451px) {
+  #clubUs .clubUs--block1 {
+    flex-direction: column;
+    padding: 5px 0;
+  }
+  #clubUs .clubUs--block1 h1 {
+    font-size: 30px;
   }
 }
