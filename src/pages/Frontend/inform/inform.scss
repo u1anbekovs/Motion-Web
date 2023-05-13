@@ -4,7 +4,8 @@
   .inform{
     display: flex;
     align-items: flex-start;
-    margin-top: 300px;
+    grid-column-gap: 92px;
+    //margin-top: 300px;
     &--question {
 
       h3 {
@@ -23,7 +24,6 @@
     &--text {
       display: flex;
       flex-direction: column;
-      margin-left: 100px;
 
       p {
         font-weight: 400;
@@ -46,3 +46,74 @@
   }
 
 }
+
+@media (max-width: 1200px) {
+  #inform .inform {
+    grid-column-gap: 15px;
+  }
+}
+@media (max-width: 1040px) {
+
+  #inform .inform--text p {
+    width: 580px;
+  }
+  #inform .inform--text h4 {
+    width: 597px;
+  }
+}
+@media (max-width: 992px) {
+  #inform .inform--question h3 {
+    width: 335px;
+  }
+  #inform .inform--text p {
+    width: 448px;
+  }
+  #inform .inform--text h4 {
+    width: 483px;
+  }
+}
+@media (max-width: 768px) {
+  #inform .inform {
+    flex-direction: column;
+  }
+  #inform .inform--question h3 {
+    width: 379px;
+  }
+  #inform .inform--text p {
+    width: 617px;
+  }
+  #inform .inform--text h4 {
+     width: 617px;
+   }
+}
+@media (max-width: 576px) {
+  #inform .inform--text p {
+    width: 517px;
+  }
+  #inform .inform--text h4 {
+    width: 517px;
+  }
+}
+@media (max-width: 400px) {
+  #inform .inform--text p {
+    width: 398px;
+  }
+  #inform .inform--text h4 {
+    width: 398px;
+  }
+}
+@media (max-width: 320px) {
+  #inform .inform--text p {
+    width: 320px;
+  }
+  #inform .inform--text h4 {
+    width: 320px;
+  }
+  #inform .inform--question span {
+    font-size: 29px;
+  }
+  #inform .inform--question h3 {
+    font-size: 29px;
+  }
+}
+

@@ -49,6 +49,15 @@ const Text = () => {
                                     SUPPORT</p>
                             </div>
                             <hr/>
+                        <hr/>
+                    </div>
+                    <div className="frontEnd--cours__informs--first">
+                        <div className="frontEnd--cours__informs--first__title">
+                            <h3>05.</h3>
+                            <h3>Индивидуальное <br/>работа с каждым</h3>
+                            <p>Наша система образования построена на то, <br/>чтобы делать упор
+                                на сильные
+                                стороны ученика <br/>и подходить к каждому индивидуально</p>
                         </div>
                         <div className="frontEnd--cours__informs--first">
                             <div className="frontEnd--cours__informs--first__title">

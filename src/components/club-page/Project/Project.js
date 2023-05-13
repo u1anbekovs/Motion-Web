@@ -15,47 +15,31 @@ const Project = () => {
 
 
     return (
-        <>
-            <div id="project">
-                <div className="container">
-                    <div className="project">
-                        <div className="project--txt">
-                            <span>Команда</span>
+        <section id="project">
+            <div className="container">
+                <div className="project">
+
+                    <div className="project--load">
+                        <h1>Команда</h1>
+                        <div>
+                            <img className="project--load__any1" src={one} alt=""/>
+                            <img className="project--load__any2" src={nine} alt=""/>
+                            <img className="project--load__any3" src={ani1} alt=""/>
+                            <img className="project--load__any4" src={ani2} alt=""/>
+                            <img className="project--load__any5" src={ani3} alt=""/>
+                            <img className="project--load__any6" src={ani4} alt=""/>
+                            <img className="project--load__any7" src={ani5} alt=""/>
                         </div>
-                        <div className="project--lead">
-                            <img className="project--lead__persons" src={persons} alt=""/>
-                            <div className="project--lead__block">
-
-                                <div className="project--lead__block--txt">
-                                    <Link to={"/MainFr"}>
-                                        <span>Frontend</span>
-                                    </Link>
-                                    <Link tp={"/UxUi"}>
-                                        <span>UI/UX designer</span>
-                                    </Link>
-                                    <Link to={"/backend"}>
-                                        <span>Backend</span>
-                                    </Link>
-                                </div>
-
-                                <img className="project--lead__block__one" src={one} alt=""/>
-                                <img className="project--lead__block__nine" src={nine} alt=""/>
-                            </div>
-
-                            <div>
-                                <img className='project--lead__ani1' src={ani1} alt="img"/>
-                                <img className='project--lead__ani2' src={ani2} alt="img"/>
-                                <img className='project--lead__ani3' src={ani3} alt="img"/>
-                                <img className='project--lead__ani4' src={ani4} alt="img" style={{
-                                    zIndex: -45
-                                }}/>
-                                <img className='project--lead__ani5' src={ani5} alt="img"/>
-                            </div>
+                        <img className="project--load__image" src={persons} alt=""/>
+                        <div className="project--load__block">
+                            <h2>Frontend</h2>
+                            <h2>UI/UX designer</h2>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 
