@@ -49,35 +49,36 @@ const Text = () => {
                                     SUPPORT</p>
                             </div>
                             <hr/>
-                        <hr/>
-                    </div>
-                    <div className="frontEnd--cours__informs--first">
-                        <div className="frontEnd--cours__informs--first__title">
-                            <h3>05.</h3>
-                            <h3>Индивидуальное <br/>работа с каждым</h3>
-                            <p>Наша система образования построена на то, <br/>чтобы делать упор
-                                на сильные
-                                стороны ученика <br/>и подходить к каждому индивидуально</p>
+                            <hr/>
                         </div>
                         <div className="frontEnd--cours__informs--first">
                             <div className="frontEnd--cours__informs--first__title">
                                 <h3>05.</h3>
-                                <h3>Индивидуальное работа <br/>с каждым</h3>
+                                <h3>Индивидуальное <br/>работа с каждым</h3>
                                 <p>Наша система образования построена на то, <br/>чтобы делать упор
                                     на сильные
                                     стороны ученика <br/>и подходить к каждому индивидуально</p>
                             </div>
-                            <hr/>
-                        </div>
-                        <div className="frontEnd--cours__informs--first">
-                            <div className="frontEnd--cours__informs--first__title">
-                                <h3>06.</h3>
-                                <h3>Стажировка</h3>
-                                <p>После прохождения курса сможете стажироватса в IT <br/>клубе, где
-                                    получете
-                                    опыт работы над реальным <br/>проектом вместе с командой</p>
+                            <div className="frontEnd--cours__informs--first">
+                                <div className="frontEnd--cours__informs--first__title">
+                                    <h3>05.</h3>
+                                    <h3>Индивидуальное работа <br/>с каждым</h3>
+                                    <p>Наша система образования построена на то, <br/>чтобы делать упор
+                                        на сильные
+                                        стороны ученика <br/>и подходить к каждому индивидуально</p>
+                                </div>
+                                <hr/>
                             </div>
-                            <hr/>
+                            <div className="frontEnd--cours__informs--first">
+                                <div className="frontEnd--cours__informs--first__title">
+                                    <h3>06.</h3>
+                                    <h3>Стажировка</h3>
+                                    <p>После прохождения курса сможете стажироватса в IT <br/>клубе, где
+                                        получете
+                                        опыт работы над реальным <br/>проектом вместе с командой</p>
+                                </div>
+                                <hr/>
+                            </div>
                         </div>
                     </div>
                 </div>
