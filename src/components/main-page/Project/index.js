@@ -30,13 +30,17 @@ const Student = () => {
                     <Link to={'https://restaurant1-three.vercel.app'}>
                         <img className='student--img' src={res} alt=""/>
                     </Link>
-                    <img src={books} alt=""/>
+                    <Link to={'https://books-f8nq-git-aas-orozaliev0.vercel.app/'}>
+                        <img src={books} alt=""/>
+                    </Link>
                     <img className='' src={platform} alt=""/>
-                  <div className='student--menu'>
-                      <img src={menu} alt=""/>
-                      <img src={menu2} alt=""/>
-                      <img src={menu3} alt=""/>
-                  </div>
+                 <Link to={'https://menu-rosy-three.vercel.app/'}>
+                     <div className='student--menu'>
+                         <img src={menu} alt=""/>
+                         <img src={menu2} alt=""/>
+                         <img src={menu3} alt=""/>
+                     </div>
+                 </Link>
                     {
                         student ? <img  src={Bookshop} alt=""/> : ""
                     }
