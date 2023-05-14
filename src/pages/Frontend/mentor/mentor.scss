@@ -21,7 +21,11 @@
         font-weight: 500;
         font-size: 40px;
         color: #000000;
+        padding-bottom: 15px;
       }
+    }
+    &--blocks img{
+      padding: 0 10px;
     }
 
     &--boys {
@@ -96,4 +100,91 @@
   }
 
 
+}
+
+@media (max-width: 1200px) {
+  #mentor .mentor--connection__video .video {
+    width: 334px;
+    height: 215px;
+    margin: 15px 4px;
+  }
+}
+@media (max-width: 1040px) {
+  #mentor .mentor--connection__video .video {
+    width: 291px;
+    height: 215px;
+    margin: 15px 5px;
+  }
+}
+@media (max-width: 992px) {
+  #mentor .mentor--connection__video .video {
+    width: 212px;
+    height: 157px;
+    margin: 15px 6px;
+  }
+}
+@media (max-width: 768px) {
+  #mentor .mentor--connection {
+    flex-direction: column;
+  }
+  #mentor .mentor--connection__video .video{
+    width: 307px;
+    height: 215px;
+    border-radius: 30px;
+    margin: 15px 30px;
+  }
+
+}
+@media (max-width: 576px) {
+  #mentor .mentor--connection__video .video {
+    width: 230px;
+    height: 161px;
+  }
+}
+@media (max-width: 400px) {
+  #mentor .mentor--boys__first p {
+    line-height: 103%;
+  }
+  #mentor .mentor--boys__first h3 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 113%;
+  }
+
+  #mentor .mentor--connection__video .video {
+    width: 158px;
+    height: 114px;
+    margin: 15px 11px;
+  }
+  .ytp-large-play-button {
+    position: absolute;
+    left: 61%;
+    width: 42px;
+  }
+  .ytp-large-play-button {
+    position: absolute;
+    left: 61%;
+    width: 42px;
+  }
+}
+@media (max-width: 320px) {
+  #mentor .mentor--connection__text h2 {
+    font-weight: 400;
+    font-size: 35px;
+  }
+  #mentor .mentor--connection__text p {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  #mentor .mentor--connection__text p {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 140%;
+    color: #1D1D20;
+  }
+  #mentor .mentor--connection__video .video {
+    width: 131px;
+    height: 94px;
+    margin: 15px 7px;
+  }
 }

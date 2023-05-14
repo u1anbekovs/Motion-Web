@@ -2,7 +2,7 @@
   padding: 50px;
   .frontEnd--cours {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     &__text {
       h2 {
@@ -21,7 +21,7 @@
 
       &--first {
         &__title {
-          display: flex;
+           display: flex;
           justify-content: space-between;
 
           h3 {
