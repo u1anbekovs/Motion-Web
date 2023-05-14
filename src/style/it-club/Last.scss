@@ -78,3 +78,13 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 576px) {
+  #last .last--card__details {
+    flex-direction: column;
+  }
+  #last .last--card__details--text h3 {
+    padding: 10px 0;
+  }
+}
+

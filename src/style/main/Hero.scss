@@ -396,7 +396,7 @@
         position: absolute;
         width: 1360px;
         height: 705px;
-        left: 1080px;
+        left: 56px;
         top: 115px;
         background: linear-gradient(
                         289.3deg,
@@ -1101,9 +1101,9 @@
     .mainPart {
       .backdropBlur {
         position: absolute;
-        width: 1045px;
-        height: 705px;
-        left: 40px;
+        width: 992px;
+        height: 686px;
+        left: 14px;
         top: 113px;
         background: linear-gradient(
                         289.3deg,
@@ -1126,7 +1126,8 @@
       .an4 {
         position: absolute;
         top: 229px;
-        left: 7px;
+        width: 32%;
+        left: 39px;
         animation: an7 5s ease-in infinite alternate;
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
@@ -1157,7 +1158,7 @@
 
       .an2 {
         position: absolute;
-        left: 805px;
+        left: 701px;
         top: 141px;
         animation: an2 5s ease-in infinite alternate;
         -webkit-animation: an2 5s ease-in infinite alternate;
@@ -1206,6 +1207,132 @@
   }
 }
 
+@media (max-width: 200px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22rem;
+
+    .title {
+      h1 {
+        font-weight: 800;
+        font-size: 98px;
+        color: #FFFFFF;
+        padding-top: 125px;
+      }
+
+      h2 {
+        font-size: 90px;
+
+      }
+    }
+
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 908px;
+        height: 705px;
+        left: 40px;
+        top: 110px;
+        background: linear-gradient(
+                        289.3deg,
+                        rgba(19, 19, 19, 0.3) 17.11%,
+                        rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+
+      .an1 {
+        position: absolute;
+        top: 71px;
+        left: 204px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+
+      .an4 {
+        position: absolute;
+        top: 229px;
+        left: 7px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+
+      .an6 {
+        position: absolute;
+        top: 527px;
+        left: 115px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+
+      .an7 {
+        position: absolute;
+        left: 491px;
+        top: 168px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+
+      .an5 {
+        display: block;
+        left: 881px;
+      }
+
+      .an3 {
+        display: block;
+        position: absolute;
+        margin-left: -746px;
+      }
+
+      .an2 {
+        position: absolute;
+        left: 606px;
+        top: 121px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+
+      .an11 {
+        position: absolute;
+        top: 564px;
+        left: 686px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+
+      .an12 {
+        display: none;
+      }
+
+      .an8 {
+        position: absolute;
+        top: 562px;
+        left: 368px;
+        animation: an9 5s ease-in infinite alternate;
+        -webkit-animation: an9 5s ease-in infinite alternate;
+      }
+
+      .an10 {
+        position: absolute;
+        top: 503px;
+        right: 239px;
+        animation: an10 5s ease-in infinite alternate;
+        -webkit-animation: an10 5s ease-in infinite alternate;
+      }
+
+      .an9 {
+        display: block;
+        left: 723px;
+        top: 405px;
+      }
+    }
+  }
+}
 @media (max-width: 992px) {
   #mainPart {
     min-height: 100%;
