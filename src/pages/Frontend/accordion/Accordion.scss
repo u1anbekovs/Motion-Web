@@ -214,13 +214,23 @@
     }
   }
 }
-
+@media (max-width: 1040px) {
+  #bg .accordion--type__folower {
+    width: 934px;
+  }
+  #bg .accordion--type__folower--folower2__folower3--folower4 {
+    padding-left: 18px;
+  }
+  #bg .accordion--type__folower--folower2__folower3--folower4 {
+    grid-column-gap: 4px;
+  }
+}
 @media (max-width: 999px) {
   #bg {
     .accordion {
       &--type {
         &__folower {
-          width: 823px;
+          width: 820px;
           height: 620px;
 
           &--folower2 {
@@ -255,17 +265,15 @@
     }
   }
 }
-
 @media (max-width: 992px) {
   #bg {
     .accordion {
       &--type {
         &__folower {
-          width: 761px;
+          width: 790px;
           height: 620px;
 
           img {
-            margin-left: 94px;
 
           }
 
@@ -284,14 +292,15 @@
     }
   }
 }
-
 @media (max-width: 768px) {
   #bg {
     .accordion {
       &--type {
         &__folower {
           width: 669px;
-
+        img{
+          margin-left: 85px;
+        }
           &--folower2 {
             &__folower3 {
               position: absolute;
@@ -312,7 +321,6 @@
     }
   }
 }
-
 @media (max-width: 576px) {
   #bg {
     .accordion {
@@ -357,7 +365,6 @@
     }
   }
 }
-
 @media (max-width: 500px) {
   #bg {
     .accordion {
@@ -403,7 +410,6 @@
   }
 
 }
-
 @media (max-width: 430px) {
   #bg {
     .accordion {
@@ -462,10 +468,8 @@
     }
   }
 }
-
 @media (max-width: 414px) {
 }
-
 @media (max-width: 400px) {
   #bg {
     .accordion {
@@ -524,7 +528,6 @@
     }
   }
 }
-
 @media (max-width: 390px) {
   #bg {
     .accordion {
@@ -551,7 +554,6 @@
     }
   }
 }
-
 @media (max-width: 388px) {
   #bg {
     .accordion {
@@ -578,7 +580,6 @@
     }
   }
 }
-
 @media (max-width: 380px) {
   #bg {
     .accordion {
@@ -607,7 +608,6 @@
     }
   }
 }
-
 @media(max-width: 389px) {
   #bg {
     .accordion {
@@ -650,7 +650,6 @@
     }
   }
 }
-
 @media (max-width: 370px) {
   #bg {
     .accordion {
@@ -679,7 +678,6 @@
     }
   }
 }
-
 @media (max-width: 360px) {
   #bg {
     .accordion {
@@ -732,7 +730,6 @@
     }
   }
 }
-
 @media(max-width: 350px) {
   #bg {
     .accordion {
@@ -793,7 +790,6 @@
     }
   }
 }
-
 @media (max-width: 321px) {
   #bg {
     .accordion {

@@ -213,15 +213,24 @@
   #OnlineOfline .OnOf--ofline__first {
     left: 9rem;
   }
+  #OnlineOfline .OnOf--ofline__for {
+    position: absolute;
+    bottom: -13rem;
+    left: 9rem;
+  }
+
 }
 @media (max-width: 1040px) {
   #OnlineOfline .OnOf--ofline__first {
     left: 12rem;
     bottom: -13rem;
   }
+  #OnlineOfline .OnOf--ofline__for {
+     left: 12rem;
+   }
 }
 @media (max-width: 992px) {
-  #OnlineOfline .OnOf--ofline__first {
+  #OnlineOfline .OnOf--ofline__for {
     left: 17rem;
   }
 }
@@ -231,6 +240,9 @@
     width: 508px;
     height: 445px;
   }
+  #OnlineOfline .OnOf--ofline__for {
+    left: 19rem;
+  }
 }
 @media (max-width: 576px) {
   #OnlineOfline .OnOf--ofline__first {
@@ -238,8 +250,10 @@
     width: 408px;
     height: 440px;
   }
-  #OnlineOfline .OnOf--ofline__first {
-
+  #OnlineOfline .OnOf--ofline__for {
+    left: 30.5rem;
+    width: 408px;
+    height: 440px;
   }
 }
 @media (max-width: 400px) {
@@ -251,14 +265,19 @@
     width: 375px;
   }
   #OnlineOfline .OnOf--ofline__first {
-    left: 47.5rem;
-    width: 399px;
+    left: 47.7rem;
+    width: 388px;
     height: 440px;
     bottom: 4rem;
   }
   #OnlineOfline .OnOf--ofline__first--three li {
-
     width: 360px;
+  }
+  #OnlineOfline .OnOf--ofline__for {
+    left: 47.7rem;
+    width: 388px;
+    height: 440px;
+    bottom: 4rem;
   }
 }
 

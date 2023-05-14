@@ -193,6 +193,12 @@
     height: 648px;
     margin: 45px 33px;
   }
+  #courses h2 {
+    margin: 44px 0;
+  }
+  #courses .frontEnd--courses__inform {
+    padding-left: 13px;
+  }
 }
 @media (max-width: 320px) {
   #courses .frontEnd--title {
