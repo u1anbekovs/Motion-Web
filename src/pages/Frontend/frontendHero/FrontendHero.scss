@@ -1924,7 +1924,7 @@
         }
         h1 {
           font-size: 34px;
-          padding-top: 90px;
+          /* padding-top: 70px; */
         }
 
         h2 {
@@ -1935,8 +1935,7 @@
           font-size: 12px;
           line-height: 16px;
           padding: 18px 0;
-          width: 265px;
-          margin-left: 86px;
+          margin-left: 30px;
         }
         p br{
           display: none;
@@ -2284,6 +2283,7 @@
 
   @media (max-width: 320px) {
     #FrontendHero {
+      margin-bottom: 7rem;
       min-height: 100%;
       overflow: hidden;
       display: flex;

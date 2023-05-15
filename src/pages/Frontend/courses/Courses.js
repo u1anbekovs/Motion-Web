@@ -43,13 +43,13 @@ const Courses = () => {
                 </div>
                 <div className="frontEnd--title">
                     <div className="frontEnd--title__first">
-                        <h1>3 месяца <br/> <span>Обучения</span></h1>
+                        <h1 >3 месяца <br/> <span className="frontEnd--skill">Обучения</span></h1>
                     </div>
                     <div className="frontEnd--title__first">
-                        <h1>3 раза <br/> <span>В неделю по 2 часа</span></h1>
+                        <h1>3 раза <br/> <span>В неделю по 2 часа</span></h1>
                     </div>
                     <div className="frontEnd--title__first">
-                        <h1>3 раза <br/> <span>Английский по 1 часу </span></h1>
+                        <h1>3 раза<br/> <span>Английский по 1 часу </span></h1>
                     </div>
                 </div>
             </div>

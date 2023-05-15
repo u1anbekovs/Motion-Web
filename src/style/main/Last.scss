@@ -111,12 +111,29 @@
 
 }
 @media (max-width: 992px) {
-  #application .application--inputs input {
-    padding: -21 100% 15px 15px;
-  }
+
   #application .application--inputs button {
     padding: 10px 0;
     width: 100%;
   }
 }
 
+@media (max-width: 576px) {
+  #application .application--inputs input {
+    padding: 16px 312px 16px 30px;
+  }
+}
+@media (max-width: 400px) {
+  #application .application--inputs input {
+    padding: 8px 150px 6px 30px;
+  }
+  #application .application--text h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 320px) {
+  #application .application--inputs input {
+    padding: 8px 80px 6px 30px;
+  }
+}

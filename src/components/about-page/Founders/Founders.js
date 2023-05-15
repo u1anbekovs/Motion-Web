@@ -18,12 +18,12 @@ const Founders = () => {
                     <div className="found--images">
                         <div>
                             <img src={imgFound1} className="found--img1" alt=""/>
-                            <h3 className="found--title2">Курманбек Жоошбаев</h3>
+                            <h3 className="found--title2">Курманбек Жоошбаев</h3>
                             <p className="found--desc2">Основатель</p>
                         </div>
                         <div>
                             <img src={imgFound2} className="found--img2" alt=""/>
-                            <h3 className="found--title2">Канатбек Аскеров</h3>
+                            <h3 className="found--title2">Канатбек Аскеров</h3>
                             <p className="found--desc2">Сооснователь</p>
                         </div>
                     </div>

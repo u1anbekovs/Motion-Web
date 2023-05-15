@@ -12,12 +12,19 @@
       color: #EC3025;
     }
     &--images1{
-      display: flex;
-      grid-column-gap: 35px;
+     display: flex;
+      grid-column-gap: 15px;
     }
     &--images1 img {
       width: 380px;
       height: 260px;
+    }
+    &--images2 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 5px;
+      grid-row-gap: 10px;
     }
     &--box{
       display: flex;
@@ -40,14 +47,6 @@
       padding-left: 40px;
       cursor: pointer;
     }
-    &--slider img{
-      padding: 0 10px;
-    }
-&--slider img{
-  width: 380px;
-  height: 260px;
-  padding: 0 10px;
-}
     &--boxes{
       background: linear-gradient(289.3deg, #131313 17.11%, rgba(23, 23, 23, 0.943269) 53.28%, rgba(28, 28, 28, 0.87) 100%);
       padding: 100px;
@@ -56,15 +55,7 @@
       justify-content: space-between;
       align-items: center;
     }
-    &--images{
-     display: flex;
-      overflow: scroll;
-      width: 380px;
-      height: 260px;
-    }
-    &--images img{
-      padding: 0 10px;
-    }
+
   }
 }
 
@@ -77,6 +68,9 @@
     display: flex;
     align-items: center;
     grid-column-gap: 13px;
+  }
+  #call .call--boxes {
+    padding: 100px 38px;
   }
 }
 @media (max-width: 1040px) {
@@ -98,23 +92,81 @@
   }
 }
 @media (max-width: 768px) {
-  #call .call--images1 img {
-    width: 257px;
-  }
-  #call .call--box img {
-    width: 257px;
+  #call .call {
+    display: flex;
+    flex-direction: column;
+    /* grid-column-gap: 2rem; */
   }
   #call .call--desc {
-    padding-top: 9rem;
-    padding-left: 29px;
+    position: relative;
+    top: 22px;
+    right: 206px;
+  }
+  #call .call--boxes {
+    grid-column-gap: 56px;
   }
 }
 @media (max-width: 576px) {
-
+  #call .call--images1 img {
+    width: 263px;
+    height: 223px;
+  }
+  #call .call--box img {
+    width: 263px;
+    height: 223px;
+  }
+  #call .call--desc {
+    position: relative;
+    top: 9px;
+  }
 }
 @media (max-width: 400px) {
-
+  #call .call--images1 img {
+    width: 171px;
+    height: 145px;
+  }
+  #call .call--box img {
+    width: 171px;
+    height: 130px;
+  }
+  #call .call--box img {
+    width: 175px;
+    height: 138px;
+    position: relative;
+    top: -33px;
+  }
+  #call .call--desc {
+    position: relative;
+    top: -99px;
+  }
+  #call .call--title {
+    padding-bottom: 17px;
+  }
+  #call .call--boxes {
+    /* grid-column-gap: 56px; */
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 61px;
+  }
+  img, video {
+    max-width: 100%;
+  }
 }
 @media (max-width: 320px) {
-
+  #call .call--images1 img {
+    width: 135px;
+    height: 100px;
+  }
+  #call .call--box img {
+    width: 139px;
+  }
+  #call .call--desc {
+    position: relative;
+    top: -112px;
+    left: -168px;
+    font-size: 15px;
+  }
+  img, video {
+    max-width: 100%;
+  }
 }
