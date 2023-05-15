@@ -42,6 +42,9 @@
       line-height: 140%;
       color: rgba(27, 27, 27, 0.8);
     }
+    &--img2{
+
+    }
     &--title3{
       font-family: 'SF Pro Display',sans-serif;
       font-style: normal;
@@ -108,11 +111,15 @@
   }
 }
 @media (max-width: 400px) {
-
+  #found .found--title2 {
+    font-size: 15px;
+  }
+  #found .found--desc {
+    font-size: 15px;
+  }
 }
 @media (max-width: 320px) {
-
-}
-@media (max-width: 400px) {
-
+  #found .found--title2 {
+    font-size: 12px;
+  }
 }

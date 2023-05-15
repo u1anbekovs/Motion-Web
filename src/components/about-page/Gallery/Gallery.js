@@ -34,9 +34,12 @@ const Gallery = () => {
                 </div>
 
                 {
-                    block ? <div className="call--images1">
+                    block ? <div className="call--images2">
                             <img src={img1} alt=""/>
-                            <img src={img2} className="call--img2" alt=""/>
+                            <img src={img2} alt=""/>
+                            <img src={img3} alt=""/>
+                        <img src={img2} alt=""/>
+                            <img src={img3} alt=""/>
                             <img src={img3} alt=""/>
                         </div> : ''
                 }
