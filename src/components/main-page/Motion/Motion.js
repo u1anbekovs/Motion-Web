@@ -5,54 +5,46 @@ import smile from "../../../image/main/smile-face.svg";
 import smile1 from "../../../image/main/open-key.svg";
 import smile2 from "../../../image/main/select.svg";
 import smile3 from "../../../image/main/rocket.svg";
+import {useTranslation} from "react-i18next";
 
 
 const Choice = () => {
+    const {t} = useTranslation()
     return (
         <section id="choice">
             <div className="container">
                 <div className="choice">
 
-                    <h1>Почему <span>MOTION WEB <br/> IT ACADEMY</span>-<br/> лучший выбор <br/> для обучения</h1>
+                    <h1>{t("text24")} <span>MOTION WEB <br/> IT ACADEMY</span>-<br/> {t("text26")}<br/> {t("text25")}</h1>
 
                     <div className="choice--card">
                         <div className="choice--card__details">
                             <img src={smile} alt=""/>
                             <div className="choice--card__details--text">
-                                <h3>Обучение с нуля до Junior</h3>
-                                <p>На курсе вы научитесь создавать интерфейсы веб-сервисов с помощью языков
-                                    программирования и дополнительных технологий. Сможете разрабатывать планировщики
-                                    задач, мессенджеры, интернет-магазины</p>
+                                <h3>{t("text27")}</h3>
+                                <p>{t("text28")}</p>
                             </div>
                         </div>
                         <div className="choice--card__details">
                             <img src={smile1} alt=""/>
                             <div className="choice--card__details--text">
-                                <h3>Open Space</h3>
-                                <p>Наша компания предоставляет Open Space для наших студентов, где вы сможете комфортно
-                                    заниматься учёбой, заводить знакомства с другими студентами и развивать навыки
-                                    коммуникации</p>
+                                <h3>{t("text29")}</h3>
+                                <p>{t("text30")}</p>
                             </div>
                         </div>
                         <div className="choice--card__details">
                             <img src={smile2} alt=""/>
                             <div className="choice--card__details--text">
-                                <h3>Английский</h3>
-                                <p>На данный момент на рынке больше востребованы специалисты владеющие английским
-                                    языком, так как это даёт возможность выводить продукт в мировую арену. Поэтому мы
-                                    предоставляем нашим студентам БЕСПЛАТНЫЕ языковые курсы</p>
+                                <h3>{t("text31")}</h3>
+                                <p>{t("text32")}</p>
                             </div>
                         </div>
                         <div className="choice--card__details">
                             <img src={smile3} alt=""/>
                             <div className="choice--card__details--text">
-                                <h3>IT club</h3>
-                                <p>IT-Клуб это мост между курсом и реальной работой. Анализируя курсы в Бишкеке мы
-                                    решили открыть клуб, который поможет студентам подготовиться к реальным проектам.
-                                    Участники не заканчивая курс смогут понять как работать в команде, научатся
-                                    презентовать свои работы и поймут какие проблемы бывают на стадии разработки
-                                </p>
-                                <NavLink to={`/club`} onClick={() => window.scroll(0, 0)}>Подробнее</NavLink>
+                                <h3>{t("text33")}</h3>
+                                <p>{t("text34")}</p>
+                                <NavLink to={`/club`} onClick={() => window.scroll(0, 0)}>{t("text10")}</NavLink>
                             </div>
                         </div>
                     </div>

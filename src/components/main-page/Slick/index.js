@@ -4,8 +4,11 @@ import Slider from "react-slick";
 import slideImg from "./../../../image/main/видео.svg"
 import SliderIcon2 from "./../../../image/main/check.svg"
 import SliderIcon1 from "./../../../image/main/check1.svg"
+import {useTranslation} from "react-i18next";
 
 const Slide = () => {
+
+    const {t} = useTranslation()
 
     const settings = {
         slidesToShow: 2.5,
@@ -14,9 +17,10 @@ const Slide = () => {
     };
 
     return (
+
         <section id="slide">
             <div className="slide">
-                <h1>Отзывы студентов</h1>
+                <h1>{t("text38")}</h1>
                 <div className="slide--sliders">
                     <Slider {...settings}>
                         <div>

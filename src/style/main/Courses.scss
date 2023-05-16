@@ -98,6 +98,7 @@
       margin-left: 20px;
     }
   }
+
   .course {
 
     section {
@@ -111,21 +112,22 @@
     section .scroll {
       width: 100%;
       display: flex;
-      font-weight:900;
+      font-weight: 900;
       font-size: 15px;
       color: #ffffff;
 
       img {
         padding: 20px 0;
       }
-  &--anim {
-    width: 99.9%;
-    height: 70px;
-    background: #EC3025;
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
-  }
+
+      &--anim {
+        width: 99.9%;
+        height: 70px;
+        background: #EC3025;
+        position: relative;
+        overflow: hidden;
+        padding: 15px;
+      }
 
 
       span {
@@ -152,6 +154,7 @@
       -webkit-text-stroke: 2px #fff8f8;
       color: transparent;
     }
+
     .scroll2 {
       background: #f8f8f8;
       position: relative;
@@ -160,7 +163,7 @@
       overflow: hidden;
       display: flex;
       font-weight: 500;
-      font-size:20px;
+      font-size: 20px;
       color: #ffffff;
     }
 
@@ -179,16 +182,16 @@
       display: flex;
     }
 
-  &--name2 {
-    background: #4886FF;
-    transform: rotate(-2deg);
-    width: 99.9%;
-    height: 60px;
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
-    margin-bottom: 10rem;
-  }
+    &--name2 {
+      background: #4886FF;
+      transform: rotate(-2deg);
+      width: 99.9%;
+      height: 60px;
+      position: relative;
+      overflow: hidden;
+      padding: 15px;
+      margin-bottom: 10rem;
+    }
 
     section .scroll2 div:nth-child(2) {
       animation: animate2 40s linear infinite;
@@ -388,8 +391,9 @@
 
     &--btn {
       &:hover {
-        background: red;
-        color: white;
+        background: rgba(236, 48, 37, 0.2);
+        color: #EC3025;
+        transition: 0.5s all;
       }
 
       width: 329px;
@@ -407,9 +411,9 @@
     }
 
     &--btn6:hover {
-      background: black;
-      color: white;
-      transition: .3s;
+      background: #090A0C;
+      color: #FFFFFF;
+      transition: 0.5s all;
       border: none;
     }
 
@@ -421,7 +425,7 @@
 
 
     &--but1 {
-      padding-top: 5rem;
+      padding-top: 4rem;
     }
 
     &--but {
@@ -442,7 +446,7 @@
     left: 1rem;
   }
 
-  }
+}
 
 @media (max-width: 1040px) {
   #course .course--box {
@@ -452,7 +456,8 @@
     width: 310px;
   }
   #course .course--btn {
-    width: 280px;}
+    width: 280px;
+  }
   #course .course--btn6 {
     width: 278px;
   }
@@ -561,6 +566,7 @@
     width: 540px;
   }
 }
+
 @media (max-width: 400px) {
   #course .course--block {
     width: 390px;
@@ -587,10 +593,11 @@
   }
   #course .course2--block {
     width: 380px;
-  }#course .course2--block {
-     width: 380px;
-       height: 400px;
-   }
+  }
+  #course .course2--block {
+    width: 380px;
+    height: 400px;
+  }
 }
 
 @media (max-width: 320px) {
