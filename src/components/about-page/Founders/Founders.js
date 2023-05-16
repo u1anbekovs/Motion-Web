@@ -27,11 +27,8 @@ const Founders = () => {
                             <p className="found--desc2">Сооснователь</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
-
         </section>
     );
 };

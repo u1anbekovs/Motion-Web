@@ -31,19 +31,21 @@ const Gallery = () => {
                     <span className="call--desc" onClick={() => setBlock(!block)} style={{
                         display: block ? "none" : ''
                     }}>Показать ещё</span>
+
+                    {
+                        block ? <img src={img3} alt=""/> : ""
+                    }
+                    {
+                        block ? <img src={img3} alt=""/> : ""
+                    }
+                    {
+                        block ? <img src={img3} alt=""/> : ""
+                    }
                 </div>
 
-                {
-                    block ? <div className="call--images2">
-                            <img src={img1} alt=""/>
-                            <img src={img2} alt=""/>
-                            <img src={img3} alt=""/>
-                        <img src={img2} alt=""/>
-                            <img src={img3} alt=""/>
-                            <img src={img3} alt=""/>
-                        </div> : ''
-                }
             </div>
+
+
             <div className="call--boxes">
                 <div>
                     <img src={img5} alt=""/>

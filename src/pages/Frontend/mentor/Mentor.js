@@ -4,17 +4,68 @@ import mentorCenter from "../../../image/frontEnd/mentorCenter.png";
 import mentorLeft from "../../../image/frontEnd/mentorLeft.png";
 import './mentor.scss'
 import Slider from "react-slick";
+import SliderIcon1 from "../../../image/main/check1.svg"
+import SliderIcon2 from "../../../image/main/check.svg"
 
 
 const Mentor = () => {
 
-    const settings = {
-        dots: false,
+    var settings = {
+        dots: true,
         infinite: true,
+        arrows: false,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 320,
+                settings : {
+                    dots: true,
+                    nextArrow: <img className='arrowNext' src={SliderIcon1} alt=""/>,
+                    prevArrow: <img className='arrowPrev' src={SliderIcon2} alt=""/>,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    vertical: true,
+                    verticalSwiping: true,
+                    swipeToSlide: true,
+                    beforeChange: function(currentSlide, nextSlide) {
+                        console.log("before change", currentSlide, nextSlide);
+                    },
+                    afterChange: function(currentSlide) {
+                        console.log("after change", currentSlide);
+                    }
+                },
+            }
+        ]
     };
+
+    // const settings = {
+    //     dots: false,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3
+    // };
     return (
         <div id="mentor">
             <div className="container">
