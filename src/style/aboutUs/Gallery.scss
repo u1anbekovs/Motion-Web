@@ -120,6 +120,24 @@
     top: 9px;
   }
 }
+@media (max-width: 500px) {
+  #call .call--images1 img {
+    width: 221px;
+    height: 185px;
+  }
+  #call .call--box img {
+    width: 223px;
+    position: relative;
+    top: -54px;
+  }
+  #call .call--desc {
+    position: relative;
+    top: -57px;
+  }
+  #call .call--boxes {
+    grid-column-gap: 19px;
+  }
+}
 @media (max-width: 400px) {
   #call .call--images1 img {
     width: 171px;
@@ -169,4 +187,5 @@
   img, video {
     max-width: 100%;
   }
+
 }

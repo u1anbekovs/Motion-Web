@@ -6,7 +6,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: flex-start;
-
+    &--image2{
+      position: relative;
+    }
     img {
       width: 80%;
     }
@@ -40,6 +42,7 @@
         align-items: center;
         padding: 70px;
       }
+
     }
   }
 }
@@ -79,5 +82,13 @@
     width: 250px;
     height: 250px;
     padding: 10px;
+  }
+}
+@media (max-width: 320px) {
+
+  #second .second--image2 {
+    position: relative;
+    left: -14px;
+    height: 159px;
   }
 }
