@@ -106,8 +106,28 @@
 
 @media (max-width: 1200px) {
 
+
 }
 @media (max-width: 1040px) {
+
+}@media (max-width: 576px) {
+  #application .application--inputs input {
+    padding: 16px 265px 20px 27px;
+    margin: 20px 0;
+  }
+
+
+}
+@media (max-width: 500px) {
+  #application .application--inputs input {
+    padding: 17px 190px 20px 30px;
+  }
+}
+  @media (max-width: 450px) {
+    #application .application--inputs input {
+      padding: 17px 163px 20px 30px; }
+
+
 
 }
 @media (max-width: 992px) {
@@ -117,6 +137,8 @@
     width: 100%;
   }
 }
+
+
 
 @media (max-width: 576px) {
   #application .application--inputs input {

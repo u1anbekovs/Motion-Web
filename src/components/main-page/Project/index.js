@@ -25,12 +25,12 @@ const Student = () => {
                         <h1>MOTION WEB <br/> IT ACADEMY</h1>
                     </div>
                     <Link to={'https://restaurant1-three.vercel.app'}>
-                        <img className='student--img' src={res} alt=""/>
+                        <img className='student--img1' src={res} alt=""/>
                     </Link>
                     <Link to={'https://books-f8nq-git-aas-orozaliev0.vercel.app/'}>
-                        <img src={books} alt=""/>
+                        <img src={books}  className='student--img2' alt=""/>
                     </Link>
-                    <img className='' src={platform} alt=""/>
+                    <img className='student--img3' src={platform} alt=""/>
                  <Link to={'https://menu-rosy-three.vercel.app/'}>
                      <div className='student--menu'>
                          <img src={menu} alt=""/>
@@ -39,13 +39,13 @@ const Student = () => {
                      </div>
                  </Link>
                     {
-                        student ? <img  src={Bookshop} alt=""/> : ""
+                        student ? <img  className='student--img4'  src={Bookshop} alt=""/> : ""
                     }
                     {
-                        student ? <img  src={studentImg4} alt=""/> : ""
+                        student ? <img  className='student--img6'  src={studentImg4} alt=""/> : ""
                     }
                     {
-                        student ? <img  src={studentImg5} alt=""/> : ""
+                        student ? <img  className='student--img5'  src={studentImg5} alt=""/> : ""
                     }
 
                     <p onClick={() => setStudent(!student)}>{student ? t("text37") : t("text36")}</p>
