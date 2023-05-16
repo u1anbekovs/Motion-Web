@@ -2104,6 +2104,7 @@
 }
 
 @media (max-width: 320px) {
+
   #mainPart {
     min-height: 100%;
     overflow: hidden;
@@ -2141,7 +2142,10 @@
         left: 33px;
         margin-left: -20px;
       }
-
+      #mainPart .mainPart .backdropBlur {
+        position: absolute;
+        width: 304px;
+      }
       .media91 {
         position: absolute;
         left: 23%;
@@ -2294,6 +2298,30 @@
   #mainPart .mainPart .an10 {
     display: block;
     right: 44px;
+  }
+}
+
+@media(max-width: 500px) {
+  #mainPart .title h1 {
+    font-size: 57px;
+    line-height: 52px;
+  }
+  #mainPart .title p {
+    font-size: 13px;
+  }
+  #mainPart .mainPart .backdropBlur {
+    width: 440px;
+  }
+  #mainPart .title h1 {
+    margin-top: 50px;
+  }
+  #mainPart .title h1 {
+    font-size: 63px;
+    line-height: 69px;
+  }
+  #mainPart .title p {
+    font-size: 19px;
+    line-height: 1px;
   }
 }
 @media  (max-width: 400px) {
