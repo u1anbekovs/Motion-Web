@@ -2091,6 +2091,18 @@
       }
     }
   }
+  @media  (max-width: 400px) {
+    #mainPart .mainPart .backdropBlur {
+      position: absolute;
+      width: 376px;
+    }
+    #mainPart .title button {
+      width: 336px;
+    }
+
+  @media  (max-width: 390px) {
+  }
+  }
 
   @media (max-width: 376px) {
     #FrontendHero {

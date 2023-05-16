@@ -511,6 +511,9 @@
     align-items: center;
     grid-row-gap: 100px;
   }
+  #course .course2--title2 {
+    font-size: 21px;
+  }
   #course .course--box {
     width: 411px;
   }
@@ -525,6 +528,13 @@
   }
   #course .course--block2 {
     width: 411px;
+  }
+  #course .course2--title2 {
+    font-size: 31px;
+  }
+  #course .course2--block {
+    width: 630px;
+    padding: 60px 36px;
   }
   #course .course--girl {
     position: relative;
@@ -642,6 +652,60 @@
   }
 }
 
-@media (max-width: 315px) {
-
+@media (max-width: 440px) {
+  #course .course2--block {
+    width: 402px;
+    padding: 48px 17px;
+  }
+  #course .course2--block {
+    width: 402px;
+    padding: 48px 17px;
+  }
+  #course .course--box {
+    width: 366px;
+    height: 541px;
+  }
+  #course .course--block {
+    width: 367px;
+  }
+  #course .course--btn {
+    width: 333px;
+  }
+  #course .course--btn6 {
+    width: 333px;
+  }
+  #course .course--projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 243px;
+  }
+  #course .course--block2 {
+    width: 367px;
+  }
+  #course .course--desc1 {
+    font-family: "SF Pro Display", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+  }
+  #course .course section {
+    position: relative;
+    width: 97%;
+  }
+}
+@media  (max-width: 400px) {
+  #course .course2--block {
+    width: 356px;
+  }
+  #course .course2--title1 {
+    font-weight: 500;
+    font-size: 28px;}
+  #course .course2--title2 {
+    font-size: 21px;
+  }
+}@media  (max-width: 390px) {
+}
+@media  (max-width: 380px) {
+}@media  (max-width: 370px) {
 }

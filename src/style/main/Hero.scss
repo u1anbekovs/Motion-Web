@@ -1760,10 +1760,12 @@
 
 @media (max-width: 451px) {
   #mainPart {
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+
+      min-height: 54%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10rem;
 
     .title {
       h1 {
@@ -2278,4 +2280,23 @@
 
     }
   }
+}
+@media  (max-width: 444px) {
+
+  #mainPart .mainPart .an3 {
+    left: 952px;
+  }
+
+  #mainPart .mainPart .an2 {
+    /* left: 295px; */
+    left: 241px;
+    width: 30%;
+  }
+  #mainPart .mainPart .an10 {
+    display: block;
+    right: 44px;
+  }
+}
+@media  (max-width: 400px) {
+}@media  (max-width: 390px) {
 }
