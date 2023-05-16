@@ -15,8 +15,10 @@ import an1media from "../../../image/main/an1media.png";
 import an3media from "../../../image/main/an3media.png";
 import an4media from "../../../image/main/an4media.png";
 import an5media from "../../../image/main/an5media.png";
+import {useTranslation} from "react-i18next";
 
 const Hero = () => {
+    const {t} = useTranslation()
     return (
         <div id="mainPart">
             <div className='title'>
@@ -26,7 +28,7 @@ const Hero = () => {
                 }}>Что такое <br/> <span style={{
                     color: '#EC3025',
                 }}>IT Club</span>?</h1>
-                <p>IT-Клуб это мост между курсом и реальной работой</p>
+                <p>{t("text1")}</p>
             </div>
             <div className="mainPart">
                 <div className="an1">
