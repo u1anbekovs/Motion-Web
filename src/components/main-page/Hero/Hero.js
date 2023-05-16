@@ -17,9 +17,11 @@ import an5media from "../../../image/main/an5media.png";
 import an9 from "../../../image/main/an9.png";
 import Modal from "../../../modalPage/Modal";
 import modal from "../../../image/main/smiling-face 2.svg"
+import {useTranslation} from "react-i18next";
 
 
 const Hero = () => {
+    const {t} = useTranslation()
 
     const [submitted, setSubmitted] = useState(false)
     const submitForm = () => {
@@ -38,8 +40,8 @@ const Hero = () => {
             <div className='title'>
                 <h1>MOTION WEB</h1>
                 <h2><span>IT</span> ACADEMY</h2>
-                <p>Лицензированная IT академия в Бишкеке</p>
-                <button onClick={() => setStart(!start)}>Оставить заявку</button>
+                <p>{t("text6")}</p>
+                <button onClick={() => setStart(!start)}>{t("text7")}</button>
             </div>
 
 

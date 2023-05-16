@@ -1,19 +1,14 @@
 #program {
   background: #f6f6f6;
-
+  padding: 50px 0;
   .program{
     &--courses {
       display: flex;
-      justify-content: space-between;
-      padding: 30px 0;
-
+justify-content: space-between;
       h1 {
         font-weight: 500;
         font-size: 40px;
         line-height: 40px;
-        margin-top: 10px;
-        display: flex;
-        align-items: center;
         color: #EC3025;
       }
 
@@ -21,14 +16,20 @@
         font-weight: 400;
         font-size: 19px;
         line-height: 140%;
-        padding-top: 69px;
-        display: flex;
-        align-items: center;
         color: rgba(27, 27, 27, 0.8);
       }
     }
   }
+}
 
-
-
+@media (max-width: 1040px) {
+  
+}@media (max-width: 576px) {
+  #program .program--courses {
+    display: flex;
+    flex-direction: column;
+  }
+  #program .program--courses h1 {
+    padding-bottom: 20px;
+  }
 }

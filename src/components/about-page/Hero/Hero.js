@@ -20,10 +20,7 @@ const Hero = () => {
     return (
         <div id="mainPart">
             <div className='title'>
-                <h1 style={{
-                    lineHeight: '140px',
-                    paddingTop: '190px'
-                }}>Кто мы- <br/> <span style={{
+                <h1>Кто мы- <br/> <span style={{
                     color: '#EC3025',
                 }}>Motion Web</span>?</h1>
                 <p>Motion Web IT academy — это международный образовательный <br/> проект, который готовит специалистов-практиков IT сферы.</p>

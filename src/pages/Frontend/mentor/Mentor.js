@@ -25,7 +25,7 @@ const Mentor = () => {
                     </div>
 
                     <Slider {...settings}>
-                        <div>
+                        <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorRight} alt=""/>
                                 <h3>Ахырхан Кайратов</h3>
@@ -34,7 +34,7 @@ const Mentor = () => {
                                     счёту 200+ успешных проектов.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorCenter} alt=""/>
                                 <h3>Юля Гавриенко</h3>
@@ -43,7 +43,7 @@ const Mentor = () => {
                                     счёту 200+ успешных проектов.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorLeft} alt=""/>
                                 <h3>Алишер Бекназаров</h3>
@@ -52,7 +52,7 @@ const Mentor = () => {
                                     счёту 200+ успешных проектов.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorLeft} alt=""/>
                                 <h3>Алишер Бекназаров</h3>
@@ -61,7 +61,7 @@ const Mentor = () => {
                                     счёту 200+ успешных проектов.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorLeft} alt=""/>
                                 <h3>Алишер Бекназаров</h3>
@@ -70,7 +70,7 @@ const Mentor = () => {
                                     счёту 200+ успешных проектов.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="mentor--blocks">
 
                             <div className="mentor--boys__first">
                                 <img src={mentorRight} alt=""/>
