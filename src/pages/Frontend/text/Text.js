@@ -49,7 +49,7 @@ const Text = () => {
                                     SUPPORT</p>
                             </div>
                             <hr/>
-                            <hr/>
+
                         </div>
                         <div className="frontEnd--cours__informs--first">
                             <div className="frontEnd--cours__informs--first__title">
@@ -59,6 +59,7 @@ const Text = () => {
                                     на сильные
                                     стороны ученика <br/>и подходить к каждому индивидуально</p>
                             </div>
+                            <hr/>
                             <div className="frontEnd--cours__informs--first">
                                 <div className="frontEnd--cours__informs--first__title">
                                     <h3>05.</h3>
