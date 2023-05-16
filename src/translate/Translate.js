@@ -3,7 +3,6 @@
     import LanguageDetector from 'i18next-browser-languagedetector'
     import {initReactI18next, useTranslation} from 'react-i18next'
     import React from "react";
-    import { useTranslation } from 'react-i18next';
 
 
     i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
@@ -19,12 +18,13 @@
     })
 
     const j = () => {
-        const { t, i18n } = useTranslation();
+        const { t, i18n } = useTranslation;
 
 
         const changeLanguage = (language) => {
             i18n.changeLanguage(language);
         };
+
         return(
             <div>
                 <button onClick={() => changeLanguage("en")}>EN</button>
@@ -34,4 +34,5 @@
             </div>
         )
     }
+
     export default i18n

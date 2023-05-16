@@ -20,10 +20,7 @@ const Hero = () => {
     return (
         <div id="mainPart">
             <div className='title'>
-                <h1 style={{
-                    lineHeight: '140px',
-                    paddingTop: '190px'
-                }}>Что такое <br/> <span style={{
+                <h1>Что такое <br/> <span style={{
                     color: '#EC3025',
                 }}>IT Club</span>?</h1>
                 <p>IT-Клуб это мост между курсом и реальной работой</p>

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../../style/aboutUs/Hero.scss'
+import '../../../pages/Frontend/frontendHero/FrontendHero.scss'
+
 import an1 from "../../../image/main/an1.png";
 import an4 from "../../../image/main/an4.png";
 import an6 from "../../../image/main/an5.png";
@@ -16,19 +17,18 @@ import an3media from "../../../image/main/an3media.png";
 import an4media from "../../../image/main/an4media.png";
 import an5media from "../../../image/main/an5media.png";
 
-const Hero = () => {
+
+
+const FrontendHero = () => {
     return (
-        <div id="mainPart">
+        <div id="FrontendHero">
             <div className='title'>
-                <h1 style={{
-                    lineHeight: '140px',
-                    paddingTop: '190px'
-                }}>Кто мы- <br/> <span style={{
+                <h1 style={{color: "white"}}>Кто мы- <br/> <span style={{
                     color: '#EC3025',
                 }}>Motion Web</span>?</h1>
                 <p>Motion Web IT academy — это международный образовательный <br/> проект, который готовит специалистов-практиков IT сферы.</p>
             </div>
-            <div className="mainPart">
+            <div className="FrontendHero">
                 <div className="an1">
                     <img src={an1} alt=""/>
                 </div>
@@ -65,12 +65,9 @@ const Hero = () => {
                 <div className="an9">
                     <img src={an9} alt=""/>
                 </div>
-
-
                 <div className="an1media">
                     <img src={an1media} alt=""/>
                 </div>
-
                 <div className="an3media">
                     <img src={an3media} alt=""/>
                 </div>
@@ -90,10 +87,11 @@ const Hero = () => {
                 <div className="media88"></div>
                 <div className="media54"></div>
                 <div className="backdropBlur"></div>
-
             </div>
+
+
         </div>
     );
 };
 
-export default Hero;
+export default FrontendHero;

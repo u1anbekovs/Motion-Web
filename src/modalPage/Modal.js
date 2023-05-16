@@ -3,10 +3,10 @@ import "./Modal.scss"
 import smiling from "./../image/main/smiling-face 2.svg";
 import {IoIosCloseCircle} from "react-icons/io";
 import validation from "./validation/Validation";
-import axios from "axios";
+import axios, {postForm} from "axios";
+import text from "../pages/Frontend/text/Text";
 
 const Modal = ({startForm, submitForm}) => {
-
 
 
     const [values, setValues] = useState({
@@ -40,26 +40,63 @@ const Modal = ({startForm, submitForm}) => {
         }
     }, [errors])
 
-    const bot = {
-        TOKEN:'6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs',
-        chatID: '-984802394',
+    // const bot = {
+    //     TOKEN:'6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs',
+    //     chatID: '-984802394',
+    // }
+    const TOKEN = '6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs'
+    const CHAT_ID = '-984802394'
+    const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=-984802394&text=${text.value}`
+
+    // const post_Form = async () => {
+    //     await axios(` https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${values.value}`, {
+    //         name: values.name,
+    //         phone: values.phone,
+    //     })
+    // }
+
+
+
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        let massage = `<b>Заявка с сайта</b>\n`
+        massage += `<b>отправитель:<b/> ${this.name.value}\n`
+        massage += `<b>почта:<b/> ${this.phone.value}`
+
+        axios.post(URL_API, {
+            chat_id: CHAT_ID,
+            parse_mode: 'html',
+            text: massage
+        })
+
+            .then((res) => {
+                this.name.value = '';
+                this.phone.value = '';
+            })
+            .catch((errors) => {
+                console.warn(errors)
+            })
+            .finally(() => {
+                console.log('end')
+            })
+
+
     }
+
+    // const post_Form = async () => {
+    //     await axios(` https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${values.value}`,{
+    //         name: values.name,
+    //         email: values.email,
+    //     })
+    // }
 
     return (
         <div>
-            <form className="modal--content" onSubmit={event => {
 
-                axios(` https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${handleChange.value}`,{
-                    method: 'GET'
-                })
-                    .then(succes => {
-                        alert('Massage send succesfuly!')
-                    }, errors => {
-                        alert('Massage not send!')
-                        console.log(errors)
-                    })
-            }} onClick={e => e.stopPropagation()}>
-                <img src={smiling} alt=""/>
+            <form className="modal--content" onClick={e => e.stopPropagation()}>
+                {/*<img src={smiling} alt=""/>*/}
                 <h4 onClick={() => startForm(true)}><IoIosCloseCircle/></h4>
 
                 <div>

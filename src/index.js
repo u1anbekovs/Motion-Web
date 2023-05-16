@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Layout from "./components/Layout";
 import {BrowserRouter} from "react-router-dom";
-
+import i18n from "i18next";
 
 
 

@@ -207,8 +207,8 @@
         position: absolute;
         top: 229px;
         left: -8px;
-        animation: an4 5s ease-in infinite alternate;
-        -webkit-animation: an4 5s ease-in infinite alternate;
+        animation: an4 8s ease-out infinite alternate;
+        -webkit-animation: an4 8s ease-in infinite alternate;
       }
 
       .an6 {
@@ -336,7 +336,7 @@
       -webkit-transform: scale(1);
     }
     100% {
-      transform: scale(2);
+      transform: scale(1);
       -webkit-transform: scale(0.8);
     }
   }
@@ -2283,6 +2283,7 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      margin-bottom: 10rem;
 
       .title {
         button {
@@ -2410,6 +2411,11 @@
           height: 62px;
           animation: an7 5s ease-in infinite alternate;
           -webkit-animation: an7 5s ease-in infinite alternate;
+        }
+        .an1 {
+          top: 18rem;
+          left: 0;
+          width: 152px;
         }
         .an2 {
           left: 223px;

@@ -8,7 +8,7 @@ const Validation = (values) => {
     }
     if (!values.number) {
         errors.number = "Номер не может пустым"
-    } else if (values.number.length < 10) {
+    } else if (values.number.length < 5) {
         errors.number = "Номер не корректен"
     }
     if (!values.email) {
