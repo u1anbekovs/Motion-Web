@@ -245,15 +245,43 @@
 @media (max-width: 576px) {
   #OnlineOfline .OnOf--ofline__first {
     left: 30.5rem;
-    width: 408px;
-    height: 440px;
+    width: 400px;
+    height: 370px;
   }
   #OnlineOfline .OnOf--ofline__for {
     left: 30.5rem;
-    width: 408px;
-    height: 440px;
+    width: 400px;
+    height: 370px;
   }
+  #OnlineOfline .OnOf--ofline__first--three {
+    li{
+
+      padding: 10px 0;
+      font-size: 18px;
+      line-height: 140%;
+      width: 314px;
+    }
+    h1{
+      margin: 32px 28px 0 1px;
+      font-family: "Muller", sans-serif;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 40px;
+      color: #FFFFFF;
+    }
+  }
+
 }
+
+@media (max-width: 451px) {
+  #OnlineOfline .OnOf--ofline__first{
+    display: none;
+  } #OnlineOfline .OnOf--ofline__for{
+    display: none;
+  }
+
+}
+
 @media (max-width: 400px) {
   #OnlineOfline .OnOf {
     grid-row-gap: 44px;

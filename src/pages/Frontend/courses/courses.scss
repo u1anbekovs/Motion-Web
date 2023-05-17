@@ -129,6 +129,18 @@
     margin: 45px -29px;
   }
 }
+@media (max-width: 1140px) {
+  #courses .frontEnd--courses__inform {
+    grid-column-gap: 19px;
+  }
+  #courses .frontEnd--courses__inform--first__fon {
+    width: 303px;
+  }
+  #courses .frontEnd--title {
+    width: 1031px;
+    margin: 45px -29px;
+  }
+}
 @media (max-width: 1040px) {
   #courses .frontEnd--courses__inform--first__fon {
     width: 300px;
@@ -139,6 +151,17 @@
   #courses .frontEnd--title {
     width:958px;
     margin: 45px -6px;
+  }
+  #courses .frontEnd--courses__inform--first p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: rgba(27, 27, 27, 0.8);
+    br{
+      display: none;
+    }
   }
 
 
@@ -201,12 +224,45 @@
   }
 
 }
+
 @media (max-width: 576px) {
 
+  #courses .frontEnd--title {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    height: 374px;
+    border-radius: 32px;
+    margin: 43px -9px;
+  }
+  #courses .frontEnd--courses__inform--first{
+    p{
+      font-weight: 400;
+      font-size: 17px;
+      width: 397px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      color: rgba(27, 27, 27, 0.8);
+    }
+  }
+  #courses .frontEnd--title__first  {
+    h1{
+      font-weight: 500;
+      font-size: 56px;
+      line-height: 64px;
+      display: flex;
+      align-items: center;
+      color: #EC3025;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
   #course .course2--block {
     width: 534px;
     padding: 53px 14px; }
 }
+
 @media (max-width: 500px) {
   #course .course2--block {
     width: 423px;
@@ -230,6 +286,39 @@
     /* width: 239px; */
   }
 }
+
+@media (max-width: 451px) {
+
+
+  #course .course2--block {
+    width: 423px;
+    padding: 48px 17px;
+  }
+
+  #courses .frontEnd--title{
+    display: flex;
+    flex-direction: column;
+    width: 399px;
+    height: 349px;
+    border-radius: 32px;
+    margin: 43px 6px;
+  }
+
+  #course .course2--btn2 {
+    width: 172px;
+  }
+  #course .course2--desc1 {
+    font-size: 20px;
+  }
+  #course .course2--desc2 {
+    font-weight: 400;
+    font-size: 25px;}
+  #course .course2--title2 {
+    font-size: 26px;
+  }
+
+}
+
   @media (max-width: 400px) {
   #courses .frontEnd--courses__inform--first__fon {
     width: 382px;
@@ -259,6 +348,7 @@
     font-size: 50px;
   }
 }
+
 @media (max-width: 320px) {
   #courses .frontEnd--title {
     width: 270px;
