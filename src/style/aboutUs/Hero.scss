@@ -38,6 +38,191 @@
   }
 }
 @media (max-width: 320px) {
+
+    #FrontendHero {
+      min-height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 14rem;
+
+      .title {
+        button {
+          width: 207px;
+          height: 43px;
+          font-size: 15px;
+        }
+        h1 {
+          font-size: 34px;
+          padding-top: 90px;
+        }
+
+        h2 {
+          font-size: 34px;
+
+        }
+        p{
+          font-size: 12px;
+          line-height: 16px;
+          padding: 18px 0;
+          width: 265px;
+          margin-left: 25px;
+        }
+        p br{
+          display: none;
+
+        }
+
+      }
+
+      .FrontendHero {
+        .backdropBlur {
+          position: absolute;
+          width: 290px;
+          height: 381px;
+          left: 33px;
+          margin-left: -20px;
+        }
+
+        .media91 {
+          position: absolute;
+          left: 23%;
+          width: 221px;
+          top: 35%;
+          height: 220px;
+          animation: an6 5s ease-in infinite alternate;
+          -webkit-animation: an6 5s ease-in infinite alternate;
+        }
+
+        .media56 {
+          position: absolute;
+          left: 10%;
+          width: 126px;
+          top: 64%;
+          height: 122px;
+          animation: an7 5s ease-in infinite alternate;
+          -webkit-animation: an7 5s ease-in infinite alternate;
+        }
+
+        .media80 {
+          position: absolute;
+          left: 66%;
+          width: 112px;
+          top: 22%;
+          height: 106px;
+          animation: an10 5s ease-in infinite alternate;
+          -webkit-animation: an10 5s ease-in infinite alternate;
+        }
+
+        .media38 {
+          position: absolute;
+          left: 14%;
+          width: 95px;
+          top: 22%;
+          height: 92px;
+          animation: an9 5s ease-in infinite alternate;
+          -webkit-animation: an9 5s ease-in infinite alternate;
+        }
+
+        .media62 {
+          position: absolute;
+          left: 6%;
+          width: 58px;
+          top: 45%;
+          height: 52px;
+          animation: an2 5s ease-in infinite alternate;
+          -webkit-animation: an2 5s ease-in infinite alternate;
+        }
+
+        .media33 {
+          position: absolute;
+          left: 45%;
+          width: 50px;
+          top: 26%;
+          height: 47px;
+          animation: an5 5s ease-in infinite alternate;
+          -webkit-animation: an5 5s ease-in infinite alternate;
+        }
+
+        .media110 {
+          position: absolute;
+          left: 65%;
+          width: 124px;
+          top: 70%;
+          height: 113px;
+          animation: an4 5s ease-in infinite alternate;
+          -webkit-animation: an4 5s ease-in infinite alternate;
+        }
+
+        .media88 {
+          position: absolute;
+          left: 75%;
+          width: 100px;
+          top: 39%;
+          height: 113px;
+          animation: an1 5s ease-in infinite alternate;
+          -webkit-animation: an1 5s ease-in infinite alternate;
+        }
+
+        .media54 {
+          position: absolute;
+          left: 71%;
+          width: 70px;
+          top: 56%;
+          height: 62px;
+          animation: an7 5s ease-in infinite alternate;
+          -webkit-animation: an7 5s ease-in infinite alternate;
+        }
+        .an2 {
+          left: 223px;
+          top: 152px;
+          width: 122px;
+        }
+        .an5media {
+          top: 127px;
+          position: absolute;
+          left: 151px;
+          width: 100px;
+        }
+        .an3 {
+          left: 183px;
+          top: 375px;
+          width: 212px;
+        }
+        .an6 {
+          top: 360px;
+          left: 90px;
+          width: 154px;
+        }
+        .an4 {
+          display: block;
+          width: 168px;
+          left: 116px;
+          top: 241px;
+        }
+        .an4media {
+          top: 401px;
+          left: 10px;
+          width: 135px;
+        }
+        .an3media {
+          top: 282px;
+          left: 31px;
+        }
+        .an10 {
+          display: block;
+          right: -56px;
+          top: 230px;
+          width: 155px;
+        }
+        .an11 {
+          display: none;
+        }
+
+      }
+    }
+
+
   #mainPart .title p {
     font-size: 9.5px;
     line-height: 12px;

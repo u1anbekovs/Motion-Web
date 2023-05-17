@@ -16,49 +16,39 @@ const Gallery = () => {
     return (
         <section id="call">
             <div className="container">
+
                 <div className="call">
-                    <div>
-                        <h1 className="call--title">{t("text65")}</h1>
-                    </div>
-                    <div className="call--images1">
-                        <img src={img1} alt=""/>
-                        <img src={img2} className="call--img2" alt=""/>
-                    </div>
-                </div>
-                <div className="call--box">
+                    <h1 className="call--title">{t("text65")}</h1>
+                    <img src={img1} alt=""/>
+                    <img src={img2} className="call--img2" alt=""/>
                     <img src={img3} alt=""/>
                     <img src={img4} className="call--img4" alt=""/>
 
-                    <span className="call--desc" onClick={() => setBlock(!block)} style={{
-                        display: block ? "none" : ''
-                    }}>{t("text36")}</span>
+
+                    {
+                       block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                    }{
+                       block? <img src={img4} className="call--img4" alt=""/> : ""
+                    }{
+                       block ? <img src={img4} className="call--img4" alt=""/> : ""
+                    }
+                    <p className="call--desc" onClick={() => setBlock(!block)}>{block ? "Свернуть" : "Показать еще"}</p>
                 </div>
 
-                {
-                    block ? <div className="call--images2">
-                        <img src={img1} alt=""/>
-                        <img src={img2} alt=""/>
-                        <img src={img3} alt=""/>
-                        <img src={img2} alt=""/>
-                        <img src={img3} alt=""/>
-                        <img src={img3} alt=""/>
-                    </div> : ''
+                <div className="call--images">
+                    <img src={img1} alt=""/>
+                    <img src={img2} className="call--img2" alt=""/>
+                    <img src={img3} alt=""/>
+                    <img src={img4} className="call--img4" alt=""/>
+                    {
+                        block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                    }{
+                    block? <img src={img4} className="call--img4" alt=""/> : ""
+                }{
+                    block ? <img src={img4} className="call--img4" alt=""/> : ""
                 }
-                    }}>Показать ещё</span>
-
-                    {
-                        block ? <img src={img3} alt=""/> : ""
-                    }
-                    {
-                        block ? <img src={img3} alt=""/> : ""
-                    }
-                    {
-                        block ? <img src={img3} alt=""/> : ""
-                    }
                 </div>
-
             </div>
-
 
             <div className="call--boxes">
                 <div>
