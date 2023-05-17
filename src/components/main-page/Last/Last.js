@@ -1,9 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import "../../../style/main/Last.scss"
 import validation from "../../../modalPage/validation/Validation";
+import {useTranslation} from "react-i18next";
 
 
 const Last = ({lastForm}) => {
+
+    const {t} = useTranslation()
 
 
     const [values, setValues] = useState({
@@ -44,8 +47,8 @@ const Last = ({lastForm}) => {
                 <div className="application">
 
                     <div className="application--text">
-                        <h1>Оставить заявку на обучение <br/> или получить консультацию</h1>
-                        <p>Менеджер свяжется с вами в течение 30 минут <br/> и ответит на все интересующие вопросы.</p>
+                        <h1>{t("text40")} <br/> {t("text41")}</h1>
+                        <p>{t("text42")} <br/> {t("text43")}</p>
                     </div>
                     <form className="application--inputs">
 
@@ -56,7 +59,7 @@ const Last = ({lastForm}) => {
                             type="text"
                             name="name"
                             value={values.name}
-                            placeholder="Имя"/>
+                            placeholder={t("text47")}/>
 
 
                         {errors.number && <p style={{color: "red"}}>{errors.number}</p>}
@@ -65,7 +68,7 @@ const Last = ({lastForm}) => {
                             type="number"
                             name="number"
                             value={values.number}
-                            placeholder="Номер"/>
+                            placeholder={t("text46")}/>
 
 
                         {errors.email && <p style={{color: "red"}}>{errors.email}</p>}
@@ -74,16 +77,16 @@ const Last = ({lastForm}) => {
                             type="email"
                             name="email"
                             value={values.email}
-                            placeholder="Электронная почта"/>
+                            placeholder={t("text45")}/>
 
 
                         <div className="application--inputs__label">
                             <input id="checkbox" type="checkbox"/>
-                            <label htmlFor="checkbox">Я соглашаюсь на обработку персональных данных</label>
+                            <label htmlFor="checkbox">{t("text44")}</label>
                         </div>
 
 
-                        <button onClick={handleFormSubmit}>Оставить заявку</button>
+                        <button onClick={handleFormSubmit}>{t("text7")}</button>
 
 
                     </form>
