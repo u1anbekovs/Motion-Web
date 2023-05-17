@@ -1,6 +1,7 @@
 import React, {useState, useRef} from 'react';
 import "./../../../style/main/FAQ.scss"
 import {MdOutlineKeyboardArrowDown} from "react-icons/md"
+import {useTranslation} from "react-i18next";
 
 const faqs = [
     {
@@ -68,6 +69,8 @@ const AccordionItem = (props) => {
 const Accordion = () => {
 
     const [active, setActive] = useState(null);
+    const {t} = useTranslation()
+
 
     const handleToggle = (index) => {
         if (active === index) {
@@ -81,7 +84,7 @@ const Accordion = () => {
         <section id="accordion">
             <div className="container">
                 <div className="accordion">
-                    <h1>Частые вопросы</h1>
+                    <h1>{t("text39")}</h1>
                     <div className="accordion--details">
                         {faqs.map((faq, index) => {
                             return (

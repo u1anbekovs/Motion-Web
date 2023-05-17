@@ -1,25 +1,27 @@
 import React from 'react';
 import '../../../style/aboutUs/License.scss'
 import img from "../../../image/about-us/image 9.svg"
+import {useTranslation} from "react-i18next";
 const License = () => {
+    const {t} = useTranslation()
     return (
         <section id="list">
             <div className="container">
                 <div className="list">
                     <div>
                         <div>
-                            <h1 className="list--title">Наша лицензия</h1>
-                            <p className="list--desc">Наша программа по IT прошла проверку <br/>
-                                в Министерстве образования КР, <br/> что доказывает Motion web имеет право на:</p>
+                            <h1 className="list--title">{t("text58")}</h1>
+                            <p className="list--desc">{t("text59")}<br/>
+                                {t("text60")}<br/> {t("text61")}</p>
                         </div>
                         <div className="list--block">
                             <h1 className="list--number">01.</h1>
-                            <h2 className="list--title2">Обучать IT</h2>
+                            <h2 className="list--title2">{t("text62")}</h2>
                         </div>
                         <div className="list--line"></div>
                         <div className="list--block">
                             <h1 className="list--number">02.</h1>
-                            <h2 className="list--title2">Направлять на обучение <br/> и стажировку за границу</h2>
+                            <h2 className="list--title2">{t("text63")}<br/>{t("text64")}</h2>
                         </div>
                         <div className="list--line"></div>
                     </div>

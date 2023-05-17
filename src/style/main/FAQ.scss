@@ -30,11 +30,6 @@
   border-radius: 35px;
   background: white;
 
-  &:hover{
-    position: relative;
-    margin: 15px;
-  }
-
   &--collapse {
     overflow: hidden;
     transition: 1s all;

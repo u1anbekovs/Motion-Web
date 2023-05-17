@@ -9,9 +9,11 @@ import ani2 from '../../../image/it-club/ani2.png'
 import ani3 from '../../../image/it-club/ani3.png'
 import ani4 from '../../../image/it-club/ani4.png'
 import ani5 from '../../../image/it-club/ani5.png'
+import {useTranslation} from "react-i18next";
 
 
 const Project = () => {
+    const {t} = useTranslation()
 
 
     return (
@@ -20,7 +22,7 @@ const Project = () => {
                 <div className="project">
 
                     <div className="project--load">
-                        <h1>Команда</h1>
+                        <h1>{t("text72")}</h1>
                         <div>
                             <img className="project--load__any1" src={one} alt=""/>
                             <img className="project--load__any2" src={nine} alt=""/>
@@ -33,7 +35,7 @@ const Project = () => {
                         <img className="project--load__image" src={persons} alt=""/>
                         <div className="project--load__block">
                             <h2>Frontend</h2>
-                            <h2>UI/UX designer</h2>
+                            <h2>UI/UX {t("text19")}</h2>
                         </div>
                     </div>
 
