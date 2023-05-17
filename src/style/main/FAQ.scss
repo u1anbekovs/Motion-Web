@@ -89,3 +89,9 @@
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  .card--header__toggle h3 {
+    font-weight: 600;
+    font-size: 13px;
+  }
+}

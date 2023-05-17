@@ -50,8 +50,6 @@ const Last = ({lastForm}) => {
                         <h1>{t("text40")} <br/> {t("text41")}</h1>
                         <p>{t("text42")} <br/> {t("text43")}</p>
                     </div>
-
-
                     <form className="application--inputs">
 
 

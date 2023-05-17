@@ -77,7 +77,6 @@
   #found .found--desc {
     font-size: 22px;
   }
-
 }
 @media (max-width: 992px) {
   #found .found--desc {
@@ -108,6 +107,12 @@
   #found .found--desc {
     font-size: 21px;
     padding-bottom: 25px;
+  }
+}
+@media (max-width: 500px) {
+  #found .found--desc2 {
+    font-size: 16px;
+    line-height: 36%;
   }
 }
 @media (max-width: 400px) {

@@ -115,3 +115,24 @@
     top: -45px !important;
   }
 }
+@media (max-width: 500px) {
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .slick-prev {
+    width: 50px !important;
+    left: 200px !important;
+    top: 125px !important;
+  }
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .slick-next {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 80px !important;
+    top: 125px !important;
+  }
+}

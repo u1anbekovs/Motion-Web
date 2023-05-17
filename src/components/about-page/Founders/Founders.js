@@ -29,11 +29,8 @@ const Founders = () => {
                             <p className="found--desc2">{t("text57")}</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
-
         </section>
     );
 };

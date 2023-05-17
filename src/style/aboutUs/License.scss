@@ -109,6 +109,12 @@
     margin-left: 7px;
   }
 }
+@media (max-width: 500px) {
+  #list .list--line {
+    width: 451px;
+  }
+
+}
 @media (max-width: 400px) {
   #list .list--line {
     width: 367px;

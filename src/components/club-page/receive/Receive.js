@@ -25,7 +25,7 @@ const Receive = () => {
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={girl} alt=""/>
-                            <img src={book} alt=""/>
+                            <img className="second--image2" src={book} alt=""/>
                         </div>
                         <p>{t("text82")}</p>
                     </div>
