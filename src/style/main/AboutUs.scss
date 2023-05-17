@@ -74,44 +74,291 @@
 }
 
 @media (max-width: 992px) {
-  #us .us--block {
-    flex-direction: column;
-  }
-  #us .us--block1 {
-    flex-wrap: wrap;
-  }
-  #us .us--block1 {
-    margin-top: 80px;
-    padding: 50px 0;
-    background: #F8F8F8;
-    border: 2px solid #EC3025;
-    border-radius: 72px;}
   #us {
     padding: 16px 0;
-  }
-  #us .us--block__p {
-    width: 100%;
-  }
-  #us .us--block1 h1 {
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 64px;
-    color: #EC3025;
+    .us {
+      &--block {
+        flex-direction: column;
+        h1 {
+          padding-bottom: 12px;
+        }
+
+        &__p {
+          width: 100%;
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+        flex-wrap: wrap;
+        margin-top: 80px;
+        padding: 50px 0;
+        background: #F8F8F8;
+        border: 2px solid #EC3025;
+        border-radius: 72px;
+        h1 {
+          font-weight: 600;
+          font-size: 56px;
+          line-height: 64px;
+          color: #EC3025;
+        }
+
+        p {
+
+        }
+      }
+    }
   }
 }
-
-
 @media  (max-width: 768px) {
-  #us .us--block1 {
-    margin: 53px 0 25px 0;
+  #us {
+    padding: 16px 0;
+    .us {
+      &--block {
+        flex-direction: column;
+        h1 {
+
+        }
+
+        &__p {
+
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+        margin: 53px 0 25px 0;
+        h1 {
+          font-weight: 600;
+          font-size: 56px;
+          line-height: 64px;
+          color: #EC3025;
+        }
+
+        p {
+
+        }
+      }
+    }
   }
 }
 @media  (max-width: 576px) {
-  #us .us--block1 {
-    margin: 53px 0 25px 0;
+  #us {
+    padding: 16px 0;
+    .us {
+      &--block {
+        flex-direction: column;
+        h1 {
+          font-size: 33px;
+          padding: 26px 0;
+        }
+
+        &__p {
+          width: 100%;
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+          margin: 53px -2px 32px -7px;
+        h1 {
+          font-size: 55px;
+        }
+
+        p {
+          font-size: 22px;
+        }
+      }
+    }
   }
-  #us .us--block h1 {
-    font-size: 33px;
-    padding: 26px 0;
+}
+@media (max-width: 500px) {
+  #us {
+    padding: 16px 0;
+    .us {
+      &--block {
+        h1 {
+
+        }
+
+        &__p {
+          width: 100%;
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 7px;
+        grid-row-gap: 7px;
+        padding: 24px;
+        text-align: center;
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+#us {
+    padding: 16px 0;
+    .us {
+      &--block {
+        h1 {
+          font-size: 33px;
+          padding: 26px 0;
+        }
+
+        &__p {
+          width: 100%;
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+        margin: 53px 0 25px 0;
+        h1 {
+          font-weight: 600;
+          font-size: 56px;
+          line-height: 64px;
+          color: #EC3025;
+        }
+
+        p {
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+#us {
+    padding: 16px 0;
+    .us {
+      &--block {
+        h1 {
+          ;
+        }
+
+        &__p {
+          width: 100%;
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+        h1 {
+
+        }
+
+        p {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+#us {
+    .us {
+      &--block {
+        h1 {
+
+        }
+
+        &__p {
+          width: 100%;
+          p {
+
+          }
+
+          a {
+
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+
+      &--block1 {
+        h1 {
+          font-size: 45px;
+        }
+
+        p {
+          font-size: 13px;
+          line-height: 7px;
+        }
+      }
+    }
   }
 }
