@@ -87,6 +87,24 @@
   margin-left: 30px;
 }
 
+@media (max-width: 1140px) {
+  #header .header--pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 54%;
+  }
+}
+
+@media (max-width: 1040px) {
+  #header .header--pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+  }
+}
+
 
 @media (max-width: 1024px) {
   #header .header--pages {

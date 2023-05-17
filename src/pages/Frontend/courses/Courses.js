@@ -28,7 +28,6 @@ const Courses = () => {
                             <p>Научитесь с нуля разрабатывать интерфейсы. <br/>Узнаете, как с помощью дизайна
                                 направлять <br/>пользователей и решать задачи</p>
 
-
                         </div>
                         <div className="frontEnd--courses__inform--first">
                             <div className="frontEnd--courses__inform--first__fon">
@@ -43,7 +42,7 @@ const Courses = () => {
                 </div>
                 <div className="frontEnd--title">
                     <div className="frontEnd--title__first">
-                        <h1 >3 месяца <br/> <span className="frontEnd--skill">Обучения</span></h1>
+                        <h1 >6 месяца <br/> <span className="frontEnd--skill">Обучения</span></h1>
                     </div>
                     <div className="frontEnd--title__first">
                         <h1>3 раза <br/> <span>В неделю по 2 часа</span></h1>

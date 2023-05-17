@@ -104,6 +104,63 @@
 }@media  (max-width: 768px) {
 }
 @media  (max-width: 576px) {
+  .modal--content {
+    background: #282828;
+    box-shadow: 4px 32px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+
+    h4 {
+      transition: 0.5s all;
+      position: relative;
+      font-size: 30px;
+      left: 138px;
+      bottom: 155px;
+      cursor: pointer;
+      color: gray;
+    }
+
+    input {
+      padding: 10px 99px 10px 30px;
+      margin: 11px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: #FFF8F8;
+      border-radius: 20px;
+      box-shadow: 2px 2px 2px 2px black;
+      border: none;
+      outline: none;
+    }
+    .modal--content__label label {
+      cursor: pointer;
+      padding-left: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 130%;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    button {
+      transition: 0.5s all;
+      cursor: pointer;
+      padding: 7px 25%;
+      background: #EC3025;
+      border-radius: 44px;
+      border: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+
+  }
+
 }
 @media  (max-width: 500px) {
   .modal--content {

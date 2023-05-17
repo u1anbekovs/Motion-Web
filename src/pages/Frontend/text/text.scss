@@ -63,11 +63,43 @@
     width: 806px;
   }
 }
-@media (max-width: 1040px) {
+
+@media (max-width: 1140px) {
+  #frontEnd--cours .frontEnd--cours {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   #frontEnd--cours .frontEnd--cours__informs--first hr {
-    width: 752px;
+    width: 910px;
+  }
+  #frontEnd--cours .frontEnd--cours__informs--first__title p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    padding-top: 29px;
+    color: rgba(27, 27, 27, 0.8);
+    display: flex;
+    align-items: flex-start;
+    width: 388px;
+    br{
+      display: none;
+    }
   }
 }
+
+@media (max-width: 1040px) {
+  #frontEnd--cours .frontEnd--cours__informs--first hr {
+    width: 879px;
+  }
+}
+
+@media (max-width: 992px) {
+  #frontEnd--cours .frontEnd--cours__informs--first hr {
+    width: 837px;
+  }
+}
+
 @media (max-width: 768px) {
   #frontEnd--cours {
     padding: 50px;
@@ -258,7 +290,8 @@
 
             p {
               font-weight: 400;
-              font-size: 16px;
+              font-size: 14px;
+              width: 352px;
               line-height: 140%;
               padding-top: 29px;
               color: rgba(27, 27, 27, 0.8);

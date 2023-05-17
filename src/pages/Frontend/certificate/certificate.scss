@@ -75,6 +75,7 @@
   }
 }
 @media (max-width: 768px) {
+
   #certificate .certificate {
     flex-direction: column;
     /* justify-content: space-between; */
@@ -84,11 +85,15 @@
   }
   #certificate .certificate--img img {
     padding-top: 28px;
+    width: 541px;
+
   }
 }
 @media (max-width: 576px) {
   #certificate .certificate--img img {
-    /* margin-left: 22px; */
+    margin-left: -13px;
+    width: 369px;
+
   }
 }
 @media (max-width: 400px) {

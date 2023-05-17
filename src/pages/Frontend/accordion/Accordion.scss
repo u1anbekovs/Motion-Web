@@ -93,43 +93,6 @@
 
 }
 
-@media (max-width: 1140px) {
-  #bg {
-    .accordion {
-      &--type {
-        &__folower {
-          width: 1029px;
-          height: 620px;
-          background: #FFFFFF;
-          overflow: hidden;
-          border-radius: 25px;
-
-          &--folower2 {
-            &__folower3 {
-              &__folower4 {
-                &--icon {
-
-
-                }
-              }
-            }
-          }
-
-          &--this {
-            &__those {
-              margin: 0 -9rem 0 0;
-
-              p {
-
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 @media (max-width: 1200px) {
   #bg {
     .accordion {
@@ -160,6 +123,66 @@
           &--this {
             &__those {
               margin: 0 -14rem 0 0;
+
+              p {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .img{
+    width: 34px;
+    margin: 0 0 0 17px;
+  }
+  #bg .accordion--type__folower--folower2__folower3--folower4 h1 {
+    padding: 0 0 0 33px;
+    font-weight: 500;
+  }
+  //#bg .accordion--type__folower {
+  //  width: 1030px;
+  //  height: 620px;
+  //}
+  #bg {
+
+    .accordion {
+      &--type {
+        &__folower {
+          width: 1030px;
+          height: 620px;
+          &--folower2 {
+            &__folower3 {
+              &__folower4 {
+                //h1 {
+                //  padding: 0 0 0 29px;
+                //  font-style: normal;
+                //  font-weight: 500;
+                //  font-size: 24px;
+                //  line-height: 22px;
+                //  display: flex;
+                //  align-items: center;
+                //  text-align: center;
+                //  color: #000000;
+                //}
+
+                &--icon {
+
+
+                }
+              }
+            }
+          }
+
+          &--this {
+            padding: 39px 0;
+
+            &__those {
+              margin: 0 -9rem 0 0;
 
               p {
 
@@ -214,6 +237,7 @@
     }
   }
 }
+
 @media (max-width: 1040px) {
   #bg .accordion--type__folower {
     width: 934px;
@@ -225,7 +249,9 @@
     grid-column-gap: 4px;
   }
 }
+
 @media (max-width: 999px) {
+
   #bg {
     .accordion {
       &--type {
@@ -265,12 +291,15 @@
     }
   }
 }
+
 @media (max-width: 992px) {
+
   #bg {
     .accordion {
       &--type {
         &__folower {
-          width: 790px;
+          width: 883px;
+          margin-left: -54px;
           height: 620px;
 
           img {
@@ -292,26 +321,89 @@
     }
   }
 }
+
 @media (max-width: 768px) {
+  .accordion--type__folower__this--those__that{
+    margin: 29px 0 0 -106px;
+  }
   #bg {
+    background: #F8F8F8;
+    padding: 34px 0;
+
     .accordion {
       &--type {
+        margin: 15px 0;
+
         &__folower {
+          &--key{
+            width: 120px;
+            display: none;
+          }
+          transition: 1s;
           width: 669px;
-        img{
-          margin-left: 85px;
-        }
+          margin-left: 10px;
+          height: 620px;
+          background: #FFFFFF;
+          overflow: hidden;
+          border-radius: 25px;
+          img {
+            margin-left: 85px;
+          }
           &--folower2 {
+            position: relative;
+
             &__folower3 {
               position: absolute;
               top: 16px;
               left: -90px;
               width: 111%;
+              &--icon {
+                font-size: 30px;
+                transition: 1s;
+              }
 
-              &__folower4 {
-                &--icon {
+              &--folower4 {
+                display: flex;
+                align-items: center;
 
+                h1 {
+                  padding: 10px 0;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 24px;
+                  line-height: 22px;
+                  margin-left: 18px;
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  color: #000000;
+                }
 
+              }
+            }
+          }
+
+          &--this {
+            padding: 33px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            &__those {
+              p {
+                width: 592px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%;
+                margin: 57px 0 0 -127px;
+              }
+
+              &__that {
+                margin: 29px 0 0 -106px;
+                li {
+                  font-size: 19px;
+                  line-height: 170%;
+                  color: #1B1B1B;
                 }
               }
             }
@@ -321,14 +413,15 @@
     }
   }
 }
+
 @media (max-width: 576px) {
   #bg {
     .accordion {
       &--type {
-        margin-left: 36px;
+        margin-left: 10px;
 
         &__folower {
-          width: 401px;
+          width: 472px;
           height: 768px;
 
           &--key {
@@ -365,6 +458,7 @@
     }
   }
 }
+
 @media (max-width: 500px) {
   #bg {
     .accordion {
@@ -410,6 +504,7 @@
   }
 
 }
+
 @media (max-width: 430px) {
   #bg {
     .accordion {
@@ -468,8 +563,10 @@
     }
   }
 }
+
 @media (max-width: 414px) {
 }
+
 @media (max-width: 400px) {
   #bg {
     .accordion {
@@ -528,6 +625,7 @@
     }
   }
 }
+
 @media (max-width: 390px) {
   #bg {
     .accordion {
@@ -554,6 +652,7 @@
     }
   }
 }
+
 @media (max-width: 388px) {
   #bg {
     .accordion {
@@ -580,6 +679,7 @@
     }
   }
 }
+
 @media (max-width: 380px) {
   #bg {
     .accordion {
@@ -608,6 +708,7 @@
     }
   }
 }
+
 @media(max-width: 389px) {
   #bg {
     .accordion {
@@ -650,6 +751,7 @@
     }
   }
 }
+
 @media (max-width: 370px) {
   #bg {
     .accordion {
@@ -678,6 +780,7 @@
     }
   }
 }
+
 @media (max-width: 360px) {
   #bg {
     .accordion {
@@ -730,6 +833,7 @@
     }
   }
 }
+
 @media(max-width: 350px) {
   #bg {
     .accordion {
@@ -751,13 +855,10 @@
               margin-left: 2rem;
 
 
-                   li {
-                     width: 99%;
-                     font-size: 12px;
-                   }
-
-
-
+              li {
+                width: 99%;
+                font-size: 12px;
+              }
 
 
               p {
@@ -790,6 +891,7 @@
     }
   }
 }
+
 @media (max-width: 321px) {
   #bg {
     .accordion {

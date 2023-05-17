@@ -10,13 +10,13 @@ import SliderIcon2 from "../../../image/main/check.svg"
 
 const Mentor = () => {
 
-    var settings = {
+    let settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         arrows: false,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        speed: 400,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
             {

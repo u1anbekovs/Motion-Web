@@ -33,7 +33,7 @@ const Accordion = () => {
                             <div   className="accordion--type__folower--folower2">
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
-                                        <img src={img1} alt="img"/>
+                                        <img className={'img'} src={img1} alt="img"/>
                                         <h1>Landing page</h1>
                                     </div>
                                     <MdKeyboardArrowDown   className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected ? 'rotate(182deg)': 'rotate(1deg)'}} />
@@ -81,7 +81,7 @@ const Accordion = () => {
                             <div   className="accordion--type__folower--folower2">
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
-                                        <img src={img2} alt="img"/>
+                                        <img className={'img'} src={img2} alt="img"/>
                                         <h1>Основы UX дизайна</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected2 ? 'rotate(182deg)': 'rotate(1deg)'}} />
@@ -131,7 +131,7 @@ const Accordion = () => {
                             }}   className="accordion--type__folower--folower2">
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
-                                        <img src={img3} alt="img"/>
+                                        <img className={'img'} src={img3} alt="img"/>
                                         <h1>Landing page</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected3 ? 'rotate(182deg)': 'rotate(1deg)'}} />
@@ -180,7 +180,7 @@ const Accordion = () => {
                             }}   className="accordion--type__folower--folower2">
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
-                                        <img src={img4} alt="img"/>
+                                        <img className={'img'} src={img4} alt="img"/>
                                         <h1>Упаковка портфолио</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected4 ? 'rotate(182deg)': 'rotate(1deg)'}} />
@@ -227,7 +227,7 @@ const Accordion = () => {
                             <div   className="accordion--type__folower--folower2">
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
-                                        <img src={img5} alt="img"/>
+                                        <img className={'img'} src={img5} alt="img"/>
                                         <h1>Экзамен</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected5 ? 'rotate(182deg)': 'rotate(1deg)'}} />

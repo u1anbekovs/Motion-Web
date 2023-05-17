@@ -778,6 +778,8 @@
   }
 
 
+
+
   @media (max-width: 1200px) {
     #FrontendHero {
       min-height: 100%;
@@ -1114,6 +1116,36 @@
     }
   }
 
+  @media (max-width: 1040px) {
+    #FrontendHero .FrontendHero .backdropBlur {
+      width: 960px;
+      height: 705px;
+    }
+    #FrontendHero .FrontendHero .an9 {
+      left: 831px;
+      }
+    #FrontendHero .FrontendHero .an10 {
+      top: 403px;
+      right: 18px;
+    }
+    #FrontendHero .FrontendHero .an11 {
+      top: 657px;
+      left: 815px;
+    }
+    #FrontendHero .FrontendHero .an2 {
+      left: 674px;
+      top: 187px;
+    }
+    #FrontendHero .FrontendHero .an3 {
+      left: 28rem;
+      top: 21rem;
+    }
+    #FrontendHero .FrontendHero .an4 {
+      top: 259px;
+      width: 277px;
+      left: 55px;
+    }
+  }
   @media (max-width: 992px) {
     #FrontendHero {
       .title{
@@ -1380,7 +1412,7 @@
       .FrontendHero {
         .backdropBlur {
           position: absolute;
-          width: 716px;
+          width: 719px;
           height: 505px;
           left: 33px;
           margin-left: -20px;
@@ -1492,10 +1524,11 @@
         }
         .an5media {
           top: 127px;
-          left: 78px;          width: 200px;
+          left: 78px;
+          width: 200px;
         }
         .an3 {
-          left: 484px;
+          left: 460px;
           top: 340px;
           width: 288px;
         }
@@ -1521,7 +1554,7 @@
         }
         .an10 {
           display: block;
-          right: -32px;
+          right: 17px;
           top: 230px;
           width: 155px;
         }
@@ -1532,6 +1565,7 @@
       }
     }
   }
+
 
   @media (max-width: 660px) {
     #FrontendHero {
@@ -1727,6 +1761,7 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      margin-bottom: 12rem;
 
       .title {
         button {
@@ -1761,7 +1796,7 @@
       .FrontendHero {
         .backdropBlur {
           position: absolute;
-          width: 546px;
+          width: 535px;
           height: 402px;
           left: 33px;
           margin-left: -20px;
@@ -1871,7 +1906,7 @@
           width: 200px;
         }
         .an3 {
-          left: 376px;
+          left: 357px;
           top: 340px;
           width: 212px;
         }
@@ -1897,14 +1932,17 @@
         }
         .an10 {
           display: block;
-          right: -32px;
-          top: 230px;
+          right: 92px;
+          top: 307px;
           width: 155px;
         }
         .an11 {
           display: none;
         }
-
+       .an8 {
+          top: 237px;
+          left: 106px;
+        }
       }
     }
   }
@@ -2059,13 +2097,14 @@
         }
         .an3 {
           left: 234px;
-          top: 375px;
+          top: 296px;
           width: 212px;
         }
         .an6 {
-          top: 394px;
-          left: 147px;
+          top: 306px;
+          left: 31px;
           width: 154px;
+
         }
         .an4 {
           display: block;
@@ -2082,14 +2121,24 @@
           top: 282px;
           left: 31px;
         }
+       .an1 {
+          top: 101px;
+          left: 237px;
+          width: 168px;
+        }
         .an10 {
           display: block;
-          right: -32px;
-          top: 230px;
+          right: 10px;
+          top: 238px;
           width: 155px;
         }
         .an11 {
           display: none;
+        }
+        .an8 {
+          top: 354px;
+          left: 132px;
+          width: 194px;
         }
 
       }
