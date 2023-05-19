@@ -40,11 +40,11 @@
 @media (max-width: 320px) {
 
     #FrontendHero {
+      margin-bottom: 9rem;
       min-height: 100%;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      margin-bottom: 14rem;
 
       .title {
         button {
@@ -53,8 +53,7 @@
           font-size: 15px;
         }
         h1 {
-          font-size: 34px;
-          padding-top: 90px;
+          font-size: 40px;
         }
 
         h2 {
@@ -62,11 +61,7 @@
 
         }
         p{
-          font-size: 12px;
-          line-height: 16px;
-          padding: 18px 0;
-          width: 265px;
-          margin-left: 25px;
+          font-size: 11px;
         }
         p br{
           display: none;
@@ -173,10 +168,13 @@
           animation: an7 5s ease-in infinite alternate;
           -webkit-animation: an7 5s ease-in infinite alternate;
         }
+        .an1{
+          display: none;
+        }
         .an2 {
-          left: 223px;
-          top: 152px;
-          width: 122px;
+          left: 198px;
+          top: 107px;
+          width: 104px;
         }
         .an5media {
           top: 127px;
@@ -185,9 +183,9 @@
           width: 100px;
         }
         .an3 {
-          left: 183px;
+          left: 165px;
           top: 375px;
-          width: 212px;
+          width: 183px;
         }
         .an6 {
           top: 360px;
@@ -211,14 +209,21 @@
         }
         .an10 {
           display: block;
-          right: -56px;
+          right: -48px;
           top: 230px;
           width: 155px;
         }
         .an11 {
           display: none;
         }
-
+        .an8{
+          display: none;
+        }
+        .an1media{
+          left: 7px;
+          top: 112px;
+          width: 113px;
+        }
       }
     }
 

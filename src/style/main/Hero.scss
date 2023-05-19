@@ -1773,13 +1773,11 @@
 
     .title {
       h1 {
-        font-size: 44px;
-        padding-top: 70px;
+        font-size: 53px;
+        margin-top: -21px;
       }
-
       h2 {
         font-size: 44px;
-
       }
     }
 
@@ -2108,7 +2106,7 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
 
   #mainPart {
     min-height: 100%;
@@ -2118,9 +2116,7 @@
 
     .title {
       button {
-        width: 207px;
-        height: 43px;
-        font-size: 15px;
+
       }
       h1 {
         font-size: 34px;
@@ -2141,15 +2137,7 @@
 
     .mainPart {
       .backdropBlur {
-        position: absolute;
-        width: 314px;
-        height: 400px;
-        left: 33px;
-        margin-left: -20px;
-      }
-      #mainPart .mainPart .backdropBlur {
-        position: absolute;
-        width: 304px;
+        width: 295px;
       }
       .media91 {
         position: absolute;
@@ -2290,45 +2278,98 @@
   }
 }
 @media  (max-width: 444px) {
+  #mainPart {
+    .mainPart {
+      .an3 {
+        left: 952px;
+      }
 
-  #mainPart .mainPart .an3 {
-    left: 952px;
-  }
+      .an2 {
+        /* left: 295px; */
+        left: 241px;
+        width: 30%;
+      }
 
-  #mainPart .mainPart .an2 {
-    /* left: 295px; */
-    left: 241px;
-    width: 30%;
-  }
-  #mainPart .mainPart .an10 {
-    display: block;
-    right: 44px;
+      .an10 {
+        display: block;
+        right: 44px;
+      }
+    }
   }
 }
 
 @media(max-width: 500px) {
-  #mainPart .title h1 {
-    font-size: 57px;
-    line-height: 52px;
-  }
-  #mainPart .title p {
-    font-size: 13px;
-  }
-  #mainPart .mainPart .backdropBlur {
-    width: 440px;
-  }
-  #mainPart .title h1 {
-    margin-top: 50px;
-  }
-  #mainPart .title h1 {
-    font-size: 63px;
-    line-height: 69px;
-  }
-  #mainPart .title p {
-    font-size: 19px;
-    line-height: 1px;
+  #mainPart{
+    .title{
+      h1 {
+        font-size: 57px;
+        line-height: 52px;
+      }
+      p {
+         font-size: 13px;
+       }
+    }
+    .backdropBlur {
+       width: 440px;
+     }
+    h1 {
+      font-size: 63px;
+      line-height: 69px;
+    }
+    p {
+      font-size: 19px;
+      line-height: 1px;
+    }
   }
 }
 @media  (max-width: 400px) {
-}@media  (max-width: 390px) {
+  #mainPart{
+    .mainPart{
+      .backdropBlur{
+        width: 382px;
+      }
+    }
+
+    .title{
+      button{
+        height: 40px;
+        width: 260px;
+      }
+    }
+
+  }
+}
+@media (max-width: 320px) {
+  #mainPart{
+    .mainPart{
+      .backdropBlur{
+        width: 300px;
+      }
+      .an3{
+        left: 900px;
+        width: 195px;
+      }
+      .an2{
+        left: 231px;
+      }
+      .an4media{
+        top: 418px;
+        left: 7px;
+        width: 124px;
+      }
+      .an4{
+        width: 156px;
+        left: 169px;
+        top: 241px;
+      }
+    }
+    .title{
+      h1{
+        font-size: 34px;
+      }
+      .an10{
+        right: -36px;
+      }
+    }
+  }
 }

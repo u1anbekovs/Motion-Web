@@ -2688,14 +2688,12 @@
 
     .title {
       button {
-        width: 207px;
-        height: 43px;
-        font-size: 15px;
+        height: 37px;
       }
 
       h1 {
-        font-size: 34px;
-        padding-top: 90px;
+        font-size: 41px;
+        line-height: 47px;
       }
 
       h2 {
@@ -2704,11 +2702,9 @@
       }
 
       p {
+        margin-left: 31px;
+        width: 249px;
         font-size: 12px;
-        line-height: 16px;
-        padding: 18px 0;
-        width: 265px;
-        margin-left: 25px;
       }
 
       p br {

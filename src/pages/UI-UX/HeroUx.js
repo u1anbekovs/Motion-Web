@@ -33,7 +33,7 @@ const HeroUx = () => {
     return (
         <div id="FrontendHero">
             <div className='title'>
-                <h1 style={{lineHeight: "150px"}}>UI/UX <br/>
+                <h1 >UI/UX <br/>
                     <span>DESIGN</span></h1>
                 <p>UX/UI-дизайн — это процесс создания интерактивных, <br/>удобных интерфейсов. Отличный вариант
                     профессии <br/>для творческих людей, которым нравится решать <br/>проблемы пользователей и создавать
