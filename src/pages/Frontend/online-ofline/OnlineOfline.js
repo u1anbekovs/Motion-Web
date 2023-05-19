@@ -70,7 +70,7 @@ const OnlineOfline = () => {
                         <div  onClick={() => SetChoose2(!choose2)} style={{display: choose2 ? "block" : "none"}} className="OnOf--window2"></div>
                     </div>
                 </div>
-\
+
                 </div>
             </div>
     )

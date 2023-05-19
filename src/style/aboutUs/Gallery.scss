@@ -11,25 +11,25 @@
       padding: 20px 0;
     }
     &--title{
-            font-family: 'Muller',sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 40px;
-            color: #EC3025;
-          }
+      font-family: 'Muller',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 40px;
+      color: #EC3025;
+    }
     &--desc{
-            font-family: 'SF Pro Display',sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
-            color: #000000;
-            position: relative;
-            top: 15rem;
-            right: 90px;
-            cursor: pointer;
-          }
+      font-family: 'SF Pro Display',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+      position: relative;
+      top: 15rem;
+      right: 90px;
+      cursor: pointer;
+    }
     &--boxes{
       background: linear-gradient(289.3deg, #131313 17.11%, rgba(23, 23, 23, 0.943269) 53.28%, rgba(28, 28, 28, 0.87) 100%);
       padding: 100px;
@@ -151,18 +151,18 @@
   }
 }
 @media (max-width: 768px) {
-#call{
-  .call{
-    &--desc{
-      position: relative;
-      top: 9rem;
-      right: 41px;
-    }
-    &--boxes{
-      display: flex;
-      flex-direction: column;
-      grid-row-gap: 50px;
-    }
+  #call{
+    .call{
+      &--desc{
+        position: relative;
+        top: 9rem;
+        right: 41px;
+      }
+      &--boxes{
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 50px;
+      }
     }
   }
 }
