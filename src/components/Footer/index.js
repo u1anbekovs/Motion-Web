@@ -46,7 +46,7 @@ const Footer = () => {
                                 <th onClick={() => navigate(`/about_us`) || window.scroll(0, 0)}>{t("text3")}</th>
                                 <th onClick={() => navigate(`/it_club`) || window.scroll(0, 0)}>{t("text5")}</th>
                                 <a href=""></a>
-                                <th onClick={() => navigate(`/`)}>{t("text39")}</th>
+                                <th onClick={() => navigate(`/`)}>FAQ</th>
                             </tr>
                             <td>
                                 <a href="tel:">+996 700 232 400</a>

@@ -261,6 +261,7 @@
           display: flex;
           align-items: center;
           color: #EC3025;
+          margin: 32rem 0 0 0;
 
           br{
             display: none;
@@ -472,7 +473,7 @@
       &__text {
         h2 {
           font-weight: 500;
-          font-size: 16px;
+          font-size: 20px;
           line-height: 40px;
           display: flex;
           align-items: center;
@@ -505,9 +506,11 @@
             }
 
             p {
+              margin-top: -14px;
+              width: 209px;
               font-weight: 400;
               font-size: 13px;
-              line-height: 140%;
+              line-height: 116%;
               padding-top: 29px;
               color: rgba(27, 27, 27, 0.8);
               display: flex;

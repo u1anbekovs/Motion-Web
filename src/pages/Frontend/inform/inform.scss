@@ -120,22 +120,31 @@
   }
 }
 @media (max-width: 400px) {
-  #inform .inform--text p {
-    width: 398px;
-  }
-  #inform .inform--text h4 {
-    width: 379px;
+
+  #inform  {
+    .inform--text{
+      p{
+        width: 366px;
+        line-height: 20px;
+      }
+      h4{
+        width: 352px;
+        line-height: 20px;
+      }
+    }
+
   }
 }
 @media (max-width: 320px) {
   #inform .inform--text p {
-    width: 320px;
+    width: 287px;
   }
-  #inform .inform--text h4 {
-    width: 320px;
-  }
+
   #inform .inform--question span {
     font-size: 29px;
+  }
+  #inform .inform--text h4 {
+    width: 255px;
   }
   #inform .inform--question h3 {
     font-size: 29px;

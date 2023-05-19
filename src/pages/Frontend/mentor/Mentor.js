@@ -40,20 +40,9 @@ const Mentor = () => {
                 breakpoint: 320,
                 settings : {
                     dots: true,
-                    nextArrow: <img className='arrowNext' src={SliderIcon1} alt=""/>,
-                    prevArrow: <img className='arrowPrev' src={SliderIcon2} alt=""/>,
-                    infinite: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
-                    vertical: true,
-                    verticalSwiping: true,
-                    swipeToSlide: true,
-                    beforeChange: function(currentSlide, nextSlide) {
-                        console.log("before change", currentSlide, nextSlide);
-                    },
-                    afterChange: function(currentSlide) {
-                        console.log("after change", currentSlide);
-                    }
+
                 },
             }
         ]

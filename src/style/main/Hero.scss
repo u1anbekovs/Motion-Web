@@ -1722,6 +1722,11 @@
 
 @media (max-width: 576px) {
   #mainPart {
+    .title{
+      h1{
+        font-size: 52px;
+      }
+    }
     .mainPart {
       .backdropBlur {
         width: 514px;
