@@ -26,21 +26,21 @@ const Last = () => {
                             <img src={smile3} alt=""/>
                             <div className="last--card__details--text">
                                 <h3>{t("text77")}</h3>
-                                <p>{t("text76")}</p>
+                                <p>{t("text76_1")}</p>
                             </div>
                         </div>
                         <div className="last--card__details">
                             <img src={smile2} alt=""/>
                             <div className="last--card__details--text">
                                 <h3>{t("text78")}</h3>
-                                <p>{t("text76")}</p>
+                                <p>{t("text76_2")}</p>
                             </div>
                         </div>
                         <div className="last--card__details">
                             <img src={smile1} alt=""/>
                             <div className="last--card__details--text">
                                 <h3>{t("text71")}</h3>
-                                <p>{t("text76")}</p>
+                                <p>{t("text76_3")}</p>
                             </div>
                         </div>
                     </div>
