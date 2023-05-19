@@ -21,6 +21,11 @@ import {useTranslation} from "react-i18next";
 const Hero = () => {
     const {t} = useTranslation()
     return (
+                 <div id="mainPart">
+            <div className='title'>
+                <h1>{t("text85")} <br/> <span style={{
+                    color: '#EC3025',
+                }}>{t("text86")}</span>?</h1>
         <div id="FrontendHero">
             <div className='title'>
                 <h1>Что такое <br/>
