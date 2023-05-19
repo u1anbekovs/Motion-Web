@@ -44,7 +44,9 @@ const Gallery = () => {
                         <img src={img3} alt=""/>
                     </div> : ''
                 }
-                    }}>Показать ещё</span>
+                <div>
+                <div>
+                    <span>Показать ещё</span>
 
                     {
                         block ? <img src={img3} alt=""/> : ""
@@ -58,8 +60,6 @@ const Gallery = () => {
                 </div>
 
             </div>
-
-
             <div className="call--boxes">
                 <div>
                     <img src={img5} alt=""/>
@@ -70,6 +70,7 @@ const Gallery = () => {
                 <div>
                     <img src={img7} alt=""/>
                 </div>
+            </div>
             </div>
         </section>
     );

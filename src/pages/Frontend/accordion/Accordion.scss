@@ -39,7 +39,7 @@
               h1 {
                 padding: 10px 0;
                 font-style: normal;
-                font-weight: 700;
+                font-weight: 500;
                 font-size: 24px;
                 line-height: 22px;
                 /* identical to box height, or 92% */
@@ -56,7 +56,7 @@
         }
 
         &--this {
-          padding: 33px 0;
+          padding: 41px 0;
           display: flex;
           align-items: center;
           justify-content: space-around;
@@ -123,10 +123,14 @@
           &--this {
             &__those {
               margin: 0 -14rem 0 0;
+              &__that {
+                li {
 
-              p {
+                }
+
 
               }
+
             }
           }
         }
@@ -136,7 +140,7 @@
 }
 
 @media (max-width: 1140px) {
-  .img{
+  .img {
     width: 34px;
     margin: 0 0 0 17px;
   }
@@ -155,6 +159,7 @@
         &__folower {
           width: 1030px;
           height: 620px;
+
           &--folower2 {
             &__folower3 {
               &__folower4 {
@@ -323,7 +328,7 @@
 }
 
 @media (max-width: 768px) {
-  .accordion--type__folower__this--those__that{
+  .accordion--type__folower__this--those__that {
     margin: 29px 0 0 -106px;
   }
   #bg {
@@ -335,10 +340,11 @@
         margin: 15px 0;
 
         &__folower {
-          &--key{
+          &--key {
             width: 120px;
             display: none;
           }
+
           transition: 1s;
           width: 669px;
           margin-left: 10px;
@@ -346,9 +352,11 @@
           background: #FFFFFF;
           overflow: hidden;
           border-radius: 25px;
+
           img {
             margin-left: 85px;
           }
+
           &--folower2 {
             position: relative;
 
@@ -357,6 +365,7 @@
               top: 16px;
               left: -90px;
               width: 111%;
+
               &--icon {
                 font-size: 30px;
                 transition: 1s;
@@ -400,6 +409,7 @@
 
               &__that {
                 margin: 29px 0 0 -106px;
+
                 li {
                   font-size: 19px;
                   line-height: 170%;
@@ -569,13 +579,15 @@
 
 @media (max-width: 400px) {
   #bg {
+    background: #efefef;
+
     .accordion {
       &--type {
         margin-left: 2px;
 
         &__folower {
-          width: 362px;
-          height: 838px;
+          width: 342px;
+          height: 655px;
 
 
           &--key {
@@ -752,17 +764,27 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 376px) {
+  #bg .accordion--type__folower--folower2__folower3--folower4 h1 {
+    font-size: 17px;
+  }
+  .accordion--type__folower__this--those__that {
+    margin: 29px 0 0 -170px;
+  }
   #bg {
     .accordion {
       &--type {
         &__folower {
           width: 323px;
-          height: 793px;
+          height: 670px;
 
           &--folower2 {
             &__folower3 {
               &__folower4 {
+                h1 {
+                  font-size: 17px;
+                }
+
                 h4 {
                   font-size: 18px;
                   margin-left: 18px;
@@ -775,6 +797,27 @@
               }
             }
           }
+          &--this {
+
+            &__those {
+              p {
+                width: 278px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%;
+                margin: 24px 0 0 -170px;
+              }
+
+              &__that {
+                margin: 29px 0 0 -153px;
+                li {
+
+
+                }
+              }
+            }
+          }
+
         }
       }
     }
@@ -897,12 +940,12 @@
     .accordion {
       &--type {
         &__folower {
-          width: 284px;
-          height: 656px;
+          width: 264px;
+          height: 544px;
 
           h1 {
-            font-size: 17px;
-            margin-left: 46px;
+              font-size: 15px;
+              margin-left: 10px;
           }
 
 
@@ -916,8 +959,9 @@
 
 
               p {
-                width: 249px;
-                font-size: 16px;
+                width: 222px;
+                font-size: 12px;
+                padding:  0 0 2px 0;
               }
             }
           }
@@ -943,4 +987,5 @@
       }
     }
   }
+
 }
