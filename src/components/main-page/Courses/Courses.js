@@ -18,7 +18,6 @@ const Courses = () => {
         setSubmitted(true)
     }
 
-
     const [start, setStart] = useState(true)
     const startForm = () => {
         setStart(true)

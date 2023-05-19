@@ -498,17 +498,7 @@
         height: 390px;
         overflow: hidden;
         background: #EFEFEF;
-      }
 
-      &--name2 {
-        background: #4886FF;
-        transform: rotate(-2deg);
-        width: 99.9%;
-        height: 60px;
-        position: relative;
-        overflow: hidden;
-        padding: 15px;
-        margin-bottom: 10rem;
       }
       &--icon {
         position: relative;
@@ -677,7 +667,7 @@
 
 
       &--but1 {
-        padding-top: 4rem;
+        padding-top: 6.5rem;
       }
 
       &--but {
@@ -753,18 +743,9 @@
         height: 390px;
         overflow: hidden;
         background: #EFEFEF;
+        margin-top: 71px;
       }
 
-      &--name2 {
-        background: #4886FF;
-        transform: rotate(-2deg);
-        width: 99.9%;
-        height: 60px;
-        position: relative;
-        overflow: hidden;
-        padding: 15px;
-        margin-bottom: 10rem;
-      }
       &--icon {
         position: relative;
         top: -40px;
@@ -1216,6 +1197,7 @@
 
       &--block {
         width: 558px;
+        height: 392px;
         padding: 50px 12px;
       }
 
@@ -1412,7 +1394,7 @@
 
 
       &--but1 {
-        padding-top: 3rem;
+        padding-top: 6rem;
       }
 
       &--but {
@@ -1660,267 +1642,17 @@
   }
 }
 @media (max-width: 401px) {
-  #course {
-
-    .course2 {
+#course{
+  .course2{
+    &--block{
+      width: 377px;
+    }
+    &--tiles{
       display: flex;
-      padding: 170px 0 100px 0;
-
-      &--box {
-        width: 346px;
-      }
-
-      &--btn1 {
-        left: 200px;
-      }
-
-      &--image {
-        position: relative;
-        left: 34px;
-      }
-
-      &--block {
-        width: 358px;
-        height: 495px;
-      }
-
-      &--titles {
-        display: flex;
-        align-items: baseline;
-        flex-direction: column;
-      }
-
-      &--title1 {
-        font-weight: 500;
-        font-size: 28px;
-      }
-
-      &--desc1 {
-
-      }
-
-      &--title2 {
-        font-size: 21px;
-      }
-
-      &--btn2 {
-        width: 300px;
-      }
-
-      &--desc2 {
-
-      }
-
-      &--left {
-        margin-left: 20px;
-      }
-    }
-    .course {
-
-      section {
-        position: relative;
-        width: 100%;
-        height: 390px;
-        overflow: hidden;
-        background: #EFEFEF;
-      }
-
-      &--name2 {
-        background: #4886FF;
-        transform: rotate(-2deg);
-        width: 99.9%;
-        height: 60px;
-        position: relative;
-        overflow: hidden;
-        padding: 15px;
-        margin-bottom: 10rem;
-      }
-      &--icon {
-        position: relative;
-        top: -40px;
-        left: 7.6rem;
-      }
-
-      &--projects {
-        display: flex;
-        justify-content: center;
-        grid-column-gap: 15rem;
-        padding-top: 30px;
-      }
-
-      &--block {
-        width: 343px;
-        margin: 0 31px;
-      }
-
-      &--block2 {
-        width: 341px;
-        margin: 0 32px;
-      }
-
-      &--block3 {
-        width: 380px;
-        height: 172.24px;
-        border-radius: 30px 30px 0 0;
-        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
-      }
-
-      &--girl {
-        position: relative;
-        left: 94px;
-      }
-
-      &--box {
-        width: 342px;
-        height: 512px;
-        margin: 0 32px;
-      }
-
-      &--title3 {
-        font-family: 'Muller', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 40px;
-        display: flex;
-        align-items: center;
-        color: #030303;
-        padding-bottom: 15px;
-      }
-
-      &--desc1 {
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 130%;
-        color: rgba(27, 27, 27, 0.8);
-        padding-bottom: 15px;
-      }
-
-      &--buttons {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      &--buttons button:hover {
-        color: #4886FF;
-        border: 2px solid #4886FF;
-        transition: .3s;
-      }
-
-      &--btn1 {
-        border: 1px solid #000000;
-        border-radius: 30px;
-        width: 76px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-      }
-
-      &--btn2 {
-        width: 111px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-      }
-
-      &--btn3 {
-        width: 50px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-      }
-
-      &--buttons2 button {
-        margin: 5px 2px;
-      }
-
-      &--buttons2 button:hover {
-        color: #4886FF;
-        border: 2px solid #4886FF;
-      }
-
-      &--btn4 {
-        width: 64px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-        background: transparent;
-      }
-
-      &--btn5 {
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-        width: 136px;
-        height: 43px;
-      }
-
-      &--btn6 {
-        width: 310px;
-      }
-
-      &--btn {
-        &:hover {
-          background: red;
-          color: white;
-        }
-        width: 307px;
-      }
-
-      &--btn6:hover {
-        background: black;
-        color: white;
-        transition: .3s;
-        border: none;
-      }
-
-      &--design {
-        position: relative;
-        left: 6rem;
-      }
-
-
-      &--but1 {
-        padding-top: 2rem;
-      }
-
-      &--but {
-        padding-top: 2rem;
-      }
+      flex-direction: column;
     }
   }
-
-
-
-  #course .course2--title1 {
-  }
-  #course .course2--title2 {
-
-  }
+}
 }
 @media  (max-width: 320px) {
   #course {
@@ -1949,12 +1681,13 @@
       }
 
       &--block {
-        width: 293px;
-        height: 466px;
+        width: 297px;
+        height: 480px;
       }
 
       &--titles {
         display: flex;
+        flex-direction: column;
       }
 
       &--title1 {

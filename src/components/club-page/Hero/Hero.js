@@ -17,17 +17,19 @@ import an4media from "../../../image/main/an4media.png";
 import an5media from "../../../image/main/an5media.png";
 import {useTranslation} from "react-i18next";
 
+
 const Hero = () => {
     const {t} = useTranslation()
     return (
-        <div id="mainPart">
+        <div id="FrontendHero">
             <div className='title'>
-                <h1>Что такое <br/> <span style={{
+                <h1>Что такое <br/>
+                    <span style={{
                     color: '#EC3025',
-                }}>IT Club</span>?</h1>
+                }}>IT Club</span> ?</h1>
                 <p>{t("text1")}</p>
             </div>
-            <div className="mainPart">
+            <div className="FrontendHero">
                 <div className="an1">
                     <img src={an1} alt=""/>
                 </div>
@@ -64,12 +66,9 @@ const Hero = () => {
                 <div className="an9">
                     <img src={an9} alt=""/>
                 </div>
-
-
                 <div className="an1media">
                     <img src={an1media} alt=""/>
                 </div>
-
                 <div className="an3media">
                     <img src={an3media} alt=""/>
                 </div>
@@ -89,8 +88,8 @@ const Hero = () => {
                 <div className="media88"></div>
                 <div className="media54"></div>
                 <div className="backdropBlur"></div>
-
             </div>
+
         </div>
     );
 };
