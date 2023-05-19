@@ -24,32 +24,14 @@ const Gallery = () => {
                     <img src={img3} alt=""/>
                     <img src={img4} className="call--img4" alt=""/>
 
-                    <span className="call--desc" onClick={() => setBlock(!block)} style={{
-                        display: block ? "none" : ''
-                    }}>{t("text36")}</span>
-                </div>
-
-                {
-                    block ? <div className="call--images2">
-                        <img src={img1} alt=""/>
-                        <img src={img2} alt=""/>
-                        <img src={img3} alt=""/>
-                        <img src={img2} alt=""/>
-                        <img src={img3} alt=""/>
-                        <img src={img3} alt=""/>
-                    </div> : ''
-                }
-                <div>
-                <div>
-                    <span>Показать ещё</span>
 
                     {
-                       block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                        block ?  <img src={img4} className="call--img4" alt=""/> : ""
                     }{
-                       block? <img src={img4} className="call--img4" alt=""/> : ""
-                    }{
-                       block ? <img src={img4} className="call--img4" alt=""/> : ""
-                    }
+                    block? <img src={img4} className="call--img4" alt=""/> : ""
+                }{
+                    block ? <img src={img4} className="call--img4" alt=""/> : ""
+                }
                     <p className="call--desc" onClick={() => setBlock(!block)}>{block ? "Свернуть" : "Показать еще"}</p>
                 </div>
 
@@ -67,6 +49,7 @@ const Gallery = () => {
                 }
                 </div>
             </div>
+
             <div className="call--boxes">
                 <div>
                     <img src={img5} alt=""/>
@@ -77,7 +60,6 @@ const Gallery = () => {
                 <div>
                     <img src={img7} alt=""/>
                 </div>
-            </div>
             </div>
         </section>
     );
