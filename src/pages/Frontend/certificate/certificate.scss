@@ -30,6 +30,7 @@
       &__buttons {
         display: flex;
         padding: 30px 0;
+
         button {
 
           padding: 10px 15px;
@@ -51,6 +52,7 @@
       }
 
     }
+
     &--img {
 
       img {
@@ -63,9 +65,11 @@
 @media (max-width: 1200px) {
 
 }
+
 @media (max-width: 1040px) {
 
 }
+
 @media (max-width: 992px) {
   #certificate .certificate--text h6 {
     line-height: 20px;
@@ -74,7 +78,9 @@
     margin-left: 22px;
   }
 }
+
 @media (max-width: 768px) {
+
   #certificate .certificate {
     flex-direction: column;
     /* justify-content: space-between; */
@@ -84,21 +90,40 @@
   }
   #certificate .certificate--img img {
     padding-top: 28px;
+    width: 541px;
+
   }
 }
+
 @media (max-width: 576px) {
   #certificate .certificate--img img {
-    /* margin-left: 22px; */
+    margin-left: -13px;
+    width: 369px;
+
   }
 }
+
 @media (max-width: 400px) {
 
 }
+
 @media (max-width: 320px) {
-  #certificate .certificate--text h6 {
-    padding-left: 10px;
-  }
+
   #certificate .certificate--text h3 {
     padding-left: 10px;
+  }
+  #certificate .certificate--img img {
+    margin-left: -7px;
+    width: 256px;
+  }
+  #certificate .certificate--text__buttons button {
+    padding: 10px 15px;
+    font-size: 10px;
+    margin: 0 4px;
+  }
+  #certificate .certificate--text h6 {
+    line-height: 21px;
+    padding-left: 10px;
+    font-size: 13px;
   }
 }

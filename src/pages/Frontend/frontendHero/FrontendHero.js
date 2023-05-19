@@ -36,7 +36,7 @@ const FrontendHero = () => {
     return (
         <div id="FrontendHero">
             <div className='title'>
-                <h1>FRONT <span>END</span></h1>
+                <h1 style={{paddingTop: '90px'}}>FRONT <span>END</span></h1>
                 <p>Frontend - это часть веб-разработки, которая отвечает за создание <br/>пользовательского интерфейса и взаимодействие с пользователем в <br/>браузере.
                    <br/> Она включает в себя различные технологии, такие
                    <br/> как HTML, CSS и JavaScript, которые используются для создания <br/>структуры, стиля и поведения веб-страниц.</p>

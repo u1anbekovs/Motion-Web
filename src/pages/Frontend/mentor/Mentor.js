@@ -10,13 +10,13 @@ import SliderIcon2 from "../../../image/main/check.svg"
 
 const Mentor = () => {
 
-    var settings = {
+    let settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         arrows: false,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        speed: 400,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
             {
@@ -40,20 +40,9 @@ const Mentor = () => {
                 breakpoint: 320,
                 settings : {
                     dots: true,
-                    nextArrow: <img className='arrowNext' src={SliderIcon1} alt=""/>,
-                    prevArrow: <img className='arrowPrev' src={SliderIcon2} alt=""/>,
-                    infinite: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
-                    vertical: true,
-                    verticalSwiping: true,
-                    swipeToSlide: true,
-                    beforeChange: function(currentSlide, nextSlide) {
-                        console.log("before change", currentSlide, nextSlide);
-                    },
-                    afterChange: function(currentSlide) {
-                        console.log("after change", currentSlide);
-                    }
+
                 },
             }
         ]
