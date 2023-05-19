@@ -16,16 +16,11 @@ const Gallery = () => {
     return (
         <section id="call">
             <div className="container">
+
                 <div className="call">
-                    <div>
-                        <h1 className="call--title">{t("text65")}</h1>
-                    </div>
-                    <div className="call--images1">
-                        <img src={img1} alt=""/>
-                        <img src={img2} className="call--img2" alt=""/>
-                    </div>
-                </div>
-                <div className="call--box">
+                    <h1 className="call--title">{t("text65")}</h1>
+                    <img src={img1} alt=""/>
+                    <img src={img2} className="call--img2" alt=""/>
                     <img src={img3} alt=""/>
                     <img src={img4} className="call--img4" alt=""/>
 
@@ -49,16 +44,28 @@ const Gallery = () => {
                     <span>Показать ещё</span>
 
                     {
-                        block ? <img src={img3} alt=""/> : ""
+                       block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                    }{
+                       block? <img src={img4} className="call--img4" alt=""/> : ""
+                    }{
+                       block ? <img src={img4} className="call--img4" alt=""/> : ""
                     }
-                    {
-                        block ? <img src={img3} alt=""/> : ""
-                    }
-                    {
-                        block ? <img src={img3} alt=""/> : ""
-                    }
+                    <p className="call--desc" onClick={() => setBlock(!block)}>{block ? "Свернуть" : "Показать еще"}</p>
                 </div>
 
+                <div className="call--images">
+                    <img src={img1} alt=""/>
+                    <img src={img2} className="call--img2" alt=""/>
+                    <img src={img3} alt=""/>
+                    <img src={img4} className="call--img4" alt=""/>
+                    {
+                        block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                    }{
+                    block? <img src={img4} className="call--img4" alt=""/> : ""
+                }{
+                    block ? <img src={img4} className="call--img4" alt=""/> : ""
+                }
+                </div>
             </div>
             <div className="call--boxes">
                 <div>
