@@ -26,9 +26,9 @@ const Gallery = () => {
 
 
                     {
-                        block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                        block ? <img src={img4} className="call--img4" alt=""/> : ""
                     }{
-                    block? <img src={img4} className="call--img4" alt=""/> : ""
+                    block ? <img src={img4} className="call--img4" alt=""/> : ""
                 }{
                     block ? <img src={img4} className="call--img4" alt=""/> : ""
                 }
@@ -41,9 +41,9 @@ const Gallery = () => {
                     <img src={img3} alt=""/>
                     <img src={img4} className="call--img4" alt=""/>
                     {
-                        block ?  <img src={img4} className="call--img4" alt=""/> : ""
+                        block ? <img src={img4} className="call--img4" alt=""/> : ""
                     }{
-                    block? <img src={img4} className="call--img4" alt=""/> : ""
+                    block ? <img src={img4} className="call--img4" alt=""/> : ""
                 }{
                     block ? <img src={img4} className="call--img4" alt=""/> : ""
                 }
