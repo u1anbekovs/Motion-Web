@@ -10,13 +10,11 @@ const Modal = ({startForm, submitForm}) => {
 
     const TOKEN = '6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs';
     const CHAT_ID = "-984802394";
-
     const [firstName, setFirstName] = useState("");
     const [tel, setTel] = useState("");
     const [red, setRed] = useState(false);
     const [finish, setFinish] = useState(false);
 
-    // const [isSocialModal, setIsSocialModal] = useState(false);
 
     let message = `<b>user</b>\n`;
     message += `first name: ${firstName.trim()}\n`;
@@ -95,9 +93,6 @@ const Modal = ({startForm, submitForm}) => {
 
     return (
         <div>
-            {/*<div style={{display: finish ? "block" : "none",}} className="info--bg">*/}
-            {/*    <h1>Amazing👍🏻</h1>*/}
-            {/*</div>*/}
             <form className="modal--content" onSubmit={(e) => {
                 e.preventDefault();
                 getFinish();
@@ -158,3 +153,5 @@ const Modal = ({startForm, submitForm}) => {
 };
 
 export default Modal;
+
+
