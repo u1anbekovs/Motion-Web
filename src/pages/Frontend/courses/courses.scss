@@ -270,16 +270,60 @@
   #course .course2--block {
     width: 534px;
     padding: 53px 14px;
+    height: 412px;
+
+  }
+
   }
 }
 
 @media (max-width: 500px) {
   #course .course2--block {
-    width: 423px;
-    padding: 48px 17px;
+    width: 320px;
+    height: 412px;
+
+  }
+  #course .course2--title2 {
+    font-size: 22px;
   }
   #course .course2--btn2 {
     width: 172px;
+  }
+  #course .course--btn4 {
+    width: 64px;
+    height: 43px;
+    margin: 4px 0;
+  } #course .course--buttons2 {
+        display: flex;
+        margin: 62px 0 0 0;
+  }
+
+  #course .course--block2 {
+    width: 303px;
+  }
+  #course .course--girl {
+    position: relative;
+    left: 62px;
+  }
+  #course .course--desc1 {
+    font-size: 17px;
+  }
+  #course .course--btn {
+    width: 260px;
+  }
+  #course .course--design {
+    position: relative;
+    left: 4rem;
+    top: -100px;
+  }
+  #course .course--btn6 {
+    width: 259px;
+  }
+
+  #course .course--box {
+    width: 304px;
+    height: 577px;
+    margin: 0 32px;
   }
   #course .course2--desc1 {
     font-size: 20px;

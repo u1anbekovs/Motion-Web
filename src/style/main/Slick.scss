@@ -120,19 +120,116 @@
     font-size: 30px;
     padding-bottom: 30px;
   }
-  .slick-prev {
-    width: 50px !important;
-    left: 200px !important;
-    top: 125px !important;
-  }
   #slide .slide h1 {
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 16px;
+    padding-bottom: 18px;
   }
-  .slick-next {
+
+  .slick-prev {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 80px !important;
+    top: 200px !important;
+  }  .slick-next {
     margin: 10px 0 !important;
     width: 50px !important;
     left: 80px !important;
     top: 125px !important;
+  }
+}
+@media (max-width: 480px) {
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  #slide .slide h1 {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+
+  .slick-prev {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 320px !important;
+    top: -43px !important;
+
+  }.slick-next{
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 260px !important;
+    top: -43px !important;
+
+  }
+}
+@media (max-width: 470px) {
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  #slide .slide h1 {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+
+  .slick-prev {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 310px !important;
+    top: -43px !important;
+
+  }.slick-next{
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 250px !important;
+    top: -43px !important;
+
+  }
+}
+@media (max-width: 321px) {
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  #slide .slide h1 {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+
+  .slick-prev {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 260px !important;
+    top: -43px !important;
+
+  }.slick-next{
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 180px !important;
+    top: -43px !important;
+
+  }
+}
+@media (max-width: 320px) {
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  #slide .slide h1 {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+
+  .slick-prev {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 260px !important;
+    top: -43px !important;
+
+  }.slick-next{
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 180px !important;
+    top: -43px !important;
+
   }
 }

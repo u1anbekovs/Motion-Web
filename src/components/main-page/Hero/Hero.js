@@ -43,8 +43,7 @@ const Hero = () => {
                 <p>{t("text6")}</p>
                 <button onClick={() => setStart(!start)}>{t("text7")}</button>
             </div>
-
-
+            
             <div className="mainPart">
                 <div className="an1">
                     <img src={an1} alt=""/>

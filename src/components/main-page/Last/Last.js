@@ -22,8 +22,7 @@ const Last = ({lastForm}) => {
 
     const handleChange = (event) => {
         setValues({
-            ...values,
-            [event.target.name]: event.target.value,
+            ...values, [event.target.name]: event.target.value,
         })
     }
 
@@ -45,7 +44,6 @@ const Last = ({lastForm}) => {
         <section id="application">
             <div className="container">
                 <div className="application">
-
                     <div className="application--text">
                         <h1>{t("text40")} <br/> {t("text41")}</h1>
                         <p>{t("text42")} <br/> {t("text43")}</p>
@@ -55,10 +53,17 @@ const Last = ({lastForm}) => {
 
                         {errors.name && <p style={{color: "red"}}>{errors.name}</p>}
                         <input
+
                             onChange={handleChange}
+
                             type="text"
+
                             name="name"
+
                             value={values.name}
+
+                            placeholder="Имя"/>
+
                             placeholder={t("text47")}/>
 
 

@@ -362,3 +362,32 @@
     }
   }
 }
+@media  (max-width: 380px) {
+  #us .us--block1 h1 {
+    font-weight: 600;
+    font-size: 48px;
+  }
+
+}
+@media  (max-width: 377px) {
+  #us .us--block1 h1 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-left: 38px;
+
+  }
+  #us .us--block1 p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 38px;
+
+
+  }
+  #us .us--block1 {
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 28px 0;
+  }
+
+
+}

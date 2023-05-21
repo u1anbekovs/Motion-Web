@@ -25,6 +25,7 @@ const Student = () => {
                         <h1>MOTION WEB <br/> IT ACADEMY</h1>
                     </div>
                     <Link to={'https://restaurant1-three.vercel.app'}>
+
                         <img className='student--img1' src={res} alt=""/>
                     </Link>
                     <Link to={'https://books-f8nq-git-aas-orozaliev0.vercel.app/'}>
