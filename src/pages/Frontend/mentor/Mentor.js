@@ -4,17 +4,57 @@ import mentorCenter from "../../../image/frontEnd/mentorCenter.png";
 import mentorLeft from "../../../image/frontEnd/mentorLeft.png";
 import './mentor.scss'
 import Slider from "react-slick";
+import SliderIcon1 from "../../../image/main/check1.svg"
+import SliderIcon2 from "../../../image/main/check.svg"
 
 
 const Mentor = () => {
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
+    let settings = {
+        dots: true,
+        infinite: false,
+        arrows: false,
+        speed: 400,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 320,
+                settings : {
+                    dots: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+
+                },
+            }
+        ]
     };
+
+    // const settings = {
+    //     dots: false,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3
+    // };
     return (
         <div id="mentor">
             <div className="container">

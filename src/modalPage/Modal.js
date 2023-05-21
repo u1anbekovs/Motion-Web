@@ -8,78 +8,137 @@ import axios from "axios";
 const Modal = ({startForm, submitForm}) => {
 
 
-
-    const [values, setValues] = useState({
-        name: "",
-        number: "",
-    })
-
-
-    const [errors, setErrors] = useState({})
-    const [correct, setCorrect] = useState(false)
+    const TOKEN = '6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs';
+    const CHAT_ID = "-984802394";
+    const [firstName, setFirstName] = useState("");
+    const [tel, setTel] = useState("");
+    const [red, setRed] = useState(false);
+    const [finish, setFinish] = useState(false);
 
 
-    const handleChange = (event) => {
-        setValues({
-            ...values,
-            [event.target.name]: event.target.value,
-        })
+    let message = `<b>user</b>\n`;
+    message += `first name: ${firstName.trim()}\n`;
+    message += `phone: ${tel.trim()}\n`;
+
+    const fetchSubmit = async (e) => {
+        await axios
+            .post(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+                chat_id: CHAT_ID,
+                parse_mode: "html",
+                text: message,
+            })
+            .then(() => {
+                allState()
+            })
+            .catch(() => {
+                console.error("error");
+            })
+            .finally(() => {
+                setFinish(true);
+                setTimeout(() => {
+                    setFinish(false);
+                }, 3000);
+            });
+    };
+
+    const allState = () => {
+        setFirstName("")
+        setTel("")
+    };
+
+    const Asan = [firstName, tel].every(childAsan);
+
+    function childAsan(str) {
+        return str.length !== 0;
     }
 
+    const getFinish = () => {
+        return Asan ? fetchSubmit() : setRed(true);
+    };
 
-    const handleFormSubmit = (event) => {
-        event.preventDefault()
-        setErrors(validation(values))
-        setCorrect(true)
-    }
+    // --//
+
+    // const [values, setValues] = useState({
+    //     name: "",
+    //     number: "",
+    // })
+    //
+    //
+    // const [errors, setErrors] = useState({})
+    // const [correct, setCorrect] = useState(false)
+
+    //
+    // const handleChange = (event) => {
+    //     setValues({
+    //         ...values,
+    //         [event.target.name]: event.target.value,
+    //     })
+    // }
+
+    //
+    // const handleFormSubmit = (event) => {
+    //     event.preventDefault()
+    //     setErrors(validation(values))
+    //     setCorrect(true)
+    // }
 
 
-    useEffect(() => {
-        if (Object.keys(errors).length === 0 && correct) {
-            submitForm(true)
-        }
-    }, [errors])
+    // useEffect(() => {
+    //     if (Object.keys(errors).length === 0 && correct) {
+    //         submitForm(true)
+    //     }
+    // }, [errors])
 
-    const bot = {
-        TOKEN:'6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs',
-        chatID: '-984802394',
-    }
+
 
     return (
         <div>
-            <form className="modal--content" onSubmit={event => {
-
-                axios(` https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${handleChange.value}`,{
-                    method: 'GET'
-                })
-                    .then(succes => {
-                        alert('Massage send succesfuly!')
-                    }, errors => {
-                        alert('Massage not send!')
-                        console.log(errors)
-                    })
+            <form className="modal--content" onSubmit={(e) => {
+                e.preventDefault();
+                getFinish();
             }} onClick={e => e.stopPropagation()}>
                 <img src={smiling} alt=""/>
                 <h4 onClick={() => startForm(true)}><IoIosCloseCircle/></h4>
 
                 <div>
-                    {errors.name && <p style={{color: "red"}}>{errors.name}</p>}
-                    <input
-                        onChange={handleChange}
-                        type="text"
-                        name="name"
-                        value={values.name}
-                        placeholder="Имя"/>
+                    {/*{errors.name && <p style={{color: "red"}}>{errors.name}</p>}*/}
+                    {/*<input*/}
+                    {/*    onChange={handleChange}*/}
+                    {/*    type="text"*/}
+                    {/*    name="name"*/}
+                    {/*    value={values.name}*/}
+                    {/*    placeholder="Имя"/>*/}
+
+                    <input value={firstName}
+                           onChange={(e) => {
+                               setFirstName(e.target.value);
+                               setRed(false);
+                           }}
+                           type={"text"}
+                           placeholder={'Имя'}
+                           name={"Name"}
+                           className={red ? "inputRed" : "input2"}
+                    />
                 </div>
 
                 <div>
-                    {errors.number && <p style={{color: "red"}}>{errors.number}</p>}
+                    {/*{errors.number && <p style={{color: "red"}}>{errors.number}</p>}*/}
+                    {/*<input*/}
+                    {/*    onChange={handleChange}*/}
+                    {/*    type="number"*/}
+                    {/*    name='number'*/}
+                    {/*    value={values.number}*/}
+                    {/*    placeholder="Номер"/>*/}
                     <input
-                        onChange={handleChange}
-                        type="number"
-                        name='number'
-                        value={values.number}
-                        placeholder="Номер"/>
+                        value={tel}
+                        onChange={(e) => {
+                            setTel(e.target.value);
+                            setRed(false);
+                        }}
+                        name={"number"}
+                        placeholder="phone"
+                        className={red ? "inputRed" : "input3"}
+                    />
                 </div>
 
                 <div className="modal--content__label">
@@ -87,10 +146,12 @@ const Modal = ({startForm, submitForm}) => {
                     <label htmlFor="checkbox1">Я соглашаюсь на обработку персональных данных</label>
                 </div>
 
-                <button onClick={handleFormSubmit}>Оставить заявку</button>
+                <button>Оставить заявку</button>
             </form>
         </div>
     );
 };
 
 export default Modal;
+
+

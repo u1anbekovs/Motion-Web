@@ -7,44 +7,46 @@ import pers from "./../../../image/it-club/pers.svg"
 import sound from "./../../../image/it-club/sound.svg"
 import laptop from "./../../../image/it-club/laptop.svg"
 import negr from "./../../../image/it-club/negr.svg"
+import {useTranslation} from "react-i18next";
 
 const Receive = () => {
+    const {t} = useTranslation()
     return (
         <div id="second">
             <div className="container">
                 <div className="second">
-                    <h1>Что вы <br/> получите</h1>
+                    <h1>{t("text79")}<br/>{t("text80")}</h1>
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={it} alt=""/>
                         </div>
-                        <p>Расширение кругозоров в сфере IT</p>
+                        <p>{t("text81")}</p>
                     </div>
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={girl} alt=""/>
-                            <img src={book} alt=""/>
+                            <img className="second--image2" src={book} alt=""/>
                         </div>
-                        <p>Улучшение английского языка</p>
+                        <p>{t("text82")}</p>
                     </div>
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={pers} alt=""/>
                         </div>
-                        <p>Работа с командой</p>
+                        <p>{t("text75")}</p>
                     </div>
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={sound} alt=""/>
                         </div>
-                        <p>Портфолио</p>
+                        <p>{t("text83")}</p>
                     </div>
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={laptop} alt=""/>
                             <img src={negr} alt=""/>
                         </div>
-                        <p>Работа с реальными проектами</p>
+                        <p>{t("text84")}</p>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import {NavLink} from "react-router-dom";
 import burgerImg from "./../../image/main/бургер.svg"
 import Menu from "./Menu/Menu";
 import {useTranslation} from "react-i18next";
+import {Link} from 'react-router-dom'
 
 
 const Header = () => {
@@ -27,13 +28,15 @@ const Header = () => {
             <div className="container">
                 <div className="header">
 
-                    <img src={logoHeader} alt=""/>
+                    <Link to={'/'}>
+                        <img src={logoHeader} alt=""/>
+                    </Link>
 
                     <div className="header--pages">
                         <NavLink to={`/`} onClick={() => window.scroll(0, 0)}>{t("text2")}</NavLink>
                         <NavLink to={`/about_us`} onClick={() => window.scroll(0, 0)}>{t("text3")}</NavLink>
                         <div className="courses">
-                            <NavLink to={`/`}>{t("text4")}</NavLink>
+                            <NavLink to={`/MainFr`} onClick={() => window.scroll(0,0)}>{t("text4")}</NavLink>
                             <div className="ul">
                                 <NavLink to={`/MainFr`} onClick={() => window.scroll(0, 0)}>Frontend</NavLink> <br/>
                                 <NavLink to={`/UxUi`} onClick={() => window.scroll(0, 0)}>UI/UX design</NavLink> <br/>

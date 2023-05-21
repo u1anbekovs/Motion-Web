@@ -6,10 +6,12 @@ import {FaInstagram} from "react-icons/fa"
 import {FaTelegram} from "react-icons/fa"
 import {AiFillYoutube} from "react-icons/ai"
 import {useNavigate} from "react-router";
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
 
     const navigate = useNavigate()
+    const {t} = useTranslation()
 
     return (
         <section id="footer">
@@ -36,14 +38,14 @@ const Footer = () => {
 
                         <table>
                             <tr>
-                                <th>Курсы</th>
+                                <th>{t("text4")}</th>
                                 <td onClick={() => navigate(`/MainFr`) || window.scroll(0, 0)}>Frontend</td>
                                 <td onClick={() => navigate(`/UxUi`) || window.scroll(0, 0)}>UI/UX design</td>
-                                <td onClick={() => navigate(`/backend`) || window.scroll(0, 0)}>Backend</td>
                             </tr>
                             <tr>
-                                <th onClick={() => navigate(`/about_us`) || window.scroll(0, 0)}>О нас</th>
-                                <th onClick={() => navigate(`/it_club`) || window.scroll(0, 0)}>Клуб</th>
+                                <th onClick={() => navigate(`/about_us`) || window.scroll(0, 0)}>{t("text3")}</th>
+                                <th onClick={() => navigate(`/it_club`) || window.scroll(0, 0)}>{t("text5")}</th>
+                                <a href=""></a>
                                 <th onClick={() => navigate(`/`)}>FAQ</th>
                             </tr>
                             <td>

@@ -1,31 +1,30 @@
 import React from "react";
 import "../../../style/it-club/Club.scss";
+import {useTranslation} from "react-i18next";
 
 const Club = () => {
+    const {t} = useTranslation()
     return (
         <section id="clubUs">
             <div className="container">
                 <div className="clubUs">
                     <div className="clubUs--block">
-                        <h1><span>Зачем вам</span> <br/> IT-КЛУБ?</h1>
-                        <p>Анализируя курсы в Бишкеке мы решили открыть клуб, который поможет студентам
-                            подготовиться к реальным проектам. Участники не заканчивая курс смогут понять как
-                            работать в команде, научатся презентовать свои работы и поймут какие проблемы бывают на
-                            стадии разработки</p>
+                        <h1><span>{t("text66")}</span> <br/> {t("text67")}</h1>
+                        <p>{t("text68")}</p>
                     </div>
 
                     <div className="clubUs--block1">
                         <div>
                             <h1>3</h1>
-                            <p>Месяца</p>
+                            <p>{t("text18")}</p>
                         </div>
                         <div>
-                            <h1>Talking club</h1>
-                            <p>Каждую неделю</p>
+                            <h1>{t("text71")}</h1>
+                            <p>{t("text69")}</p>
                         </div>
                         <div>
                             <h1>3</h1>
-                            <p>Проекта</p>
+                            <p>{t("text70")}</p>
                         </div>
                     </div>
                 </div>

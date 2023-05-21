@@ -18,7 +18,6 @@ const Courses = () => {
         setSubmitted(true)
     }
 
-
     const [start, setStart] = useState(true)
     const startForm = () => {
         setStart(true)
@@ -129,9 +128,9 @@ const Courses = () => {
                                 <h1 className="course2--title1">{t("text20")}</h1>
                                 <p className="course2--desc1">{t("text21")}</p>
                             </div>
-                                <div className="course2--left"><h1 className="course2--title2">18 {t("text22")} <br/> <span
-                                className="course2--desc2">в</span> 18:00 <span
-                                className="course2--desc2">мастер класс <br/>  по </span> FRONTEND
+                                <div className="course2--left"><h1 className="course2--title2">18 {t("text22")} <br/>
+                                    <span className="course2--desc2">в</span> 18:00
+                                    <span className="course2--desc2">мастер класс <br/>  по </span> FRONTEND
                             </h1>
                                 <button className="course2--btn2" onClick={() => setStart(!start)}>{t("text23")}</button>
                             </div>

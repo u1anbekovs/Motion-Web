@@ -15,15 +15,17 @@ import an1media from "../../../image/main/an1media.png";
 import an3media from "../../../image/main/an3media.png";
 import an4media from "../../../image/main/an4media.png";
 import an5media from "../../../image/main/an5media.png";
+import {useTranslation} from "react-i18next";
 
 const Hero = () => {
+    const {t} = useTranslation()
     return (
         <div id="mainPart">
             <div className='title'>
-                <h1>Кто мы- <br/> <span style={{
+                <h1>{t("text50")} <br/> <span style={{
                     color: '#EC3025',
                 }}>Motion Web</span>?</h1>
-                <p>Motion Web IT academy — это международный образовательный <br/> проект, который готовит специалистов-практиков IT сферы.</p>
+                <p>{t("text48")} <br/> {t("text49")}</p>
             </div>
             <div className="mainPart">
                 <div className="an1">
