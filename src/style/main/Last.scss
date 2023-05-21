@@ -104,8 +104,10 @@
 }
 
 
-@media (max-width: 1200px) {
-
+@media (max-width: 576px) {
+  #application .application--inputs input {
+    padding: -31px 312px 16px 30px;
+  }
 
 }
 @media (max-width: 1040px) {
@@ -140,18 +142,39 @@
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 470px) {
   #application .application--inputs input {
-    padding: 16px 312px 16px 30px;
+    padding: 16px 182px 16px 30px;
+  }
+}@media (max-width: 477px) {
+  #application .application--inputs input {
+    padding: 15px 156px 15px 30px;
   }
 }
 @media (max-width: 400px) {
   #application .application--inputs input {
     padding: 8px 150px 6px 30px;
   }
+  #application {
+    background: #232323;
+    padding: 17px 0;
+    color: forestgreen;
+  }
   #application .application--text h1 {
     font-size: 34px;
   }
+}
+@media (max-width: 399px) {
+  #application .application--inputs input {
+    padding: 6px 150px 10px 7px;
+  }
+  #application .application--inputs__label label {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+
 }
 
 @media (max-width: 320px) {

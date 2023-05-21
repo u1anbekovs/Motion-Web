@@ -1910,6 +1910,11 @@
   }
 
   @media (max-width: 451px) {
+    #mainPart .mainPart .an3 {
+      left: 889px;
+      top: 415px;
+      width: 200px;
+    }
     #FrontendHero {
       min-height: 100%;
       overflow: hidden;
@@ -2095,6 +2100,33 @@
       }
     }
   }
+  @media (max-width: 450px) {
+    #mainPart .mainPart .an2 {
+      left: 302px;
+      width: 19%;
+    }
+
+    #mainPart .mainPart .media110 {
+      position: absolute;
+      left: 65%;
+      width: 73px;
+      top: 54%;
+      background: black;
+    }
+    #mainPart .mainPart .an3 {
+      left: 945px;
+      top: 334px;
+      width: 200px;
+    }
+    #mainPart .mainPart .media56 {
+      position: absolute;
+      left: 52%;
+      width: 63px;
+      background: #0b0909;
+      top: 28%;
+      height: 75px;
+    }
+  }
   @media  (max-width: 400px) {
     #mainPart .mainPart .backdropBlur {
       position: absolute;
@@ -2103,9 +2135,18 @@
     #mainPart .title button {
       width: 336px;
     }
+  }
 
   @media  (max-width: 390px) {
-  }
+    #mainPart .mainPart .backdropBlur {
+      position: absolute;
+      width: 353px;
+    }
+    #mainPart .mainPart .an3 {
+      left: 903px;
+      top: 416px;
+      width: 200px;
+    }
   }
 
   @media (max-width: 376px) {
@@ -2475,5 +2516,39 @@
         }
 
       }
+    }
+    #mainPart .mainPart .backdropBlur {
+      position: absolute;
+      width: 300px;
+    }
+    #mainPart .mainPart .an3 {
+      left: 861px;
+      top: 416px;
+      width: 200px;
+    }
+    #mainPart .mainPart .an2 {
+      left: 100px;
+      width: 18%;
+    }
+    #mainPart .title button {
+      width: 287px;
+    }
+    #mainPart .title h1 {
+      font-size: 32px;
+      line-height: 39px;
+    }
+    #mainPart .title h2 {
+      font-size: 31px;
+      margin: 10px 0;
+    }
+    #mainPart .mainPart .media80 {
+      position: absolute;
+      left: 27%;
+      width: 63px;
+      background: black;
+      top: 29%;
+      height: 48px;
+      animation: an10 5s ease-in infinite alternate;
+      -webkit-animation: an10 5s ease-in infinite alternate;
     }
   }

@@ -19,8 +19,7 @@ const Last = ({lastForm}) => {
 
     const handleChange = (event) => {
         setValues({
-            ...values,
-            [event.target.name]: event.target.value,
+            ...values, [event.target.name]: event.target.value,
         })
     }
 
@@ -42,7 +41,6 @@ const Last = ({lastForm}) => {
         <section id="application">
             <div className="container">
                 <div className="application">
-
                     <div className="application--text">
                         <h1>Оставить заявку на обучение <br/> или получить консультацию</h1>
                         <p>Менеджер свяжется с вами в течение 30 минут <br/> и ответит на все интересующие вопросы.</p>
@@ -54,10 +52,15 @@ const Last = ({lastForm}) => {
 
                         {errors.name && <p style={{color: "red"}}>{errors.name}</p>}
                         <input
+
                             onChange={handleChange}
+
                             type="text"
+
                             name="name"
+
                             value={values.name}
+
                             placeholder="Имя"/>
 
 

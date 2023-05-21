@@ -6,7 +6,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-
+    &--menu{
+      display: flex;
+      width: 401px;
+      height: 275px;
+      background: #CCCCE3;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
   &--img{
     width: 107%;
     padding: 3px 0;
@@ -28,14 +35,6 @@
       width: 88%;
       margin: 15px 0 0;
 
-    }
-    &--menu{
-      display: flex;
-      width: 401px;
-      height: 275px;
-      background: #CCCCE3;
-      margin-top: 20px;
-      border-radius: 10px;
     }
     p {
       transition: 0.5s all;
@@ -94,28 +93,41 @@
 }
 @media (max-width: 576px) {
   #student .student {
+    width: 99%;
+
     grid-template-columns: 1fr;
   }
-  #student .student--img4 {
+  .student--img4 {
     width: 64%;
   }
+  .student--menu {
+    display: flex;
+    width: 101px;
+    height: 208px;
+    background: #CCCCE3;
+    margin-top: 18px;
+    margin-right: 16rem;
+    border-radius: 10px;
+  }
+
   #student .student--img4 {
     width: 68%;
   }
-   #student.student--img1{
+   .student--img1{
      width: 85%;
 
    }
-  #student.student--img2{
+  .student--img2{
      width: 85%;
 
    }
-  #student .student--img3 {
-    margin-right: 96px;
-    width: 90%;
+  .student--img3 {
+    margin-right: 55px;
+    width: 85%;
   }
+
   #student .student--img3 {
-    margin-right: 96px;
+    margin-right: 39px;
     width: 90%;
   }
   #student .student--menu {
@@ -136,8 +148,90 @@
   #student .student--img4 {
     width: 71%;
   }
+  #student {
+    background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+    padding: -4px 0;
+  }
+  .student--img2 {
+    width: 85%;
+    margin: 15px 0;
+  }
 
 }
+@media (max-width: 500px) {
+  #student .student {
+    width: 99%;
+
+    grid-template-columns: 1fr;
+  }
+  .student--img4 {
+    width: 64%;
+  }
+  .student--menu {
+    display: flex;
+    width: 101px;
+    height: 208px;
+    background: #CCCCE3;
+    margin-top: 18px;
+    margin-right: 16rem;
+    border-radius: 10px;
+  }
+
+  #student .student--img4 {
+    width: 68%;
+  }
+   .student--img1{
+     width: 85%;
+
+   }
+  .student--img2{
+     width: 85%;
+
+   }
+  .student--img3 {
+    margin-right: 55px;
+    width: 85%;
+  }
+
+  #student .student--img3 {
+    margin-right: 39px;
+    width: 90%;
+  }
+  #student .student--menu {
+    display: flex;
+    width: 306px;
+    height: 263px;
+  }
+  #student .student--img5 {
+    width: 72%;
+
+    margin: 13px 0 0;
+  }
+  #student .student--img6 {
+    width: 72%;
+
+    margin: 13px 0 0;
+  }
+  #student .student--img4 {
+    width: 71%;
+  }
+  #student {
+    background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+    padding: -4px 0;
+  }
+  .student--img2 {
+    width: 85%;
+    margin: 15px 0;
+  }
+  #student .student {
+    margin-left: 27px;
+    width: 91%;
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
 @media (max-width: 1200px) {
   #student .student--menu {
     display: flex;
@@ -157,4 +251,86 @@
     width: 86%;
     //padding: 82px 0;
   }
+}
+@media (max-width: 414px) {
+  #student .student--menu {
+    display: flex;
+    width: 101px;
+    height: 208px;
+    background: #CCCCE3;
+    margin-top: 20px;
+    margin-right: 13rem;
+    border-radius: 10px;
+  }
+  #student.student--img1{
+    
+    width: 78%;
+    margin: 33px 40px;
+  }
+
+  #student .student--img4 {
+    width: 86%;
+    //padding: 82px 0;
+  }
+}
+@media (max-width: 477px) {
+  .student--img1 {
+    width: 89%;
+    margin: 0 0 14px 0;
+  }
+  #student .student--img4 {
+    margin: 14px 41px 1px 1px;
+    border-radius: 31px;
+    width: 84%;
+  }
+  #student .student--img3 {
+    margin-right: 39px;
+    width: 90%;
+    border-radius: 18px;
+  }
+  #student .student--img6 {
+    margin: 14px 41px 1px 1px;
+    border-radius: 31px;
+    width: 84%;
+  }
+  #student .student--img5 {
+    margin: 29px 41px 1px 1px;
+    border-radius: 31px;
+    width: 84%;
+  }
+  #student .student--menu {
+    display: flex;
+    width: 106px;
+    height: 219px;
+    background: #CCCCE3;
+    margin-top: 20px;
+    margin-right: 241px;
+    ///* margin-right: 13rem; */
+    border-radius: 5px;
+  }
+  #student .student--text {
+    padding: 21px 0;
+    margin: 0 91px 0 0;
+
+  }
+  p{
+    margin: 10px 0;
+  }
+
+}
+@media (max-width: 477px) {
+  #student .student {
+    margin-left: 10px;
+    width: 91%;
+    grid-template-columns: 1fr;
+  }
+
+}
+@media (max-width: 321px) {
+  #student .student {
+    margin-left: 2px;
+    width: 91%;
+    grid-template-columns: 1fr;
+  }
+
 }

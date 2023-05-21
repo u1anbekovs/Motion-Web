@@ -1757,7 +1757,7 @@
   }
 }
 
-@media (max-width: 451px) {
+@media (max-width: 500px) {
   #mainPart {
 
       min-height: 54%;
@@ -1773,16 +1773,40 @@
       }
 
       h2 {
-        font-size: 44px;
+        font-size: 4px;
 
       }
+    }
+    #mainPart .mainPart .an2 {
+      left: 261px;
+      width: 19%;
+    }
+
+    #mainPart .title h2 {
+      font-size: 41px;
+    }
+    #mainPart .mainPart .backdropBlur {
+      width: 600px;
+      margin-right: -125px;
+      right: -5px;
+      height: 591px;
+      top: 117px;
+    }
+    #mainPart .mainPart .an3 {
+      left: 890px;
+      top: 415px;
+      width: 200px;
+    }
+    .title h2 {
+      font-size: 40px;
     }
 
     .mainPart {
       .backdropBlur {
         position: absolute;
-        width: 399px;
-        height: 400px;
+
+        width: 439px;
+          height: 478px;
         left: 33px;
         margin-left: -20px;
       }
@@ -1808,7 +1832,10 @@
         animation: an7 5s ease-in infinite alternate;
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
-
+         .an10{
+           display: block;
+           right: 10px;
+         }
       .media80 {
         position: absolute;
         left: 66%;
@@ -1886,8 +1913,9 @@
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
    .an2 {
-        left: 337px;
-      }
+     left: 271px;
+     width: 29%;
+   }
       .an3{
         left: 969px;
         top: 334px;
@@ -1914,7 +1942,7 @@
       }
       .an10 {
         display: block;
-        right: 9px;
+        right: 54px;
         top: 230px;
       }
       .an11 {
@@ -1953,6 +1981,10 @@
         padding: 18px 0;
       }
 
+    }
+    #mainPart .mainPart .an2 {
+      left: 268px;
+      width: 19%;
     }
 
     .mainPart {
@@ -2243,9 +2275,9 @@
         left: 337px;
       }
       .an3{
-        left: 969px;
-        top: 375px;
-        width: 212px;
+        left: 845px;
+        top: 416px;
+        width: 200px;
       }
       .an6 {
         top: 382px;
@@ -2280,12 +2312,19 @@
     }
   }
 }
-@media  (max-width: 444px) {
+
+@media  (max-width: 470px) {
 
   #mainPart .mainPart .an3 {
     left: 952px;
   }
-
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    width: 424px;
+    height: 478px;
+    left: 33px;
+    margin-left: -20px;
+  }
   #mainPart .mainPart .an2 {
     /* left: 295px; */
     left: 241px;
@@ -2296,6 +2335,99 @@
     right: 44px;
   }
 }
-@media  (max-width: 400px) {
-}@media  (max-width: 390px) {
+
+@media  (max-width: 340px) {
+
+  #mainPart .mainPart .an2 {
+    left: 285px;
+    width: 19%;
+  }
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    width: 343px;
+  }
+}
+
+@media  (max-width: 377px) {
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    height: 385px;
+    width: 370px;  }
+  #mainPart .mainPart .an2 {
+    left: 268px;
+    width: 19%;
+  }
+  #mainPart .title button {
+    width: 317px;
+  }
+
+}
+@media  (max-width: 330px) {
+  .mainPart .an2 {
+    left: 270px;
+    width: 19%;
+  }
+  #mainPart .mainPart .an2 {
+    left: 290px;
+    width: 19%;
+  }
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    height: 385px;
+    width: 370px;
+  }
+  #mainPart .title h2 {
+    font-size: 41px;
+  }
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    width: 418px;
+    height: 457px;
+    left: 33px;
+    margin-left: -18px;
+  }
+  #mainPart .title button {
+    width: 316px;
+  }
+
+}
+@media  (max-width: 390px) {
+
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    width: 339px;
+  }
+  #mainPart .mainPart .media88 {
+    position: absolute;
+    left: 28%;
+    width: 100px;
+    top: 39%;
+  }
+  #mainPart .mainPart .an3 {
+    left: 949px;
+    top: 334px;
+  }
+  #mainPart .mainPart .backdropBlur {
+    position: absolute;
+    width: 339px;
+  }
+
+}
+
+@media  (max-width: 321px) {
+
+  .student--img2 {
+    /* position: absolute; */
+    top: 158px;
+    width: 39%;
+    margin: -85px 31px 25px 153px;
+  }
+  #student .student--menu {
+    display: flex;
+    width: 106px;
+    top: 158px;
+    /* margin: -122px 31px 25px -9px; */
+    height: 137px;
+  }
+
 }
