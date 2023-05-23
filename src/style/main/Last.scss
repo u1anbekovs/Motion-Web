@@ -240,25 +240,26 @@
 }
 
 @media (max-width: 450px) {
-    #application {
-      background: #232323;
-      padding: 70px 0;
-      color: forestgreen;
+  #application {
+    background: #232323;
+    padding: 70px 0;
+    color: forestgreen;
 
-      .application {
-        display: flex;
-        align-items: start;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    .application {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      flex-wrap: wrap;
 
-@media (max-width: 470px) {
-  #application .application--inputs input {
-    padding: 16px 182px 16px 30px;
-  }
-}@media (max-width: 477px) {
-  #application .application--inputs input {
-    padding: 15px 156px 15px 30px;
-  }
+      @media (max-width: 470px) {
+        #application .application--inputs input {
+          padding: 16px 182px 16px 30px;
+        }
+      }
+      @media (max-width: 477px) {
+        #application .application--inputs input {
+          padding: 15px 156px 15px 30px;
+        }
         &--inputs {
           input[type=number]::-webkit-inner-spin-button {
             -webkit-appearance: none;
@@ -344,6 +345,7 @@
         }
       }
     }
+  }
 }
 
 @media (max-width: 400px) {
@@ -450,6 +452,7 @@
 
   }
 }
+
 @media (max-width: 399px) {
   #application .application--inputs input {
     padding: 6px 150px 10px 7px;

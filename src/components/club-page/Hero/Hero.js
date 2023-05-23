@@ -94,9 +94,9 @@ const Hero = () => {
                 <div className="media54"></div>
                 <div className="backdropBlur"></div>
             </div>
-
+         </div>
         </div>
+                 </div>
     );
 };
-
-export default Hero;
+export default Hero
