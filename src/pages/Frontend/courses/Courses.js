@@ -3,52 +3,51 @@ import FirstImg from "../../../image/frontEnd/first.png";
 import secondImg from "../../../image/frontEnd/second.png";
 import thirdImg from "../../../image/frontEnd/third.png";
 import './courses.scss'
+import {useTranslation} from "react-i18next";
 
 const Courses = () => {
+    const {t} =useTranslation()
     return (
         <div id="courses">
             <div className="container">
                 <div className="frontEnd--courses">
-                    <h2>Кому подойдёт этот курс</h2>
+                    <h2>{t("text92")}</h2>
                     <div className="frontEnd--courses__inform">
                         <div className="frontEnd--courses__inform--first">
                             <div className="frontEnd--courses__inform--first__fon">
                                 <img src={FirstImg} alt=""/>
                             </div>
-                            <h3>Новичкам</h3>
-                            <p>Научитесь с нуля разрабатывать интерфейсы. <br/>Узнаете, как с помощью дизайна
-                                направлять <br/>пользователей и решать задачи</p>
+                            <h3>{t("text93")}</h3>
+                            <p>{t("text94")}</p>
 
                         </div>
                         <div className="frontEnd--courses__inform--first">
                             <div className="frontEnd--courses__inform--first__fon">
                                 <img src={secondImg} alt=""/>
                             </div>
-                            <h3>Junior-дизайнерам</h3>
-                            <p>Научитесь с нуля разрабатывать интерфейсы. <br/>Узнаете, как с помощью дизайна
-                                направлять <br/>пользователей и решать задачи</p>
+                            <h3>{t("text95")}</h3>
+                            <p>{t("text94")}</p>
 
                         </div>
                         <div className="frontEnd--courses__inform--first">
                             <div className="frontEnd--courses__inform--first__fon">
                                 <img src={thirdImg} alt=""/>
                             </div>
-                            <h3>Опытным дизайнерам</h3>
-                            <p>Получите навыки в продуктовом и UX-<br/>дизайне, заполните пробелы в знаниях. <br/>Сможете
-                                создавать прототипы приложений и <br/> повысить стоимость своей работы</p>
+                            <h3>{t("text96")}</h3>
+                            <p>{t("text97")}</p>
 
                         </div>
                     </div>
                 </div>
                 <div className="frontEnd--title">
                     <div className="frontEnd--title__first">
-                        <h1 >6 месяца <br/> <span className="frontEnd--skill">Обучения</span></h1>
+                        <h1 >{t("text98")} <br/> <span className="frontEnd--skill">{t("text99")}</span></h1>
                     </div>
                     <div className="frontEnd--title__first">
-                        <h1>3 раза <br/> <span>В неделю по 2 часа</span></h1>
+                        <h1>{t("text100")}<br/> <span>{t("text101")}</span></h1>
                     </div>
                     <div className="frontEnd--title__first">
-                        <h1>3 раза<br/> <span>Английский по 1 часу </span></h1>
+                        <h1>{t("text101")}<br/> <span>{t("text102")} </span></h1>
                     </div>
                 </div>
             </div>

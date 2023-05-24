@@ -2378,6 +2378,16 @@
 }
 
 @media  (max-width: 340px) {
+@media (max-width: 450px) {
+  #mainPart{
+    .title{
+      h1{
+        font-size: 53px;
+      }
+    }
+  }
+}
+@media (max-width: 340px) {
 
   #mainPart .mainPart .an2 {
     left: 285px;
