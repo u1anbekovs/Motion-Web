@@ -1169,7 +1169,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px){
   #course {
 
     .course2 {
@@ -1403,10 +1403,10 @@
     }
   }
 }
+
 @media (max-width: 451px) {
   #course {
-
-    .course2 {
+    .course2{
       display: flex;
       padding: 170px 0 100px 0;
 
@@ -1423,193 +1423,150 @@
     line-height: 33px;
   }
     .course{
-      &--block{
-        width: 303px;
-        margin-left: 31px;
+      &--vector{
+
+      }
+      &--but1{
+        padding-top: 4rem;
+
+      }
+
+      &--buttons2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 6px 0 0 0;
+        //margin-top: -100px;
       }
     }
 }
 }
 
-@media  (max-width: 576px) {
-  #course{
-    .course{
-      &--block{
-        width: 301px;
-        margin-left: -1px;
-      }
-      &--block2{
-        width: 301px;
-      }
-      &--title3{
-        font-size: 37px;
-      }
-      &--box{
-        width: 301px;
-        height: 510px;
-      }
-      &--btn{
-        width: 268px;
-      }
-      &--btn6{
-        width: 268px;
-      }
-      &--girl{
-        left: 75px;
-      }
-      &--design{
-        position: relative;
-        left: 4rem;
-        top: -100px;
-      }
-      &--buttons2 button{
-        margin: 3px 2px 0 0;
-      }
-      &--btn5{
-        width: 132px;
-      }
 
-      //&--buttons2{
-      //  button{
-      //    margin: 2px -1px;
-      //    width: 132px;
-      //  }
-      //}
-    }
-    .course2{
-      &--block{
-        width: 340px;
-        padding: 48px 17px;
-      }
-    }
-  }
-}
-
-@media (max-width: 500px) {
-  #course .course2--block {
-    width: 459px;
-    padding: 48px 17px;
-  }
-  #course .course section {
-    position: relative;
-    width: 99%;
-  }
-  #course .course--but1 {
-    padding-top: 0rem;
-  }
-  #course .course2--titles {
-    display: flex;
-    flex-flow: wrap;
-    margin-top: -22px;
-  }
-  #course .course2--title1 {
-    font-size: 29px;
-  }
-  #course .course--block2 {
-    margin-left: 22px;
-  }
-
-  #course .course--buttons2 {
-    display: flex;
-    flex-flow: wrap;
-    margin: 26px 0 0 0;
-  }
-  #course .course2--desc1 {
-    font-size: 27px;
-  }
-  #course .course2--desc1 {
-    font-size: 18px;
-  }
-  #course .course2--title2 {
-    font-size: 35px;
-  }
-  #course .course--box {
-    width: 366px;
-    height: 541px;
-  }
-
-  #course .course2--desc1 {
-    font-size: 23px;
-  }
-  #course .course--btn {
-    width: 333px;
-  }
-  #course .course2--btn2 {
-    width: 172px;
-    margin-left: 53px;
-  }
-  #course .course--projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-row-gap: 243px;
-  }
-  #course .course2--desc1 {
-    font-size: 21px;
-  }
-}
-@media (max-width: 414px) {
-  #course .course2--block {
-    width: 385px;
-    padding: 48px 17px;
-  }
-
-
-  #course .course--block2 {
-    width: 341px;
-    margin: 0 32px;
-  }
-  #course .course--box {
-    width: 342px;
-    height: 512px;
-    margin: 0 32px;
-  }
-  #course .course--btn6 {
-    width: 310px;
-  }
-  #course .course2--titles {
-    display: flex;
-    align-items: baseline;
-    flex-direction: column;
-  }
-  #course .course2--block {
-    width: 380px;
-  }
-  #course .course2--block {
-    width: 380px;
-    height: 400px;
-  }
-  #course .course--btn {
-    width: 307px;
-  }
-  #course .course--girl {
-    position: relative;
-    left: 91px;
-  }
-  #course .course--design {
-    position: relative;
-    left: 5rem;
-    top: -100px;
-  }
-  #course .course2--box {
-    width: 346px;
-
-  }
-  #course .course2--image {
-    position: relative;
-    left: 34px;
-  }
-  #course .course2--btn1 {
-    left: 200px;
-  }
-  #course .course2--block {
-    width: 358px;
-    height: 495px;
-  }
-  #course .course2--btn2 {
-    width: 300px;
-  }
-}
+//@media (max-width: 500px) {
+//  #course .course2--block {
+//    width: 459px;
+//    padding: 48px 17px;
+//  }
+//  #course .course section {
+//    position: relative;
+//    width: 99%;
+//  }
+//  #course .course--but1 {
+//    padding-top: 0rem;
+//  }
+//  #course .course2--titles {
+//    display: flex;
+//    flex-flow: wrap;
+//    margin-top: -22px;
+//  }
+//  #course .course2--title1 {
+//    font-size: 29px;
+//  }
+//  #course .course--block2 {
+//    margin-left: 22px;
+//  }
+//
+//  #course .course--buttons2 {
+//    display: flex;
+//    flex-flow: wrap;
+//    margin: 26px 0 0 0;
+//  }
+//  #course .course2--desc1 {
+//    font-size: 27px;
+//  }
+//  #course .course2--desc1 {
+//    font-size: 18px;
+//  }
+//  #course .course2--title2 {
+//    font-size: 35px;
+//  }
+//  #course .course--box {
+//    width: 366px;
+//    height: 541px;
+//  }
+//
+//  #course .course2--desc1 {
+//    font-size: 23px;
+//  }
+//  #course .course--btn {
+//    width: 333px;
+//  }
+//  #course .course2--btn2 {
+//    width: 172px;
+//    margin-left: 53px;
+//  }
+//  #course .course--projects {
+//    display: flex;
+//    flex-direction: column;
+//    align-items: center;
+//    grid-row-gap: 243px;
+//  }
+//  #course .course2--desc1 {
+//    font-size: 21px;
+//  }
+//}
+//@media (max-width: 414px) {
+//  #course .course2--block {
+//    width: 385px;
+//    padding: 48px 17px;
+//  }
+//
+//
+//  #course .course--block2 {
+//    width: 341px;
+//    margin: 0 32px;
+//  }
+//  #course .course--box {
+//    width: 342px;
+//    height: 512px;
+//    margin: 0 32px;
+//  }
+//  #course .course--btn6 {
+//    width: 310px;
+//  }
+//  #course .course2--titles {
+//    display: flex;
+//    align-items: baseline;
+//    flex-direction: column;
+//  }
+//  #course .course2--block {
+//    width: 380px;
+//  }
+//  #course .course2--block {
+//    width: 380px;
+//    height: 400px;
+//  }
+//  #course .course--btn {
+//    width: 307px;
+//  }
+//  #course .course--girl {
+//    position: relative;
+//    left: 91px;
+//  }
+//  #course .course--design {
+//    position: relative;
+//    left: 5rem;
+//    top: -100px;
+//  }
+//  #course .course2--box {
+//    width: 346px;
+//
+//  }
+//  #course .course2--image {
+//    position: relative;
+//    left: 34px;
+//  }
+//  #course .course2--btn1 {
+//    left: 200px;
+//  }
+//  #course .course2--block {
+//    width: 358px;
+//    height: 495px;
+//  }
+//  #course .course2--btn2 {
+//    width: 300px;
+//  }
+//}
 @media (max-width: 401px) {
 #course{
   .course{
@@ -1617,7 +1574,8 @@
       margin: 0px 0;
     }
     &--buttons2{
-      margin: 2px 0 0 0;    }
+      margin: 2px 0 0 0;
+    }
     &--block{
       width: 302px;
       margin-left: 33px;
@@ -1685,17 +1643,17 @@
     width: 300px;
   }
 }
-@media (max-width: 390px) {
-  #course .course2--block {
-    width: 354px;
-    padding: 48px 17px;
-  }
-}
-@media (max-width: 381px) {
-  #course .course2--block {
-    width: 357px;
-  }
-}
+//@media (max-width: 390px) {
+//  #course .course2--block {
+//    width: 354px;
+//    padding: 48px 17px;
+//  }
+//}
+//@media (max-width: 381px) {
+//  #course .course2--block {
+//    width: 357px;
+//  }
+//}
 @media (max-width: 376px) {
   #course .course2--block {
     height: 342px;
@@ -1703,35 +1661,35 @@
     padding: 48px 17px;
   }
 }
-@media (max-width: 477px) {
-  #course .course--box {
-    width: 304px;
-    height: 529px;
-    margin: 0 32px;
-  }
-  #course .course--buttons2 {
-    display: flex;
-     margin: 0;
-  }
-}
-@media (max-width: 476px) {
-  #course .course--box {
-    width: 304px;
-    height: 529px;
-    margin: 0 32px;
-  }
-  #course .course--buttons2 {
-    display: flex;
-    margin: 28px 0 0 0;
-  }
-}
-@media (max-width: 377px) {
-  #course .course--box {
-    width: 304px;
-    height: 609px;
-    margin: 0 32px;
-  }
-}
+//@media (max-width: 477px) {
+//  #course .course--box {
+//    width: 304px;
+//    height: 529px;
+//    margin: 0 32px;
+//  }
+//  #course .course--buttons2 {
+//    display: flex;
+//     margin: 0;
+//  }
+//}
+//@media (max-width: 476px) {
+//  #course .course--box {
+//    width: 304px;
+//    height: 529px;
+//    margin: 0 32px;
+//  }
+//  #course .course--buttons2 {
+//    display: flex;
+//    margin: 28px 0 0 0;
+//  }
+//}
+//@media (max-width: 377px) {
+//  #course .course--box {
+//    width: 304px;
+//    height: 609px;
+//    margin: 0 32px;
+//  }
+//}
 @media  (max-width: 320px) {
   #course {
 
