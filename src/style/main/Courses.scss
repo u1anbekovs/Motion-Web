@@ -715,9 +715,6 @@
 
       }
 
-      &--desc1 {
-
-      }
 
       &--title2 {
 
@@ -1417,6 +1414,20 @@
         border-radius: 30px;
         margin-top: 9.5rem;
       }
+      &--block{
+        width: 423px;
+        padding: 53px 14px;
+        height: 365px;
+      }
+      &--desc2{
+        font-weight: 400;
+        font-size: 29px;
+
+      }
+      &--title2{
+        font-size: 30px;
+
+      }
 
     font-weight: 500;
     font-size: 33px;
@@ -1430,6 +1441,15 @@
         padding-top: 4rem;
 
       }
+      &--block{
+        width: 346px;
+        padding: 53px 14px;
+        height: 230px;
+      }
+      &--block2{
+        width: 345px;
+        margin-top: 140px;
+      }
 
       &--buttons2{
         display: flex;
@@ -1440,6 +1460,29 @@
     }
 }
 }
+@media (max-width: 450px) {
+  #course {
+    .course{
+      &--block2 {
+        margin-left: 30px;
+        width: 345px;
+        margin-top: 140px;
+      }
+
+    }
+    .course2{
+      &--block2 {
+        width: 353px;
+        margin-top: 140px;
+      }
+       &--block{
+         height: 377px;
+
+       }
+     }
+    }
+}
+
 
 
 //@media (max-width: 500px) {
@@ -1570,6 +1613,11 @@
 @media (max-width: 401px) {
 #course{
   .course{
+    &--girl{
+      position: relative;
+      left: 71px;
+      bottom: 95px;
+    }
     &--btn4{
       margin: 0px 0;
     }
@@ -1577,7 +1625,7 @@
       margin: 2px 0 0 0;
     }
     &--block{
-      width: 302px;
+      width: 341px;
       margin-left: 33px;
     }
     &--btn{
@@ -1587,6 +1635,7 @@
       height: 552px;
     }
     &--but1{
+      margin: -52px 10px 37px 1px;
       padding-top: 5rem;
     }
     &--title3{
@@ -1596,6 +1645,13 @@
   .course2{
     &--block{
       width: 338px;
+    }
+    &--box {
+      width: 346px;
+      display: none;
+    }
+    &--btn2{
+      width: 275px;
     }
   }
 }
@@ -1619,10 +1675,7 @@
   #course .course--btn {
     width: 307px;
   }
-  #course .course--girl {
-    position: relative;
-    left: 91px;
-  }
+
   #course .course--design {
     position: relative;
     left: 5rem;
@@ -1639,21 +1692,95 @@
   #course .course2--btn1 {
     left: 200px;
   }
-  #course .course2--btn2 {
-    width: 300px;
-  }
 }
-//@media (max-width: 390px) {
-//  #course .course2--block {
-//    width: 354px;
-//    padding: 48px 17px;
-//  }
-//}
-//@media (max-width: 381px) {
-//  #course .course2--block {
-//    width: 357px;
-//  }
-//}
+@media (max-width: 400px) {
+    #course{
+      .course{
+        &--box{
+          width: 342px;
+          height: 602px;
+          margin: 0 32px;
+        }
+        &--but1{
+          margin: -52px 10px 37px 1px;
+          padding-top: 9rem;
+        }
+        &--girl{
+          position: relative;
+          left: 65px;
+          bottom: 94px;
+        }
+
+        &--block2{
+          width: 345px;
+          margin-left: 30px;
+          margin-top: 140px;
+        }
+        &--block{
+          width: 340px;
+          margin-left: 33px;
+        }
+        &--box{
+
+        }
+      }
+      .course2{
+        &--block{
+          height: 390px;
+          border-radius: 20px;
+        }
+        &--title1{
+          font-weight: 700;
+          font-size: 29px;
+          line-height: 4px;
+        }
+        &--desc1{
+          line-height: 125%;
+          font-size: 17px;
+          padding: 10px 0;
+        }
+      }
+    }
+
+
+  #course .course--box {
+    width: 342px;
+    height: 582px;
+    margin: 0 32px;
+  }
+  #course .course--btn6 {
+    width: 310px;
+  }
+  #course .course2--titles {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+
+  #course .course--btn {
+    width: 307px;
+  }
+
+  #course .course--design {
+    position: relative;
+    left: 5rem;
+    top: -100px;
+  }
+  #course .course2--box {
+    width: 346px;
+
+  }
+  #course .course2--image {
+    position: relative;
+    left: 34px;
+  }
+  #course .course2--btn1 {
+    left: 200px;
+  }
+
+}
+
 @media (max-width: 376px) {
   #course .course2--block {
     height: 342px;

@@ -107,7 +107,7 @@ const Courses = () => {
                                 <button className="course--btn5">3 {t("text18")}</button>
                             </div>
                             <div className="course--but1">
-                                <button onClick={() => navigate(`/UxUi  `) || window.scroll(0,0)} className="course--btn">{t("text10")}</button>
+                                <button onClick={() => navigate(`/UxUi`) || window.scroll(0,0)} className="course--btn">{t("text10")}</button>
                                 <button className="course--btn6" onClick={() => setStart(!start)}>{t("text7")}</button>
                             </div>
 
