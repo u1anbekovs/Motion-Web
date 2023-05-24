@@ -17,9 +17,10 @@ import an5media from "../../../image/main/an5media.png";
 import an9 from "../../../image/main/an9.png";
 import Modal from "../../../modalPage/Modal";
 import modal from "../../../image/main/smiling-face 2.svg";
+import {useTranslation} from "react-i18next";
 
 const FrontendHero = () => {
-
+    const {t} = useTranslation()
 
     const [submitted, setSubmitted] = useState(false)
     const submitForm = () => {
@@ -37,10 +38,8 @@ const FrontendHero = () => {
         <div id="FrontendHero">
             <div className='title'>
                 <h1 style={{paddingTop: '90px'}}>FRONT <span>END</span></h1>
-                <p>Frontend - это часть веб-разработки, которая отвечает за создание <br/>пользовательского интерфейса и взаимодействие с пользователем в <br/>браузере.
-                   <br/> Она включает в себя различные технологии, такие
-                   <br/> как HTML, CSS и JavaScript, которые используются для создания <br/>структуры, стиля и поведения веб-страниц.</p>
-                <button  onClick={() => setStart(!start)}>Оставить заявку</button>
+                <p>{t("text88")}</p>
+                <button  onClick={() => setStart(!start)}>{t("text89")}</button>
             </div>
             <div className="FrontendHero">
                 <div className="an1">
