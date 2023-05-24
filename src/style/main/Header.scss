@@ -111,13 +111,257 @@
 }
 
 @media (max-width: 768px) {
-  #header .header--pages {
-    display: none;
-  }
-  #header .header--menuBurger {
-    display: block;
-  }
-  #header{
+
+  #header {
     padding: 25px 0;
+
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &--pages {
+        display: none;
+
+
+        a {
+
+
+          &:focus {
+            color: #1B1B1B;
+          }
+
+          &:hover {
+            color: #EC3025;
+          }
+        }
+
+        .active {
+          color: #1B1B1B;
+        }
+      }
+
+      &--languages {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 413px;
+
+        a {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 18px;
+          color: rgba(27, 27, 27, 0.6);
+
+          &:focus {
+            color: #1B1B1B;
+          }
+        }
+
+        &__icon {
+          margin-right: 10px;
+        }
+      }
+
+      &--menuBurger {
+        display: block;
+
+        span {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  #header {
+    padding: 25px 0;
+
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &--pages {
+        display: none;
+
+
+        a {
+
+
+          &:focus {
+            color: #1B1B1B;
+          }
+
+          &:hover {
+            color: #EC3025;
+          }
+        }
+
+        .active {
+          color: #1B1B1B;
+        }
+      }
+
+      &--languages {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 248px;
+
+        a {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 18px;
+          color: rgba(27, 27, 27, 0.6);
+
+          &:focus {
+            color: #1B1B1B;
+          }
+        }
+
+        &__icon {
+          margin-right: 10px;
+        }
+      }
+
+      &--menuBurger {
+        display: block;
+
+        span {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 451px) {
+  #header {
+    padding: 25px 0;
+
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &--pages {
+        display: none;
+
+
+        a {
+
+
+          &:focus {
+            color: #1B1B1B;
+          }
+
+          &:hover {
+            color: #EC3025;
+          }
+        }
+
+        .active {
+          color: #1B1B1B;
+        }
+      }
+
+      &--languages {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 161px;
+
+        a {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 18px;
+          color: rgba(27, 27, 27, 0.6);
+
+          &:focus {
+            color: #1B1B1B;
+          }
+        }
+
+        &__icon {
+          margin-right: 10px;
+        }
+      }
+
+      &--menuBurger {
+        display: block;
+
+        span {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #header {
+    padding: 25px 0;
+
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &--pages {
+        display: none;
+
+
+        a {
+
+
+          &:focus {
+            color: #1B1B1B;
+          }
+
+          &:hover {
+            color: #EC3025;
+          }
+        }
+
+        .active {
+          color: #1B1B1B;
+        }
+      }
+
+      &--languages {
+        display: none;
+        align-items: center;
+        margin: 0 0 0 115px;
+        a {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 18px;
+          color: rgba(27, 27, 27, 0.6);
+
+          &:focus {
+            color: #1B1B1B;
+          }
+        }
+
+        &__icon {
+          margin-right: 10px;
+        }
+      }
+
+      &--menuBurger {
+        display: block;
+
+        span {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
