@@ -190,7 +190,7 @@
       }
 
       &--block1 {
-        margin: 53px -2px 32px -7px;
+          margin: 53px -2px 32px -7px;
         h1 {
           font-size: 55px;
         }
@@ -247,7 +247,7 @@
   }
 }
 @media (max-width: 450px) {
-  #us {
+#us {
     padding: 16px 0;
     .us {
       &--block {
@@ -289,12 +289,12 @@
   }
 }
 @media (max-width: 400px) {
-  #us {
+#us {
     padding: 16px 0;
     .us {
       &--block {
         h1 {
-        ;
+          ;
         }
 
         &__p {
@@ -326,7 +326,7 @@
   }
 }
 @media (max-width: 320px) {
-  #us {
+#us {
     .us {
       &--block {
         h1 {
@@ -386,7 +386,7 @@
   #us .us--block1 {
     flex-wrap: wrap;
     margin-top: 80px;
-    padding:28px;
+    padding: 28px 0;
   }
 
 

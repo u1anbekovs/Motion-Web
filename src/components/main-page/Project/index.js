@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Project.scss"
+import "./../../../style/main/Project.scss"
 import studentImg4 from "./../../../image/main/project5.svg"
 import studentImg5 from "./../../../image/main/project6.svg"
 import res from '../../../image/main/res.png'
@@ -35,8 +35,7 @@ const Student = () => {
                     </Link>
                     <img className='student--img3' src={platform} alt=""/>
                  <Link to={'https://menu-rosy-three.vercel.app/'}>
-                     <div className='student--menu' style={{
-                     }}>
+                     <div className='student--menu'>
                          <img src={menu} alt=""/>
                          <img src={menu2} alt=""/>
                          <img src={menu3} alt=""/>

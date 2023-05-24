@@ -2,66 +2,9 @@ import React, {useEffect, useState} from 'react';
 import "../../../style/main/Last.scss"
 import validation from "../../../modalPage/validation/Validation";
 import {useTranslation} from "react-i18next";
-import axios from "axios";
 
 
 const Last = ({lastForm}) => {
-
-
-    const TOKEN = '6205769608:AAFOHbdlibLnZRsNat3aFz0v7Uh4XcdIDfs';
-    const CHAT_ID = "-984802394";
-    const [firstName, setFirstName] = useState("");
-    const [tel, setTel] = useState("");
-    const [email, setEmail] = useState("");
-    const [red, setRed] = useState(false);
-    const [finish, setFinish] = useState(false);
-
-    let message = `<b>консультацию</b>\n`;
-    message += `first name: ${firstName.trim()}\n`;
-    message += `phone: ${tel.trim()}\n`;
-    message += `email: ${email.trim()}\n`;
-
-    const fetchSubmit = async (e) => {
-        await axios
-            .post(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
-                chat_id: CHAT_ID,
-                parse_mode: "html",
-                text: message,
-            })
-            .then(() => {
-                allState()
-                handleFormSubmit()
-
-            })
-            .catch(() => {
-                console.error("error");
-            })
-            .finally(() => {
-                setFinish(true);
-                setTimeout(() => {
-                    setFinish(false);
-                }, 3000);
-            });
-    };
-
-    const allState = () => {
-        setFirstName("")
-        setTel("")
-        setEmail("")
-    };
-
-    const Asan = [firstName, tel].every(childAsan);
-
-    function childAsan(str) {
-        return str.length !== 0;
-    }
-
-    const getFinish = () => {
-        return Asan ? fetchSubmit() : setRed(true);
-    };
-
-
-    //====//
 
     const {t} = useTranslation()
 
@@ -102,18 +45,17 @@ const Last = ({lastForm}) => {
                         <h1>{t("text40")} <br/> {t("text41")}</h1>
                         <p>{t("text42")} <br/> {t("text43")}</p>
                     </div>
-                    <form className="application--inputs" onSubmit={(e) => {
-                        e.preventDefault();
-                        getFinish();
-                    }}>
+                    <form className="application--inputs">
+
+
                         {errors.name && <p style={{color: "red"}}>{errors.name}</p>}
                         <input
-                            onChange={(event) => {
-                                setFirstName(event.target.value)
-                            }}
+
+                            onChange={handleChange}
+
                             type="text"
+
                             name="name"
-                            value={firstName}
 
                             value={values.name}
 
@@ -123,23 +65,19 @@ const Last = ({lastForm}) => {
 
                         {errors.number && <p style={{color: "red"}}>{errors.number}</p>}
                         <input
-                            onChange={(event) => {
-                                setTel(event.target.value)
-                            }}
+                            onChange={handleChange}
                             type="number"
                             name="number"
-                            value={tel}
+                            value={values.number}
                             placeholder={t("text46")}/>
 
 
                         {errors.email && <p style={{color: "red"}}>{errors.email}</p>}
                         <input
-                            onChange={(event) => {
-                                setEmail(event.target.value)
-                            }}
+                            onChange={handleChange}
                             type="email"
                             name="email"
-                            value={email}
+                            value={values.email}
                             placeholder={t("text45")}/>
 
                         <div className="application--inputs__label">
@@ -148,7 +86,7 @@ const Last = ({lastForm}) => {
                         </div>
 
 
-                        <button>{t("text7")}</button>
+                        <button onClick={handleFormSubmit}>{t("text7")}</button>
 
 
                     </form>
