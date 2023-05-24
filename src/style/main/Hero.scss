@@ -2328,10 +2328,10 @@
     /* left: 295px; */
     left: 241px;
     width: 30%;
-
   }
 }
-@media (max-width:444px) {
+
+@media  (max-width: 444px) {
   #mainPart {
     .mainPart {
       .an3 {
@@ -2353,27 +2353,23 @@
 }
 
 @media(max-width: 500px) {
-  #mainPart {
-    .title {
+  #mainPart{
+    .title{
       h1 {
         font-size: 57px;
         line-height: 52px;
       }
-
       p {
-        font-size: 13px;
-      }
+         font-size: 13px;
+       }
     }
-
     .backdropBlur {
-      width: 440px;
-    }
-
+       width: 440px;
+     }
     h1 {
       font-size: 63px;
       line-height: 69px;
     }
-
     p {
       font-size: 19px;
       line-height: 1px;
@@ -2381,7 +2377,7 @@
   }
 }
 
-@media (max-width: 340px) {
+@media  (max-width: 340px) {
 
   #mainPart .mainPart .an2 {
     left: 285px;
@@ -2393,12 +2389,11 @@
   }
 }
 
-@media (max-width: 377px) {
+@media  (max-width: 377px) {
   #mainPart .mainPart .backdropBlur {
     position: absolute;
     height: 385px;
-    width: 370px;
-  }
+    width: 370px;  }
   #mainPart .mainPart .an2 {
     left: 268px;
     width: 19%;
@@ -2408,7 +2403,7 @@
   }
 
 }
-@media (max-width: 330px) {
+@media  (max-width: 330px) {
   .mainPart .an2 {
     left: 270px;
     width: 19%;
@@ -2437,7 +2432,7 @@
   }
 
 }
-@media (max-width: 390px) {
+@media  (max-width: 390px) {
 
   #mainPart .mainPart .backdropBlur {
     position: absolute;
@@ -2460,7 +2455,7 @@
 
 }
 
-@media (max-width: 321px) {
+@media  (max-width: 321px) {
 
   .student--img2 {
     /* position: absolute; */
@@ -2478,16 +2473,16 @@
 
 }
 
-@media (max-width: 400px) {
-  #mainPart {
-    .mainPart {
-      .backdropBlur {
+@media  (max-width: 400px) {
+  #mainPart{
+    .mainPart{
+      .backdropBlur{
         width: 382px;
       }
     }
 
-    .title {
-      button {
+    .title{
+      button{
         height: 40px;
         width: 260px;
       }
@@ -2496,40 +2491,34 @@
   }
 }
 @media (max-width: 320px) {
-  #mainPart {
-    .mainPart {
-      .backdropBlur {
+  #mainPart{
+    .mainPart{
+      .backdropBlur{
         width: 300px;
       }
-
-      .an3 {
+      .an3{
         left: 900px;
         width: 195px;
       }
-
-      .an2 {
+      .an2{
         left: 231px;
       }
-
-      .an4media {
+      .an4media{
         top: 418px;
         left: 7px;
         width: 124px;
       }
-
-      .an4 {
+      .an4{
         width: 156px;
         left: 169px;
         top: 241px;
       }
     }
-
-    .title {
-      h1 {
+    .title{
+      h1{
         font-size: 34px;
       }
-
-      .an10 {
+      .an10{
         right: -36px;
       }
     }

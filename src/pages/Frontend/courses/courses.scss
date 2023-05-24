@@ -85,7 +85,7 @@
     border-radius: 125px;
 
     &__first {
-      padding: 0 40px;
+      padding:  0 40px;
 
       h1 {
         font-weight: 500;
@@ -210,6 +210,10 @@
     padding: 38px 14px;
 
   }
+  #courses .frontEnd--title__first {
+    padding: 0 30px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -266,17 +270,17 @@
       flex-direction: column;
       text-align: center;
     }
-  }
-  #course .course2--block {
-    width: 534px;
-    padding: 53px 14px;
-    height: 412px;
+
+    #course .course2--block {
+      width: 534px;
+      padding: 53px 14px;
+      height: 412px;
+
+    }
 
   }
 
-  }
-
-
+}
 @media (max-width: 500px) {
   #course .course2--block {
     width: 320px;
