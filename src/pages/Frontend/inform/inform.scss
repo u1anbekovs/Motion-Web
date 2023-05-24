@@ -12,7 +12,6 @@
         font-size: 36px;
         color: black;
         margin-top: 0;
-        width: 379px;
       }
 
       span {
@@ -72,9 +71,7 @@
   }
 }
 @media (max-width: 992px) {
-  #inform .inform--question h3 {
-    width: 335px;
-  }
+
   #inform .inform--text p {
     width: 448px;
   }
@@ -86,9 +83,7 @@
   #inform .inform {
     flex-direction: column;
   }
-  #inform .inform--question h3 {
-    width: 379px;
-  }
+
   #inform .inform--text p {
     width: 617px;
   }
@@ -142,11 +137,13 @@
 
   #inform .inform--question span {
     font-size: 29px;
+
   }
   #inform .inform--text h4 {
     width: 255px;
   }
   #inform .inform--question h3 {
+    //width: 0;
     font-size: 29px;
   }
 }
