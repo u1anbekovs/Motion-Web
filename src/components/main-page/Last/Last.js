@@ -8,7 +8,6 @@ const Last = ({lastForm}) => {
 
     const {t} = useTranslation()
 
-
     const [values, setValues] = useState({
         name: "",
         number: "",
@@ -21,9 +20,7 @@ const Last = ({lastForm}) => {
 
 
     const handleChange = (event) => {
-        setValues({
-            ...values, [event.target.name]: event.target.value,
-        })
+        setValues({...values, [event.target.name]: event.target.value,})
     }
 
 
@@ -82,7 +79,6 @@ const Last = ({lastForm}) => {
                             name="email"
                             value={values.email}
                             placeholder={t("text45")}/>
-
 
                         <div className="application--inputs__label">
                             <input id="checkbox" type="checkbox"/>
