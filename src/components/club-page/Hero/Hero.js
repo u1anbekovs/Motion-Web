@@ -26,14 +26,8 @@ const Hero = () => {
                 <h1>{t("text85")} <br/> <span style={{
                     color: '#EC3025',
                 }}>{t("text86")}</span>?</h1>
-        <div id="FrontendHero">
-            <div className='title'>
-                <h1>Что такое <br/>
-                    <span style={{
-                    color: '#EC3025',
-                }}>IT Club</span> ?</h1>
                 <p>{t("text1")}</p>
-            </div>
+        <div id="FrontendHero">
             <div className="FrontendHero">
                 <div className="an1">
                     <img src={an1} alt=""/>
@@ -94,9 +88,11 @@ const Hero = () => {
                 <div className="media54"></div>
                 <div className="backdropBlur"></div>
             </div>
-         </div>
+
         </div>
+            </div>
                  </div>
     );
 };
-export default Hero
+
+export default Hero;
