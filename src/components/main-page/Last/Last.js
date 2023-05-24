@@ -62,7 +62,6 @@ const Last = ({lastForm}) => {
 
                             value={values.name}
 
-                            placeholder="Имя"/>
 
                             placeholder={t("text47")}/>
 
