@@ -1,495 +1,1918 @@
-#courses {
+#course {
+  background: #EFEFEF;
 
-  padding: 50px 0;
-
-  h2 {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 36px;
+  .course2 {
     display: flex;
-    align-items: center;
-    color: #000000;
-    //margin: 55px 0;
-    margin: 100px 0;
-    width: 262px;
+    padding: 170px 0 100px 0;
 
-  }
+    &--box {
+      width: 383px;
+      height: 186px;
+      background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+      border-radius: 30px;
+      margin-top: 9.5rem;
+    }
 
-  .frontEnd--courses {
-    &__inform {
+    &--btn1 {
+      width: 152px;
+      height: 50px;
+      background: #4886FF;
+      border-radius: 30px;
+      transform: rotate(-16.64deg);
+      color: #FFFFFF;
+      position: relative;
+      left: 11.5rem;
+      top: 4.5rem;
+    }
+
+    &--image {
+      position: relative;
+      top: -13rem;
+      left: 2rem;
+    }
+
+    &--block {
+      width: 800px;
+      height: 339px;
+      background: #FF563F;
+      border-radius: 30px;
+      margin-left: 7rem;
+      padding: 50px 35px;
+    }
+
+    &--titles {
       display: flex;
-      justify-content: space-around;
+    }
+
+    &--title1 {
+      font-family: 'Muller', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 36px;
+      color: #FFFFFF;
+      padding-bottom: 15px;
+    }
+
+    &--desc1 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 140%;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    &--title2 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 120%;
+      color: #FFFFFF;
+      padding-bottom: 20px;
+    }
+
+    &--btn2 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FF0000;
+      width: 334px;
+      height: 50px;
+      background: #F8F8F8;
+      border-radius: 44px;
+    }
+
+    &--desc2 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    &--left {
+      margin-left: 20px;
+    }
+  }
+  .course {
+
+    section {
+      position: relative;
+      width: 100%;
+      height: 390px;
+      overflow: hidden;
+      background: #EFEFEF;
+    }
+
+    section .scroll {
+      width: 100%;
+      display: flex;
+      font-weight:900;
+      font-size: 15px;
+      color: #ffffff;
+
+      img {
+        padding: 20px 0;
+      }
+  &--anim {
+    width: 99.9%;
+    height: 70px;
+    background: #EC3025;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+  }
 
 
-      &--first {
-        &__fon {
-          width: 380px;
-          height: 202px;
-          left: 110px;
-          top: 1430px;
-          background: linear-gradient(180deg, #EDF1FF 0%, rgba(203, 214, 255, 0.65) 100%);
-          border-radius: 20px;
-          display: flex;
-          justify-content: center;
-
-          img {
-            width: 196px;
-            height: 170px;
-            left: 202px;
-            padding: 31px;
-
-          }
-        }
-
-        h3 {
-          font-weight: 400;
-          font-size: 24px;
-          line-height: 80px;
-          display: flex;
-          align-items: center;
-          color: #000000;
-        }
-
-        p {
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 130%;
-          /* or 23px */
-
-          display: flex;
-          align-items: center;
-
-          color: rgba(27, 27, 27, 0.8);
-
-        }
+      span {
+        padding: 0 50px;
       }
     }
 
+    section .scroll div {
+      color: white;
+      font-size: 3em;
+      white-space: nowrap;
+      font-weight: 900;
+      text-transform: uppercase;
+      animation: animate 40s linear infinite;
+      animation-delay: -40s;
+    }
+
+    section .scroll div:nth-child(2) {
+      animation: animate2 40s linear infinite;
+      animation-delay: -20s;
+    }
+
+    section .scroll div span {
+      -webkit-text-stroke: 2px #fff8f8;
+      color: transparent;
+    }
+    .scroll2 {
+      background: #f8f8f8;
+      position: relative;
+      width: 1570px;
+      height: 70px;
+      overflow: hidden;
+      display: flex;
+      font-weight: 500;
+      font-size:20px;
+      color: #ffffff;
+    }
+
+    span {
+      padding: 0 50px;
+    }
+
+    section .scroll2 div {
+      color: white;
+      font-size: 2em;
+      white-space: nowrap;
+      font-weight: 900;
+      text-transform: uppercase;
+      animation: animate 40s linear infinite;
+      animation-delay: -40s;
+      display: flex;
+    }
+
+  &--name2 {
+    background: #4886FF;
+    transform: rotate(-2deg);
+    width: 99.9%;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 10rem;
   }
 
-  .frontEnd--title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 45px 0;
-    //margin: 70px 0;
+    section .scroll2 div:nth-child(2) {
+      animation: animate2 40s linear infinite;
+      animation-delay: -20s;
+    }
 
-    width: 1280px;
-    height: 229px;
-    left: 110px;
-    top: 1866px;
+    section .scroll2 div span {
+      -webkit-text-stroke: 1px #fff8f8;
+      color: white;
 
-    /* red */
+    }
 
-    border: 2px solid #EC3025;
-    border-radius: 125px;
 
-    &__first {
-      padding:  0 40px;
-
-      h1 {
-        font-weight: 500;
-        font-size: 64px;
-        line-height: 64px;
-        display: flex;
-        align-items: center;
-        color: #EC3025;
-        flex-direction: column;
-        text-align: center;
-
-        span {
-          margin: 10px 0;
-          font-weight: 400;
-          font-size: 24px;
-          line-height: 29px;
-          display: flex;
-          align-items: center;
-
-          color: #1B1B1B;
-        }
-
-        &--skill {
-          font-size: 24px;
-        }
+    @keyframes animate {
+      0% {
+        transform: translateX(100%);
       }
-
-      h4 {
-
+      100% {
+        transform: translateX(-100%);
       }
     }
-  }
+    @keyframes animate2 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-200%);
+        scroll-behavior: smooth;
+      }
+    }
 
+    &--icon {
+      position: relative;
+      top: -40px;
+      left: 7.6rem;
+    }
+
+    &--projects {
+      display: flex;
+      justify-content: center;
+      grid-column-gap: 15rem;
+      padding-top: 30px;
+    }
+
+    &--block {
+      width: 380px;
+      height: 172.24px;
+      background: linear-gradient(114deg, #FFA800 46%, rgba(255, 169, 3, 0.5) 100%);
+      border-radius: 30px 30px 0 0;
+    }
+
+    &--block2 {
+      width: 380px;
+      height: 172.24px;
+      border-radius: 30px 30px 0 0;
+      background: linear-gradient(114deg, #725EF2 32%, rgba(115, 95, 243, 0.5) 100%);
+    }
+
+    &--block3 {
+      width: 380px;
+      height: 172.24px;
+      border-radius: 30px 30px 0 0;
+      background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+    }
+
+    &--girl {
+      position: relative;
+      bottom: 99px;
+      left: 98px;
+    }
+
+    &--box {
+      background: #FFFFFF;
+      border-radius: 0 0 30px 30px;
+      width: 380px;
+      height: 458.63px;
+      padding: 10px 15px;
+    }
+
+    &--title3 {
+      font-family: 'Muller', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #030303;
+      padding-bottom: 15px;
+    }
+
+    &--desc1 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: rgba(27, 27, 27, 0.8);
+      padding-bottom: 15px;
+    }
+
+    &--buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--buttons button:hover {
+      color: #4886FF;
+      border: 2px solid #4886FF;
+      transition: .3s;
+    }
+
+    &--btn1 {
+      border: 1px solid #000000;
+      border-radius: 30px;
+      width: 76px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+    }
+
+    &--btn2 {
+      width: 111px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+
+    &--btn3 {
+      width: 50px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+
+    &--buttons2 button {
+      margin: 5px 2px;
+    }
+
+    &--buttons2 button:hover {
+      color: #4886FF;
+      border: 2px solid #4886FF;
+    }
+
+    &--btn4 {
+      width: 64px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      background: transparent;
+    }
+
+    &--btn5 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      width: 136px;
+      height: 43px;
+    }
+
+    &--btn6 {
+      width: 329px;
+      height: 50px;
+      background: #EC3025;
+      border: 1px solid #EC3025;
+      border-radius: 44px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      margin-top: 20px;
+    }
+
+    &--btn {
+      &:hover {
+        background: red;
+        color: white;
+      }
+
+      width: 329px;
+      height: 50px;
+      background: transparent;
+      border: 1px solid #EC3025;
+      border-radius: 44px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      color: red;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      margin-top: 20px;
+    }
+
+    &--btn6:hover {
+      background: black;
+      color: white;
+      transition: .3s;
+      border: none;
+    }
+
+    &--design {
+      position: relative;
+      top: -99px;
+      left: 6rem;
+    }
+
+
+    &--but1 {
+      padding-top: 5rem;
+    }
+
+    &--but {
+      padding-top: 3rem;
+    }
+  }
 }
 
-@media (max-width: 1200px) {
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 348px;
-  }
-  #courses .frontEnd--courses__inform {
-    grid-column-gap: 41px;
-  }
-  #courses .frontEnd--title {
-    width: 1089px;
-    margin: 45px -29px;
-  }
-}
-
-@media (max-width: 1140px) {
-  #courses .frontEnd--courses__inform {
-    grid-column-gap: 19px;
-  }
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 303px;
-  }
-  #courses .frontEnd--title {
-    width: 1031px;
-    margin: 45px -29px;
-  }
-}
 
 @media (max-width: 1040px) {
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 300px;
-  }
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 275px;
-  }
-  #courses .frontEnd--title {
-    width: 958px;
-    margin: 45px -6px;
-  }
-  #courses .frontEnd--courses__inform--first p {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 130%;
-    display: flex;
-    align-items: center;
-    color: rgba(27, 27, 27, 0.8);
+  #course {
 
-    br {
-      display: none;
+    .course2 {
+      display: flex;
+      padding: 170px 0 100px 0;
+
+      &--box {
+        width: 383px;
+        height: 186px;
+        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+        border-radius: 30px;
+        margin-top: 9.5rem;
+      }
+
+      &--btn1 {
+        top: 5rem;
+        left: 160px;
+      }
+
+      &--image {
+        position: relative;
+        left: 0;
+        top: -204px;
+      }
+
+      &--block {
+        width: 558px;
+        padding: 50px 12px;
+      }
+
+      &--titles {
+        display: flex;
+      }
+
+      &--title1 {
+
+      }
+
+      &--desc1 {
+
+      }
+
+      &--title2 {
+
+      }
+
+      &--btn2 {
+        width: 319px;
+      }
+
+      &--desc2 {
+
+      }
+
+      &--left {
+        margin-left: 20px;
+      }
+    }
+    .course {
+
+      section {
+        position: relative;
+        width: 100%;
+        height: 390px;
+        overflow: hidden;
+        background: #EFEFEF;
+
+      }
+      &--icon {
+        position: relative;
+        top: -40px;
+        left: 7.6rem;
+      }
+
+      &--projects {
+        display: flex;
+        justify-content: center;
+        grid-column-gap: 15rem;
+        padding-top: 30px;
+      }
+
+      &--block {
+        width: 330px;
+      }
+
+      &--block2 {
+        width: 330px;
+      }
+
+      &--block3 {
+        width: 380px;
+        height: 172.24px;
+        border-radius: 30px 30px 0 0;
+        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+      }
+
+      &--girl {
+        position: relative;
+        left: 70px;
+      }
+
+      &--box {
+        width: 330px;
+        height: 513.63px;
+      }
+
+      &--title3 {
+        font-family: 'Muller', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        color: #030303;
+        padding-bottom: 15px;
+      }
+
+      &--desc1 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba(27, 27, 27, 0.8);
+        padding-bottom: 15px;
+      }
+
+      &--buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &--buttons button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+        transition: .3s;
+      }
+
+      &--btn1 {
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 76px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+      }
+
+      &--btn2 {
+        width: 111px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--btn3 {
+        width: 50px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--buttons2 button {
+        margin: 5px 2px;
+      }
+
+      &--buttons2 button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+      }
+
+      &--btn4 {
+        width: 64px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        background: transparent;
+      }
+
+      &--btn5 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 136px;
+        height: 43px;
+      }
+
+      &--btn6 {
+        width: 278px;
+      }
+
+      &--btn {
+        &:hover {
+          background: red;
+          color: white;
+        }
+        width: 280px;
+      }
+
+      &--btn6:hover {
+        background: black;
+        color: white;
+        transition: .3s;
+        border: none;
+      }
+
+      &--design {
+        position: relative;
+        left: 4rem;
+      }
+
+
+      &--but1 {
+        padding-top: 6.5rem;
+      }
+
+      &--but {
+        padding-top: 2rem;
+      }
     }
   }
-
-
 }
 
 @media (max-width: 992px) {
+  #course {
 
-  #courses .frontEnd--title {
-    margin: 45px -92px;
-    border-radius: 58px;
-  }
-  #courses .frontEnd--title__first h1 span {
-    width: 239px;
-  }
-  #course .course2--desc1 {
-    font-size: 22px;
+    .course2 {
+      padding: 136px 22px 33px 0;
 
-  }
-  #course .course2--title2 {
-    font-size: 34px;
-  }
-  #course .course2--btn2 {
-    width: 268px;
+      &--box {
+        width: 383px;
+        height: 186px;
+        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+        border-radius: 30px;
+        margin-top: 9.5rem;
+      }
 
-  }
-  #choice .choice h1 {
-    width: 103%;
-    padding-bottom: 21px;
+      &--btn1 {
+        top: 5rem;
+        left: 160px;
+      }
 
-    br {
-      display: none;
+      &--image {
+        position: relative;
+        left: 0;
+        top: -204px;
+      }
+
+      &--block {
+        width: 558px;
+        padding: 50px 12px;
+      }
+
+      &--titles {
+        display: flex;
+      }
+
+      &--title1 {
+
+      }
+
+      &--desc1 {
+
+      }
+
+      &--title2 {
+
+      }
+
+      &--btn2 {
+        width: 319px;
+      }
+
+      &--desc2 {
+
+      }
+
+      &--left {
+        margin-left: 20px;
+      }
+    }
+    .course {
+
+      section {
+        position: relative;
+        width: 100%;
+        height: 390px;
+        overflow: hidden;
+        background: #EFEFEF;
+        margin-top: 71px;
+      }
+
+      &--icon {
+        position: relative;
+        top: -40px;
+        left: 7.6rem;
+      }
+
+      &--projects {
+        display: flex;
+        justify-content: center;
+        grid-column-gap: 15rem;
+        padding-top: 30px;
+      }
+
+      &--block {
+        width: 330px;
+      }
+
+      &--block2 {
+        width: 330px;
+      }
+
+      &--block3 {
+        width: 380px;
+        height: 172.24px;
+        border-radius: 30px 30px 0 0;
+        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+      }
+
+      &--girl {
+        position: relative;
+        left: 70px;
+      }
+
+      &--box {
+        width: 330px;
+        height: 513.63px;
+      }
+
+      &--title3 {
+        font-family: 'Muller', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        color: #030303;
+        padding-bottom: 15px;
+      }
+
+      &--desc1 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba(27, 27, 27, 0.8);
+        padding-bottom: 15px;
+      }
+
+      &--buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &--buttons button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+        transition: .3s;
+      }
+
+      &--btn1 {
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 76px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+      }
+
+      &--btn2 {
+        width: 111px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--btn3 {
+        width: 50px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--buttons2 button {
+        margin: 5px 2px;
+      }
+
+      &--buttons2 button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+      }
+
+      &--btn4 {
+        width: 64px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        background: transparent;
+      }
+
+      &--btn5 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 136px;
+        height: 43px;
+      }
+
+      &--btn6 {
+        width: 278px;
+      }
+
+      &--btn {
+        &:hover {
+          background: red;
+          color: white;
+        }
+        width: 280px;
+      }
+
+      &--btn6:hover {
+        background: black;
+        color: white;
+        transition: .3s;
+        border: none;
+      }
+
+      &--design {
+        position: relative;
+        left: 4rem;
+      }
+
+
+      &--but1 {
+        padding-top: 4rem;
+      }
+
+      &--but {
+        padding-top: 2rem;
+      }
     }
   }
-  #course .course2--box {
-    display: none;
-  }
-  #course .course2--block {
-    width: 630px;
-    padding: 38px 14px;
-
-  }
-  #courses .frontEnd--title__first {
-    padding: 0 30px;
-  }
-
 }
 
 @media (max-width: 768px) {
-  #courses .frontEnd--courses__inform {
-    flex-direction: column;
-    align-items: center;
-  }
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 400px;
-  }
-  #courses .frontEnd--courses__inform--first p {
-    padding-bottom: 22px;
-  }
-  #courses .frontEnd--title {
-    display: flex;
-    flex-direction: column;
-    width: 572px;
-    height: 400px;
-    border-radius: 32px;
-    margin: 43px 75px;
-  }
+  #course {
 
-}
-
-@media (max-width: 576px) {
-
-  #courses .frontEnd--title {
-    display: flex;
-    flex-direction: column;
-    width: 510px;
-    height: 374px;
-    border-radius: 32px;
-    margin: 43px -9px;
-  }
-  #courses .frontEnd--courses__inform--first {
-    p {
-      font-weight: 400;
-      font-size: 17px;
-      width: 397px;
-      line-height: 130%;
+    .course2 {
       display: flex;
-      align-items: center;
-      color: rgba(27, 27, 27, 0.8);
-    }
-  }
-  #courses .frontEnd--title__first {
-    h1 {
-      font-weight: 500;
-      font-size: 56px;
-      line-height: 64px;
-      display: flex;
-      align-items: center;
-      color: #EC3025;
       flex-direction: column;
-      text-align: center;
-    }
+      align-items: center;
+      grid-row-gap: 80px;
 
-    #course .course2--block {
-      width: 534px;
-      padding: 53px 14px;
-      height: 412px;
+      &--box {
+        width: 383px;
+        height: 186px;
+        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+        border-radius: 30px;
+        margin-top: 9.5rem;
+      }
 
-    }
+      &--btn1 {
+        left: 210px;
+        top: 6rem;
+        width: 140px;
+      }
 
-  }
+      &--image {
+        position: relative;
+        left: 50px;
+      }
 
-}
-@media (max-width: 500px) {
-  #course .course2--block {
-    width: 320px;
-    height: 412px;
+      &--block {
+        width: 670px;
+        margin: 0;
+        padding: 40px 16px;
+      }
 
-  }
-  #course .course2--title2 {
-    font-size: 22px;
-  }
-  #course .course2--btn2 {
-    width: 172px;
-  }
-  #course .course--btn4 {
-    width: 64px;
-    height: 43px;
-    margin: 4px 0;
-  } #course .course--buttons2 {
+      &--titles {
         display: flex;
-        margin: 62px 0 0 0;
-  }
+      }
 
-  #course .course--block2 {
-    width: 303px;
-  }
-  #course .course--girl {
-    position: relative;
-    left: 62px;
-  }
-  #course .course--desc1 {
-    font-size: 17px;
-  }
-  #course .course--btn {
-    width: 260px;
-  }
-  #course .course--design {
-    position: relative;
-    left: 4rem;
-    top: -100px;
-  }
-  #course .course--btn6 {
-    width: 259px;
-  }
+      &--title1 {
 
-  #course .course--box {
-    width: 304px;
-    height: 577px;
-    margin: 0 32px;
+      }
+
+      &--desc1 {
+
+      }
+
+      &--title2 {
+        font-size: 31px;
+      }
+
+      &--btn2 {
+        width: 319px;
+      }
+
+      &--desc2 {
+
+      }
+
+      &--left {
+        margin-left: 20px;
+      }
+    }
+    .course {
+
+      section {
+
+      }
+
+      &--name2 {
+
+      }
+      &--icon {
+
+      }
+
+      &--projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 100px;
+      }
+
+      &--block {
+        width: 411px;
+      }
+
+      &--block2 {
+        width: 411px;
+      }
+
+      &--block3 {
+        width: 380px;
+        height: 172.24px;
+        border-radius: 30px 30px 0 0;
+        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+      }
+
+      &--girl {
+        position: relative;
+        left: 114px;
+      }
+
+      &--box {
+        width: 411px;
+        height: 477.63px;
+      }
+
+      &--title3 {
+        font-family: 'Muller', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        color: #030303;
+        padding-bottom: 15px;
+      }
+
+      &--desc1 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba(27, 27, 27, 0.8);
+        padding-bottom: 15px;
+      }
+
+      &--buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &--buttons button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+        transition: .3s;
+      }
+
+      &--btn1 {
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 76px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+      }
+
+      &--btn2 {
+        width: 111px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--btn3 {
+        width: 50px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--buttons2 button {
+        margin: 5px 2px;
+      }
+
+      &--buttons2 button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+      }
+
+      &--btn4 {
+        width: 64px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        background: transparent;
+      }
+
+      &--btn5 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 136px;
+        height: 43px;
+      }
+
+      &--btn6 {
+        width: 376px;
+      }
+
+      &--btn {
+        &:hover {
+          background: red;
+          color: white;
+        }
+        width: 376px;
+      }
+
+      &--btn6:hover {
+        background: black;
+        color: white;
+        transition: .3s;
+        border: none;
+      }
+
+      &--design {
+        position: relative;
+        left: 7.3rem;
+      }
+
+
+      &--but1 {
+        padding-top: 4rem;
+      }
+
+      &--but {
+        padding-top: 2rem;
+      }
+    }
   }
-  #course .course2--desc1 {
-    font-size: 20px;
-  }
-  #course .course2--desc2 {
-    font-family: "SF Pro Display", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-  }
-  #course .course2--title2 {
-    font-size: 26px;
-  }
-  #courses .frontEnd--title__first h1 span {
-    /* width: 239px; */
+}
+
+@media (max-width: 576px){
+  #course {
+
+    .course2 {
+      display: flex;
+      padding: 170px 0 100px 0;
+
+      &--box {
+        width: 383px;
+        height: 186px;
+        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+        border-radius: 30px;
+        margin-top: 9.5rem;
+      }
+
+      &--btn1 {
+        top: 5rem;
+        left: 160px;
+      }
+
+      &--image {
+        position: relative;
+        left: 0;
+        top: -204px;
+      }
+
+      &--block {
+        width: 558px;
+        height: 392px;
+        padding: 50px 12px;
+      }
+
+      &--titles {
+        display: flex;
+      }
+
+      &--title1 {
+
+      }
+
+      &--desc1 {
+
+      }
+
+      &--title2 {
+
+      }
+
+      &--btn2 {
+        width: 319px;
+      }
+
+      &--desc2 {
+
+      }
+
+      &--left {
+        margin-left: 20px;
+      }
+    }
+    .course {
+
+      section {
+        position: relative;
+        width: 100%;
+        height: 390px;
+        overflow: hidden;
+        background: #EFEFEF;
+      }
+
+      &--name2 {
+        background: #4886FF;
+        transform: rotate(-2deg);
+        width: 99.9%;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+        padding: 15px;
+        margin-bottom: 10rem;
+      }
+      &--icon {
+        position: relative;
+        top: -40px;
+        left: 7.6rem;
+      }
+
+      &--projects {
+        display: flex;
+        justify-content: center;
+        grid-column-gap: 15rem;
+        padding-top: 30px;
+      }
+
+      &--block {
+        width: 345px;
+      }
+
+      &--block2 {
+        width: 345px;
+      }
+
+      &--block3 {
+        width: 380px;
+        height: 172.24px;
+        border-radius: 30px 30px 0 0;
+        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+      }
+
+      &--girl {
+        position: relative;
+        left: 82px;
+      }
+
+      &--box {
+        width: 345px;
+        height: 520.63px;
+      }
+
+      &--buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &--buttons button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+        transition: .3s;
+      }
+
+      &--btn1 {
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 76px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+      }
+
+      &--btn2 {
+        width: 111px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--btn3 {
+        width: 50px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--buttons2 button {
+        margin: 5px 2px;
+      }
+
+      &--buttons2 button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+      }
+
+      &--btn4 {
+        width: 64px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        background: transparent;
+      }
+
+      &--btn5 {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        width: 136px;
+        height: 43px;
+      }
+
+      &--btn6 {
+        width: 310px;
+      }
+
+      &--btn {
+        &:hover {
+          background: red;
+          color: white;
+        }
+        width: 310px;
+      }
+
+      &--btn6:hover {
+        background: black;
+        color: white;
+        transition: .3s;
+        border: none;
+      }
+
+      &--design {
+        position: relative;
+        left: 5rem;
+      }
+
+
+      &--but1 {
+        padding-top: 6rem;
+      }
+
+      &--but {
+        padding-top: 2rem;
+      }
+    }
   }
 }
 
 @media (max-width: 451px) {
+  #course {
+    .course2{
+      display: flex;
+      padding: 170px 0 100px 0;
 
+      &--box {
+        width: 383px;
+        height: 186px;
+        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+        border-radius: 30px;
+        margin-top: 9.5rem;
+      }
+
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 33px;
+  }
+    .course{
+      &--vector{
+
+      }
+      &--but1{
+        padding-top: 4rem;
+
+      }
+
+      &--buttons2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 6px 0 0 0;
+        //margin-top: -100px;
+      }
+    }
+}
+}
+
+
+//@media (max-width: 500px) {
+//  #course .course2--block {
+//    width: 459px;
+//    padding: 48px 17px;
+//  }
+//  #course .course section {
+//    position: relative;
+//    width: 99%;
+//  }
+//  #course .course--but1 {
+//    padding-top: 0rem;
+//  }
+//  #course .course2--titles {
+//    display: flex;
+//    flex-flow: wrap;
+//    margin-top: -22px;
+//  }
+//  #course .course2--title1 {
+//    font-size: 29px;
+//  }
+//  #course .course--block2 {
+//    margin-left: 22px;
+//  }
+//
+//  #course .course--buttons2 {
+//    display: flex;
+//    flex-flow: wrap;
+//    margin: 26px 0 0 0;
+//  }
+//  #course .course2--desc1 {
+//    font-size: 27px;
+//  }
+//  #course .course2--desc1 {
+//    font-size: 18px;
+//  }
+//  #course .course2--title2 {
+//    font-size: 35px;
+//  }
+//  #course .course--box {
+//    width: 366px;
+//    height: 541px;
+//  }
+//
+//  #course .course2--desc1 {
+//    font-size: 23px;
+//  }
+//  #course .course--btn {
+//    width: 333px;
+//  }
+//  #course .course2--btn2 {
+//    width: 172px;
+//    margin-left: 53px;
+//  }
+//  #course .course--projects {
+//    display: flex;
+//    flex-direction: column;
+//    align-items: center;
+//    grid-row-gap: 243px;
+//  }
+//  #course .course2--desc1 {
+//    font-size: 21px;
+//  }
+//}
+//@media (max-width: 414px) {
+//  #course .course2--block {
+//    width: 385px;
+//    padding: 48px 17px;
+//  }
+//
+//
+//  #course .course--block2 {
+//    width: 341px;
+//    margin: 0 32px;
+//  }
+//  #course .course--box {
+//    width: 342px;
+//    height: 512px;
+//    margin: 0 32px;
+//  }
+//  #course .course--btn6 {
+//    width: 310px;
+//  }
+//  #course .course2--titles {
+//    display: flex;
+//    align-items: baseline;
+//    flex-direction: column;
+//  }
+//  #course .course2--block {
+//    width: 380px;
+//  }
+//  #course .course2--block {
+//    width: 380px;
+//    height: 400px;
+//  }
+//  #course .course--btn {
+//    width: 307px;
+//  }
+//  #course .course--girl {
+//    position: relative;
+//    left: 91px;
+//  }
+//  #course .course--design {
+//    position: relative;
+//    left: 5rem;
+//    top: -100px;
+//  }
+//  #course .course2--box {
+//    width: 346px;
+//
+//  }
+//  #course .course2--image {
+//    position: relative;
+//    left: 34px;
+//  }
+//  #course .course2--btn1 {
+//    left: 200px;
+//  }
+//  #course .course2--block {
+//    width: 358px;
+//    height: 495px;
+//  }
+//  #course .course2--btn2 {
+//    width: 300px;
+//  }
+//}
+@media (max-width: 401px) {
+#course{
+  .course{
+    &--btn4{
+      margin: 0px 0;
+    }
+    &--buttons2{
+      margin: 2px 0 0 0;
+    }
+    &--block{
+      width: 302px;
+      margin-left: 33px;
+    }
+    &--btn{
+      margin-top: 78px;
+    }
+    &--box{
+      height: 552px;
+    }
+    &--but1{
+      padding-top: 5rem;
+    }
+    &--title3{
+      font-size: 35px;
+    }
+  }
+  .course2{
+    &--block{
+      width: 338px;
+    }
+  }
+}
+
+
+  #course .course--box {
+    width: 342px;
+    height: 512px;
+    margin: 0 32px;
+  }
+  #course .course--btn6 {
+    width: 310px;
+  }
+  #course .course2--titles {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+
+  #course .course--btn {
+    width: 307px;
+  }
+  #course .course--girl {
+    position: relative;
+    left: 91px;
+  }
+  #course .course--design {
+    position: relative;
+    left: 5rem;
+    top: -100px;
+  }
+  #course .course2--box {
+    width: 346px;
+
+  }
+  #course .course2--image {
+    position: relative;
+    left: 34px;
+  }
+  #course .course2--btn1 {
+    left: 200px;
+  }
+  #course .course2--btn2 {
+    width: 300px;
+  }
+}
+//@media (max-width: 390px) {
+//  #course .course2--block {
+//    width: 354px;
+//    padding: 48px 17px;
+//  }
+//}
+//@media (max-width: 381px) {
+//  #course .course2--block {
+//    width: 357px;
+//  }
+//}
+@media (max-width: 376px) {
   #course .course2--block {
-    width: 423px;
+    height: 342px;
+    width: 300px;
     padding: 48px 17px;
   }
+}
+//@media (max-width: 477px) {
+//  #course .course--box {
+//    width: 304px;
+//    height: 529px;
+//    margin: 0 32px;
+//  }
+//  #course .course--buttons2 {
+//    display: flex;
+//     margin: 0;
+//  }
+//}
+//@media (max-width: 476px) {
+//  #course .course--box {
+//    width: 304px;
+//    height: 529px;
+//    margin: 0 32px;
+//  }
+//  #course .course--buttons2 {
+//    display: flex;
+//    margin: 28px 0 0 0;
+//  }
+//}
+//@media (max-width: 377px) {
+//  #course .course--box {
+//    width: 304px;
+//    height: 609px;
+//    margin: 0 32px;
+//  }
+//}
+@media  (max-width: 320px) {
+  #course {
 
-  #course .course2--btn2 {
-    width: 172px;
-  }
-  #course .course2--desc1 {
-    font-size: 20px;
-  }
-  #course .course2--desc2 {
-    font-weight: 400;
-    font-size: 25px;
-  }
- #course .course2--title2 {
-    font-size: 26px;
-  }
-  #course .frontEnd--title {
+    .course2 {
       display: flex;
-      flex-direction: column;
-      width: 349px;
-      height: 374px;
-      border-radius: 32px;
-      margin: 43px 24px;
+      padding: 170px 0 100px 0;
 
-    }
-
-  #courses .frontEnd--title__first h1 {
-    font-size: 50px;
-    line-height: 64px;
-    span {
-      margin: 0 0 0 20px;
-    }
-  }
-
-  #course .frontEnd--title__first {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
-    height: 349px;
-    border-radius: 32px;
-    margin: 43px 6px;
-  }
-
-  #courses .frontEnd--title {
-    display: flex;
-    flex-direction: column;
-    width: 336px;
-    height: 361px;
-    border-radius: 32px;
-    margin: 43px 10px;
-  }
-
-
-}
-
-
-@media (max-width: 400px) {
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 382px;
-  }
-  #courses .frontEnd--title {
-    width: 360px;
-    height: 500px;
-    margin: 45px 8px;
-  }
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 289px;
-  }
-
-  #courses {
-    .frontEnd--courses__inform--first {
-      h1 {
-        font-size: 50px;
-
+      &--box {
+        width: 383px;
+        height: 186px;
+        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+        border-radius: 30px;
+        margin-top: 9.5rem;
       }
 
-      p {
-        font-weight: 400;
-        font-size: 17px;
-        width: 326px;
-        line-height: 125%;
+      &--btn1 {
+        top: 5rem;
+        left: 160px;
+      }
+
+      &--image {
+        position: relative;
+        left: 0;
+        top: -204px;
+      }
+
+      &--block {
+        width: 297px;
+        height: 480px;
+      }
+
+      &--titles {
         display: flex;
-        align-items: center;
-        color: rgba(27, 27, 27, 0.8);
+        flex-direction: column;
+      }
+
+      &--title1 {
+
+      }
+
+      &--desc1 {
+
+      }
+
+      &--title2 {
+
+      }
+
+      &--btn2 {
+        width: 319px;
+      }
+
+      &--desc2 {
+
+      }
+
+      &--left {
+        margin-left: 20px;
       }
     }
+    .course {
 
-    h2 {
+      section {
+        position: relative;
+        width: 100%;
+        height: 390px;
+        overflow: hidden;
+        background: #EFEFEF;
+      }
 
-      margin: 44px 0;
+      &--name2 {
+        background: #4886FF;
+        transform: rotate(-2deg);
+        width: 99.9%;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+        padding: 15px;
+        margin-bottom: 10rem;
+      }
+      &--icon {
+        position: relative;
+        top: -40px;
+        left: 7.6rem;
+      }
+
+      &--projects {
+        display: flex;
+        justify-content: center;
+        grid-column-gap: 15rem;
+        padding-top: 30px;
+      }
+
+      &--block {
+        width: 290px;
+        margin: 0 39px;
+      }
+
+      &--block2 {
+        width: 286px;
+        margin: 0 39px;
+      }
+
+      &--block3 {
+        width: 380px;
+        height: 172.24px;
+        border-radius: 30px 30px 0 0;
+        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+      }
+
+      &--girl {
+        position: relative;
+        left: 70px;
+      }
+
+      &--box {
+        width: 290px;
+        margin: 0 39px;
+      }
+
+      &--title3 {
+        font-size: 32px;
+      }
+
+      &--desc1 {
+        font-size: 16px;
+      }
+
+      &--buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &--buttons button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+        transition: .3s;
+      }
+
+      &--btn1 {
+        font-size: 15px;
+      }
+
+      &--btn2 {
+        font-size: 16px;
+      }
+
+      &--btn3 {
+        width: 50px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+      }
+
+      &--buttons2{
+        margin: 0 0 0 0;
+        button {
+          margin: 5px 2px;
+        }
+      }
+
+
+
+      &--buttons2 button:hover {
+        color: #4886FF;
+        border: 2px solid #4886FF;
+      }
+
+      &--btn4 {
+        width: 64px;
+        height: 43px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        background: transparent;
+      }
+
+      &--btn5 {
+        font-size: 16px;
+      }
+
+      &--btn6 {
+        width: 256px;
+      }
+
+      &--btn {
+        &:hover {
+          background: red;
+          color: white;
+        }
+        width: 256px;
+      }
+
+      &--btn6:hover {
+        background: black;
+        color: white;
+        transition: .3s;
+        border: none;
+      }
+
+      &--design {
+        position: relative;
+        left: 4rem;
+      }
+
+
+      &--but1 {
+        padding-top: 2rem;
+      }
+
+      &--but {
+        padding-top: 2rem;
+      }
     }
   }
-  #courses .frontEnd--courses__inform {
-    padding-left: 13px;
-  }
-  #courses .frontEnd--title__first h1 {
-    font-size: 41px;
-    line-height: 55px;
-      span {
-      margin: 0 0 0 70px;
-      font-size: 17px;
-    }
-  }
-  #courses .frontEnd--title {
-    width: 272px;
-    height: 328px;
-    margin: 45px 33px;
-    border-radius: 32px;
-  }
-
 }
 
-@media (max-width: 320px) {
-  #courses .frontEnd--title__first h1 {
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-
-    span {
-      margin: -10px 0 12px 80px;
-      font-size: 19px;
-    }
-  }
-  #courses .frontEnd--courses__inform--first__fon {
-    width: 247px;
-  }
-  #courses .frontEnd--title {
-    width: 270px;
-    height: 320px;
-    border-radius: 32px;
-    margin: 45px 9px;
-  }
-  #courses .frontEnd--courses__inform--first p {
-    font-weight: 400;
-    font-size: 14px;
-    width: 254px;
-    line-height: 125%;
-    display: flex;
-    align-items: center;
-  }
-}
