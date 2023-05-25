@@ -7,10 +7,13 @@ import img4 from "../../../image/frontEnd/img4.png";
 import img5 from "../../../image/frontEnd/img5.png";
 import different from '../../../image/frontEnd/different.png'
 import './Accordion.scss'
+import {useTranslation} from "react-i18next";
 
 
 
 const Accordion = () => {
+
+    const {t} = useTranslation()
 
     const [selected, setSelected] = useState(true)
     const [selected2, setSelected2] = useState(true)
@@ -34,7 +37,7 @@ const Accordion = () => {
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
                                         <img className={'img'} src={img1} alt="img"/>
-                                        <h1>Landing page</h1>
+                                        <h1>{t("text140")}</h1>
                                     </div>
                                     <MdKeyboardArrowDown   className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected ? 'rotate(182deg)': 'rotate(1deg)'}} />
 
@@ -45,18 +48,17 @@ const Accordion = () => {
 
                             <div className="accordion--type__folower--this">
                                 <div className="accordion--type__folower--this__those">
-                                    <p>В этом модуле вы получите представление о том, в чем разница между UX и UI, а также почему они неразрывно связаны между собой. Мы обсудим, что такое интерфейс и затронем тему классификации дизайна и сайтов. Вы узнаете, какими принципами и в каком порядке важно руководствоваться в процессе проектирования, получите представление о том, как пользователи обрабатывают данные, изучите приёмы управления их вниманием и эмоциями. Научитесь работать в графическом редакторе Figma и пройдёте первые этапы погружения в UX/UI-дизайн.
-                                    </p>
+                                    <p>{t("text141")}</p>
                                     <div className="accordion--type__folower__this--those__that">
-                                        <li>Задачи и навыки UX/UI дизайнера </li>
+                                        <li>{t("text142")}</li>
 
-                                        <li> Психология пользователя</li>
-                                        <li> Работа с Figma (Начало)</li>
-                                        <li> Базовый стиль</li>
-                                        <li>   Развитие насмотренности</li>
-                                        <li>  Логика интерфейса</li>
-                                        <li>  Принципы навигации</li>
-                                        <li>Исследования</li>
+                                        <li>{t("text143")}</li>
+                                        <li>{t("text144")}</li>
+                                        <li>{t("text145")}</li>
+                                        <li>{t("text146")}</li>
+                                        <li>{t("text147")}</li>
+                                        <li>{t("text148")}</li>
+                                        <li>{t("text149")}</li>
 
                                     </div>
                                 </div>
@@ -80,7 +82,7 @@ const Accordion = () => {
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
                                         <img className={'img'} src={img2} alt="img"/>
-                                        <h1>Основы UX дизайна</h1>
+                                        <h1>{t("text150")}</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected2 ? 'rotate(182deg)': 'rotate(1deg)'}} />
 
@@ -90,20 +92,18 @@ const Accordion = () => {
                             </div>
                             <div className="accordion--type__folower--this">
                                 <div className="accordion--type__folower--this__those">
-                                    <p>В этом модуле вы получите представление о том, в чем разница между UX и UI, а также почему они неразрывно связаны между собой. Мы обсудим, что такое интерфейс и затронем тему классификации дизайна и сайтов. Вы узнаете, какими принципами и в каком порядке важно руководствоваться в процессе проектирования, получите представление о том, как пользователи обрабатывают данные, изучите приёмы управления их вниманием и эмоциями. Научитесь работать в графическом редакторе Figma и пройдёте первые этапы погружения в UX/UI-дизайн.
-                                    </p>
+                                   <p>{t("text141")}</p>
                                     <div className="accordion--type__folower__this--those__that">
 
-                                        <li>Задачи и навыки UX/UI дизайнера </li>
+                                        <li>{t("text142")} </li>
 
-                                        <li> Психология пользователя
-                                        </li>
-                                        <li>    Работа с Figma (Начало)</li>
-                                        <li> Базовый стиль</li>
-                                        <li>   Развитие насмотренности</li>
-                                        <li>  Логика интерфейса</li>
-                                        <li>  Принципы навигации</li>
-                                        <li>Исследования</li>
+                                        <li>{t("text143")}</li>
+                                        <li>{t("text144")}</li>
+                                        <li>{t("text145")}</li>
+                                        <li>{t("text146")}</li>
+                                        <li>{t("text147")}</li>
+                                        <li>{t("text148")}</li>
+                                        <li>{t("text149")}</li>
 
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ const Accordion = () => {
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
                                         <img className={'img'} src={img3} alt="img"/>
-                                        <h1>Landing page</h1>
+                                        <h1>{t("text140")}</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected3 ? 'rotate(182deg)': 'rotate(1deg)'}} />
 
@@ -139,19 +139,17 @@ const Accordion = () => {
                             </div>
                             <div className="accordion--type__folower--this">
                                 <div className="accordion--type__folower--this__those">
-                                    <p>В этом модуле вы получите представление о том, в чем разница между UX и UI, а также почему они неразрывно связаны между собой. Мы обсудим, что такое интерфейс и затронем тему классификации дизайна и сайтов. Вы узнаете, какими принципами и в каком порядке важно руководствоваться в процессе проектирования, получите представление о том, как пользователи обрабатывают данные, изучите приёмы управления их вниманием и эмоциями. Научитесь работать в графическом редакторе Figma и пройдёте первые этапы погружения в UX/UI-дизайн.
-                                    </p>
+                                   <p>{t("text141")}</p>
                                     <div className="accordion--type__folower__this--those__that">
-                                        <li>Задачи и навыки UX/UI дизайнера </li>
+                                        <li>{t("text142")} </li>
 
-                                        <li> Психология пользователя
-                                        </li>
-                                        <li>    Работа с Figma (Начало)</li>
-                                        <li> Базовый стиль</li>
-                                        <li>   Развитие насмотренности</li>
-                                        <li>  Логика интерфейса</li>
-                                        <li>  Принципы навигации</li>
-                                        <li>Исследования</li>
+                                        <li> {t("text143")}</li>
+                                        <li>{t("text144")}</li>
+                                        <li>{t("text145")}</li>
+                                        <li>{t("text146")}</li>
+                                        <li>{t("text147")}</li>
+                                        <li>{t("text148")}</li>
+                                        <li>{t("text149")}</li>
 
                                     </div>
                                 </div>
@@ -177,7 +175,7 @@ const Accordion = () => {
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
                                         <img className={'img'} src={img4} alt="img"/>
-                                        <h1>Упаковка портфолио</h1>
+                                        <h1>{t("text151")}</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected4 ? 'rotate(182deg)': 'rotate(1deg)'}} />
 
@@ -187,19 +185,17 @@ const Accordion = () => {
                             </div>
                             <div className="accordion--type__folower--this">
                                 <div className="accordion--type__folower--this__those">
-                                    <p>В этом модуле вы получите представление о том, в чем разница между UX и UI, а также почему они неразрывно связаны между собой. Мы обсудим, что такое интерфейс и затронем тему классификации дизайна и сайтов. Вы узнаете, какими принципами и в каком порядке важно руководствоваться в процессе проектирования, получите представление о том, как пользователи обрабатывают данные, изучите приёмы управления их вниманием и эмоциями. Научитесь работать в графическом редакторе Figma и пройдёте первые этапы погружения в UX/UI-дизайн.
-                                    </p>
+                                    <p>{t("text141")}</p>
                                     <div className="accordion--type__folower__this--those__that">
-                                        <li>Задачи и навыки UX/UI дизайнера </li>
+                                        <li>{t("text142")} </li>
 
-                                        <li> Психология пользователя
-                                        </li>
-                                        <li>    Работа с Figma (Начало)</li>
-                                        <li> Базовый стиль</li>
-                                        <li>   Развитие насмотренности</li>
-                                        <li>  Логика интерфейса</li>
-                                        <li>  Принципы навигации</li>
-                                        <li>Исследования</li>
+                                        <li>{t("text143")}</li>
+                                        <li>{t("text144")}</li>
+                                        <li>{t("text145")}</li>
+                                        <li>{t("text146")}</li>
+                                        <li>{t("text147")}</li>
+                                        <li>{t("text148")}</li>
+                                        <li>{t("text149")}</li>
 
                                     </div>
                                 </div>
@@ -223,7 +219,7 @@ const Accordion = () => {
                                 <div className="accordion--type__folower--folower2__folower3">
                                     <div className="accordion--type__folower--folower2__folower3--folower4">
                                         <img className={'img'} src={img5} alt="img"/>
-                                        <h1>Экзамен</h1>
+                                        <h1>{t("text152")}</h1>
                                     </div>
                                     <MdKeyboardArrowDown  className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected5 ? 'rotate(182deg)': 'rotate(1deg)'}} />
 
@@ -233,19 +229,17 @@ const Accordion = () => {
                             </div>
                             <div className="accordion--type__folower--this">
                                 <div className="accordion--type__folower--this__those">
-                                    <p>В этом модуле вы получите представление о том, в чем разница между UX и UI, а также почему они неразрывно связаны между собой. Мы обсудим, что такое интерфейс и затронем тему классификации дизайна и сайтов. Вы узнаете, какими принципами и в каком порядке важно руководствоваться в процессе проектирования, получите представление о том, как пользователи обрабатывают данные, изучите приёмы управления их вниманием и эмоциями. Научитесь работать в графическом редакторе Figma и пройдёте первые этапы погружения в UX/UI-дизайн.
-                                    </p>
+                                    <p>{t("text141")}</p>
                                     <div className="accordion--type__folower__this--those__that">
-                                        <li>Задачи и навыки UX/UI дизайнера </li>
+                                        <li>{t("text142")} </li>
 
-                                        <li> Психология пользователя
-                                        </li>
-                                        <li>    Работа с Figma (Начало)</li>
-                                        <li> Базовый стиль</li>
-                                        <li>   Развитие насмотренности</li>
-                                        <li>  Логика интерфейса</li>
-                                        <li>  Принципы навигации</li>
-                                        <li>Исследования</li>
+                                        <li>{t("text143")}</li>
+                                        <li>{t("text144")}</li>
+                                        <li>{t("text145")}</li>
+                                        <li>{t("text146")}</li>
+                                        <li>{t("text147")}</li>
+                                        <li>{t("text148")}</li>
+                                        <li>{t("text149")}</li>
 
                                     </div>
                                 </div>

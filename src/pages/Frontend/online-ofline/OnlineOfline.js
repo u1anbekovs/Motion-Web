@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import './onlineOf.scss'
+import {useTranslation} from "react-i18next";
 
 const OnlineOfline = () => {
+    const {t} = useTranslation()
     const [choose, SetChoose] = useState(false)
     const [choose2, SetChoose2] = useState(false)
 
@@ -9,8 +11,8 @@ const OnlineOfline = () => {
             <div id="OnlineOfline">
                 <div className="container">
                         <div className="OnOf">
-                            <button style={{transform: "3s"}} onClick={() => SetChoose(!choose)}>Офлайн</button>
-                            <button onClick={() => SetChoose2(!choose2)}>Онлайн</button>
+                            <button style={{transform: "3s"}} onClick={() => SetChoose(!choose)}>{t("text103")}</button>
+                            <button onClick={() => SetChoose2(!choose2)}>{t("text104")}</button>
 
                             <div className="OnOf--ofline">
                                 <div style={{
@@ -19,12 +21,10 @@ const OnlineOfline = () => {
                                     marginLeft: '-958px'
                                 }} onClick={() => SetChoose(!choose)} className='OnOf--ofline__first'>
                                     <div className="OnOf--ofline__first--three">
-                                        <h1>Офлайн</h1>
-                                        <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.</li>
-                                        <li>Занятия будут проходить на кыргызском языке.</li>
-                                        <li>В Академии есть возможность практиковать внеклассное обучение в период с 09 до 22
-                                            (OPEN SPACE).
-                                        </li>
+                                        <h1>{t("text103")}</h1>
+                                        <li>{t("text105")}</li>
+                                        <li>{t("text106")}</li>
+                                        <li>{t("text108")}</li>
                                     </div>
                                 </div>
 
@@ -34,34 +34,32 @@ const OnlineOfline = () => {
                                     marginLeft: '-958px'
                                 }} onClick={() => SetChoose2(!choose2)} className='OnOf--ofline__for'>
                                     <div className="OnOf--ofline__first--three">
-                                        <h1>Онлайн</h1>
-                                        <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.</li>
-                                        <li>Занятия будут проходить на кыргызском языке.</li>
-                                        <li>Телеграм, ZOOM</li>
-                                        <li>Быстрая и оперативная обратная связь от менторов</li>
+                                        <h1>{t("text104")}</h1>
+                                        <li>{t("text105")}</li>
+                                        <li>{t("text106")}</li>
+                                        <li>{t("text107")}</li>
+                                        <li>{t("text109")}</li>
                                     </div>
                                 </div>
 
                                 {/*==*/}
                                 <div className='OnOf--ofline__first2'>
                                     <div className="OnOf--ofline__first--three">
-                                        <h1>Офлайн</h1>
-                                        <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.</li>
-                                        <li>Занятия будут проходить на кыргызском языке.</li>
-                                        <li>В Академии есть возможность практиковать внеклассное обучение в период с 09 до 22
-                                            (OPEN SPACE).
-                                        </li>
+                                        <h1>{t("text103")}</h1>
+                                        <li>{t("text105")}</li>
+                                        <li>{t("text106")}</li>
+                                        <li>{t("text108")}</li>
 
                                     </div>
                                 </div>
 
                                 <div  className='OnOf--ofline__for2'>
                                     <div className="OnOf--ofline__first--three">
-                                        <h1>Онлайн</h1>
-                                        <li>В одной группе обучается всего 10-12-14 студентов стандартной формы.</li>
-                                        <li>Занятия будут проходить на кыргызском языке.</li>
-                                        <li>Телеграм, ZOOM</li>
-                                        <li>Быстрая и оперативная обратная связь от менторов</li>
+                                        <h1>{t("text104")}</h1>
+                                        <li>{t("text105")}</li>
+                                        <li>{t("text106")}</li>
+                                        <li>{t("text107")}</li>
+                                        <li>{t("text109")}</li>
                                     </div>
                                 </div>
                                 {/*==*/}

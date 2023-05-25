@@ -47,7 +47,7 @@ const Courses = () => {
                         <h1>{t("text100")}<br/> <span>{t("text101")}</span></h1>
                     </div>
                     <div className="frontEnd--title__first">
-                        <h1>{t("text101")}<br/> <span>{t("text102")} </span></h1>
+                        <h1>{t("text100")}<br/> <span>{t("text102")} </span></h1>
                     </div>
                 </div>
             </div>
