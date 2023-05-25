@@ -6,10 +6,11 @@ import './mentor.scss'
 import Slider from "react-slick";
 import SliderIcon1 from "../../../image/main/check1.svg"
 import SliderIcon2 from "../../../image/main/check.svg"
+import {useTranslation} from "react-i18next";
 
 
 const Mentor = () => {
-
+    const {t} = useTranslation()
     let settings = {
         dots: true,
         infinite: false,
@@ -60,74 +61,60 @@ const Mentor = () => {
             <div className="container">
                 <div className="mentor">
                     <div className="mentor--title">
-                        <h2>Лучшие менторы</h2><br/>
-                        <h3>по всему Кыргызстану</h3>
+                        <h2>{t("text131")}</h2><br/>
+                        <h3>{t("text132")}</h3>
                     </div>
 
                     <Slider {...settings}>
                         <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorRight} alt=""/>
-                                <h3>Ахырхан Кайратов</h3>
-                                <p>Ментор по UI/UX дизайну. Работал <br/>в амерканской компании и на
-                                    фрилансе. <br/>На
-                                    счёту 200+ успешных проектов.</p>
+                                <h3>{t("text133")}</h3>
+                                <p>{t("text134")}</p>
                             </div>
                         </div>
                         <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorCenter} alt=""/>
-                                <h3>Юля Гавриенко</h3>
-                                <p>Ментор по UI/UX дизайну. Работал <br/>в амерканской компании и на
-                                    фрилансе. <br/>На
-                                    счёту 200+ успешных проектов.</p>
+                                <h3>{t("text135")}</h3>
+                                <p>{t("text134")}</p>
                             </div>
                         </div>
                         <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorLeft} alt=""/>
-                                <h3>Алишер Бекназаров</h3>
-                                <p>Ментор по UI/UX дизайну. Работал <br/>в амерканской компании и на
-                                    фрилансе. <br/>На
-                                    счёту 200+ успешных проектов.</p>
+                                <h3>{t("text136")}</h3>
+                                <p>{t("text134")}</p>
                             </div>
                         </div>
                         <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorLeft} alt=""/>
-                                <h3>Алишер Бекназаров</h3>
-                                <p>Ментор по UI/UX дизайну. Работал <br/>в амерканской компании и на
-                                    фрилансе. <br/>На
-                                    счёту 200+ успешных проектов.</p>
+                                <h3>{t("text136")}</h3>
+                                <p>{t("text134")}</p>
                             </div>
                         </div>
                         <div className="mentor--blocks">
                             <div className="mentor--boys__first">
                                 <img src={mentorLeft} alt=""/>
-                                <h3>Алишер Бекназаров</h3>
-                                <p>Ментор по UI/UX дизайну. Работал <br/>в амерканской компании и на
-                                    фрилансе. <br/>На
-                                    счёту 200+ успешных проектов.</p>
+                                <h3>{t("text136")}</h3>
+                                <p>{t("text134")}</p>
                             </div>
                         </div>
                         <div className="mentor--blocks">
 
                             <div className="mentor--boys__first">
                                 <img src={mentorRight} alt=""/>
-                                <h3>Ахырхан Кайратов</h3>
-                                <p>Ментор по UI/UX дизайну. Работал <br/>в амерканской компании и на
-                                    фрилансе. <br/>На
-                                    счёту 200+ успешных проектов.</p>
+                                <h3>{t('text133')}</h3>
+                                <p>{t("text134")}</p>
                             </div>
                         </div>
                     </Slider>
 
                     <div className="mentor--connection">
                         <div className="mentor--connection__text">
-                            <h2>Самая оперативная <br/>и качественная <br/>обратная связь</h2>
-                            <p>Наши менторы дают подробный <br/>разбор ваших работ, отмечают <br/>ошибки
-                                и помогают
-                                их исправить.</p>
+                            <h2>{t("text109")}</h2>
+                            <p>{t("text137")}</p>
                         </div>
                         <div className="mentor--connection__video">
                             <iframe className="video" src="https://www.youtube.com/embed/7VerRJwJP0s"

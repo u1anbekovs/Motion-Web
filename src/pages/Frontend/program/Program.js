@@ -1,20 +1,16 @@
 import React from 'react';
 import './program.scss'
+import {useTranslation} from "react-i18next";
 const Program = () => {
+    const {t} = useTranslation()
     return (
         <div id="program">
             <div className="container">
                 <div className="program">
 
                     <div className="program--courses">
-                        <h1>Программа курса</h1>
-                        <p>С нашей помощью вы сможете создавать проекты, которые отвечают <br/>высоким
-                            требованиям
-                            юзабилити (UX) и визуала (UI). Вы пройдёте <br/>все этапы создания дизайна
-                            сайта
-                            совместно с опытным куратором <br/>и в итоге научитесь делать проекты на
-                            уровне лидеров
-                            индустрии.</p>
+                        <h1>{t("text138")}</h1>
+                        <p>{t("text139")}</p>
                     </div>
                 </div>
             </div>
