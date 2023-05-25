@@ -1414,10 +1414,14 @@
         border-radius: 30px;
         margin-top: 9.5rem;
       }
+      &--titles{
+        display: flex;
+        flex-direction: column;
+      }
       &--block{
         width: 423px;
         padding: 53px 14px;
-        height: 365px;
+        height: 387px;
       }
       &--desc2{
         font-weight: 400;
@@ -1438,7 +1442,7 @@
 
       }
       &--but1{
-        padding-top: 4rem;
+        padding-top: 6rem;
 
       }
       &--block{
@@ -1457,6 +1461,11 @@
         margin: 6px 0 0 0;
         //margin-top: -100px;
       }
+      &--girl{
+        position: relative;
+        left: 68px;
+        top: -94px;
+      }
     }
 }
 }
@@ -1471,9 +1480,14 @@
 
     }
     .course2{
+
       &--block2 {
         width: 353px;
         margin-top: 140px;
+      }
+      &--btn2{
+        width: 188px;
+
       }
        &--block{
          height: 377px;
@@ -1844,8 +1858,7 @@
       }
 
       &--block {
-        width: 297px;
-        height: 480px;
+        height: 431px;
       }
 
       &--titles {
@@ -1854,11 +1867,12 @@
       }
 
       &--title1 {
-
+        font-size: 27px;
       }
 
       &--desc1 {
-
+        line-height: 124%;
+        font-size: 15px;
       }
 
       &--title2 {
@@ -1866,7 +1880,8 @@
       }
 
       &--btn2 {
-        width: 319px;
+        height: 42px;
+        width: 227px;
       }
 
       &--desc2 {
@@ -1929,7 +1944,7 @@
 
       &--girl {
         position: relative;
-        left: 70px;
+        left: 48px;
       }
 
       &--box {
@@ -2033,7 +2048,7 @@
 
 
       &--but1 {
-        padding-top: 2rem;
+        padding-top: 7rem;
       }
 
       &--but {

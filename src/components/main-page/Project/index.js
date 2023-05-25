@@ -12,7 +12,6 @@ import menu3 from '../../../image/main/Frame 3.png'
 import {useState} from "react";
 import {Link} from "react-router-dom";
 import {useTranslation} from "react-i18next";
-
 const Student = () => {
     const {t} = useTranslation()
     const [student, setStudent] = useState(false)
