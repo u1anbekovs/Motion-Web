@@ -28,7 +28,6 @@ const FrontendHero = () => {
     }
 
 
-
     const [start, setStart] = useState(true)
     const startForm = () => {
         setStart(true)
@@ -38,8 +37,13 @@ const FrontendHero = () => {
         <div id="FrontendHero">
             <div className='title'>
                 <h1 style={{paddingTop: '90px'}}>FRONT <span>END</span></h1>
-                <p>{t("text88")}</p>
-                <button  onClick={() => setStart(!start)}>{t("text89")}</button>
+                <p>{t("text88")} <br/> <span>{t("text88.1")} </span>
+                    <br/> <span>{t("text88.2")} </span>
+                    <br/> <span>{t("text88.3")} </span>
+                    <br/> <span>{t("text88.4")} </span>
+                    <br/> <span>{t("text88.5")} </span>
+                </p>
+                <button onClick={() => setStart(!start)}>{t("text89")}</button>
             </div>
             <div className="FrontendHero">
                 <div className="an1">
