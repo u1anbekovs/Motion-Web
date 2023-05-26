@@ -98,6 +98,7 @@
       margin-left: 20px;
     }
   }
+
   .course {
 
     section {
@@ -111,21 +112,22 @@
     section .scroll {
       width: 100%;
       display: flex;
-      font-weight:900;
+      font-weight: 900;
       font-size: 15px;
       color: #ffffff;
 
       img {
         padding: 20px 0;
       }
-  &--anim {
-    width: 99.9%;
-    height: 70px;
-    background: #EC3025;
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
-  }
+
+      &--anim {
+        width: 99.9%;
+        height: 70px;
+        background: #EC3025;
+        position: relative;
+        overflow: hidden;
+        padding: 15px;
+      }
 
 
       span {
@@ -152,6 +154,7 @@
       -webkit-text-stroke: 2px #fff8f8;
       color: transparent;
     }
+
     .scroll2 {
       background: #f8f8f8;
       position: relative;
@@ -160,7 +163,7 @@
       overflow: hidden;
       display: flex;
       font-weight: 500;
-      font-size:20px;
+      font-size: 20px;
       color: #ffffff;
     }
 
@@ -179,16 +182,16 @@
       display: flex;
     }
 
-  &--name2 {
-    background: #4886FF;
-    transform: rotate(-2deg);
-    width: 99.9%;
-    height: 60px;
-    position: relative;
-    overflow: hidden;
-    padding: 15px;
-    margin-bottom: 10rem;
-  }
+    &--name2 {
+      background: #4886FF;
+      transform: rotate(-2deg);
+      width: 99.9%;
+      height: 60px;
+      position: relative;
+      overflow: hidden;
+      padding: 15px;
+      margin-bottom: 10rem;
+    }
 
     section .scroll2 div:nth-child(2) {
       animation: animate2 40s linear infinite;
@@ -466,30 +469,17 @@
         display: flex;
       }
 
-      &--title1 {
-
-      }
-
-      &--desc1 {
-
-      }
-
-      &--title2 {
-
-      }
 
       &--btn2 {
         width: 319px;
       }
 
-      &--desc2 {
-
-      }
 
       &--left {
         margin-left: 20px;
       }
     }
+
     .course {
 
       section {
@@ -500,6 +490,7 @@
         background: #EFEFEF;
 
       }
+
       &--icon {
         position: relative;
         top: -40px;
@@ -650,6 +641,7 @@
           background: red;
           color: white;
         }
+
         width: 280px;
       }
 
@@ -711,30 +703,15 @@
         display: flex;
       }
 
-      &--title1 {
-
-      }
-
-      &--desc1 {
-
-      }
-
-      &--title2 {
-
-      }
-
       &--btn2 {
         width: 319px;
-      }
-
-      &--desc2 {
-
       }
 
       &--left {
         margin-left: 20px;
       }
     }
+
     .course {
 
       section {
@@ -896,6 +873,7 @@
           background: red;
           color: white;
         }
+
         width: 280px;
       }
 
@@ -961,14 +939,6 @@
         display: flex;
       }
 
-      &--title1 {
-
-      }
-
-      &--desc1 {
-
-      }
-
       &--title2 {
         font-size: 31px;
       }
@@ -977,27 +947,12 @@
         width: 319px;
       }
 
-      &--desc2 {
-
-      }
-
       &--left {
         margin-left: 20px;
       }
     }
+
     .course {
-
-      section {
-
-      }
-
-      &--name2 {
-
-      }
-      &--icon {
-
-      }
-
       &--projects {
         display: flex;
         flex-direction: column;
@@ -1142,6 +1097,7 @@
           background: red;
           color: white;
         }
+
         width: 376px;
       }
 
@@ -1169,8 +1125,8 @@
   }
 }
 
+
 @media (max-width: 576px) {
-@media (max-width: 576px){
   #course {
 
     .course2 {
@@ -1206,30 +1162,17 @@
         display: flex;
       }
 
-      &--title1 {
-
-      }
-
-      &--desc1 {
-
-      }
-
-      &--title2 {
-
-      }
 
       &--btn2 {
         width: 319px;
       }
 
-      &--desc2 {
-
-      }
 
       &--left {
         margin-left: 20px;
       }
     }
+
     .course {
 
       section {
@@ -1250,6 +1193,7 @@
         padding: 15px;
         margin-bottom: 10rem;
       }
+
       &--icon {
         position: relative;
         top: -40px;
@@ -1378,6 +1322,7 @@
           background: red;
           color: white;
         }
+
         width: 310px;
       }
 
@@ -1404,6 +1349,7 @@
     }
   }
 }
+
 @media (max-width: 451px) {
   #course {
     &--btn1 {
@@ -1416,351 +1362,238 @@
       left: 0;
       top: -204px;
     }
+
     .course2 {
 
-@media (max-width: 451px) {
+      @media (max-width: 451px) {
+        #course {
+          .course2 {
+            display: flex;
+            padding: 170px 0 100px 0;
+
+            &--box {
+              width: 383px;
+              height: 186px;
+              background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
+              border-radius: 30px;
+              margin-top: 9.5rem;
+            }
+
+            font-weight: 500;
+            font-size: 33px;
+            line-height: 33px;
+          }
+
+          #course .course--box {
+            width: 311px;
+            height: 517px;
+          }
+        }
+
+      }
+
+      @media (max-width: 576px) {
+        #course .course--block2 {
+          width: 314px;
+        }
+
+        #course .course2--block {
+          width: 340px;
+          padding: 48px 17px;
+        }
+        #course .course2--title2 {
+          font-size: 36px;
+        }
+        #course .course--block {
+          width: 315px;
+          margin-left: 31px;
+        }
+        #course .course2--desc1 {
+          font-size: 19px;
+        }
+        #course .course--btn {
+          width: 282px;
+        }
+        #course .course--btn6 {
+          width: 282px;
+        }
+        #course .course--btn1 {
+          border: 1px solid #000000;
+          border-radius: 30px;
+          width: 76px;
+          height: 43px;
+          margin: 2px 0;
+        }
+        #course .course--block {
+          width: 303px;
+          margin-left: 31px;
+        }
+        #course .course--btn4 {
+          width: 64px;
+          height: 43px;
+          margin: 26px 0;
+        }
+        #course .course--box {
+          width: 301px;
+          height: 607px;
+        }
+
+      }
+
+      @media (max-width: 500px) {
+        #course .course2--block {
+          width: 459px;
+          padding: 48px 17px;
+        }
+        #course .course section {
+          position: relative;
+          width: 99%;
+        }
+        #course .course--but1 {
+          padding-top: 0rem;
+        }
+        #course .course2--titles {
+          display: flex;
+          flex-flow: wrap;
+          margin-top: -22px;
+        }
+        #course .course2--title1 {
+          font-size: 29px;
+        }
+        #course .course--block2 {
+          margin-left: 22px;
+        }
+
+        #course .course--buttons2 {
+          display: flex;
+          flex-flow: wrap;
+          margin: 26px 0 0 0;
+        }
+        #course .course2--desc1 {
+          font-size: 27px;
+        }
+        #course .course2--desc1 {
+          font-size: 18px;
+        }
+        #course .course2--title2 {
+          font-size: 35px;
+        }
+        #course .course--box {
+          width: 366px;
+          height: 541px;
+        }
+
+        #course .course2--desc1 {
+          font-size: 23px;
+        }
+        #course .course--btn {
+          width: 333px;
+        }
+        #course .course2--btn2 {
+          width: 172px;
+          margin-left: 53px;
+        }
+        #course .course--projects {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          grid-row-gap: 243px;
+        }
+        #course .course2--desc1 {
+          font-size: 21px;
+        }
+
+      }
+
+      @media (max-width: 450px) {
+        #course .course2--block {
+          width: 540px;
+        }
+        #course .course2--desc1 {
+          font-size: 15px;
+        }
+        #course .course2--btn2 {
+          width: 146px;
+        }
+      }
+
+      @media (max-width: 414px) {
+        #course .course2--block {
+          width: 385px;
+          padding: 48px 17px;
+        }
+
+
+        #course .course--block2 {
+          width: 341px;
+          margin: 0 32px;
+        }
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 33px;
+      }
+
+      .course {
+        &--vector {
+
+        }
+
+        &--but1 {
+          padding-top: 4rem;
+
+        }
+
+        &--buttons2 {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 6px 0 0 0;
+          //margin-top: -100px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 401px) {
   #course {
-    .course2{
-      display: flex;
-      padding: 170px 0 100px 0;
+    .course {
+      &--btn4 {
+        margin: 0px 0;
+      }
+
+      &--buttons2 {
+        margin: 2px 0 0 0;
+      }
+
+      &--block {
+        width: 302px;
+        margin-left: 33px;
+      }
+
+      &--btn {
+        margin-top: 78px;
+      }
 
       &--box {
-        width: 383px;
-        height: 186px;
-        background: linear-gradient(130deg, #000000 35.42%, rgba(31, 31, 31, 0.9) 100%);
-        border-radius: 30px;
-        margin-top: 9.5rem;
+        height: 552px;
       }
 
-      font-weight: 500;
-      font-size: 33px;
-      line-height: 33px;
-    }
-
-    #course .course--box {
-      width: 311px;
-      height: 517px;
-    }
-  }
-
-}
-
-@media  (max-width: 576px) {
-  #course .course--block2 {
-    width: 314px;
-  }
-
-  #course .course2--block {
-    width: 340px;
-    padding: 48px 17px;
-  }  #course .course2--title2 {
-    font-size: 36px;
-  }
-  #course .course--block {
-    width: 315px;
-    margin-left: 31px;
-  }
-  #course .course2--desc1 {
-    font-size: 19px;
-  }
-  #course .course--btn {
-    width: 282px;
-  }
-  #course .course--btn6 {
-    width: 282px;
-  }
-  #course .course--btn1 {
-    border: 1px solid #000000;
-    border-radius: 30px;
-    width: 76px;
-    height: 43px;
-    margin: 2px 0;
-  }
-  #course .course--block {
-    width: 303px;
-    margin-left: 31px;
-  }
-  #course .course--btn4 {
-    width: 64px;
-    height: 43px;
-    margin: 26px 0;
-  }
-  #course .course--box {
-    width: 301px;
-    height: 607px;
-  }
-
-}
-
-@media (max-width: 500px) {
-  #course .course2--block {
-    width: 459px;
-    padding: 48px 17px;
-  }
-  #course .course section {
-    position: relative;
-    width: 99%;
-  }
-  #course .course--but1 {
-    padding-top: 0rem;
-  }
-  #course .course2--titles {
-    display: flex;
-    flex-flow: wrap;
-    margin-top: -22px;
-  }
-  #course .course2--title1 {
-    font-size: 29px;
-  }
-  #course .course--block2 {
-    margin-left: 22px;
-  }
-
-  #course .course--buttons2 {
-    display: flex;
-    flex-flow: wrap;
-    margin: 26px 0 0 0;
-  }
-  #course .course2--desc1 {
-    font-size: 27px;
-  }
-  #course .course2--desc1 {
-    font-size: 18px;
-  }
-  #course .course2--title2 {
-    font-size: 35px;
-  }
-  #course .course--box {
-    width: 366px;
-    height: 541px;
-  }
-
-  #course .course2--desc1 {
-    font-size: 23px;
-  }
-  #course .course--btn {
-    width: 333px;
-  }
-  #course .course2--btn2 {
-    width: 172px;
-    margin-left: 53px;
-  }
-  #course .course--projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-row-gap: 243px;
-  }
-  #course .course2--desc1 {
-    font-size: 21px;
-  }
-
-}
-
-@media (max-width: 450px) {
-  #course .course2--block {
-    width: 540px;
-  }
-  #course .course2--desc1 {
-    font-size: 15px;
-  }
-  #course .course2--btn2 {
-    width: 146px;
-  }
-}
-
-@media (max-width: 414px) {
-  #course .course2--block {
-    width: 385px;
-    padding: 48px 17px;
-  }
-
-
-  #course .course--block2 {
-    width: 341px;
-    margin: 0 32px;
-  }
-    font-weight: 500;
-    font-size: 33px;
-    line-height: 33px;
-  }
-    .course{
-      &--vector{
-
-      }
-      &--but1{
-        padding-top: 4rem;
-
+      &--but1 {
+        padding-top: 5rem;
       }
 
-      &--buttons2{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 6px 0 0 0;
-        //margin-top: -100px;
+      &--title3 {
+        font-size: 35px;
       }
     }
-}
-}
 
-
-//@media (max-width: 500px) {
-//  #course .course2--block {
-//    width: 459px;
-//    padding: 48px 17px;
-//  }
-//  #course .course section {
-//    position: relative;
-//    width: 99%;
-//  }
-//  #course .course--but1 {
-//    padding-top: 0rem;
-//  }
-//  #course .course2--titles {
-//    display: flex;
-//    flex-flow: wrap;
-//    margin-top: -22px;
-//  }
-//  #course .course2--title1 {
-//    font-size: 29px;
-//  }
-//  #course .course--block2 {
-//    margin-left: 22px;
-//  }
-//
-//  #course .course--buttons2 {
-//    display: flex;
-//    flex-flow: wrap;
-//    margin: 26px 0 0 0;
-//  }
-//  #course .course2--desc1 {
-//    font-size: 27px;
-//  }
-//  #course .course2--desc1 {
-//    font-size: 18px;
-//  }
-//  #course .course2--title2 {
-//    font-size: 35px;
-//  }
-//  #course .course--box {
-//    width: 366px;
-//    height: 541px;
-//  }
-//
-//  #course .course2--desc1 {
-//    font-size: 23px;
-//  }
-//  #course .course--btn {
-//    width: 333px;
-//  }
-//  #course .course2--btn2 {
-//    width: 172px;
-//    margin-left: 53px;
-//  }
-//  #course .course--projects {
-//    display: flex;
-//    flex-direction: column;
-//    align-items: center;
-//    grid-row-gap: 243px;
-//  }
-//  #course .course2--desc1 {
-//    font-size: 21px;
-//  }
-//}
-//@media (max-width: 414px) {
-//  #course .course2--block {
-//    width: 385px;
-//    padding: 48px 17px;
-//  }
-//
-//
-//  #course .course--block2 {
-//    width: 341px;
-//    margin: 0 32px;
-//  }
-//  #course .course--box {
-//    width: 342px;
-//    height: 512px;
-//    margin: 0 32px;
-//  }
-//  #course .course--btn6 {
-//    width: 310px;
-//  }
-//  #course .course2--titles {
-//    display: flex;
-//    align-items: baseline;
-//    flex-direction: column;
-//  }
-//  #course .course2--block {
-//    width: 380px;
-//  }
-//  #course .course2--block {
-//    width: 380px;
-//    height: 400px;
-//  }
-//  #course .course--btn {
-//    width: 307px;
-//  }
-//  #course .course--girl {
-//    position: relative;
-//    left: 91px;
-//  }
-//  #course .course--design {
-//    position: relative;
-//    left: 5rem;
-//    top: -100px;
-//  }
-//  #course .course2--box {
-//    width: 346px;
-//
-//  }
-//  #course .course2--image {
-//    position: relative;
-//    left: 34px;
-//  }
-//  #course .course2--btn1 {
-//    left: 200px;
-//  }
-//  #course .course2--block {
-//    width: 358px;
-//    height: 495px;
-//  }
-//  #course .course2--btn2 {
-//    width: 300px;
-//  }
-//}
-@media (max-width: 401px) {
-#course{
-  .course{
-    &--btn4{
-      margin: 0px 0;
-    }
-    &--buttons2{
-      margin: 2px 0 0 0;
-    }
-    &--block{
-      width: 302px;
-      margin-left: 33px;
-    }
-    &--btn{
-      margin-top: 78px;
-    }
-    &--box{
-      height: 552px;
-    }
-    &--but1{
-      padding-top: 5rem;
-    }
-    &--title3{
-      font-size: 35px;
+    .course2 {
+      &--block {
+        width: 338px;
+      }
     }
   }
-  .course2{
-    &--block{
-      width: 338px;
-    }
-  }
-}
 
 
   #course .course--box {
@@ -1889,18 +1722,6 @@
   }
 }
 
-=======
-//@media (max-width: 390px) {
-//  #course .course2--block {
-//    width: 354px;
-//    padding: 48px 17px;
-//  }
-//}
-//@media (max-width: 381px) {
-//  #course .course2--block {
-//    width: 357px;
-//  }
-//}
 @media (max-width: 376px) {
   #course .course2--block {
     height: 342px;
@@ -1917,7 +1738,7 @@
   }
   #course .course--buttons2 {
     display: flex;
-     margin: 0;
+    margin: 0;
   }
 }
 
@@ -1942,255 +1763,211 @@
 }
 
 
-  @media (max-width: 321px) {
-    #course .course2--block {
-      width: 278px;
-      height: 414px;
-    }
-    #course .course2--title1 {
-      font-size: 24px;
-    }
-    #course .course2--btn2 {
-      margin: 0 0 0 0;
-      width: 164px;
-    }
-    #course .course2--desc1 {
-      margin: 0 0 0;
-      font-size: 21px;
-    }
-    //&--block {
-    //  width: 558px;
-    //  padding: 50px 12px;
-    //}
-    //
-    //&--titles {
-    //  display: flex;
-    //}
-    //
-    //&--btn2 {
-    //  width: 319px;
-    //}
-    //
-    //
-    //&--left {
-    //  margin-left: 20px;
-    //}
-    .course {
-
-      section {
-        position: relative;
-        width: 97%;
-      }
-      &--projects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        grid-row-gap: 243px;
-      }
-
-      &--block {
-        width: 367px;
-      }
-
-      &--block2 {
-        width: 367px;
-      }
-
-      &--block3 {
-        width: 380px;
-        height: 172.24px;
-        border-radius: 30px 30px 0 0;
-        background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
-      }
-
-      &--girl {
-        position: relative;
-        left: 70px;
-      }
-
-      &--box {
-        width: 366px;
-        height: 541px;
-      }
-
-      &--title3 {
-        font-family: 'Muller', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 40px;
-        display: flex;
-        align-items: center;
-        color: #030303;
-        padding-bottom: 15px;
-      }
-
-      &--desc1 {
-        font-family: "SF Pro Display", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 23px;
-      }
-
-
-      &--buttons button:hover {
-        color: #4886FF;
-        border: 2px solid #4886FF;
-        transition: .3s;
-      }
-
-      &--btn1 {
-        border: 1px solid #000000;
-        border-radius: 30px;
-        width: 76px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-      }
-
-      &--btn2 {
-        width: 111px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-      }
-
-      &--btn3 {
-        width: 50px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-      }
-
-      &--buttons2 button {
-        margin: 5px 2px;
-      }
-
-      &--buttons2 button:hover {
-        color: #4886FF;
-        border: 2px solid #4886FF;
-      }
-
-      &--btn4 {
-        width: 64px;
-        height: 43px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-        background: transparent;
-      }
-
-      &--btn5 {
-        font-family: 'SF Pro Display', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
-        border: 1px solid #000000;
-        border-radius: 30px;
-        width: 136px;
-        height: 43px;
-      }
-
-      &--btn6 {
-        width: 310px;
-      }
-
-      &--btn {
-        &:hover {
-          background: red;
-          color: white;
-        }
-        width: 310px;
-      }
-
-      &--btn6:hover {
-        background: black;
-        color: white;
-        transition: .3s;
-        border: none;
-      }
-
-      &--design {
-        position: relative;
-        left: 4rem;
-      }
-
-
-      &--but1 {
-        padding-top: 2rem;
-      }
-
-      &--but {
-        padding-top: 2rem;
-      }
-    }
+@media (max-width: 321px) {
+  #course .course2--block {
+    width: 278px;
+    height: 414px;
+  }
+  #course .course2--title1 {
+    font-size: 24px;
+  }
+  #course .course2--btn2 {
+    margin: 0 0 0 0;
+    width: 164px;
+  }
+  #course .course2--desc1 {
+    margin: 0 0 0;
+    font-size: 21px;
   }
 
+  .course {
+
+    section {
+      position: relative;
+      width: 97%;
+    }
+
+    &--projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-row-gap: 243px;
+    }
+
+    &--block {
+      width: 367px;
+    }
+
+    &--block2 {
+      width: 367px;
+    }
+
+    &--block3 {
+      width: 380px;
+      height: 172.24px;
+      border-radius: 30px 30px 0 0;
+      background: linear-gradient(134.65deg, #1E9F2B 33.94%, rgba(115, 252, 129, 0.9) 99.36%);
+    }
+
+    &--girl {
+      position: relative;
+      left: 70px;
+    }
+
+    &--box {
+      width: 366px;
+      height: 541px;
+    }
+
+    &--title3 {
+      font-family: 'Muller', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #030303;
+      padding-bottom: 15px;
+    }
+
+    &--desc1 {
+      font-family: "SF Pro Display", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+    }
 
 
+    &--buttons button:hover {
+      color: #4886FF;
+      border: 2px solid #4886FF;
+      transition: .3s;
+    }
+
+    &--btn1 {
+      border: 1px solid #000000;
+      border-radius: 30px;
+      width: 76px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+    }
+
+    &--btn2 {
+      width: 111px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+
+    &--btn3 {
+      width: 50px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+
+    &--buttons2 button {
+      margin: 5px 2px;
+    }
+
+    &--buttons2 button:hover {
+      color: #4886FF;
+      border: 2px solid #4886FF;
+    }
+
+    &--btn4 {
+      width: 64px;
+      height: 43px;
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      background: transparent;
+    }
+
+    &--btn5 {
+      font-family: 'SF Pro Display', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 30px;
+      width: 136px;
+      height: 43px;
+    }
+
+    &--btn6 {
+      width: 310px;
+    }
+
+    &--btn {
+      &:hover {
+        background: red;
+        color: white;
+      }
+
+      width: 310px;
+    }
+
+    &--btn6:hover {
+      background: black;
+      color: white;
+      transition: .3s;
+      border: none;
+    }
+
+    &--design {
+      position: relative;
+      left: 4rem;
+    }
+
+
+    &--but1 {
+      padding-top: 2rem;
+    }
+
+    &--but {
+      padding-top: 2rem;
+    }
+  }
+}
 
 
 @media (max-width: 401px) {
-#course{
-  .course2{
-    &--block{
-      width: 377px;
-    }
-    &--tiles{
-      display: flex;
-      flex-direction: column;
+  #course {
+    .course2 {
+      &--block {
+        width: 377px;
+      }
+
+      &--tiles {
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 }
-}
-//@media (max-width: 477px) {
-//  #course .course--box {
-//    width: 304px;
-//    height: 529px;
-//    margin: 0 32px;
-//  }
-//  #course .course--buttons2 {
-//    display: flex;
-//     margin: 0;
-//  }
-//}
-//@media (max-width: 476px) {
-//  #course .course--box {
-//    width: 304px;
-//    height: 529px;
-//    margin: 0 32px;
-//  }
-//  #course .course--buttons2 {
-//    display: flex;
-//    margin: 28px 0 0 0;
-//  }
-//}
-//@media (max-width: 377px) {
-//  #course .course--box {
-//    width: 304px;
-//    height: 609px;
-//    margin: 0 32px;
-//  }
-//}
-@media  (max-width: 320px) {
+
+@media (max-width: 320px) {
   #course {
 
     .course2 {
@@ -2226,30 +2003,15 @@
         flex-direction: column;
       }
 
-      &--title1 {
-
-      }
-
-      &--desc1 {
-
-      }
-
-      &--title2 {
-
-      }
-
       &--btn2 {
         width: 319px;
-      }
-
-      &--desc2 {
-
       }
 
       &--left {
         margin-left: 20px;
       }
     }
+
     .course {
 
       section {
@@ -2270,6 +2032,7 @@
         padding: 15px;
         margin-bottom: 10rem;
       }
+
       &--icon {
         position: relative;
         top: -40px;
@@ -2353,13 +2116,13 @@
         margin: 5px 2px;
       }
 
-      &--buttons2{
+      &--buttons2 {
         margin: 0 0 0 0;
+
         button {
           margin: 5px 2px;
         }
       }
-
 
 
       &--buttons2 button:hover {
@@ -2393,6 +2156,7 @@
           background: red;
           color: white;
         }
+
         width: 256px;
       }
 
