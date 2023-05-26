@@ -2012,8 +2012,6 @@
     flex-direction: column;
 
 
-
-
     .title {
       button {
         width: 207px;
@@ -2378,9 +2376,9 @@
       }
 
       .an3 {
-          left: 188px;
-          top: 296px;
-          width: 212px;
+        left: 188px;
+        top: 296px;
+        width: 212px;
       }
 
       .an6 {
@@ -2436,19 +2434,19 @@
   }
 }
 
-  @media (max-width: 451px) {
-    #mainPart .mainPart .an3 {
-      left: 889px;
-      top: 415px;
-      width: 200px;
-    }
-    #FrontendHero {
-      min-height: 100%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
+@media (max-width: 451px) {
+  #mainPart .mainPart .an3 {
+    left: 889px;
+    top: 415px;
+    width: 200px;
   }
+  #FrontendHero {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @media (max-width: 390px) {
 }
@@ -2483,6 +2481,7 @@
         padding: 18px 0;
         margin-left: 40px;
         width: 305px;
+
         br {
           display: none;
 
@@ -2499,11 +2498,11 @@
         height: 402px;
         left: 33px;
         margin-left: -20px;
-          position: absolute;
-           width: 448px;
-          height: 478px;
-          left: 33px;
-          margin-left: -20px;
+        //position: absolute;
+        //width: 448px;
+        //height: 478px;
+        //left: 33px;
+        //margin-left: -20px;
 
 
       }
@@ -2627,68 +2626,69 @@
         top: 306px;
         left: 31px;
         width: 154px;
-    }
-  }
-  @media (max-width: 450px) {
-    #mainPart .mainPart .an2 {
-      left: 302px;
-      width: 19%;
+      }
     }
 
-    #mainPart .mainPart .media110 {
-      position: absolute;
-      left: 65%;
-      width: 73px;
-      top: 54%;
-      background: black;
-    }
-    #mainPart .mainPart .an3 {
-      left: 945px;
-      top: 334px;
-      width: 200px;
-    }
-    #mainPart .mainPart .media56 {
-      position: absolute;
-      left: 52%;
-      width: 63px;
-      background: #0b0909;
-      top: 28%;
-      height: 75px;
-    }
-  }
+    @media (max-width: 450px) {
+      #mainPart .mainPart .an2 {
+        left: 302px;
+        width: 19%;
+      }
 
-  @media  (max-width: 400px) {
-    #mainPart .mainPart .backdropBlur {
-      position: absolute;
-      width: 376px;
+      #mainPart .mainPart .media110 {
+        position: absolute;
+        left: 65%;
+        width: 73px;
+        top: 54%;
+        background: black;
+      }
+      #mainPart .mainPart .an3 {
+        left: 945px;
+        top: 334px;
+        width: 200px;
+      }
+      #mainPart .mainPart .media56 {
+        position: absolute;
+        left: 52%;
+        width: 63px;
+        background: #0b0909;
+        top: 28%;
+        height: 75px;
+      }
     }
-    #mainPart .title button {
-      width: 336px;
+
+    @media (max-width: 400px) {
+      #mainPart .mainPart .backdropBlur {
+        position: absolute;
+        width: 376px;
+      }
+      #mainPart .title button {
+        width: 336px;
+      }
     }
-  }
 
-  @media  (max-width: 390px) {
-    #mainPart .mainPart .backdropBlur {
-      position: absolute;
-      width: 353px;
+    @media (max-width: 390px) {
+      #mainPart .mainPart .backdropBlur {
+        position: absolute;
+        width: 353px;
+      }
+      #mainPart .mainPart .an3 {
+        left: 903px;
+        top: 416px;
+        width: 200px;
+      }
     }
-    #mainPart .mainPart .an3 {
-      left: 903px;
-      top: 416px;
-      width: 200px;
+
+    @media (max-width: 390px) {
     }
-  }
-
-  @media  (max-width: 390px) {
-  }
 
 
-  @media (max-width: 376px) {
-    #FrontendHero {
-      min-height: 100%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
+    @media (max-width: 376px) {
+      #FrontendHero {
+        min-height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
 
       }
 
@@ -2873,11 +2873,12 @@
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
 
-      .an1{
+      .an1 {
         top: 122px;
         left: 203px;
         width: 123px;
       }
+
       .an2 {
         left: 143px;
         top: 192px;
@@ -2916,10 +2917,11 @@
         width: 98px;
       }
 
-      .an1media{
+      .an1media {
         left: 5px;
         top: 111px;
       }
+
       .an3media {
         top: 282px;
         left: 31px;
@@ -2932,7 +2934,7 @@
         width: 155px;
       }
 
-      .an8{
+      .an8 {
         top: 360px;
         left: 106px;
         width: 146px;
@@ -2943,30 +2945,37 @@
       }
 
     }
+
     #mainPart .mainPart .backdropBlur {
       position: absolute;
       width: 300px;
     }
+
     #mainPart .mainPart .an3 {
       left: 861px;
       top: 416px;
       width: 200px;
     }
+
     #mainPart .mainPart .an2 {
       left: 100px;
       width: 18%;
     }
+
     #mainPart .title button {
       width: 287px;
     }
+
     #mainPart .title h1 {
       font-size: 32px;
       line-height: 39px;
     }
+
     #mainPart .title h2 {
       font-size: 31px;
       margin: 10px 0;
     }
+
     #mainPart .mainPart .media80 {
       position: absolute;
       left: 27%;
