@@ -42,8 +42,6 @@ const Accordion = () => {
                                     <MdKeyboardArrowDown   className="accordion--type__folower--folower2__folower3--icon" style={{transform:selected ? 'rotate(182deg)': 'rotate(1deg)'}} />
 
                                 </div>
-
-
                             </div>
 
                             <div className="accordion--type__folower--this">
@@ -51,7 +49,6 @@ const Accordion = () => {
                                     <p>{t("text141")}</p>
                                     <div className="accordion--type__folower__this--those__that">
                                         <li>{t("text142")}</li>
-
                                         <li>{t("text143")}</li>
                                         <li>{t("text144")}</li>
                                         <li>{t("text145")}</li>
@@ -63,9 +60,6 @@ const Accordion = () => {
                                     </div>
                                 </div>
                                 <img  className="accordion--type__folower--key"  src={different} alt="img"/>
-
-
-
                             </div>
 
                         </div>

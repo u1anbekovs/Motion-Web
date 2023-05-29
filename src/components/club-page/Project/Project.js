@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "../../../style/it-club/Project.scss"
+import "./Project.scss"
 import persons from "../../../image/it-club/persons.svg";
 import one from "../../../image/it-club/black-one.svg"
 import nine from "../../../image/it-club/black-nine.svg"

@@ -1,5 +1,5 @@
 
-#FrontendHero {
+#mainPart {
   z-index: -99;
   margin-bottom: 20rem;
 
@@ -11,10 +11,8 @@
       font-weight: 800;
       font-size: 128px;
       padding-top: 90px;
-      color: red;
 
       span {
-        color: white;
       }
     }
 
@@ -51,128 +49,12 @@
     }
   }
 
-  #modal {
-    position: absolute;
-    //display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 38%;
-    left: 25%;
-    z-index: 1;
-    display: flex;
-
-    .modal {
-      transition: 3s;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 708px;
-      height: 460px;
-      background: rgba(40, 40, 40, 0.87);
-      box-shadow: 4px 32px 16px rgba(0, 0, 0, 0.25);
-      border-radius: 30px;
-
-      h1 {
-        cursor: pointer;
-        margin: 17px 22px -44px 662px;
-        color: red;
-        transition: 2s;
-        font-size: 25px;
-      }
-
-      &--close {
-        color: #e4e4e4;
-        font-size: 30px;
-        position: absolute;
-        margin-left: 667px;
-        margin-top: 37px;
-        cursor: pointer;
-
-      }
-
-      .modal--img {
-        margin: 31px 0;
-      }
-
-      .modal--form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 37px;
-
-        .modal--input {
-          background: #fff8f8;
-          border-radius: 20px;
-          width: 588px;
-          height: 63px;
-          outline: none;
-          border: none;
-          padding: 0 20px 0;
-          font-family: "SF Pro Display", sans-serif;
-          font-style: normal;
-          font-weight: 300;
-          font-size: 18px;
-          line-height: 130%;
-          /* or 23px */
-
-          display: flex;
-          align-items: center;
-
-          color: rgba(27, 27, 27, 0.3);
-        }
-
-        .modal--checkbox {
-          display: flex;
-          justify-content: flex-start;
-          margin-left: -200px;
-          align-items: center;
-
-          &--check {
-            width: 25.15px;
-            height: 24px;
-            margin-right: 20px;
-            border: 1px solid #e4e4e4;
-          }
-
-          &--p {
-            font-family: "SF Pro Display", sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 130%;
-            /* or 18px */
-
-            display: flex;
-            align-items: center;
-
-            color: rgba(255, 255, 255, 0.7);
-          }
-        }
-
-        .modal_btn {
-          width: 588px;
-          padding: 15px 23px;
-          font-family: "SF Pro Display", sans-serif;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 20px;
-          line-height: 24px;
-          color: #FFFFFF;
-          border: none;
-          outline: none;
-          background: #ec3025;
-          border-radius: 44px;
-        }
-      }
-    }
-  }
 
 }
 
 
 @media (max-width: 1600px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -376,7 +258,7 @@
 }
 
 @media (max-width: 1500px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -548,9 +430,8 @@
   }
 }
 
-
 @media (max-width: 1440px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -725,7 +606,7 @@
 }
 
 @media (max-width: 1400px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -956,7 +837,7 @@
 
 
 @media (max-width: 1200px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -1167,7 +1048,7 @@
 }
 
 @media (max-width: 1140px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -1299,30 +1180,30 @@
 }
 
 @media (max-width: 1040px) {
-  #FrontendHero .FrontendHero .backdropBlur {
+  #mainPart .FrontendHero .backdropBlur {
     width: 960px;
     height: 705px;
   }
-  #FrontendHero .FrontendHero .an9 {
+  #mainPart .FrontendHero .an9 {
     left: 831px;
   }
-  #FrontendHero .FrontendHero .an10 {
+  #mainPart .FrontendHero .an10 {
     top: 403px;
     right: 18px;
   }
-  #FrontendHero .FrontendHero .an11 {
+  #mainPart .FrontendHero .an11 {
     top: 657px;
     left: 815px;
   }
-  #FrontendHero .FrontendHero .an2 {
+  #mainPart .FrontendHero .an2 {
     left: 674px;
     top: 187px;
   }
-  #FrontendHero .FrontendHero .an3 {
+  #mainPart .FrontendHero .an3 {
     left: 28rem;
     top: 21rem;
   }
-  #FrontendHero .FrontendHero .an4 {
+  #mainPart .FrontendHero .an4 {
     top: 259px;
     width: 277px;
     left: 55px;
@@ -1330,7 +1211,7 @@
 }
 
 @media (max-width: 992px) {
-  #FrontendHero {
+  #mainPart {
     .title {
       p {
         font-family: "SF Pro Display", sans-serif;
@@ -1446,7 +1327,7 @@
 }
 
 @media (max-width: 880px) {
-  #FrontendHero {
+  #mainPart {
     .title {
       p {
         font-family: "SF Pro Display", sans-serif;
@@ -1562,7 +1443,7 @@
 }
 
 @media (max-width: 768px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -1774,7 +1655,7 @@
 
 
 @media (max-width: 660px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -1975,7 +1856,7 @@
 }
 
 @media (max-width: 576px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -2181,7 +2062,7 @@
 }
 
 @media (max-width: 500px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -2394,11 +2275,12 @@
 }
 
 @media (max-width: 451px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15rem;
 
 
     .title {
@@ -2581,8 +2463,8 @@
 
       .an1 {
         top: 101px;
-        left: 237px;
-        width: 168px;
+        left: 176px;
+        width: 163px;
       }
 
       .an10 {
@@ -2608,7 +2490,7 @@
 
 
 @media (max-width: 400px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -2798,9 +2680,9 @@
       }
 
       .an1 {
-        top: 101px;
-        left: 218px;
-        width: 168px;
+        top: 109px;
+        left: 217px;
+        width: 124px;
       }
 
       .an10 {
@@ -2830,7 +2712,7 @@
     top: 415px;
     width: 200px;
   }
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -2840,7 +2722,7 @@
 
 
 @media (max-width: 376px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -2933,114 +2815,8 @@
 
 }
 
-//==
-//@media (max-width: 450px) {
-//  #mainPart .mainPart .an2 {
-//    left: 302px;
-//    width: 19%;
-//  }
-//
-//  #mainPart .mainPart .media110 {
-//    position: absolute;
-//    left: 65%;
-//    width: 73px;
-//    top: 54%;
-//    background: black;
-//  }
-//  #mainPart .mainPart .an3 {
-//    left: 945px;
-//    top: 334px;
-//    width: 200px;
-//  }
-//  #mainPart .mainPart .media56 {
-//    position: absolute;
-//    left: 52%;
-//    width: 63px;
-//    background: #0b0909;
-//    top: 28%;
-//    height: 75px;
-//  }
-//}
-//
-//@media (max-width: 400px) {
-//  #mainPart .mainPart .backdropBlur {
-//    position: absolute;
-//    width: 376px;
-//  }
-//  #mainPart .title button {
-//    width: 336px;
-//  }
-//}
-//
-//@media (max-width: 390px) {
-//  #mainPart .mainPart .backdropBlur {
-//    position: absolute;
-//    width: 353px;
-//  }
-//  #mainPart .mainPart .an3 {
-//    left: 903px;
-//    top: 416px;
-//    width: 200px;
-//  }
-//}
-//
-//@media (max-width: 390px) {
-//}
-//
-//@media (max-width: 376px) {
-//  #FrontendHero {
-//    min-height: 100%;
-//    overflow: hidden;
-//    display: flex;
-//    flex-direction: column;
-//
-//  }
-//
-//  .an4 {
-//    display: block;
-//    width: 168px;
-//    left: 144px;
-//    top: 210px;
-//  }
-//
-//  .an4media {
-//    top: 401px;
-//    left: 10px;
-//    width: 135px;
-//  }
-//
-//  .an3media {
-//    top: 282px;
-//    left: 31px;
-//  }
-//
-//  .an1 {
-//    top: 101px;
-//    left: 218px;
-//    width: 168px;
-//  }
-//
-//  .an10 {
-//    display: block;
-//    right: 10px;
-//    top: 238px;
-//    width: 155px;
-//  }
-//
-//  .an11 {
-//    display: none;
-//  }
-//
-//  .an8 {
-//    top: 354px;
-//    left: 132px;
-//    width: 182px;
-//  }
-//
-//}
-//==
 @media (max-width: 351px) {
-  #FrontendHero {
+  #mainPart {
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -3238,7 +3014,7 @@
 
 
 @media (max-width: 320px) {
-  #FrontendHero {
+  #mainPart {
     margin-bottom: 7rem;
     min-height: 100%;
     overflow: hidden;
