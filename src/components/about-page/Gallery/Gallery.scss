@@ -245,7 +245,7 @@
         display:  none;
       }
       &--title{
-
+        font-size: 33px;
       }
       &--desc{
         position: relative;
@@ -268,6 +268,33 @@
 
   }
 
+}
+@media (max-width: 351px) {
+  #call {
+    .call {
+
+      &--title{
+        font-size: 34px;
+      }
+      &--desc{
+        position: relative;
+        top: 20rem;
+        left: 65px;
+        font-size: 14px;
+      }
+      &--boxes{
+        grid-row-gap: 31px;
+      }
+      &--images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 7px;
+        grid-row-gap: 7px;
+      }
+    }
+
+  }
 }
 @media (max-width: 320px) {
   #call {
