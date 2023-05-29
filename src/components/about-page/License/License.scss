@@ -394,6 +394,43 @@
 
   }
 }
+@media (max-width: 351px) {
+  #list{
+    padding: 60px 0;
+    background: #EFEFEF;
+    .list{
+      display: flex;
+      grid-column-gap: 10rem;
+      &--title{
+        font-size: 37px;
+        line-height: 23px;
+      }
+      &--desc{
+        font-size: 15px;
+      }
+      &--block{
+        display: flex;
+        align-items: center;
+      }
+      &--number{
+        font-size: 33px;
+        line-height: 42px;
+      }
+      &--title2{
+        font-size: 18px;
+      }
+      &--line{
+        width: 296px;
+      }
+      &--img1{
+        width: 277px;
+        height: 192px;
+      }
+    }
+  }
+
+
+}
 @media (max-width: 320px) {
   #list{
     padding: 60px 0;

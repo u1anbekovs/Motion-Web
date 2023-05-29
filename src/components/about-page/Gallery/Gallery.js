@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../../../style/aboutUs/Gallery.scss'
+import './Gallery.scss'
 import img1 from "../../../image/about-us/gallery1.svg"
 import img2 from "../../../image/about-us/gallery2.svg"
 import img3 from "../../../image/about-us/image 11.svg"

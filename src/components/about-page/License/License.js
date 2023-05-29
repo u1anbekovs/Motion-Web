@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../style/aboutUs/License.scss'
+import './License.scss'
 import img from "../../../image/about-us/image 9.svg"
 import {useTranslation} from "react-i18next";
 const License = () => {

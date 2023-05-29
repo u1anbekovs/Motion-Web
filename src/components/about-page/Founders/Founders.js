@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../style/aboutUs/Founders.scss'
+import './Founders.scss'
 import imgFound1 from "../../../image/about-us/image 6.svg"
 import imgFound2 from "../../../image/about-us/image 7.svg"
 import {useTranslation} from "react-i18next";

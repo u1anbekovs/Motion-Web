@@ -1,4 +1,4 @@
-#mainPart {
+#mainPart   {
   z-index: -99;
   margin-bottom: 20rem;
 
@@ -1207,132 +1207,6 @@
   }
 }
 
-@media (max-width: 200px) {
-  #mainPart {
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 22rem;
-
-    .title {
-      h1 {
-        font-weight: 800;
-        font-size: 98px;
-        color: #FFFFFF;
-        padding-top: 125px;
-      }
-
-      h2 {
-        font-size: 90px;
-
-      }
-    }
-
-    .mainPart {
-      .backdropBlur {
-        position: absolute;
-        width: 908px;
-        height: 705px;
-        left: 40px;
-        top: 110px;
-        background: linear-gradient(
-                        289.3deg,
-                        rgba(19, 19, 19, 0.3) 17.11%,
-                        rgba(28, 28, 28, 0.261) 100%
-        );
-        -webkit-backdrop-filter: blur(7.5px);
-        backdrop-filter: blur(7.5px);
-        border-radius: 20px;
-      }
-
-      .an1 {
-        position: absolute;
-        top: 71px;
-        left: 204px;
-        animation: an1 5s ease-in infinite alternate;
-        -webkit-animation: an1 5s ease-in infinite alternate;
-      }
-
-      .an4 {
-        position: absolute;
-        top: 229px;
-        left: 7px;
-        animation: an4 5s ease-in infinite alternate;
-        -webkit-animation: an4 5s ease-in infinite alternate;
-      }
-
-      .an6 {
-        position: absolute;
-        top: 527px;
-        left: 115px;
-        animation: an6 5s ease-in infinite alternate;
-        -webkit-animation: an6 5s ease-in infinite alternate;
-      }
-
-      .an7 {
-        position: absolute;
-        left: 491px;
-        top: 168px;
-        animation: an4 5s ease-in infinite alternate;
-        -webkit-animation: an4 5s ease-in infinite alternate;
-      }
-
-      .an5 {
-        display: block;
-        left: 881px;
-      }
-
-      .an3 {
-        display: block;
-        position: absolute;
-        margin-left: -746px;
-      }
-
-      .an2 {
-        position: absolute;
-        left: 606px;
-        top: 121px;
-        animation: an2 5s ease-in infinite alternate;
-        -webkit-animation: an2 5s ease-in infinite alternate;
-      }
-
-      .an11 {
-        position: absolute;
-        top: 564px;
-        left: 686px;
-        animation: an6 5s ease-in infinite alternate;
-        -webkit-animation: an6 5s ease-in infinite alternate;
-      }
-
-      .an12 {
-        display: none;
-      }
-
-      .an8 {
-        position: absolute;
-        top: 562px;
-        left: 368px;
-        animation: an9 5s ease-in infinite alternate;
-        -webkit-animation: an9 5s ease-in infinite alternate;
-      }
-
-      .an10 {
-        position: absolute;
-        top: 503px;
-        right: 239px;
-        animation: an10 5s ease-in infinite alternate;
-        -webkit-animation: an10 5s ease-in infinite alternate;
-      }
-
-      .an9 {
-        display: block;
-        left: 723px;
-        top: 405px;
-      }
-    }
-  }
-}
 @media (max-width: 992px) {
   #mainPart {
     min-height: 100%;
@@ -2377,9 +2251,6 @@
   }
 }
 
-@media  (max-width: 340px) {
-
-}
 @media (max-width: 450px) {
   #mainPart{
     .title{
@@ -2389,60 +2260,50 @@
     }
   }
 }
-@media (max-width: 340px) {
 
-  #mainPart .mainPart .an2 {
-    left: 285px;
-    width: 19%;
-  }
-  #mainPart .mainPart .backdropBlur {
-    position: absolute;
-    width: 343px;
-  }
-}
 
-@media  (max-width: 377px) {
-  #mainPart .mainPart .backdropBlur {
-    position: absolute;
-    height: 385px;
-    width: 370px;  }
-  #mainPart .mainPart .an2 {
-    left: 268px;
-    width: 19%;
-  }
-  #mainPart .title button {
-    width: 317px;
-  }
 
-}
-@media  (max-width: 330px) {
-  .mainPart .an2 {
-    left: 270px;
-    width: 19%;
+@media (max-width: 351px)   {
+  #mainPart{
+    .mainPart{
+      .backdropBlur{
+        height: 430px;
+        width: 294px;
+      }
+      .an3{
+        left: 909px;
+        top: 367px;
+        width: 175px;
+      }
+      .an2{
+        left: 231px;
+      }
+      .an4media{
+        top: 418px;
+        left: 7px;
+        width: 124px;
+      }
+      .an4{
+        width: 156px;
+        left: 169px;
+        top: 241px;
+      }
+    }
+    .title{
+      h1{
+        font-size: 39px;
+      }
+      p{
+        font-size: 10px;
+      }
+      h4{
+        font-size: 40px;
+      }
+      .an10{
+        right: -36px;
+      }
+    }
   }
-  #mainPart .mainPart .an2 {
-    left: 290px;
-    width: 19%;
-  }
-  #mainPart .mainPart .backdropBlur {
-    position: absolute;
-    height: 385px;
-    width: 370px;
-  }
-  #mainPart .title h2 {
-    font-size: 41px;
-  }
-  #mainPart .mainPart .backdropBlur {
-    position: absolute;
-    width: 418px;
-    height: 457px;
-    left: 33px;
-    margin-left: -18px;
-  }
-  #mainPart .title button {
-    width: 316px;
-  }
-
 }
 @media  (max-width: 390px) {
 
@@ -2489,7 +2350,7 @@
   #mainPart{
     .mainPart{
       .backdropBlur{
-        width: 382px;
+        width: 369px;
       }
     }
 
@@ -2502,10 +2363,12 @@
 
   }
 }
+
 @media (max-width: 320px) {
   #mainPart{
     .mainPart{
       .backdropBlur{
+        height: 430px;
         width: 300px;
       }
       .an3{
@@ -2528,7 +2391,10 @@
     }
     .title{
       h1{
-        font-size: 34px;
+        font-size: 39px;
+      }
+      h4{
+        font-size: 40px;
       }
       .an10{
         right: -36px;

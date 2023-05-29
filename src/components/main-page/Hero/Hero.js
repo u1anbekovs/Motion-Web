@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../../../style/main/Hero.scss'
+import './Hero.scss'
 import an1 from "../../../image/main/an1.png";
 import an4 from "../../../image/main/an4.png";
 import an6 from "../../../image/main/an5.png";

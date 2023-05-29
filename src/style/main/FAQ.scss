@@ -4,8 +4,7 @@
 
   .accordion {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: flex-start;
 
     h1 {
       font-style: normal;
@@ -92,5 +91,153 @@
   .card--header__toggle h3 {
     font-weight: 600;
     font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  #accordion{
+    .accordion{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width:451px) {
+  #accordion{
+    .accordion{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      h1{
+        font-size: 30px;
+      }
+    }
+  }
+}
+@media (max-width:400px) {
+  #accordion{
+    .accordion{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      h1{
+        font-size: 27px;
+      }
+    }
+  }
+  .card {
+    transition: 0.8s all;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+    border-radius: 35px;
+    background: white;
+
+    &--collapse {
+      overflow: hidden;
+      transition: 1s all;
+      border-radius: 35px;
+
+
+      &__body {
+        background: white;
+        border-radius: 0 0 35px 35px;
+        padding: 35px;
+
+        p {
+        font-size: 16px;
+        }
+      }
+    }
+
+    &--header {
+      &__toggle {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer;
+        background: #FFFFFF;
+        border-radius: 35px;
+        border: none;
+        transition: 0.5s all;
+        padding: 16px 35px;
+        margin-top: 15px;
+
+        &.active p {
+          transform: rotate(180deg);
+        }
+
+        p {
+          font-size: 25px;
+          transition: 0.5s all;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:320px) {
+  #accordion{
+    .accordion{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      h1{
+        font-size: 21px;
+      }
+    }
+  }
+  .card {
+    transition: 0.8s all;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+    border-radius: 35px;
+    background: white;
+
+    &--collapse {
+      overflow: hidden;
+      transition: 1s all;
+      border-radius: 35px;
+
+
+      &__body {
+        background: white;
+        border-radius: 0 0 35px 35px;
+        padding: 35px;
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+
+    &--header {
+      &__toggle {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer;
+        background: #FFFFFF;
+        border-radius: 35px;
+        border: none;
+        transition: 0.5s all;
+        padding: 16px 35px;
+        margin-top: 15px;
+
+        &.active p {
+          transform: rotate(180deg);
+        }
+
+        p {
+          font-size: 25px;
+          transition: 0.5s all;
+        }
+
+        h3 {
+          font-size: 13px;
+        }
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../style/aboutUs/Hero.scss'
+import './Hero.scss'
 import an1 from "../../../image/main/an1.png";
 import an4 from "../../../image/main/an4.png";
 import an6 from "../../../image/main/an5.png";
@@ -79,15 +79,7 @@ const Hero = () => {
                 <div className="an5media">
                     <img src={an5media} alt=""/>
                 </div>
-                <div className="media91"></div>
-                <div className="media56"></div>
-                <div className="media80"></div>
-                <div className="media38"></div>
-                <div className="media62"></div>
-                <div className="media33"></div>
-                <div className="media110"></div>
-                <div className="media88"></div>
-                <div className="media54"></div>
+
                 <div className="backdropBlur"></div>
 
             </div>
