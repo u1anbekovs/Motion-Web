@@ -115,9 +115,6 @@ const Last = ({lastForm}) => {
                             name="name"
                             value={firstName}
 
-                            value={values.name}
-
-
                             placeholder={t("text47")}/>
 
 

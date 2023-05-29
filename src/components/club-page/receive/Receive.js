@@ -1,5 +1,5 @@
 import React from 'react';
-import "./../../../style/it-club/Receive.scss"
+import "./Receive.scss"
 import it from "./../../../image/it-club/it.svg"
 import girl from "./../../../image/it-club/girl.svg"
 import book from "./../../../image/it-club/book.svg"
@@ -24,7 +24,7 @@ const Receive = () => {
                     </div>
                     <div className="second--block">
                         <div className="second--block__img">
-                            <img src={girl} alt=""/>
+                            <img className={'second--block__img--girl'} src={girl} alt=""/>
                             <img className="second--image2" src={book} alt=""/>
                         </div>
                         <p>{t("text82")}</p>
@@ -44,7 +44,7 @@ const Receive = () => {
                     <div className="second--block">
                         <div className="second--block__img">
                             <img src={laptop} alt=""/>
-                            <img src={negr} alt=""/>
+                            <img className={'second--block__img--negr'} src={negr} alt=""/>
                         </div>
                         <p>{t("text84")}</p>
                     </div>

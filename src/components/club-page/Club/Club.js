@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../style/it-club/Club.scss";
+import "./Club.scss";
 import {useTranslation} from "react-i18next";
 
 const Club = () => {

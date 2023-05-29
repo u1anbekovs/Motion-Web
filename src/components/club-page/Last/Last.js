@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../style/it-club/Last.scss";
+import "./Last.scss";
 import smile from "../../../image/main/smile-face.svg";
 import smile1 from "../../../image/main/open-key.svg";
 import smile2 from "../../../image/main/select.svg";

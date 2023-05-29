@@ -1,7 +1,6 @@
 #project {
   background: #EFEFEF;
-  margin-bottom: -100px;
-
+  margin: 150px 0 -100px 0;
   .project {
     &--load {
       display: flex;
@@ -240,5 +239,33 @@
 @media (max-width: 400px) {
   #project .project--load__image {
     width: 100%;
+  }
+  #project .project--load{
+    &__any6 {
+      right: 2px;
+      width: 118px;
+      padding-top: 23px;
+    }
+    &__any3 {
+      left: 43px;
+      padding-top: 1px;
+      width: 69px;
+    }
+    &__any7 {
+      padding-top: 0;
+      display: none;
+    }  &__any2 {
+      padding-top: 0;
+      display: none;
+    }
+    &__any5 {
+      width: 111px;
+      right: 150px;
+      padding-top: 0;
+    }
+  }
+  #project .project--load__block {
+    bottom: 156px;
+    height: 155px;
   }
 }
