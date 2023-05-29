@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import MainFr from "../Frontend/MainFr";
 import Certificate from "../Frontend/certificate/Certificate";
 import Last from "../../components/main-page/Last/Last";
 import SingForm from "../../modalPage/SingForm";

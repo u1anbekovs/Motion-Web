@@ -82,7 +82,7 @@
     border-radius: 125px;
 
     &__first {
-      padding:  0 40px;
+      padding: 0 40px;
 
       h1 {
         font-weight: 500;
@@ -278,6 +278,7 @@
   }
 
 }
+
 @media (max-width: 500px) {
   #course .course2--block {
     width: 320px;
@@ -294,9 +295,10 @@
     width: 64px;
     height: 43px;
     margin: 4px 0;
-  } #course .course--buttons2 {
-        display: flex;
-        margin: 62px 0 0 0;
+  }
+  #course .course--buttons2 {
+    display: flex;
+    margin: 62px 0 0 0;
   }
 
   #course .course--block2 {
@@ -338,74 +340,16 @@
   #course .course2--title2 {
     font-size: 26px;
   }
-  #courses .frontEnd--title__first h1 span {
-    /* width: 239px; */
+  #courses .frontEnd--title {
+    display: flex;
+    flex-direction: column;
+    width: 413px;
+    height: 374px;
+    border-radius: 32px;
+    margin: 43px 14px;
   }
 }
-//@media (max-width: 500px) {
-//  #course .course2--block {
-//    width: 320px;
-//    height: 412px;
-//
-//  }
-//  #course .course2--title2 {
-//    font-size: 22px;
-//  }
-//  #course .course2--btn2 {
-//    width: 172px;
-//  }
-//  #course .course--btn4 {
-//    width: 64px;
-//    height: 43px;
-//    margin: 4px 0;
-//  } #course .course--buttons2 {
-//        display: flex;
-//        margin: 62px 0 0 0;
-//  }
-//
-//  #course .course--block2 {
-//    width: 303px;
-//  }
-//  #course .course--girl {
-//    position: relative;
-//    left: 62px;
-//  }
-//  #course .course--desc1 {
-//    font-size: 17px;
-//  }
-//  #course .course--btn {
-//    width: 260px;
-//  }
-//  #course .course--design {
-//    position: relative;
-//    left: 4rem;
-//    top: -100px;
-//  }
-//  #course .course--btn6 {
-//    width: 259px;
-//  }
-//
-//  #course .course--box {
-//    width: 304px;
-//    height: 577px;
-//    margin: 0 32px;
-//  }
-//  #course .course2--desc1 {
-//    font-size: 20px;
-//  }
-//  #course .course2--desc2 {
-//    font-family: "SF Pro Display", sans-serif;
-//    font-style: normal;
-//    font-weight: 400;
-//    font-size: 25px;
-//  }
-//  #course .course2--title2 {
-//    font-size: 26px;
-//  }
-//  #courses .frontEnd--title__first h1 span {
-//    /* width: 239px; */
-//  }
-//}
+
 
 @media (max-width: 451px) {
 
@@ -424,22 +368,14 @@
     font-weight: 400;
     font-size: 25px;
   }
- #course .course2--title2 {
+  #course .course2--title2 {
     font-size: 26px;
   }
-  #course .frontEnd--title {
-      display: flex;
-      flex-direction: column;
-      width: 349px;
-      height: 374px;
-      border-radius: 32px;
-      margin: 43px 24px;
-
-    }
 
   #courses .frontEnd--title__first h1 {
     font-size: 50px;
     line-height: 64px;
+
     span {
       margin: 0 0 0 20px;
     }
@@ -460,7 +396,7 @@
     width: 336px;
     height: 361px;
     border-radius: 32px;
-    margin: 43px 10px;
+      margin: 60px 33px;
   }
 
 
@@ -509,7 +445,8 @@
   #courses .frontEnd--title__first h1 {
     font-size: 41px;
     line-height: 55px;
-      span {
+
+    span {
       margin: 0 0 0 70px;
       font-size: 17px;
     }
@@ -523,6 +460,15 @@
 
 }
 
+@media (max-width: 351px) {
+  #courses .frontEnd--title {
+    width: 272px;
+    height: 328px;
+    margin: 45px 12px;
+    border-radius: 32px;
+  }
+}
+
 @media (max-width: 320px) {
   #courses .frontEnd--title__first h1 {
     font-size: 40px;
@@ -532,8 +478,9 @@
     text-align: center;
 
     span {
-      margin: -10px 0 12px 80px;
+      margin: -10px 0 12px -94px;
       font-size: 19px;
+      width: 0;
     }
   }
   #courses .frontEnd--courses__inform--first__fon {

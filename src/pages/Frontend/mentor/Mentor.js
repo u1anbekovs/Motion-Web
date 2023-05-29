@@ -92,6 +92,8 @@ const Mentor = () => {
                                 <img src={mentorLeft} alt=""/>
                                 <h3>{t("text136")}</h3>
                                 <p>{t("text134")}</p>
+                    
+                
                             </div>
                         </div>
                         <div className="mentor--blocks">

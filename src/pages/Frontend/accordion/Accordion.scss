@@ -873,13 +873,13 @@
   }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 351px) {
   #bg {
     .accordion {
       &--type {
         &__folower {
           width: 284px;
-          height: 738px;
+          height: 558px;
 
 
           h1 {
@@ -903,7 +903,7 @@
               p {
                 padding: 0 0 27px 0;
                 width: 234px;
-                font-size: 16px;
+                font-size: 12px;
               }
             }
           }

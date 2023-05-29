@@ -4,14 +4,16 @@
   justify-content: space-between;
   margin: 100px 0;
 
-  .OnOf{
+  .OnOf {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &--ofline{
+
+    &--ofline {
       position: relative;
       display: flex;
-      &__first{
+
+      &__first {
         cursor: pointer;
         position: absolute;
         bottom: -13rem;
@@ -24,28 +26,30 @@
         transition: 2s;
         z-index: 4;
         border-radius: 30px;
-        &:hover{
+
+        &:hover {
           transform: scale(1.0009);
         }
 
-        &--three{
+        &--three {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -54,7 +58,8 @@
           }
 
         }
-        &--for{
+
+        &--for {
 
           display: flex;
           align-items: center;
@@ -62,18 +67,19 @@
           flex-direction: column;
           z-index: 99;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -83,7 +89,8 @@
 
         }
       }
-      &__for{
+
+      &__for {
         cursor: pointer;
         position: absolute;
         bottom: -13rem;
@@ -97,28 +104,30 @@
         transition: 2s;
         z-index: 4;
         border-radius: 30px;
-        &:hover{
+
+        &:hover {
           transform: scale(1.0009);
         }
 
-        &--three{
+        &--three {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -127,7 +136,8 @@
           }
 
         }
-        &--for{
+
+        &--for {
 
           display: flex;
           align-items: center;
@@ -135,18 +145,19 @@
           flex-direction: column;
           z-index: 99;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -157,7 +168,7 @@
         }
       }
 
-      &__first2{
+      &__first2 {
         display: none;
         cursor: pointer;
         position: absolute;
@@ -170,28 +181,30 @@
         transition: 2s;
         z-index: 4;
         border-radius: 30px;
-        &:hover{
+
+        &:hover {
           transform: scale(1.0009);
         }
 
-        &--three{
+        &--three {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -200,7 +213,8 @@
           }
 
         }
-        &--for{
+
+        &--for {
 
           display: flex;
           align-items: center;
@@ -208,18 +222,19 @@
           flex-direction: column;
           z-index: 99;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -229,7 +244,8 @@
 
         }
       }
-      &__for2{
+
+      &__for2 {
         display: none;
         cursor: pointer;
         position: absolute;
@@ -242,28 +258,30 @@
         transition: 2s;
         z-index: 4;
         border-radius: 30px;
-        &:hover{
+
+        &:hover {
           transform: scale(1.0009);
         }
 
-        &--three{
+        &--three {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -272,7 +290,8 @@
           }
 
         }
-        &--for{
+
+        &--for {
 
           display: flex;
           align-items: center;
@@ -280,18 +299,19 @@
           flex-direction: column;
           z-index: 99;
 
-          h1{
+          h1 {
             margin: 32px 232px 0 1px;
-            font-family: 'Muller',sans-serif;
+            font-family: 'Muller', sans-serif;
             font-weight: 500;
             font-size: 40px;
             line-height: 40px;
             color: #FFFFFF;
 
           }
-          li{
+
+          li {
             padding: 10px 0;
-            font-family: 'SF Pro Display',sans-serif;
+            font-family: 'SF Pro Display', sans-serif;
             font-weight: 400;
             font-size: 24px;
             line-height: 140%;
@@ -305,7 +325,7 @@
 
     }
 
-    &--window{
+    &--window {
       cursor: pointer;
       width: 100vw;
       height: 100vh;
@@ -316,7 +336,8 @@
       background: rgba(0, 0, 0, 0.66);
       backdrop-filter: blur(4px);
     }
-    &--window2{
+
+    &--window2 {
       cursor: pointer;
       z-index: 1;
       width: 100vw;
@@ -342,6 +363,7 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+
     &:hover {
       background: #3f3535;
       border: none;
@@ -363,20 +385,23 @@
   }
 
 }
+
 @media (max-width: 1040px) {
   #OnlineOfline .OnOf--ofline__first {
     left: 12rem;
     bottom: -13rem;
   }
   #OnlineOfline .OnOf--ofline__for {
-     left: 12rem;
-   }
+    left: 12rem;
+  }
 }
+
 @media (max-width: 992px) {
   #OnlineOfline .OnOf--ofline__for {
     left: 17rem;
   }
 }
+
 @media (max-width: 768px) {
   #OnlineOfline .OnOf--ofline__first {
     left: 22rem;
@@ -387,6 +412,7 @@
     left: 19rem;
   }
 }
+
 @media (max-width: 576px) {
   #OnlineOfline .OnOf--ofline__first {
     left: 30.5rem;
@@ -399,14 +425,15 @@
     height: 370px;
   }
   #OnlineOfline .OnOf--ofline__first--three {
-    li{
+    li {
 
       padding: 10px 0;
       font-size: 18px;
       line-height: 140%;
       width: 314px;
     }
-    h1{
+
+    h1 {
       margin: 32px 28px 0 1px;
       font-family: "Muller", sans-serif;
       font-weight: 500;
@@ -425,40 +452,42 @@
       display: none;
     }
 
-    .OnOf{
-      &--ofline{
+    .OnOf {
+      &--ofline {
         &__first--three li {
           padding: 10px 0;
           font-size: 16px;
           line-height: 140%;
           width: 245px;
         }
-        &__first2{
+
+        &__first2 {
           cursor: pointer;
-          margin:  0 0 0 6rem ;
+          margin: 0 0 0 6rem;
           width: 360px;
           height: 379px;
           border-radius: 30px;
 
 
-          &--three{
+          &--three {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
 
-            h1{
+            h1 {
               margin: 32px 232px 0 1px;
-              font-family: 'Muller',sans-serif;
+              font-family: 'Muller', sans-serif;
               font-weight: 500;
               font-size: 40px;
               line-height: 40px;
               color: #FFFFFF;
 
             }
-            li{
+
+            li {
               padding: 10px 0;
-              font-family: 'SF Pro Display',sans-serif;
+              font-family: 'SF Pro Display', sans-serif;
               font-weight: 400;
               font-size: 24px;
               line-height: 140%;
@@ -467,7 +496,8 @@
             }
 
           }
-          &--for{
+
+          &--for {
 
             display: flex;
             align-items: center;
@@ -475,18 +505,19 @@
             flex-direction: column;
             z-index: 99;
 
-            h1{
+            h1 {
               margin: 32px 232px 0 1px;
-              font-family: 'Muller',sans-serif;
+              font-family: 'Muller', sans-serif;
               font-weight: 500;
               font-size: 40px;
               line-height: 40px;
               color: #FFFFFF;
 
             }
-            li{
+
+            li {
               padding: 10px 0;
-              font-family: 'SF Pro Display',sans-serif;
+              font-family: 'SF Pro Display', sans-serif;
               font-weight: 400;
               font-size: 24px;
               line-height: 140%;
@@ -496,35 +527,38 @@
 
           }
         }
-        &__for2{
+
+        &__for2 {
           cursor: pointer;
-          margin:  0 0 0 6rem ;
+          margin: 0 0 0 6rem;
           top: 258px;
           width: 360px;
           height: 379px;
           border-radius: 30px;
-          &:hover{
+
+          &:hover {
             transform: scale(1.0009);
           }
 
-          &--three{
+          &--three {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
 
-            h1{
+            h1 {
               margin: 32px 232px 0 1px;
-              font-family: 'Muller',sans-serif;
+              font-family: 'Muller', sans-serif;
               font-weight: 500;
               font-size: 40px;
               line-height: 40px;
               color: #FFFFFF;
 
             }
-            li{
+
+            li {
               padding: 10px 0;
-              font-family: 'SF Pro Display',sans-serif;
+              font-family: 'SF Pro Display', sans-serif;
               font-weight: 400;
               font-size: 24px;
               line-height: 140%;
@@ -533,7 +567,8 @@
             }
 
           }
-          &--for{
+
+          &--for {
 
             display: flex;
             align-items: center;
@@ -541,18 +576,19 @@
             flex-direction: column;
             z-index: 99;
 
-            h1{
+            h1 {
               margin: 32px 232px 0 1px;
-              font-family: 'Muller',sans-serif;
+              font-family: 'Muller', sans-serif;
               font-weight: 500;
               font-size: 40px;
               line-height: 40px;
               color: #FFFFFF;
 
             }
-            li{
+
+            li {
               padding: 10px 0;
-              font-family: 'SF Pro Display',sans-serif;
+              font-family: 'SF Pro Display', sans-serif;
               font-weight: 400;
               font-size: 24px;
               line-height: 140%;
@@ -564,22 +600,23 @@
         }
 
       }
-      &--ofline__first2{
+
+      &--ofline__first2 {
         display: block;
-        margin: 0 0 0 66px;
+        margin: 0 0 0 80px;
         width: 322px;
       }
-      &--ofline__for2{
+
+      &--ofline__for2 {
         display: block;
         width: 322px;
-        margin: 0 0 0 66px;
+        margin: 0 0 0 80px;
       }
 
     }
 
 
   }
-
 
 
 }
@@ -611,6 +648,70 @@
   }
 }
 
+@media (max-width: 376px) {
+  #OnlineOfline .OnOf--ofline__first2 {
+    display: block;
+    margin: 0 0 0 -98px;
+    width: 279px;
+    height: 315px;
+    border-radius: 15px;
+  }
+  #OnlineOfline .OnOf--ofline__for2 {
+    display: block;
+    margin: 0 0 0 -98px;
+    width: 279px;
+    height: 315px;
+    border-radius: 15px;
+  }
+
+  #OnlineOfline .OnOf--ofline__first--three  {
+    h1{
+      margin: 21px 28px 0 1px;
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 40px;
+    }
+    li{
+      width: 231px;
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 351px) {
+  #OnlineOfline button {
+    width: 300px;
+  }
+  #OnlineOfline .OnOf--ofline__first {
+    left: 51rem;
+    width: 288px;
+    height: 580px;
+    bottom: 4rem;
+  }
+  #OnlineOfline .OnOf--ofline__first--three h1 {
+    margin: 25px 120px 0 115px;
+    font-size: 35px;
+  }
+  #OnlineOfline .OnOf--ofline__first2 {
+    margin: 0 0 0 -90px;
+    width: 269px;
+    height: 261px;
+    border-radius: 15px;
+
+  }
+  #OnlineOfline .OnOf--ofline__for2 {
+    margin: 0 0 0 -90px;
+    width: 269px;
+    height: 261px;
+    border-radius: 15px;
+  }
+  #OnlineOfline .OnOf--ofline__first--three li {
+    padding: 10px 4px;
+    width: 206px;
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 320px) {
   #OnlineOfline button {
     width: 300px;
@@ -628,7 +729,8 @@
     margin: 0 0 0 -90px;
     width: 254px;
     height: 261px;
-  }#OnlineOfline .OnOf--ofline__for2 {
+  }
+  #OnlineOfline .OnOf--ofline__for2 {
     margin: 0 0 0 -90px;
     width: 254px;
     height: 261px;
