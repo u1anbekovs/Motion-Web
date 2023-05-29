@@ -2004,6 +2004,219 @@
   }
 }
 
+@media (max-width: 500px) {
+  #FrontendHero {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+
+    .title {
+      button {
+        width: 207px;
+        height: 43px;
+        font-size: 15px;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      h2 {
+        font-size: 34px;
+
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 18px 0;
+        margin-left: 30px;
+      }
+
+      p br {
+        display: none;
+
+      }
+
+    }
+
+    .FrontendHero {
+      .backdropBlur {
+        position: absolute;
+        width: 450px;
+        height: 402px;
+        left: 33px;
+        margin-left: -20px;
+      }
+
+      .media91 {
+        position: absolute;
+        left: 23%;
+        width: 221px;
+        top: 35%;
+        height: 220px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+
+      .media56 {
+        position: absolute;
+        left: 10%;
+        width: 126px;
+        top: 64%;
+        height: 122px;
+        animation: an7 5s ease-in infinite alternate;
+        -webkit-animation: an7 5s ease-in infinite alternate;
+      }
+
+      .media80 {
+        position: absolute;
+        left: 66%;
+        width: 112px;
+        top: 22%;
+        height: 106px;
+        animation: an10 5s ease-in infinite alternate;
+        -webkit-animation: an10 5s ease-in infinite alternate;
+      }
+
+      .media38 {
+        position: absolute;
+        left: 14%;
+        width: 95px;
+        top: 22%;
+        height: 92px;
+        animation: an9 5s ease-in infinite alternate;
+        -webkit-animation: an9 5s ease-in infinite alternate;
+      }
+
+      .media62 {
+        position: absolute;
+        left: 6%;
+        width: 58px;
+        top: 45%;
+        height: 52px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+
+      .media33 {
+        position: absolute;
+        left: 45%;
+        width: 50px;
+        top: 26%;
+        height: 47px;
+        animation: an5 5s ease-in infinite alternate;
+        -webkit-animation: an5 5s ease-in infinite alternate;
+      }
+
+      .media110 {
+        position: absolute;
+        left: 65%;
+        width: 124px;
+        top: 70%;
+        height: 113px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+
+      .media88 {
+        position: absolute;
+        left: 75%;
+        width: 100px;
+        top: 39%;
+        height: 113px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+
+      .media54 {
+        position: absolute;
+        left: 71%;
+        width: 70px;
+        top: 56%;
+        height: 62px;
+        animation: an7 5s ease-in infinite alternate;
+        -webkit-animation: an7 5s ease-in infinite alternate;
+      }
+
+      .an1media {
+        left: 5px;
+        top: 137px;
+      }
+
+      .an2 {
+        left: 284px;
+        top: 124px;
+        width: 122px;
+      }
+
+      .an5media {
+        top: 127px;
+        position: absolute;
+        left: 151px;
+        width: 100px;
+      }
+
+      .an3 {
+        left: 234px;
+        top: 296px;
+        width: 212px;
+      }
+
+      .an6 {
+        top: 306px;
+        left: 31px;
+        width: 154px;
+
+      }
+
+      .an4 {
+        display: block;
+        width: 168px;
+        left: 144px;
+        top: 210px;
+      }
+
+      .an4media {
+        top: 401px;
+        left: 10px;
+        width: 135px;
+      }
+
+      .an3media {
+        top: 282px;
+        left: 31px;
+      }
+
+      .an1 {
+        top: 101px;
+        left: 237px;
+        width: 168px;
+      }
+
+      .an10 {
+        display: block;
+        right: 10px;
+        top: 238px;
+        width: 155px;
+      }
+
+      .an11 {
+        display: none;
+      }
+
+      .an8 {
+        top: 354px;
+        left: 132px;
+        width: 194px;
+      }
+
+    }
+  }
+}
+
 @media (max-width: 451px) {
   #FrontendHero {
     min-height: 100%;
@@ -2216,6 +2429,7 @@
     }
   }
 }
+
 
 @media (max-width: 400px) {
   #FrontendHero {
@@ -2448,8 +2662,6 @@
   }
 }
 
-@media (max-width: 390px) {
-}
 
 @media (max-width: 376px) {
   #FrontendHero {
@@ -2467,7 +2679,6 @@
 
       h1 {
         font-size: 45px;
-        /* padding-top: 70px; */
       }
 
       h2 {
@@ -2494,107 +2705,16 @@
     .FrontendHero {
       .backdropBlur {
         position: absolute;
-        width: 350px;
+        width: 333px;
         height: 402px;
         left: 33px;
         margin-left: -20px;
-        //position: absolute;
-        //width: 448px;
-        //height: 478px;
-        //left: 33px;
-        //margin-left: -20px;
-
-
       }
 
-      .media91 {
-        position: absolute;
-        left: 23%;
-        width: 221px;
-        top: 35%;
-        height: 220px;
-        animation: an6 5s ease-in infinite alternate;
-        -webkit-animation: an6 5s ease-in infinite alternate;
-      }
-
-      .media56 {
-        position: absolute;
-        left: 10%;
-        width: 126px;
-        top: 64%;
-        height: 122px;
-        animation: an7 5s ease-in infinite alternate;
-        -webkit-animation: an7 5s ease-in infinite alternate;
-      }
-
-      .media80 {
-        position: absolute;
-        left: 66%;
-        width: 112px;
-        top: 22%;
-        height: 106px;
-        animation: an10 5s ease-in infinite alternate;
-        -webkit-animation: an10 5s ease-in infinite alternate;
-      }
-
-      .media38 {
-        position: absolute;
-        left: 14%;
-        width: 95px;
-        top: 22%;
-        height: 92px;
-        animation: an9 5s ease-in infinite alternate;
-        -webkit-animation: an9 5s ease-in infinite alternate;
-      }
-
-      .media62 {
-        position: absolute;
-        left: 6%;
-        width: 58px;
-        top: 45%;
-        height: 52px;
-        animation: an2 5s ease-in infinite alternate;
-        -webkit-animation: an2 5s ease-in infinite alternate;
-      }
-
-      .media33 {
-        position: absolute;
-        left: 45%;
-        width: 50px;
-        top: 26%;
-        height: 47px;
-        animation: an5 5s ease-in infinite alternate;
-        -webkit-animation: an5 5s ease-in infinite alternate;
-      }
-
-      .media110 {
-        position: absolute;
-        left: 65%;
-        width: 124px;
-        top: 70%;
-        height: 113px;
-        animation: an4 5s ease-in infinite alternate;
-        -webkit-animation: an4 5s ease-in infinite alternate;
-      }
-
-      .media88 {
-        position: absolute;
-        left: 75%;
-        width: 100px;
-        top: 39%;
-        height: 113px;
-        animation: an1 5s ease-in infinite alternate;
-        -webkit-animation: an1 5s ease-in infinite alternate;
-      }
-
-      .media54 {
-        position: absolute;
-        left: 71%;
-        width: 70px;
-        top: 56%;
-        height: 62px;
-        animation: an7 5s ease-in infinite alternate;
-        -webkit-animation: an7 5s ease-in infinite alternate;
+      .an1 {
+        top: 101px;
+        left: 199px;
+        width: 152px;
       }
 
       .an1media {
@@ -2616,9 +2736,9 @@
       }
 
       .an3 {
-        left: 204px;
+        left: 186px;
         top: 296px;
-        width: 212px;
+        width: 192px;
       }
 
       .an6 {
@@ -2627,120 +2747,124 @@
         left: 31px;
         width: 154px;
       }
-    }
-
-    @media (max-width: 450px) {
-      #mainPart .mainPart .an2 {
-        left: 302px;
-        width: 19%;
-      }
-
-      #mainPart .mainPart .media110 {
-        position: absolute;
-        left: 65%;
-        width: 73px;
-        top: 54%;
-        background: black;
-      }
-      #mainPart .mainPart .an3 {
-        left: 945px;
-        top: 334px;
-        width: 200px;
-      }
-      #mainPart .mainPart .media56 {
-        position: absolute;
-        left: 52%;
-        width: 63px;
-        background: #0b0909;
-        top: 28%;
-        height: 75px;
-      }
-    }
-
-    @media (max-width: 400px) {
-      #mainPart .mainPart .backdropBlur {
-        position: absolute;
-        width: 376px;
-      }
-      #mainPart .title button {
-        width: 336px;
-      }
-    }
-
-    @media (max-width: 390px) {
-      #mainPart .mainPart .backdropBlur {
-        position: absolute;
-        width: 353px;
-      }
-      #mainPart .mainPart .an3 {
-        left: 903px;
-        top: 416px;
-        width: 200px;
-      }
-    }
-
-    @media (max-width: 390px) {
-    }
-
-
-    @media (max-width: 376px) {
-      #FrontendHero {
-        min-height: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-
-      }
-
-      .an4 {
-        display: block;
-        width: 168px;
-        left: 144px;
-        top: 210px;
-      }
-
-      .an4media {
-        top: 401px;
-        left: 10px;
-        width: 135px;
-      }
-
-      .an3media {
-        top: 282px;
-        left: 31px;
-      }
-
-      .an1 {
-        top: 101px;
-        left: 218px;
-        width: 168px;
-      }
-
-      .an10 {
-        display: block;
-        right: 10px;
-        top: 238px;
-        width: 155px;
-      }
-
-      .an11 {
-        display: none;
-      }
 
       .an8 {
-        top: 354px;
-        left: 132px;
-        width: 182px;
+        left: 123px;
+        width: 162px;
       }
-
     }
   }
 
 }
 
-@media (max-width: 320px) {
+//==
+//@media (max-width: 450px) {
+//  #mainPart .mainPart .an2 {
+//    left: 302px;
+//    width: 19%;
+//  }
+//
+//  #mainPart .mainPart .media110 {
+//    position: absolute;
+//    left: 65%;
+//    width: 73px;
+//    top: 54%;
+//    background: black;
+//  }
+//  #mainPart .mainPart .an3 {
+//    left: 945px;
+//    top: 334px;
+//    width: 200px;
+//  }
+//  #mainPart .mainPart .media56 {
+//    position: absolute;
+//    left: 52%;
+//    width: 63px;
+//    background: #0b0909;
+//    top: 28%;
+//    height: 75px;
+//  }
+//}
+//
+//@media (max-width: 400px) {
+//  #mainPart .mainPart .backdropBlur {
+//    position: absolute;
+//    width: 376px;
+//  }
+//  #mainPart .title button {
+//    width: 336px;
+//  }
+//}
+//
+//@media (max-width: 390px) {
+//  #mainPart .mainPart .backdropBlur {
+//    position: absolute;
+//    width: 353px;
+//  }
+//  #mainPart .mainPart .an3 {
+//    left: 903px;
+//    top: 416px;
+//    width: 200px;
+//  }
+//}
+//
+//@media (max-width: 390px) {
+//}
+//
+//@media (max-width: 376px) {
+//  #FrontendHero {
+//    min-height: 100%;
+//    overflow: hidden;
+//    display: flex;
+//    flex-direction: column;
+//
+//  }
+//
+//  .an4 {
+//    display: block;
+//    width: 168px;
+//    left: 144px;
+//    top: 210px;
+//  }
+//
+//  .an4media {
+//    top: 401px;
+//    left: 10px;
+//    width: 135px;
+//  }
+//
+//  .an3media {
+//    top: 282px;
+//    left: 31px;
+//  }
+//
+//  .an1 {
+//    top: 101px;
+//    left: 218px;
+//    width: 168px;
+//  }
+//
+//  .an10 {
+//    display: block;
+//    right: 10px;
+//    top: 238px;
+//    width: 155px;
+//  }
+//
+//  .an11 {
+//    display: none;
+//  }
+//
+//  .an8 {
+//    top: 354px;
+//    left: 132px;
+//    width: 182px;
+//  }
+//
+//}
+//==
+@media (max-width: 351px) {
   #FrontendHero {
-    margin-bottom: 7rem;
     min-height: 100%;
     overflow: hidden;
     display: flex;
@@ -2748,12 +2872,14 @@
 
     .title {
       button {
-        height: 37px;
+        width: 236px;
+        height: 43px;
+        font-size: 15px;
       }
 
       h1 {
-        font-size: 41px;
-        line-height: 47px;
+        font-size: 38px;
+        /* padding-top: 70px; */
       }
 
       h2 {
@@ -2762,25 +2888,30 @@
       }
 
       p {
-        margin-left: 31px;
-        width: 249px;
         font-size: 12px;
+        line-height: 16px;
+        padding: 18px 0;
+        margin-left: 40px;
+        width: 253px;
+
+        br {
+          display: none;
+
+        }
       }
 
-      p br {
-        display: none;
-
-      }
 
     }
 
     .FrontendHero {
       .backdropBlur {
         position: absolute;
-        width: 290px;
-        height: 381px;
+        width: 302px;
+        height: 402px;
         left: 33px;
         margin-left: -20px;
+
+
       }
 
       .media91 {
@@ -2873,29 +3004,133 @@
         -webkit-animation: an7 5s ease-in infinite alternate;
       }
 
-      .an1 {
+      .an5media {
         top: 122px;
-        left: 203px;
-        width: 123px;
+        position: absolute;
+        left: 122px;
+        width: 100px;
+      }
+
+      .an1 {
+        display: block;
+        top: 101px;
+        left: 192px;
+        width: 138px;
+      }
+
+      .an1media {
+        left: 5px;
+        top: 137px;
+        width: 120px;
+      }
+
+      .an4media {
+        width: 113px;
       }
 
       .an2 {
-        left: 143px;
-        top: 192px;
+        left: 29px;
+        top: 269px;
+        width: 107px;
+      }
+
+
+      .an3 {
+        left: 163px;
+        top: 321px;
+        width: 186px;
+      }
+
+      .an6 {
+        display: none;
+        top: 306px;
+        left: 31px;
+        width: 154px;
+      }
+
+      .an8 {
+        top: 360px;
+        display: block;
+        left: 106px;
+        width: 138px;
+      }
+    }
+
+  }
+
+}
+
+
+@media (max-width: 320px) {
+  #FrontendHero {
+    margin-bottom: 7rem;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      button {
+        width: 188px;
+        height: 33px;
+        font-size: 13px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 39px;
+      }
+
+      h2 {
+        font-size: 31px;
+        margin: 10px 0;
+      }
+
+      p {
+        margin-left: 31px;
+        width: 249px;
+        font-size: 12px;
+      }
+
+      p br {
+        display: none;
+
+      }
+
+    }
+
+    .FrontendHero {
+      .backdropBlur {
+        position: absolute;
+        width: 267px;
+        height: 350px;
+        left: 33px;
+        margin-left: -20px;
+      }
+
+      .an1 {
+        top: 153px;
+        left: 176px;
+        width: 116px;
+      }
+
+      .an2 {
+        left: 112px;
+        top: 218px;
         width: 91px;
       }
 
       .an5media {
         top: 127px;
         position: absolute;
-        left: 151px;
+        left: 136px;
         width: 100px;
       }
 
       .an3 {
-        left: 179px;
+        left: 164px;
         top: 304px;
-        width: 169px;
+        width: 143px;
       }
 
       .an6 {
@@ -2906,15 +3141,15 @@
 
       .an4 {
         display: block;
-        width: 148px;
-        left: 19px;
+        width: 122px;
+        left: 0;
         top: 241px;
       }
 
       .an4media {
-        top: 401px;
+        top: 374px;
         left: 10px;
-        width: 98px;
+        width: 92px;
       }
 
       .an1media {
@@ -2929,15 +3164,15 @@
 
       .an10 {
         display: block;
-        right: 18px;
-        top: 247px;
         width: 155px;
+        right: 55px;
+        top: 272px;
       }
 
       .an8 {
         top: 360px;
-        left: 106px;
-        width: 146px;
+        left: 92px;
+        width: 114px;
       }
 
       .an11 {
@@ -2946,37 +3181,20 @@
 
     }
 
-    #mainPart .mainPart .backdropBlur {
-      position: absolute;
-      width: 300px;
-    }
 
-    #mainPart .mainPart .an3 {
+    .an3 {
       left: 861px;
       top: 416px;
       width: 200px;
     }
 
-    #mainPart .mainPart .an2 {
+    .an2 {
       left: 100px;
       width: 18%;
     }
 
-    #mainPart .title button {
-      width: 287px;
-    }
 
-    #mainPart .title h1 {
-      font-size: 32px;
-      line-height: 39px;
-    }
-
-    #mainPart .title h2 {
-      font-size: 31px;
-      margin: 10px 0;
-    }
-
-    #mainPart .mainPart .media80 {
+    .media80 {
       position: absolute;
       left: 27%;
       width: 63px;
