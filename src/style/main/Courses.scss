@@ -1125,7 +1125,6 @@
   }
 }
 
-
 @media (max-width: 576px) {
   #course {
 
@@ -1554,7 +1553,6 @@
   }
 }
 
-
 @media (max-width: 401px) {
   #course {
     .course {
@@ -1709,13 +1707,6 @@
   }
 }
 
-@media (max-width: 390px) {
-  #course .course2--block {
-    width: 354px;
-    padding: 48px 17px;
-  }
-}
-
 @media (max-width: 381px) {
   #course .course2--block {
     width: 357px;
@@ -1761,7 +1752,6 @@
     margin: 0 32px;
   }
 }
-
 
 @media (max-width: 321px) {
   #course .course2--block {
@@ -1951,7 +1941,6 @@
   }
 }
 
-
 @media (max-width: 401px) {
   #course {
     .course2 {
@@ -2117,7 +2106,9 @@
       }
 
       &--buttons2 {
-        margin: 0 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2px 0 0 0;
 
         button {
           margin: 5px 2px;
