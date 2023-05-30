@@ -96,15 +96,6 @@ const Hero = () => {
                 <div className="an5media">
                     <img src={an5media} alt=""/>
                 </div>
-                <div className="media91"></div>
-                <div className="media56"></div>
-                <div className="media80"></div>
-                <div className="media38"></div>
-                <div className="media62"></div>
-                <div className="media33"></div>
-                <div className="media110"></div>
-                <div className="media88"></div>
-                <div className="media54"></div>
                 <div className="backdropBlur"></div>
 
             </div>

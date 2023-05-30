@@ -1,5 +1,5 @@
 import React from 'react';
-import "./../../../style/main/AboutUs.scss"
+import "./AboutUs.scss"
 import {NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style/main/Last.scss"
+import "../components/main-page/Last/Last.scss"
 import last from "../image/main/smiling-face 2.svg"
 import {useTranslation} from "react-i18next";
 

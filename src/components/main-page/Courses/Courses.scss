@@ -1792,7 +1792,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 351px) {
   #course {
     .course2 {
       display: flex;
@@ -1818,8 +1818,8 @@
       }
 
       &--block{
-        width: 278px;
-        height: 383px;
+        width: 322px;
+        height: 428px;
       }
 
       &--titles {
@@ -2023,7 +2023,8 @@
     }
   }
 }
-@media (max-width: 351px) {
+
+@media (max-width: 320px) {
   #course {
     .course2 {
       display: flex;
@@ -2049,8 +2050,8 @@
       }
 
       &--block{
-        width: 322px;
-        height: 428px;
+        width: 292px;
+        height: 370px;
       }
 
       &--titles {

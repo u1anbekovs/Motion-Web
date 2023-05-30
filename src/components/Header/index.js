@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import logoHeader from '../../image/main/Vectorred.svg'
 import {GrLanguage} from "react-icons/gr"
-import '../../style/main/Header.scss'
-import '../../style/main/media/MediaHeader.scss'
+import './Header.scss'
+import './MediaHeader.scss'
 import {NavLink} from "react-router-dom";
 import burgerImg from "./../../image/main/бургер.svg"
 import Menu from "./Menu/Menu";
