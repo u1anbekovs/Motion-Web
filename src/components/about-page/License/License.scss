@@ -334,7 +334,7 @@
         color: #D2D2D2;
       }
       &--title2{
-        font-size: 28px;
+        font-size: 17px;
       }
       &--line{
         width: 413px;
@@ -348,6 +348,10 @@
     padding: 60px 0;
     background: #EFEFEF;
     .list{
+      width: 249px;
+      &--desc{
+        font-size: 15px;
+      }
 
       &--title{
         font-family: 'Muller',sans-serif;
@@ -362,7 +366,7 @@
 
       }
       &--img1{
-        width: 362px;
+        width: 318px;
         height: 310px;
       }
 
@@ -377,10 +381,10 @@
         color: #D2D2D2;
       }
       &--title2{
-        font-size: 25px;
+        font-size: 17px;
       }
       &--line{
-        width: 367px;
+        width: 293px
       }
 
     }
@@ -442,7 +446,7 @@
         font-family: 'Muller',sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 40px;
+        font-size: 36px;
         line-height: 40px;
         color: #000000;
         padding-bottom: 30px;
@@ -465,7 +469,7 @@
         color: #D2D2D2;
       }
       &--title2{
-        font-size: 18px;
+        font-size: 15px;
       }
       &--line{
         width: 296px;

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../style/main/Motion.scss";
+import "./Motion.scss";
 import {NavLink} from "react-router-dom";
 import smile from "../../../image/main/smile-face.svg";
 import smile1 from "../../../image/main/open-key.svg";

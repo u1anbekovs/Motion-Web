@@ -3,7 +3,7 @@ import icon5 from "../../../image/main/Dawn.svg"
 import imgCourse2 from "../../../image/main/girlFront.svg"
 import imgCourse3 from "../../../image/main/dizain.svg"
 import imgCourse5 from "./../../../image/about-us/peeps-avatar.svg"
-import '../../../style/main/Courses.scss'
+import './Courses.scss'
 import Modal from "../../../modalPage/Modal";
 import modal from "../../../image/main/smiling-face 2.svg";
 import {useTranslation} from "react-i18next";

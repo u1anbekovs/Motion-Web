@@ -12,12 +12,14 @@
     line-height: 143px;
   }
 }
+
 @media (max-width: 768px) {
   #mainPart .title h1 {
     font-size: 93px;
     line-height: 96px;
   }
 }
+
 @media (max-width: 576px) {
   #mainPart .title h1 {
     font-size: 63px;
@@ -27,6 +29,7 @@
     font-size: 14px;
   }
 }
+
 @media (max-width: 400px) {
   #mainPart .title p {
     font-size: 11px;
@@ -35,6 +38,121 @@
   #mainPart .title h1 {
     font-size: 40px;
     line-height: 39px;
+  }
+}
+
+@media (max-width: 376px) {
+
+  #mainPart {
+    margin-bottom: 9rem;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      button {
+        width: 207px;
+        height: 43px;
+        font-size: 15px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 34px;
+
+      }
+
+      p {
+        font-size: 11px;
+      }
+
+      p br {
+        display: none;
+
+      }
+
+    }
+
+    .mainPart {
+      .backdropBlur {
+        width: 336px;
+        height: 392px;
+        position: absolute;
+        left: 33px;
+        margin-left: -20px;
+      }
+      .an1 {
+        display: none;
+      }
+
+      .an2 {
+        left: 198px;
+        top: 107px;
+        width: 104px;
+      }
+
+      .an5media {
+        top: 127px;
+        position: absolute;
+        left: 151px;
+        width: 100px;
+      }
+
+      .an3 {
+        left: 909px;
+        top: 357px;
+        width: 175px;
+      }
+
+      .an6 {
+        top: 360px;
+        left: 90px;
+        width: 154px;
+      }
+
+      .an4 {
+        display: block;
+        width: 168px;
+        left: 116px;
+        top: 241px;
+      }
+
+      .an4media {
+        top: 401px;
+        left: 10px;
+        width: 135px;
+      }
+
+      .an3media {
+        top: 282px;
+        left: 31px;
+      }
+
+      .an10 {
+        display: block;
+        right: 20px;
+        top: 187px;
+        width: 155px;
+      }
+
+      .an11 {
+        display: none;
+      }
+
+      .an8 {
+        display: none;
+      }
+
+      .an1media {
+        left: 7px;
+        top: 112px;
+        width: 113px;
+      }
+    }
   }
 }
 
@@ -53,6 +171,7 @@
         height: 43px;
         font-size: 15px;
       }
+
       h1 {
         font-size: 40px;
       }
@@ -61,10 +180,12 @@
         font-size: 34px;
 
       }
-      p{
+
+      p {
         font-size: 11px;
       }
-      p br{
+
+      p br {
         display: none;
 
       }
@@ -80,147 +201,71 @@
         margin-left: -20px;
       }
 
-      .media91 {
-        position: absolute;
-        left: 23%;
-        width: 221px;
-        top: 35%;
-        height: 220px;
-        animation: an6 5s ease-in infinite alternate;
-        -webkit-animation: an6 5s ease-in infinite alternate;
-      }
 
-      .media56 {
-        position: absolute;
-        left: 10%;
-        width: 126px;
-        top: 64%;
-        height: 122px;
-        animation: an7 5s ease-in infinite alternate;
-        -webkit-animation: an7 5s ease-in infinite alternate;
-      }
 
-      .media80 {
-        position: absolute;
-        left: 66%;
-        width: 112px;
-        top: 22%;
-        height: 106px;
-        animation: an10 5s ease-in infinite alternate;
-        -webkit-animation: an10 5s ease-in infinite alternate;
-      }
-
-      .media38 {
-        position: absolute;
-        left: 14%;
-        width: 95px;
-        top: 22%;
-        height: 92px;
-        animation: an9 5s ease-in infinite alternate;
-        -webkit-animation: an9 5s ease-in infinite alternate;
-      }
-
-      .media62 {
-        position: absolute;
-        left: 6%;
-        width: 58px;
-        top: 45%;
-        height: 52px;
-        animation: an2 5s ease-in infinite alternate;
-        -webkit-animation: an2 5s ease-in infinite alternate;
-      }
-
-      .media33 {
-        position: absolute;
-        left: 45%;
-        width: 50px;
-        top: 26%;
-        height: 47px;
-        animation: an5 5s ease-in infinite alternate;
-        -webkit-animation: an5 5s ease-in infinite alternate;
-      }
-
-      .media110 {
-        position: absolute;
-        left: 65%;
-        width: 124px;
-        top: 70%;
-        height: 113px;
-        animation: an4 5s ease-in infinite alternate;
-        -webkit-animation: an4 5s ease-in infinite alternate;
-      }
-
-      .media88 {
-        position: absolute;
-        left: 75%;
-        width: 100px;
-        top: 39%;
-        height: 113px;
-        animation: an1 5s ease-in infinite alternate;
-        -webkit-animation: an1 5s ease-in infinite alternate;
-      }
-
-      .media54 {
-        position: absolute;
-        left: 71%;
-        width: 70px;
-        top: 56%;
-        height: 62px;
-        animation: an7 5s ease-in infinite alternate;
-        -webkit-animation: an7 5s ease-in infinite alternate;
-      }
-      .an1{
+      .an1 {
         display: none;
       }
+
       .an2 {
         left: 198px;
         top: 107px;
         width: 104px;
       }
+
       .an5media {
         top: 127px;
         position: absolute;
         left: 151px;
         width: 100px;
       }
+
       .an3 {
         left: 909px;
         top: 367px;
         width: 175px;
       }
+
       .an6 {
         top: 360px;
         left: 90px;
         width: 154px;
       }
+
       .an4 {
         display: block;
         width: 168px;
         left: 116px;
         top: 241px;
       }
+
       .an4media {
         top: 401px;
         left: 10px;
         width: 135px;
       }
+
       .an3media {
         top: 282px;
         left: 31px;
       }
+
       .an10 {
         display: block;
-        right: -48px;
-        top: 230px;
+        right: 20px;
+        top: 181px;
         width: 155px;
       }
+
       .an11 {
         display: none;
       }
-      .an8{
+
+      .an8 {
         display: none;
       }
-      .an1media{
+
+      .an1media {
         left: 7px;
         top: 112px;
         width: 113px;
@@ -231,193 +276,120 @@
 
 @media (max-width: 320px) {
 
-    #FrontendHero {
-      margin-bottom: 9rem;
-      min-height: 100%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
+  #mainPart {
+    margin-bottom: 9rem;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 
-      .title {
-        button {
-          width: 207px;
-          height: 43px;
-          font-size: 15px;
-        }
-        h1 {
-          font-size: 40px;
-        }
+    .title {
+      button {
+        width: 207px;
+        height: 43px;
+        font-size: 15px;
+      }
 
-        h2 {
-          font-size: 34px;
+      h1 {
+        font-size: 40px;
+      }
 
-        }
-        p{
-          font-size: 11px;
-        }
-        p br{
-          display: none;
-
-        }
+      h2 {
+        font-size: 34px;
 
       }
 
-      .FrontendHero {
-        .backdropBlur {
-          position: absolute;
-          width: 290px;
-          height: 381px;
-          left: 33px;
-          margin-left: -20px;
-        }
+      p {
+        font-size: 11px;
+      }
 
-        .media91 {
-          position: absolute;
-          left: 23%;
-          width: 221px;
-          top: 35%;
-          height: 220px;
-          animation: an6 5s ease-in infinite alternate;
-          -webkit-animation: an6 5s ease-in infinite alternate;
-        }
+      p br {
+        display: none;
 
-        .media56 {
-          position: absolute;
-          left: 10%;
-          width: 126px;
-          top: 64%;
-          height: 122px;
-          animation: an7 5s ease-in infinite alternate;
-          -webkit-animation: an7 5s ease-in infinite alternate;
-        }
+      }
 
-        .media80 {
-          position: absolute;
-          left: 66%;
-          width: 112px;
-          top: 22%;
-          height: 106px;
-          animation: an10 5s ease-in infinite alternate;
-          -webkit-animation: an10 5s ease-in infinite alternate;
-        }
+    }
 
-        .media38 {
-          position: absolute;
-          left: 14%;
-          width: 95px;
-          top: 22%;
-          height: 92px;
-          animation: an9 5s ease-in infinite alternate;
-          -webkit-animation: an9 5s ease-in infinite alternate;
-        }
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 288px;
+        height: 366px;
+        left: 33px;
+        margin-left: -20px;
+      }
 
-        .media62 {
-          position: absolute;
-          left: 6%;
-          width: 58px;
-          top: 45%;
-          height: 52px;
-          animation: an2 5s ease-in infinite alternate;
-          -webkit-animation: an2 5s ease-in infinite alternate;
-        }
 
-        .media33 {
-          position: absolute;
-          left: 45%;
-          width: 50px;
-          top: 26%;
-          height: 47px;
-          animation: an5 5s ease-in infinite alternate;
-          -webkit-animation: an5 5s ease-in infinite alternate;
-        }
 
-        .media110 {
-          position: absolute;
-          left: 65%;
-          width: 124px;
-          top: 70%;
-          height: 113px;
-          animation: an4 5s ease-in infinite alternate;
-          -webkit-animation: an4 5s ease-in infinite alternate;
-        }
+      .an1 {
+        display: none;
+      }
 
-        .media88 {
-          position: absolute;
-          left: 75%;
-          width: 100px;
-          top: 39%;
-          height: 113px;
-          animation: an1 5s ease-in infinite alternate;
-          -webkit-animation: an1 5s ease-in infinite alternate;
-        }
+      .an2 {
+        left: 198px;
+        top: 107px;
+        width: 104px;
+      }
 
-        .media54 {
-          position: absolute;
-          left: 71%;
-          width: 70px;
-          top: 56%;
-          height: 62px;
-          animation: an7 5s ease-in infinite alternate;
-          -webkit-animation: an7 5s ease-in infinite alternate;
-        }
-        .an1{
-          display: none;
-        }
-        .an2 {
-          left: 198px;
-          top: 107px;
-          width: 104px;
-        }
-        .an5media {
-          top: 127px;
-          position: absolute;
-          left: 151px;
-          width: 100px;
-        }
-        .an3 {
-          left: 165px;
-          top: 375px;
-          width: 183px;
-        }
-        .an6 {
-          top: 360px;
-          left: 90px;
-          width: 154px;
-        }
-        .an4 {
-          display: block;
-          width: 168px;
-          left: 116px;
-          top: 241px;
-        }
-        .an4media {
-          top: 401px;
-          left: 10px;
-          width: 135px;
-        }
-        .an3media {
-          top: 282px;
-          left: 31px;
-        }
-        .an10 {
-          display: block;
-          right: -48px;
-          top: 230px;
-          width: 155px;
-        }
-        .an11 {
-          display: none;
-        }
-        .an8{
-          display: none;
-        }
-        .an1media{
-          left: 7px;
-          top: 112px;
-          width: 113px;
-        }
+      .an5media {
+        top: 127px;
+        position: absolute;
+        left: 151px;
+        width: 100px;
+      }
+
+      .an3 {
+        left: 165px;
+        top: 375px;
+        width: 183px;
+      }
+
+      .an6 {
+        top: 360px;
+        left: 90px;
+        width: 154px;
+      }
+
+      .an4 {
+        display: block;
+        width: 141px;
+        left: 165px;
+        top: 317px;
+      }
+
+      .an4media {
+        top: 376px;
+        left: 10px;
+        width: 135px;
+      }
+
+      .an3media {
+        top: 282px;
+        left: 31px;
+      }
+
+      .an10 {
+        display: block;
+        right: 20px;
+        top: 230px;
+        width: 155px;
+      }
+
+      .an11 {
+        display: none;
+      }
+
+      .an8 {
+        display: none;
+      }
+
+      .an1media {
+        left: 7px;
+        top: 112px;
+        width: 113px;
       }
     }
+  }
 
 
   #mainPart .title p {

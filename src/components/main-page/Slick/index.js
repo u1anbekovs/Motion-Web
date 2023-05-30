@@ -1,5 +1,5 @@
 import React from 'react';
-import "./../../../style/main/Slick.scss"
+import "./Slick.scss"
 import Slider from "react-slick";
 import slideImg from "./../../../image/main/видео.svg"
 import SliderIcon2 from "./../../../image/main/check.svg"

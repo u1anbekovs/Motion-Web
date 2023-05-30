@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react';
-import "./../../../style/main/FAQ.scss"
+import "./FAQ.scss"
 import {MdOutlineKeyboardArrowDown} from "react-icons/md"
 import {useTranslation} from "react-i18next";
 

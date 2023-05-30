@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import "../../../style/main/Last.scss"
+import "./Last.scss"
 import validation from "../../../modalPage/validation/Validation";
 import {useTranslation} from "react-i18next";
 import axios from "axios";

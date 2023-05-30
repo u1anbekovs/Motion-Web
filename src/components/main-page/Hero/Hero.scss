@@ -1604,21 +1604,28 @@
     .mainPart {
       .backdropBlur {
         width: 514px;
-        height: 591px;
+        height: 512px;
         top: 116px;
       }
 
       .an11 {
-        top: 586px;
-        left: 372px;
+        top: 442px;
+        left: 357px;
       }
 
       .an2 {
         left: 289px;
       }
+      .an3{
+
+        left: 914px;
+        top: 311px;
+        width: 255px;
+
+      }
 
       .an4media {
-        top: 511px;
+        top: 409px;
         left: 10px;
       }
 
@@ -1627,6 +1634,10 @@
         top: 132px;
       }
 
+      .an3media{
+        top: 298px;
+        left: 56px;
+      }
       .an5media {
         top: 159px;
         position: absolute;
