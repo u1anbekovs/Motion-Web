@@ -42,15 +42,15 @@ const Student = () => {
                          <img src={menu3} alt=""/>
                      </div>
                  </Link>
-                    {
-                        student ? <img  className='student--img4'  src={studentImg5} alt=""/> : ""
-                    }
+                    {/*{*/}
+                    {/*    student ? <img  className='student--img4'  src={studentImg5} alt=""/> : ""*/}
+                    {/*}*/}
                     {
                         student ? <img  className='student--img6'  src={res} alt=""/> : ""
                     }
-                    {
-                        student ? <img  className='student--img5'  src={studentImg4} alt=""/> : ""
-                    }
+                    {/*{*/}
+                    {/*    student ? <img  className='student--img5'  src={studentImg4} alt=""/> : ""*/}
+                    {/*}*/}
 
                     <p onClick={() => setStudent(!student)}>{student ? t("text37") : t("text36")}</p>
 
