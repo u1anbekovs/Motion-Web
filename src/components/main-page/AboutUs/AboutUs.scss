@@ -341,12 +341,18 @@
       }
 
       &--block1 {
+        width: 341px;
+        height: 216px;
+        border-radius: 20px;
+        margin: 53px 0 10px 10px;
         h1 {
-
+          font-size: 40px;
+          line-height: 56px;
         }
 
         p {
-          font-size: 19px;
+          font-size: 15px;
+          line-height: 6px;
         }
       }
     }
@@ -358,8 +364,7 @@
     .us {
       &--block {
         h1 {
-          font-size: 41px;
-          line-height: 55px;
+
         }
 
         &__p {
@@ -381,13 +386,15 @@
       }
 
       &--block1 {
+        width: 297px;
+        height: 173px;
         h1 {
           font-size: 33px;
           line-height: 45px;
         }
 
         p {
-          font-size: 16px;
+          font-size: 12px;
         }
       }
     }
@@ -421,13 +428,15 @@
       }
 
       &--block1 {
+        width: 274px;
+        height: 173px;
         h1 {
           font-size: 33px;
           line-height: 45px;
         }
 
         p {
-          font-size: 16px;
+          font-size: 12px;
         }
       }
     }
