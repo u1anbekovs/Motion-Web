@@ -77,6 +77,7 @@
     top: -45px !important;
   }
 }
+
 @media (max-width: 576px) {
   #slide {
     background: #EFEFEF;
@@ -98,6 +99,7 @@
     top: -45px !important;
   }
 }
+
 @media (max-width: 451px) {
   #slide .slide h1 {
     font-size: 30px;
@@ -115,6 +117,7 @@
     top: -45px !important;
   }
 }
+
 @media (max-width: 500px) {
   #slide .slide h1 {
     font-size: 30px;
@@ -137,6 +140,7 @@
     top: 125px !important;
   }
 }
+
 @media (max-width: 480px) {
   #slide .slide h1 {
     font-size: 30px;
@@ -161,6 +165,7 @@
 
   }
 }
+
 @media (max-width: 470px) {
   #slide .slide h1 {
     font-size: 30px;
@@ -185,6 +190,34 @@
 
   }
 }
+
+
+@media (max-width: 351px) {
+  #slide .slide h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  #slide .slide h1 {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+
+  .slick-prev {
+    margin: 10px 0 !important;
+    width: 50px !important;
+    left: 260px !important;
+    top: -43px !important;
+
+  }.slick-next{
+     margin: 10px 0 !important;
+     width: 50px !important;
+     left: 180px !important;
+     top: -43px !important;
+
+   }
+}
+
+
 @media (max-width: 321px) {
   #slide .slide h1 {
     font-size: 30px;
@@ -209,6 +242,7 @@
 
   }
 }
+
 @media (max-width: 320px) {
   #slide .slide h1 {
     font-size: 30px;

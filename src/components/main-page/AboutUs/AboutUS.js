@@ -4,6 +4,7 @@ import {NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 
 const DetailUs = () => {
+    
     const {t} = useTranslation()
 
     return (

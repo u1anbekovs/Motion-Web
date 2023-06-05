@@ -87,7 +87,7 @@
   }
 }
 
-@media (max-width: 768px)   {
+@media (max-width: 768px) {
   #choice .choice h1 {
     font-size: 28px;
   }
@@ -98,22 +98,24 @@
     font-size: 15px;
   }
 }
-@media (max-width: 450px)   {
-    #choice .choice--card__details--text h3 {
-      font-size: 20px;
-      padding: 10px 21px;
-    }
-  #choice .choice--card__details{
-    img{
+
+@media (max-width: 450px) {
+  #choice .choice--card__details--text h3 {
+    font-size: 20px;
+    padding: 10px 21px;
+  }
+  #choice .choice--card__details {
+    img {
       margin-left: 10px;
     }
   }
+}
+
+@media (max-width: 500px) {
+  #choice .choice--card__details--text h3 {
+    font-size: 20px;
+    padding: 10px 21px;
   }
-@media (max-width: 500px)   {
-    #choice .choice--card__details--text h3 {
-      font-size: 20px;
-      padding: 10px 21px;
-    }
   #choice .choice--card__details--text h3 {
     margin: 0 10px;
     font-size: 20px;
@@ -122,16 +124,33 @@
     font-size: 15px;
     margin: 0 10px;
   }
-  #choice .choice--card__details{
-    img{
+  #choice .choice--card__details {
+    img {
       margin-left: 10px;
     }
   }
-  }
-@media (max-width: 477px)   {
+}
+
+@media (max-width: 477px) {
   #choice .choice--card__details--text h3 {
     padding: 7px 9px;
     margin: 0 10px;
     font-size: 20px;
   }
+}
+
+@media (max-width: 351px) {
+  #choice .choice h1 {
+    width: 84%;
+    padding-bottom: 21px;
+    font-size: 16px;
+    line-height: 21px;
   }
+}@media (max-width: 320px) {
+  #choice .choice h1 {
+    width: 84%;
+    padding-bottom: 21px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
